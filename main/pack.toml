@@ -1,0 +1,16 @@
+name = "DAM"
+author = "Danny Le"
+version = "1.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c9e54230280e80adee2ca5d4abf32bfc18b8529ae4da6b59ae47c7ffa16c6a8b"
+
+[versions]
+minecraft = "1.20.1"
+neoforge = "47.1.106"
+
+[options]
+datapack-folder = "global_packs/required_data"

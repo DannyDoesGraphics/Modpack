@@ -1,0 +1,13 @@
+name = "Accelerated Decay"
+filename = "accelerated-decay-forge-3.0.1+mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/laX5CckD/versions/z90zP9qg/accelerated-decay-forge-3.0.1%2Bmc1.20.1.jar"
+hash-format = "sha1"
+hash = "89c85950e991cac0d8a17c46ac8fdc221acc0bd7"
+
+[update]
+[update.modrinth]
+mod-id = "laX5CckD"
+version = "z90zP9qg"

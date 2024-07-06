@@ -1,0 +1,13 @@
+name = "Simple Voice Radio"
+filename = "SimpleRadio-fabric-1.20.1-2.2.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/S7b8mMXS/versions/RBhPtcVK/SimpleRadio-fabric-1.20.1-2.2.4.jar"
+hash-format = "sha1"
+hash = "510fa2c80fd11da7095942c5ab01f3e98d39f1ff"
+
+[update]
+[update.modrinth]
+mod-id = "S7b8mMXS"
+version = "RBhPtcVK"

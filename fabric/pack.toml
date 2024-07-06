@@ -1,0 +1,13 @@
+name = "DAM (Fabric)"
+author = "Danny Le"
+version = "1.0.0."
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9526efa85d0e18e2210851fa8c59112dea48e0daee04f40191b51e0e01b9e48f"
+
+[versions]
+fabric = "0.15.7"
+minecraft = "1.20.1"

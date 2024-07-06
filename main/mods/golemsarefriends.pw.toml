@@ -1,0 +1,13 @@
+name = "Golems Are Friends Not Fodder"
+filename = "golemsarefriends-1.20.0-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BjqYsnBQ/versions/idN3Oiev/golemsarefriends-1.20.0-1.0.1.jar"
+hash-format = "sha1"
+hash = "e6a26611478acb166d8715eda955e09a0325a758"
+
+[update]
+[update.modrinth]
+mod-id = "BjqYsnBQ"
+version = "idN3Oiev"

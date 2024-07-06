@@ -1,0 +1,2 @@
+key_iris.keybind.reload:key.keyboard.unknown:NONE
+key_key.ftbquests.quests:key.keyboard.j:NONE
