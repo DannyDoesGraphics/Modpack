@@ -1,0 +1,11 @@
+{
+	"name": "Photographer",
+	"objectives": [
+        "_all_objs",
+		"ph_objs"
+	],
+	"rewards": [
+        "_all_rews",
+        "ph_rews"
+	]
+}

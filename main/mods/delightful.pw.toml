@@ -1,0 +1,13 @@
+name = "Delightful"
+filename = "Delightful-1.20.1-3.5.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JtSnhtNJ/versions/RHlR4idq/Delightful-1.20.1-3.5.4.jar"
+hash-format = "sha1"
+hash = "86750926bb6fb4e2e64ee47c635471b5ffb64fed"
+
+[update]
+[update.modrinth]
+mod-id = "JtSnhtNJ"
+version = "RHlR4idq"

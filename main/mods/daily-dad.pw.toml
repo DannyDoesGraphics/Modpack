@@ -1,0 +1,13 @@
+name = "Daily Dad"
+filename = "DailyDad-forge-1.20-1.6.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Vs0KIwAY/versions/EPa3ujzB/DailyDad-forge-1.20-1.6.0.jar"
+hash-format = "sha1"
+hash = "545fce72298f8e09bdb7a0ea8a32e0ca1ad1a4fa"
+
+[update]
+[update.modrinth]
+mod-id = "Vs0KIwAY"
+version = "EPa3ujzB"
