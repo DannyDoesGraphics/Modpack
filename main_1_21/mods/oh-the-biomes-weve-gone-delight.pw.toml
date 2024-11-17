@@ -1,0 +1,13 @@
+name = "Oh The Biomes We've Gone Delight"
+filename = "otbwgdelight-1.0.2.1-1.21.x.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GxuOOqGt/versions/65PwoogP/otbwgdelight-1.0.2.1-1.21.x.jar"
+hash-format = "sha512"
+hash = "e683156b5c951b49ba4b58cce40c2131c9f405c156fa490fbe81dbd319a0eea2ebe25f9d94d942d685fbfc73948277d2949f07c1a489e90c7e48de592b6c9f5f"
+
+[update]
+[update.modrinth]
+mod-id = "GxuOOqGt"
+version = "65PwoogP"

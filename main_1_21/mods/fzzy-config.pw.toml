@@ -1,0 +1,13 @@
+name = "Fzzy Config"
+filename = "fzzy_config-0.5.7+1.21+neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hYykXjDp/versions/OBu6FL2u/fzzy_config-0.5.7%2B1.21%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "d73aa48bdd5d200a04a321ed7b8949b3c5158a39523a2671a07285161ac58de060a3850c419a894c4bea01a5a9d8f5e1a1d9bf85f02b9753a81ed0f8b300f650"
+
+[update]
+[update.modrinth]
+mod-id = "hYykXjDp"
+version = "OBu6FL2u"

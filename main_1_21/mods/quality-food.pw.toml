@@ -1,0 +1,13 @@
+name = "Quality Food"
+filename = "quality_food-1.21.1-2.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ahdn1OE0/versions/UL94A1iv/quality_food-1.21.1-2.2.1.jar"
+hash-format = "sha512"
+hash = "56894d34004b58a319a2c2380ba54ce6453f8e7a51fa984fbc829c5e937aa2486f372632d560d772e308830ded47ccdb8607744ca660acff8e08a6a7b065b1b1"
+
+[update]
+[update.modrinth]
+mod-id = "Ahdn1OE0"
+version = "UL94A1iv"

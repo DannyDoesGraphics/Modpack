@@ -1,0 +1,13 @@
+name = "Tectonic"
+filename = "tectonic-neoforge-1.21-2.4.1a.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lWDHr9jE/versions/3puAlKOm/tectonic-neoforge-1.21-2.4.1a.jar"
+hash-format = "sha512"
+hash = "8eae0810275e45c701af8ab018a8a1b1d1401c6540040def649964adc0456539d5f7efd6e075e09351b852b08a123dfcf081b6aa85df70516b473172689001cc"
+
+[update]
+[update.modrinth]
+mod-id = "lWDHr9jE"
+version = "3puAlKOm"
