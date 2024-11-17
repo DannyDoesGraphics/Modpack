@@ -440,6 +440,11 @@ hash = "e1016eb125a5a41a10f80847eb00affae0e539e703846f303949ed5d82b7f1bf"
 metafile = true
 
 [[files]]
+file = "mods/almanac.pw.toml"
+hash = "416c089224a401ec7c0ef60ae6f1f8555e783f89ec6aba49d72f41c58d7955d2"
+metafile = true
+
+[[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "3d8e430c9a57371e4167f0deef00fa000d545a5c644cf09f6e3b46b6d21e6834"
 metafile = true
