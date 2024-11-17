@@ -1,13 +1,13 @@
 name = "Zombies Reworked"
-filename = "Zombies_Reworked_1.20.1_1.0.4.jar"
+filename = "zombies_reworked-1.20.1-1.1.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/S8mNuFSM/versions/EbyQNepB/Zombies_Reworked_1.20.1_1.0.4.jar"
-hash-format = "sha1"
-hash = "60a3037bd81a66f8d9e21e9f161df36b31988204"
+url = "https://cdn.modrinth.com/data/S8mNuFSM/versions/8WX68x0d/zombies_reworked-1.20.1-1.1.5.jar"
+hash-format = "sha512"
+hash = "d2c9e7aeb9cce971fc3908ff6381c1c383ee8bb7ba82465fad717c55d5d0b1989277ddc0ee443b6713222c7085aaf74269cac0fb0588807e85f353718fe6122a"
 
 [update]
 [update.modrinth]
 mod-id = "S8mNuFSM"
-version = "EbyQNepB"
+version = "8WX68x0d"

@@ -13,3 +13,6 @@
 
 ## Balm
 - Broken as of now. DO not update.
+
+# Serene Seasons
+- Do not update beyond 9.0.0.46

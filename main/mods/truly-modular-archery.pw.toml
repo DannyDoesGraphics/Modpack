@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/RXklwn50/versions/AWO5blaP/Truly-Modular-archery-archery-forge-1.4-1.20.1.jar"
-hash-format = "sha1"
-hash = "a10fc940e7d6db48ba08d4fd32352dcdb54d44a1"
+hash-format = "sha512"
+hash = "bd801e3ef6ee97524bac92e2a319cab4cf921c6f932c42f8ecbc85bc5cfb729553e96c7fcfb66937655c20c59280aae0dee02ee091276337fa9cf67dc952d15f"
 
 [update]
 [update.modrinth]

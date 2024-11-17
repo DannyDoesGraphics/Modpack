@@ -1,0 +1,13 @@
+name = "ClockworkLib"
+filename = "clockworklib-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4259c5ae3912240ee5b1ea29b0c7f996ee24859f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5292778
+project-id = 1009328

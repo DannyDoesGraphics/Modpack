@@ -1,0 +1,13 @@
+name = "Mowzie's Delight"
+filename = "mowziesdelight-1.0.3.1-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Sks5fovq/versions/ZP7Bslua/mowziesdelight-1.0.3.1-1.20.1.jar"
+hash-format = "sha512"
+hash = "9c52e57c769c86965cb79945e0a424c7cc8c86940f364183c366e612e093281d6552050a670ae074d97bd02dcc1dac586c8030bfe6fa1d73f75f102160b03953"
+
+[update]
+[update.modrinth]
+mod-id = "Sks5fovq"
+version = "ZP7Bslua"
