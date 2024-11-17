@@ -146,7 +146,7 @@ hash = "c6338cd832ed353ed6088a31d6480547f14155e20ee1ae2048a1ed58ab74d9ea"
 
 [[files]]
 file = "config/resourcepackoverrides.json"
-hash = "4c1018ee4b5e0fea23cf1f9c1882351fa1b46eea89b235a72f4caf4569a1efaa"
+hash = "580e618fadf148bb5ba1a6c699b40cd11e0d6c5fd60dd7859dfddc37b70d8a23"
 
 [[files]]
 file = "config/rpgdifficulty.json"
@@ -1182,11 +1182,6 @@ metafile = true
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
 hash = "39aa00aa4b1b13bf0bbf1ff4d92b90d51c66a9b2f197d470047445fd47df235e"
-metafile = true
-
-[[files]]
-file = "mods/simple-clouds.pw.toml"
-hash = "fa96a04ad053f4b7c97f6b2f31e75e678e7b7062745affe77b3e85c4a4cf1372"
 metafile = true
 
 [[files]]

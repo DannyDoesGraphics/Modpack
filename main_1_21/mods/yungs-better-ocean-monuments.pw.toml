@@ -1,0 +1,13 @@
+name = "YUNG's Better Ocean Monuments"
+filename = "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/3dT9sgt4/versions/NWit9vEK/YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.1.jar"
+hash-format = "sha512"
+hash = "4c3d7d1c2fdd9ed15a43eb228c59f51aaf9facb2286a57f2918e333bbbaebe54d8aa6ef262317006bfa969e777dddcebed3bf13172d4ad6284c4352914b33f05"
+
+[update]
+[update.modrinth]
+mod-id = "3dT9sgt4"
+version = "NWit9vEK"
