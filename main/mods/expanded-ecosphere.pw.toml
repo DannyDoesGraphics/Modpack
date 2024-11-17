@@ -1,13 +1,13 @@
 name = "William Wythers' Expanded Ecosphere"
-filename = "WWOO-FABRIC+FORGE+QUILT-3.2.0-beta2.jar"
+filename = "expanded_ecosphere-fabric-3.4.2.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/O1XGs7ps/versions/MGGk0kZU/WWOO-FABRIC%2BFORGE%2BQUILT-3.2.0-beta2.jar"
-hash-format = "sha1"
-hash = "05c31fb950ddd55306d40668ae15296b77201c71"
+url = "https://cdn.modrinth.com/data/O1XGs7ps/versions/SKsR5Gep/expanded_ecosphere-fabric-3.4.2.jar"
+hash-format = "sha512"
+hash = "2f680aba0e0b15c9076d029b7864e0d093e58ba18d1d589613e667b243d69970662b979509deee1441478583052c8569298b924c4260e945206483cbec380ce0"
 
 [update]
 [update.modrinth]
 mod-id = "O1XGs7ps"
-version = "MGGk0kZU"
+version = "SKsR5Gep"

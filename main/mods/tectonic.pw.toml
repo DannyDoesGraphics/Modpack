@@ -1,13 +1,13 @@
 name = "Tectonic"
-filename = "tectonic-forge-1.19.3-2.3.4.jar"
+filename = "tectonic-mod-1.19.3-v2.2.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/lWDHr9jE/versions/R41DAyGB/tectonic-forge-1.19.3-2.3.4.jar"
-hash-format = "sha1"
-hash = "b53470e09a3c40e017bb0c891903271220bb9267"
+url = "https://cdn.modrinth.com/data/lWDHr9jE/versions/hxUteWC1/tectonic-mod-1.19.3-v2.2.1.jar"
+hash-format = "sha512"
+hash = "9db833326e38ed224c4b52656ee1a28c4068a624c83b60a5dfc9369fb27c492ad4766f4ea30fa8c552ec5fe33a02488706a94941ebb97cdc34d694687147bf81"
 
 [update]
 [update.modrinth]
 mod-id = "lWDHr9jE"
-version = "R41DAyGB"
+version = "hxUteWC1"

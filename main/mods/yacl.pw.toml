@@ -1,13 +1,13 @@
 name = "YetAnotherConfigLib"
-filename = "YetAnotherConfigLib-3.4.4+1.20.1-forge.jar"
+filename = "YetAnotherConfigLib-3.6.1+1.20.1-forge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/1eAoo2KR/versions/3jH5u49m/YetAnotherConfigLib-3.4.4%2B1.20.1-forge.jar"
-hash-format = "sha1"
-hash = "e80be2cda16c72856134b4169b8500f385e37d43"
+url = "https://cdn.modrinth.com/data/1eAoo2KR/versions/R3Sxv49H/YetAnotherConfigLib-3.6.1%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "451e1cf27772daaf39a0436b41e0811061f07745def50a266b9ed88e5c231ef61cef5f57debaa7094dab1627a420a28fd06d6b262ff149e8e20a222abf32dbab"
 
 [update]
 [update.modrinth]
 mod-id = "1eAoo2KR"
-version = "3jH5u49m"
+version = "R3Sxv49H"
