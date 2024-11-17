@@ -700,6 +700,11 @@ hash = "d22e2f9e149dc3a02dec2e7bed5bc3a389afed3e27335e5611b58a873baa4455"
 metafile = true
 
 [[files]]
+file = "mods/cristel-lib.pw.toml"
+hash = "5cf8a06431f16a18dc468baae3fbdf17cc1d72b9697da58cb126342ed937aa59"
+metafile = true
+
+[[files]]
 file = "mods/cuisine-delight.pw.toml"
 hash = "cf4488a90f887951a2a49be97a5118b9175e29927f92fbf487e4844747d859bc"
 metafile = true
@@ -811,7 +816,7 @@ metafile = true
 
 [[files]]
 file = "mods/expanded-ecosphere.pw.toml"
-hash = "5db1e99231235f5738f78655c7f7be428113c03b53b2ab59ec1816c0636356e0"
+hash = "a2daf59835c14f2c37ef6494ff7faf6cbcad02b06c38478ed0dca4085046da41"
 metafile = true
 
 [[files]]
@@ -1311,7 +1316,7 @@ metafile = true
 
 [[files]]
 file = "mods/wwoo.pw.toml"
-hash = "4cbe6d5ae7e89616a11508c7b5b86557d2fe96b90ec84ebe2e76c6b17ef29ea0"
+hash = "ca5bfe1a7a7bd7d60d488281bb4dab2f0297f181a1480acc0ca6643934c9dab9"
 metafile = true
 
 [[files]]
