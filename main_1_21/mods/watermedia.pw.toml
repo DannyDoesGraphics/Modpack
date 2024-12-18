@@ -1,6 +1,6 @@
 name = "WATERMeDIA"
 filename = "watermedia-2.1.8.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/G922NeHS/versions/dnNuIOcw/watermedia-2.1.8.jar"
