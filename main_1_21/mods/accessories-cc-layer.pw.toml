@@ -1,0 +1,13 @@
+name = "Curios Compat Layer for Accessories"
+filename = "accessories_cclayer-9.0.12-beta.19+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/izkDUlrJ/versions/ZSg9HAaK/accessories_cclayer-9.0.12-beta.19%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "3b7787e1078d29e1d33ba688b20cf21c230d1b2a329523982c24cd7cf3268442941387122d23e1eb2cf97da17a845879abb3ad614ffe6d6136855715f37098b0"
+
+[update]
+[update.modrinth]
+mod-id = "izkDUlrJ"
+version = "ZSg9HAaK"
