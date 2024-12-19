@@ -58,7 +58,7 @@ hash = "0f8232e15da31dd677370cde5075c6f4280adfeda53b314af35a793b07a21c1b"
 
 [[files]]
 file = "kubejs/server_scripts/auto_shutdown.js"
-hash = "65dba3c2ae70bbcce50f306ec5e38cb5af8b866292099d9739134c71ae894414"
+hash = "ceca99e21aa736ebbf42745620eeefbc241388ba15b8073da5b639164f23db66"
 
 [[files]]
 file = "mods/accelerated-decay.pw.toml"

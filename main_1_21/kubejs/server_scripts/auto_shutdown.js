@@ -1,5 +1,5 @@
 let inactivityTicks = 0;
-const maxInactivityTicks = 100; // Number of ticks before shutdown (e.g., 6000 ticks = 5 minutes)
+const maxInactivityTicks = 6000; // Number of ticks before shutdown (e.g., 6000 ticks = 5 minutes)
 
 ServerEvents.tick(event => {
     const server = event.server;
