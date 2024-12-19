@@ -61,30 +61,6 @@ file = "global_packs/required_data/DAM/pack.mcmeta"
 hash = "0f8232e15da31dd677370cde5075c6f4280adfeda53b314af35a793b07a21c1b"
 
 [[files]]
-file = "global_packs/required_data/server_shutdown/data/no_player_shutdown/functions/init.mcfunction"
-hash = "dbe9a72b668b7a7c21b4a9dd1712094c88305f0a6baf4420a20996d27ad089a9"
-
-[[files]]
-file = "global_packs/required_data/server_shutdown/data/no_player_shutdown/functions/stop_server.mcfunction"
-hash = "21827e824d209559c74abefcbba3af26f5ff6709f683e696b5efa6f9e4dd3a85"
-
-[[files]]
-file = "global_packs/required_data/server_shutdown/data/no_player_shutdown/functions/tick.mcfunction"
-hash = "4789ba733cd62a43c91f13baa598c90b5651337ae4919f3f75eb873054eccd18"
-
-[[files]]
-file = "global_packs/required_data/server_shutdown/data/no_player_shutdown/tags/functions/load.json"
-hash = "cb9a9c48b89ff87da8026620df2fcb94cb32c6a824f15feea9de0392be75ea30"
-
-[[files]]
-file = "global_packs/required_data/server_shutdown/data/no_player_shutdown/tags/functions/tick.json"
-hash = "f4b5e943b021fb92ff49a596cab761e5bef736d509413808e553e6752e402853"
-
-[[files]]
-file = "global_packs/required_data/server_shutdown/pack.mcmeta"
-hash = "c2b315c1d3d7434d5ab00bdc37feaaa68c46a4bdf2fe293f305c86515ca3314b"
-
-[[files]]
 file = "mods/DistantHorizons-2.3.0-b-RC1-1.21.1-neo-fabric.jar"
 hash = "da9e17afdf4babbd7b0cccb03ea579328505a27dafc555e3f6e2468c43efe5b2"
 
