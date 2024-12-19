@@ -1,2 +1,0 @@
-# Stop the server
-stop
