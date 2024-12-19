@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 18,
+        "description": "Stop server after a set period of inactivity."
+    }
+}
