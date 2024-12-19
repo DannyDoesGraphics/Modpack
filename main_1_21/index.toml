@@ -9,10 +9,6 @@ file = "config/snowrealmagic-common.yaml"
 hash = "3252fbf25fe81c5a909a4f4105b9506623d6c5fce4465f293a125043a55d9b73"
 
 [[files]]
-file = "config/sparsestructures.json5"
-hash = "756318ad96090e8a592df9d71a7579cc949c792604f98af299868297ec9142e5"
-
-[[files]]
 file = "global_packs/required_data/DAM/data/sereneseasons/tags/block/autumn_crops.json"
 hash = "713f858e34f494a199bcfe137200b904d76b04dd5325bd9496d6488d4e603de6"
 
