@@ -9,6 +9,10 @@ file = "config/snowrealmagic-common.yaml"
 hash = "3252fbf25fe81c5a909a4f4105b9506623d6c5fce4465f293a125043a55d9b73"
 
 [[files]]
+file = "config/sparsestructures.json5"
+hash = "756318ad96090e8a592df9d71a7579cc949c792604f98af299868297ec9142e5"
+
+[[files]]
 file = "global_packs/required_data/DAM/data/sereneseasons/tags/block/autumn_crops.json"
 hash = "713f858e34f494a199bcfe137200b904d76b04dd5325bd9496d6488d4e603de6"
 
@@ -57,6 +61,39 @@ file = "global_packs/required_data/DAM/pack.mcmeta"
 hash = "0f8232e15da31dd677370cde5075c6f4280adfeda53b314af35a793b07a21c1b"
 
 [[files]]
+file = "global_packs/required_data/server_shutdown/data/no_player_shutdown/functions/init.mcfunction"
+hash = "dbe9a72b668b7a7c21b4a9dd1712094c88305f0a6baf4420a20996d27ad089a9"
+
+[[files]]
+file = "global_packs/required_data/server_shutdown/data/no_player_shutdown/functions/stop_server.mcfunction"
+hash = "21827e824d209559c74abefcbba3af26f5ff6709f683e696b5efa6f9e4dd3a85"
+
+[[files]]
+file = "global_packs/required_data/server_shutdown/data/no_player_shutdown/functions/tick.mcfunction"
+hash = "4789ba733cd62a43c91f13baa598c90b5651337ae4919f3f75eb873054eccd18"
+
+[[files]]
+file = "global_packs/required_data/server_shutdown/data/no_player_shutdown/tags/functions/load.json"
+hash = "cb9a9c48b89ff87da8026620df2fcb94cb32c6a824f15feea9de0392be75ea30"
+
+[[files]]
+file = "global_packs/required_data/server_shutdown/data/no_player_shutdown/tags/functions/tick.json"
+hash = "f4b5e943b021fb92ff49a596cab761e5bef736d509413808e553e6752e402853"
+
+[[files]]
+file = "global_packs/required_data/server_shutdown/pack.mcmeta"
+hash = "c2b315c1d3d7434d5ab00bdc37feaaa68c46a4bdf2fe293f305c86515ca3314b"
+
+[[files]]
+file = "mods/DistantHorizons-2.3.0-b-RC1-1.21.1-neo-fabric.jar"
+hash = "da9e17afdf4babbd7b0cccb03ea579328505a27dafc555e3f6e2468c43efe5b2"
+
+[[files]]
+file = "mods/accelerated-decay.pw.toml"
+hash = "e23f5fdde0fc396372e1697fa5d4b384ccb223026a50b8d5e379a38b288deb2a"
+metafile = true
+
+[[files]]
 file = "mods/accessories-cc-layer.pw.toml"
 hash = "8dead91442dff887bbfc78eb2b536404ed03fb6a92cd39fe81aebeb7baae53fb"
 metafile = true
@@ -74,6 +111,11 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "5724ca10bd6d37de46834ab762a46f9ce09175f0a4fa0e2ab633846067940c03"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
@@ -97,6 +139,11 @@ hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
+file = "mods/combat-roll.pw.toml"
+hash = "c16787cef8feaa2cd7a3c8d3a24708e8455f12c71c919bca074ade0454b37d60"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "3be67e500f6c6369a38b79c38320cce2eb3f6553e3d169cfc153081c2409faaf"
 metafile = true
@@ -117,8 +164,13 @@ hash = "d04a32e4884ebdcba315fcf3bff888c329f066c12a155092ebf705f7eecc8bd8"
 metafile = true
 
 [[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "e25f8d5bbea8e14e71fc686644c34f588b97e8e655286101e92824fb547c798d"
+file = "mods/cull-leaves.pw.toml"
+hash = "9e04da0f1917e25e968f228263e51289025f9e685e667aa9f0872826aebc2487"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "116b6f924be2482528244f99447ea8a53ebcae60ffc46551f301378e58487797"
 metafile = true
 
 [[files]]
@@ -152,8 +204,18 @@ hash = "d1f69f8b7189e51cb7328e87cb4f8168b2b0fcc265e1782b5a9febb08010ce4f"
 metafile = true
 
 [[files]]
+file = "mods/endrem.pw.toml"
+hash = "db22718a1efaf2c691cf3bdddc61b0b06bedff7cb0722aa8b1bdf4f095d116cc"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "4ba5adf5223a7014092dcf710892b2e89331a00e1fbd557207032eada45e9922"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "ee7f8452c2c1a9f5a4d67fb44e69c9ec0d18725ac383af40afbbc1d1157407c2"
 metafile = true
 
 [[files]]
@@ -247,6 +309,11 @@ hash = "400434a7a85e481c6fee78edb59b31058bf853cf7bca98e5f6bd72d53e30e58b"
 metafile = true
 
 [[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "f1b31cd15c2bc95e4fcf3eb66f21c797e28b0f6faeb4149643851ccf72591b2c"
+metafile = true
+
+[[files]]
 file = "mods/modelfix.pw.toml"
 hash = "6f0dcbcffd4400c6cef07f1eeb48cdc25bac0fa01270936feab4c549aff4738e"
 metafile = true
@@ -259,6 +326,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
+metafile = true
+
+[[files]]
+file = "mods/neruina.pw.toml"
+hash = "eadf6b8c7a1e84e587334e28a207e6065cce7245bcbf87b3cffa1d49878621d0"
 metafile = true
 
 [[files]]
@@ -352,6 +424,11 @@ hash = "0dcd93eab2061e5fc7ecc35f6ced7bffcff0d3c4bf49994ad130752a760d39cb"
 metafile = true
 
 [[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "a1fb713df668ed21dda0602e99cb23b991c8faff841e130d7aae46258c3d6a45"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "9050cb92f35f8057726ec547ba3306726a1a4f3b5ed0d147b70d2dc30dcff582"
 metafile = true
@@ -369,6 +446,11 @@ metafile = true
 [[files]]
 file = "mods/structory.pw.toml"
 hash = "0c1ed682dc86868fb25c5ea6ec2d2c60e4b590e1b00ec4d92d45d88c3b005a48"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "90666aca91cc6788c182b38a6f06e6575b471c1371ffc9e413b712e55dcbe35e"
 metafile = true
 
 [[files]]
