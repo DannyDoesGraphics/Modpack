@@ -61,8 +61,8 @@ file = "global_packs/required_data/DAM/pack.mcmeta"
 hash = "0f8232e15da31dd677370cde5075c6f4280adfeda53b314af35a793b07a21c1b"
 
 [[files]]
-file = "mods/DistantHorizons-2.3.0-b-RC1-1.21.1-neo-fabric.jar"
-hash = "da9e17afdf4babbd7b0cccb03ea579328505a27dafc555e3f6e2468c43efe5b2"
+file = "mods/DistantHorizons-2.3.0-b-dev-1.21.1-fabric-neoforge.jar"
+hash = "b4e1c7492b9063bd449a1d76ad046c43d91eb374e3336634f31586119b07de9e"
 
 [[files]]
 file = "mods/accelerated-decay.pw.toml"
