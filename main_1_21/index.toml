@@ -57,28 +57,8 @@ file = "global_packs/required_data/DAM/pack.mcmeta"
 hash = "0f8232e15da31dd677370cde5075c6f4280adfeda53b314af35a793b07a21c1b"
 
 [[files]]
-file = "global_packs/required_data/no_player_shutdown/data/functions/init.mcfunction"
-hash = "dbe9a72b668b7a7c21b4a9dd1712094c88305f0a6baf4420a20996d27ad089a9"
-
-[[files]]
-file = "global_packs/required_data/no_player_shutdown/data/functions/stop_server.mcfunction"
-hash = "21827e824d209559c74abefcbba3af26f5ff6709f683e696b5efa6f9e4dd3a85"
-
-[[files]]
-file = "global_packs/required_data/no_player_shutdown/data/functions/tick.mcfunction"
-hash = "4789ba733cd62a43c91f13baa598c90b5651337ae4919f3f75eb873054eccd18"
-
-[[files]]
-file = "global_packs/required_data/no_player_shutdown/data/tags/functions/load.json"
-hash = "cb9a9c48b89ff87da8026620df2fcb94cb32c6a824f15feea9de0392be75ea30"
-
-[[files]]
-file = "global_packs/required_data/no_player_shutdown/data/tags/functions/tick.json"
-hash = "f4b5e943b021fb92ff49a596cab761e5bef736d509413808e553e6752e402853"
-
-[[files]]
-file = "global_packs/required_data/no_player_shutdown/pack.mcmeta"
-hash = "ea0b368d1411dc03dc064699c9a958f38a269dbfb4c3a2627b120008ba9ad4d9"
+file = "kubejs/server_scripts/auto_shutdown.js"
+hash = "ceca99e21aa736ebbf42745620eeefbc241388ba15b8073da5b639164f23db66"
 
 [[files]]
 file = "mods/accelerated-decay.pw.toml"
@@ -286,6 +266,11 @@ hash = "0033c5a00c46d5d7b6cf77b19fa76ce5c78a613f3128dcadb3588fa5841ae489"
 metafile = true
 
 [[files]]
+file = "mods/kubejs.pw.toml"
+hash = "eba62fcfbe8678c035ef239481af4f01b21b33d198f8bf7467726e02bf37f845"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights-unofficial-neoforge.pw.toml"
 hash = "3003180f2f32aa8aea9bc786e935e0b224f509f0131df625090c12f528d8ddc7"
 metafile = true
@@ -378,6 +363,11 @@ metafile = true
 [[files]]
 file = "mods/resource-pack-overrides.pw.toml"
 hash = "b8101dca20d054277d99e75b43dd8db44dea64a761d2ab69fdda9f6d59d9e6f1"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "580dbaa336e4d730ae37a7d0fcbb45b1623bac9056a031592736855cf270a9a8"
 metafile = true
 
 [[files]]
