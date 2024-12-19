@@ -61,6 +61,10 @@ file = "kubejs/server_scripts/auto_shutdown.js"
 hash = "ceca99e21aa736ebbf42745620eeefbc241388ba15b8073da5b639164f23db66"
 
 [[files]]
+file = "kubejs/startup_scripts/clear_loot_tables.js"
+hash = "1039a97c4ca47eb31dc6d794b63a16c4ab608d9135c33b6a0d89d4269b143297"
+
+[[files]]
 file = "mods/accelerated-decay.pw.toml"
 hash = "e23f5fdde0fc396372e1697fa5d4b384ccb223026a50b8d5e379a38b288deb2a"
 metafile = true
@@ -278,6 +282,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "b88870636259f36da92219dc38d289505579a0f789450e0d7f9a193eb7611d07"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "d70b7c143d445ae9fa741545cfa4b7d032e34083f3a6c721bc7d39487d87b7fe"
 metafile = true
 
 [[files]]
