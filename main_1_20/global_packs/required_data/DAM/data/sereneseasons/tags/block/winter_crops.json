@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "biomeswevegone:pine_sapling",
+        "biomeswevegone:rainbow_eucalyptus_sapling",
+        "biomeswevegone:blue_spruce_sapling",
+        "biomeswevegone:orange_spruce_sapling",
+        "biomeswevegone:red_spruce_sapling",
+        "biomeswevegone:yellow_spruce_sapling",
+        "biomeswevegone:brown_oak_sapling",
+        "biomeswevegone:orange_oak_sapling",
+        "biomeswevegone:red_oak_sapling",
+        "biomeswevegone:blue_enchanted_sapling",
+        "biomeswevegone:green_enchanted_sapling"
+    ]
+}
