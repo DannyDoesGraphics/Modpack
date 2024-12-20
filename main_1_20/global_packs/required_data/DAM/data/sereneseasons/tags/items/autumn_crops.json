@@ -13,7 +13,6 @@
         "biomeswevegone:rainbow_eucalyptus_sapling",
         "biomeswevegone:redwood_sapling",
         "biomeswevegone:skyris_sapling",
-        "biomeswevegone:spirit_sapling",
         "biomeswevegone:willow_sapling",
         "biomeswevegone:witch_hazel_sapling",
         "biomeswevegone:blue_spruce_sapling",
@@ -28,7 +27,6 @@
         "biomeswevegone:orange_oak_sapling",
         "biomeswevegone:red_oak_sapling",
         "biomeswevegone:blue_enchanted_sapling",
-        "biomeswevegone:green_enchanted_sapling",
-        "biomeswevegone:pale_pumpkin_stem"
+        "biomeswevegone:green_enchanted_sapling"
     ]
 }
