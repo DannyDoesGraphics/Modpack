@@ -222,8 +222,8 @@ file = "global_packs/required_data/waterframes-server.toml"
 hash = "54e6a55c1a03314c0a25578675dc5327b7fe1d681f951410f4e668371da647b3"
 
 [[files]]
-file = "kubejs/server_scripts/auto_pause.js"
-hash = "070cd1a63f683ba72804ca95d7266db07b034ea16c349ebe710d5c63fb80767e"
+file = "kubejs/server_scripts/auto_shutdown.js"
+hash = "ceca99e21aa736ebbf42745620eeefbc241388ba15b8073da5b639164f23db66"
 
 [[files]]
 file = "mods/DistantHorizons-2.3.0-b-dev-1.20.1-fabric-forge.jar"
