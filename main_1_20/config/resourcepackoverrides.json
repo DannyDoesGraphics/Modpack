@@ -2,14 +2,14 @@
     "schema_version": "2",
     "default_packs": [
         "file/Better-Leaves-8.1-1.20+.zip",
-        "file/Eyeless Fresh Moves v3.0.1.zip",
-        "file/FreshAnimations_v1.9.2.zip"
+        "file/FreshAnimations_v1.9.2.zip",
+        "file/[1.4.1] Enhanced Boss Bars.zip"
     ],
     "pack_overrides": {
       "1": [
           "file/Better-Leaves-8.1-1.20+.zip",
-          "file/Eyeless Fresh Moves v3.0.1.zip",
-          "file/FreshAnimations_v1.9.2.zip"
+          "file/FreshAnimations_v1.9.2.zip",
+          "file/[1.4.1] Enhanced Boss Bars.zip"
       ],
       "$$1": {
         "hidden": true,

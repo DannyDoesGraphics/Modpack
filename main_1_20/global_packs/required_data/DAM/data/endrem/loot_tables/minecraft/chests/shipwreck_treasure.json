@@ -1,0 +1,7 @@
+{
+  "pools": [{
+      "name": "eye_pool",
+      "rolls": 1,
+      "entries": []
+  }]
+}

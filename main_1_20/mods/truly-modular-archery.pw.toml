@@ -1,0 +1,13 @@
+name = "Truly Modular: Archery"
+filename = "Truly-Modular-archery-archery-forge-1.5-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RXklwn50/versions/qMBiNClw/Truly-Modular-archery-archery-forge-1.5-1.20.1.jar"
+hash-format = "sha512"
+hash = "aaf377f5d104223784e8809526fa19e4918a46bce64d6b01d414e683f79df401864e91bee18728c0f4ec01722de328cb1261f3fbc36e77feb71ec1ff4515f95b"
+
+[update]
+[update.modrinth]
+mod-id = "RXklwn50"
+version = "qMBiNClw"

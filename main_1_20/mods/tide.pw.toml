@@ -1,0 +1,13 @@
+name = "Tide"
+filename = "Tide-forge-1.20.1-1.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/die1AF7i/versions/ac1nSfcO/Tide-forge-1.20.1-1.4.0.jar"
+hash-format = "sha512"
+hash = "786565f1b72bc08a859450bc9bbc740c191de44d54eb91b047348a51e5643dc31deaf69f672550cdc1fbfb74fee48ba368400a310936238db7d9a6688b93da6c"
+
+[update]
+[update.modrinth]
+mod-id = "die1AF7i"
+version = "ac1nSfcO"

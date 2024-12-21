@@ -1,0 +1,401 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: ""
+	icon: "minecraft:end_stone"
+	id: "7DD5A2D38A5C90FA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"25E87CC12B6FB700"
+				"351DDE8471C3FBB2"
+				"15044DC08474AC40"
+				"0CE6510A13803B7C"
+				"70482D7E0AE801CF"
+				"453C27C46C48D922"
+				"494F47AE3D46A093"
+				"71B2753CB3233695"
+				"10AB6A0712259DD1"
+				"4EEEA26B30C55AD8"
+				"29C86F5022B5B434"
+				"24B09AA6755D6492"
+				"255F625F0E536289"
+				"6E63B3556F98C2D4"
+				"7BA5CE85B4EB5190"
+				"7C1377ECC61A0738"
+			]
+			dependency_requirement: "all_started"
+			id: "162C597024EDDE6A"
+			min_required_dependencies: 9
+			rewards: [{
+				id: "06F75C3DE462EBC4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "6032880F9BAC21F2"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29A7B491D372DCD7"]
+			id: "494F47AE3D46A093"
+			rewards: [{
+				id: "465D4FDF26F3AD36"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "456D3DCF59FB17C9"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "70482D7E0AE801CF"
+			rewards: [{
+				id: "47F8C6D314821989"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6E0FD43896F3B8E2"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78920BD15AC12027"]
+			id: "15044DC08474AC40"
+			rewards: [{
+				id: "6B09FDFCF9BE8082"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "658C400633C50530"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57F3965311823BD2"]
+			id: "25E87CC12B6FB700"
+			rewards: [{
+				id: "168FF6D5EFF41A1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4F69D3958E2CE665"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C1798CB4F1D2A8E"]
+			id: "7BA5CE85B4EB5190"
+			rewards: [{
+				id: "2242094D68322A42"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "28BC411F8527DD76"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7D2FE665A9E6255D"
+				"783A42413F40AEE0"
+			]
+			id: "453C27C46C48D922"
+			rewards: [{
+				id: "069933F4E967DC76"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "43954CC5B434A158"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["210E72A2FA351A9D"]
+			id: "29C86F5022B5B434"
+			rewards: [{
+				id: "58965B62388374B9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2F71B52608C9F8C9"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6EFB9EADD9FABA5D"]
+			id: "351DDE8471C3FBB2"
+			rewards: [{
+				id: "5C4D695E6DD21639"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6F72CB4EC204A4FE"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4EA742A4B14FE43A"]
+			id: "255F625F0E536289"
+			rewards: [{
+				id: "6E0E3E07943BD888"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "19C632514B38CF3B"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "7C1377ECC61A0738"
+			rewards: [{
+				id: "3897DF9803B5E56B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "79888E2794440CB0"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5C776E7B8AE7EDF5"]
+			id: "71B2753CB3233695"
+			rewards: [{
+				id: "298D1B613D88E69F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0CC064B26525021A"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27E73992921EF540"]
+			id: "10AB6A0712259DD1"
+			rewards: [{
+				id: "26C2C52F58111808"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4809FB6B94307C5E"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			id: "4EEEA26B30C55AD8"
+			rewards: [{
+				id: "06AA018A6EACE5B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "760D0CFA4F329D8A"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			id: "0CE6510A13803B7C"
+			rewards: [{
+				id: "0123637FFBE4EDEF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1DD9AD1D96C7DF9B"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			id: "6E63B3556F98C2D4"
+			rewards: [{
+				id: "7FCDE0E03D143FA2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "649F7D71F5D4693A"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7EE15222874261FD"
+				"0A3AC2F3AD30FB20"
+			]
+			id: "24B09AA6755D6492"
+			rewards: [{
+				id: "22A0C726991B328A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "660087031BCA2EC8"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+	]
+	title: "The End"
+}
