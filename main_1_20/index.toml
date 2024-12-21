@@ -218,6 +218,10 @@ hash = "f2c7169128cc43a5a4fe8013b2d4cb50c3cd52f3cbdebffede365a2f1672a92c"
 metafile = true
 
 [[files]]
+file = "kubejs/server_scripts/auto_shutdown.js"
+hash = "ceca99e21aa736ebbf42745620eeefbc241388ba15b8073da5b639164f23db66"
+
+[[files]]
 file = "mods/DistantHorizons-2.3.0-b-dev-1.20.1-fabric-forge.jar"
 hash = "f87653bc8eb75d244897890ac35dfaff03ef5d75d7e9241b5278f212ba4d3318"
 
