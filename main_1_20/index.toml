@@ -410,6 +410,11 @@ hash = "360053eae8a35a1f879f70007e19b2839964947ee1536d9b18a128443f36d7b0"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "560c2f4d64b502787bd5c2ab9e9b41cef6a04bb487cec7a6d3c85bc550539aeb"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
 metafile = true
