@@ -61,6 +61,10 @@ file = "defaultoptions/quality_food-server.toml"
 hash = "e22e7d14b6d3ecb6c165a9768ac106007ff109591a0f5aa5b7b47fc51007b952"
 
 [[files]]
+file = "defaultoptions/waterframes-server.toml"
+hash = "aca5a5a58d9d5af1c45fe77b507a35a1095cc623f9c0130e5c30114a21b5a66f"
+
+[[files]]
 file = "global_packs/required_data/DAM/data/alexscaves/loot_tables/entities/gum_worm.json"
 hash = "99686a8d29296f0429cb5a76af18b7aec8afea12c51f248d849c79054564ddad"
 
@@ -841,6 +845,11 @@ metafile = true
 [[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "d1f859de9867b7433305aef1631aa22a436a4c3924474a21c0a22ab5f2093c04"
+metafile = true
+
+[[files]]
+file = "mods/the-undergarden.pw.toml"
+hash = "60b26d8a45735194cff94abb074ee218012f3592017b565d7dc3a40889c6708d"
 metafile = true
 
 [[files]]
