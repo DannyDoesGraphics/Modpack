@@ -1,0 +1,711 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "303B8086A1FD4897"
+	order_index: 0
+	quest_links: [
+		{
+			id: "50D1FA1A72A312A3"
+			linked_quest: "10AB6A0712259DD1"
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			id: "67168B1999B187AE"
+			linked_quest: "29C86F5022B5B434"
+			x: 16.0d
+			y: 7.5d
+		}
+		{
+			id: "0CC9465A12CB90BC"
+			linked_quest: "453C27C46C48D922"
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			id: "20631EE6F58F611A"
+			linked_quest: "15044DC08474AC40"
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			id: "62FE4D3A356B1B20"
+			linked_quest: "25E87CC12B6FB700"
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			id: "68BF46A7F53BA8C5"
+			linked_quest: "24B09AA6755D6492"
+			x: 8.5d
+			y: 7.5d
+		}
+	]
+	quests: [
+		{
+			icon: "minecraft:oak_log"
+			id: "322FE4489FB03005"
+			rewards: [{
+				id: "3BCE2D341CD8B6FD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "06B4784DE734A8D3"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Once upon a time..."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["322FE4489FB03005"]
+			id: "79EDB1D23A7D88C4"
+			rewards: [{
+				id: "5DBFD9968345D322"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "28A288970352A8FC"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79EDB1D23A7D88C4"]
+			id: "733D0B2AD2E07111"
+			rewards: [{
+				id: "585794209A994813"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "66BEBFC0F6E37990"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["733D0B2AD2E07111"]
+			id: "255BCF4E3448345D"
+			rewards: [{
+				id: "78EE32799C8B0107"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "788E498EF4E8CB72"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64389D6653217851"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D14F15BB1BD7FCD"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "055E94AE0D7F9A88"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A55E3AAF3528090"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wood set"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["693A30ECB625EA46"]
+			id: "5D7473A8F2A682B8"
+			rewards: [{
+				id: "6451F6E202EEEAAE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "7E73238846E43934"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64BA1F4F69700C98"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15A684F7A1230CE8"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37D59F2FA08AB924"
+					item: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "429A195A9754CC69"
+					item: {
+						Count: 1
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1ECCDCD2727F22BA"]
+			id: "611FE40899F86A20"
+			rewards: [{
+				id: "4F6E69A3609EA4E2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "6CD6121E55B63922"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F12187CDE54552D"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "350DE057FD190333"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "758101C7575C76F4"
+					item: {
+						Count: 1
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "725E97143BF56C06"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CB89637FBD3B98E"]
+			id: "0A01C69C908A68F8"
+			rewards: [{
+				id: "62FDF9BCE887A678"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "63A6AF1ABD18CD23"
+					item: {
+						Count: 1
+						id: "minecraft:golden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5B2A93A23B648BD5"
+					item: {
+						Count: 1
+						id: "minecraft:golden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "597A0731F16C10F3"
+					item: {
+						Count: 1
+						id: "minecraft:golden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67CF5A15EB14E68D"
+					item: {
+						Count: 1
+						id: "minecraft:golden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "565DDBFD1E37761A"
+					item: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			id: "0AD35E6531113902"
+			rewards: [{
+				id: "554DF67FEDD5357A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7FD14CFBC0F6FF93"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AD35E6531113902"]
+			id: "7067A4F9443988E4"
+			rewards: [{
+				id: "551C16F7217C7064"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "0F1B5596F7FE3CD5"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27079B0F333EFEAC"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A2AF215D8584C1A"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02173AF616B63844"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79B59CEFA6AA3CBF"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			id: "693A30ECB625EA46"
+			tasks: [{
+				id: "059F2227C2F56D4E"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "1ECCDCD2727F22BA"
+			tasks: [{
+				id: "1C732A20E752FE10"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "4CB89637FBD3B98E"
+			tasks: [{
+				id: "45BABEC6A648C0A9"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B58E91A0F37EC35"]
+			id: "29454763A2644E83"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3FFBC77FBBABD612"
+				type: "dimension"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			id: "3B58E91A0F37EC35"
+			tasks: [{
+				id: "54F6A24BE868AF61"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			id: "70152D665465BA47"
+			subtitle: "Deep deep under..."
+			tasks: [{
+				icon: "minecraft:stone_bricks"
+				id: "1C5A3D1204E98589"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			title: "Find the factory"
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"70152D665465BA47"
+				"536160784F7BF3D6"
+			]
+			icon: "cataclysm:witherite_block"
+			id: "210E72A2FA351A9D"
+			rewards: [{
+				id: "3429629E2A347459"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Insert star to activate the boss"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "74BEC9A43EE828F6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27E73992921EF540"]
+			id: "536160784F7BF3D6"
+			tasks: [{
+				id: "1C7BA3004798BE49"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4321137A874C832F"
+				"4600214B0045B493"
+			]
+			icon: "cataclysm:remnant_skull"
+			id: "7D2FE665A9E6255D"
+			rewards: [{
+				id: "0016F8B456B39128"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Use the neckalace to awaken..."
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "10F39F20D48322CB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			id: "4321137A874C832F"
+			subtitle: "Maybe in a desert?"
+			tasks: [{
+				id: "4111E87A730008BB"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			id: "27E73992921EF540"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "32B626506F719F02"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Wither"
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			icon: "mowziesmobs:frostmaw_spawn_egg"
+			id: "78920BD15AC12027"
+			rewards: [{
+				id: "54DE98B69D6341AC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found in frozen places"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "7A87CB5854EA0C12"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Frostmaw"
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4321137A874C832F"]
+			id: "4600214B0045B493"
+			tasks: [{
+				id: "59BAC468481B2C26"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			icon: "mowziesmobs:wrought_helmet"
+			id: "57F3965311823BD2"
+			rewards: [{
+				id: "2CE0D17B6C3D502D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "48E2797FFC249AD7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Ferrous Wroughtnaut"
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["754047A29A741179"]
+			icon: "alexscaves:tremorzilla_egg"
+			id: "783A42413F40AEE0"
+			rewards: [{
+				id: "34973B360ACCD7C2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "alexscaves:tremorsaurus"
+				id: "69FCE0D20D74BD5E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.5d
+			y: 10.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexscaves:primordial_pants"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "754047A29A741179"
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				id: "157C5487CC028DCE"
+				type: "biome"
+			}]
+			x: 13.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1CB07A8065C13998"]
+			icon: "alexscaves:sweet_tooth"
+			id: "0A3AC2F3AD30FB20"
+			rewards: [{
+				id: "07AEE9DD6D3BB122"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "alexscaves:gum_worm"
+				id: "059C4722E527F809"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			id: "1CB07A8065C13998"
+			tasks: [{
+				biome: "alexscaves:candy_cavity"
+				icon: "alexscaves:sack_of_sating"
+				id: "15E63C56586185AF"
+				type: "biome"
+			}]
+			x: 8.5d
+			y: 12.5d
+		}
+	]
+	title: "Main"
+}

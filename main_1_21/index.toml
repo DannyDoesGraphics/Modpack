@@ -61,10 +61,6 @@ file = "kubejs/server_scripts/auto_shutdown.js"
 hash = "ceca99e21aa736ebbf42745620eeefbc241388ba15b8073da5b639164f23db66"
 
 [[files]]
-file = "kubejs/startup_scripts/clear_loot_tables.js"
-hash = "1039a97c4ca47eb31dc6d794b63a16c4ab608d9135c33b6a0d89d4269b143297"
-
-[[files]]
 file = "mods/accelerated-decay.pw.toml"
 hash = "e23f5fdde0fc396372e1697fa5d4b384ccb223026a50b8d5e379a38b288deb2a"
 metafile = true
@@ -76,7 +72,12 @@ metafile = true
 
 [[files]]
 file = "mods/accessories.pw.toml"
-hash = "db6a26ca86c0bf19658c81be77bcd937100df065785e558c9c400034da961e0e"
+hash = "004df838dd5c3715eead9a764f2149620d9199f044f2bab3731f04a43ff196a8"
+metafile = true
+
+[[files]]
+file = "mods/animal_feeding_trough.pw.toml"
+hash = "fe3f752f78cd25803f7013c94bb602567bf242be165462f2287b430d457a144e"
 metafile = true
 
 [[files]]
@@ -126,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/corgilib.pw.toml"
-hash = "46197436560e90eaf1e8e1bbaa5e88326bb9ecb827a5b1dd571d003980a96cfa"
+hash = "7f657c9071754b89ccfa3b138c33e73fb8414384b6c442396a951a6ad97e4956"
 metafile = true
 
 [[files]]
@@ -191,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "4ba5adf5223a7014092dcf710892b2e89331a00e1fbd557207032eada45e9922"
+hash = "3a4e194e945214cc457178f48e65b9ab6a8201b6d15b9736cd673324b70b6edd"
 metafile = true
 
 [[files]]
@@ -206,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "4614fc553d51ac19f244ec64fe951323e394b0615bd6f7a70761e52609d7d438"
+hash = "9c71a7829cd77df7217810633a2ef26e77c272163e4b5cb546c8c8837fc3c94f"
 metafile = true
 
 [[files]]
@@ -245,6 +246,11 @@ hash = "554fc5e8aba13353c9b9d4ff066ec6aaf1bd559550633ef4ace120541cada94b"
 metafile = true
 
 [[files]]
+file = "mods/illager-invasion.pw.toml"
+hash = "f1f117168d659613019803e843a7fe462b529260b6e27913610040ba16bce955"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "976a897717e0cab6212b0bf2537a7edadf7e684ea288c178d21290a88e3f517e"
 metafile = true
@@ -261,7 +267,7 @@ metafile = true
 
 [[files]]
 file = "mods/justenoughbreeding.pw.toml"
-hash = "d3dd108a93a367554eb3a67072ecab936a1aad27f9c324d56f81543540c385e2"
+hash = "edab79d344e7fa6ebe870317b424d2a068a5ca1e734443832b245024effdd745"
 metafile = true
 
 [[files]]
@@ -287,11 +293,6 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "b88870636259f36da92219dc38d289505579a0f789450e0d7f9a193eb7611d07"
-metafile = true
-
-[[files]]
-file = "mods/lootjs.pw.toml"
-hash = "d70b7c143d445ae9fa741545cfa4b7d032e34083f3a6c721bc7d39487d87b7fe"
 metafile = true
 
 [[files]]
@@ -356,12 +357,17 @@ metafile = true
 
 [[files]]
 file = "mods/playeranimator.pw.toml"
-hash = "216b634d4cfae096c106b1414706876190a90a30b165d6b4327ad39f6a59b65d"
+hash = "0a7165b27f8c45872bc8a7f7161eafbfc336581557703527c06230f2087ba8d5"
 metafile = true
 
 [[files]]
 file = "mods/playerrevive.pw.toml"
 hash = "357787ef0eba7984b1798043a605164df6e447599226f169d5fee4c437c8266c"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "4536dbce0d2f51046a4f8e10514a8b6c97f050c323315e4af2ed0d46545a9a90"
 metafile = true
 
 [[files]]
@@ -396,7 +402,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "956005800001293e72f8d35fc30130cb060a13867ba32b89853de3e76f4aa667"
+hash = "49ab1d111139bff1af4f163f8933fe2927044722ddf2fc170439c014a8fb03d3"
 metafile = true
 
 [[files]]

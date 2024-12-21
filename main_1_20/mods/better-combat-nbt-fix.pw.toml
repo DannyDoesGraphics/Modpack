@@ -1,0 +1,13 @@
+name = "Better Combat NBT fix"
+filename = "bc_nbt_fix-1.0-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DlXDh6l5/versions/M8WYBukg/bc_nbt_fix-1.0-forge.jar"
+hash-format = "sha512"
+hash = "dfc46f2fb7ae2c1cad19b9c7bd7996086dec5995ca6aefbcd5dfc3ae684b35a0920528c4997bf6609082bd47b3231c1219f064b7f32c83cb1febe54962abbefa"
+
+[update]
+[update.modrinth]
+mod-id = "DlXDh6l5"
+version = "M8WYBukg"
