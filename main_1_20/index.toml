@@ -753,6 +753,11 @@ hash = "bbdd40b650286973d44b1931d4b8c4bcc02b02f2c5583545709347503bd13057"
 metafile = true
 
 [[files]]
+file = "mods/ready-player-fun.pw.toml"
+hash = "3ea2e0d5147cb076f5658b055f87c6ab11ecea359cffcfee348500f5403c43ae"
+metafile = true
+
+[[files]]
 file = "mods/resource-pack-overrides.pw.toml"
 hash = "fcb95ac9e305c0ac7d78f4fb66901da4fd73cd1f80f48ebeb08d0aea466da3ef"
 metafile = true
