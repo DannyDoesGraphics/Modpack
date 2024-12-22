@@ -70,7 +70,7 @@ hash = "2d10b6249926abb43351ca7bae16ebd396842ae96ff2455f464ca8e43dfc8d7e"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "5ab76620a5fa4a4e6ad52e872cf73afa5c7b7967e6a1df8e7e8efb1e3592d8ad"
+hash = "d3371e4c6a771a18d27ec96fa43282c6f27e5d3d2a576c3106980dbe9909b082"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -1020,11 +1020,6 @@ metafile = true
 [[files]]
 file = "mods/watermedia.pw.toml"
 hash = "8b108929d7d02119ed04797816f2cf34984cfa64ffe101828717ddd1ec867c22"
-metafile = true
-
-[[files]]
-file = "mods/world-preview.pw.toml"
-hash = "4cbaef598ee1cb241ea0efe33eb3947a503f25409952e860ec69833692c7822d"
 metafile = true
 
 [[files]]
