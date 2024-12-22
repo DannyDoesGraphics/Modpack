@@ -1,0 +1,13 @@
+name = "Pale Garden Backport: The Garden Awakens"
+filename = "palegardenbackport-1.1.0-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wjFTvIvm/versions/QJOMRnAj/palegardenbackport-1.1.0-all.jar"
+hash-format = "sha512"
+hash = "6f765904e9e0b908d0f6f988f3e21db30c7ac3ea3366f68f0498a2b6eb879c97ede807a84d9f2f626593cf52126e8d41568e6c81c11078b47b2ba4d2838a7592"
+
+[update]
+[update.modrinth]
+mod-id = "wjFTvIvm"
+version = "QJOMRnAj"
