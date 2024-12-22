@@ -905,11 +905,6 @@ hash = "800fe8615e207ddfb7988f2900e89370230234898c1ebce1df3bef31837015bd"
 metafile = true
 
 [[files]]
-file = "mods/vanilla-refresh.pw.toml"
-hash = "f6058827d13219b89e1f2a15ce02ebf5bc86482e4b6971520627c32232545577"
-metafile = true
-
-[[files]]
 file = "mods/village-spawn-point.pw.toml"
 hash = "e20e2351a18d93b7c9783cfc20f091fcfc15b663f4953b927eaa31c115d715a8"
 metafile = true
