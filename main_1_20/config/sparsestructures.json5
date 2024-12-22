@@ -28,6 +28,90 @@
     },
     {
       "structure": "dungeoncrawl:dungeon",
+      "factor": 5.0
+    },
+    {
+      "structure": "totw_modded:aether",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:badlands",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:derelict",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:derelict_grass",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:desert",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:end",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:everbright",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:everdawn",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:glacio",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:ice",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:jungle",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:mars",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:moon",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:nether",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:ocean",
+      "factor": 100.0
+    },
+    {
+      "structure": "totw_modded:ocean_warm",
+      "factor": 100.0
+    },
+    {
+      "structure": "totw_modded:ratlantis",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:regular",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:tw_canopy",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:tw_mangrove",
+      "factor": 4.0
+    },
+    {
+      "structure": "totw_modded:venus",
       "factor": 4.0
     }
     // example of the mansion being doubled in rarity (the mod's default)

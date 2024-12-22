@@ -1023,6 +1023,11 @@ hash = "8b108929d7d02119ed04797816f2cf34984cfa64ffe101828717ddd1ec867c22"
 metafile = true
 
 [[files]]
+file = "mods/waystones.pw.toml"
+hash = "2266cb1da126b45b30bf361cb9126fdb48e731587be34ffe79006eb882a757ca"
+metafile = true
+
+[[files]]
 file = "mods/you-thief-remastered-edition.pw.toml"
 hash = "64073c4e3821f207898cea590e67cfcc21293734832840099e78f18ac02a6405"
 metafile = true
