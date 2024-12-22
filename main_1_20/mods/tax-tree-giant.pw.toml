@@ -1,0 +1,13 @@
+name = "Tax' Tree Giant"
+filename = "TaxTreeGiant+M.1.20.1+ForM.1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "268ae9a6f65d888a80959cdcb04b57f442c5c891"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5438155
+project-id = 1038018

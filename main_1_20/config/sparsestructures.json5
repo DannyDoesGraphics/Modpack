@@ -13,6 +13,22 @@
     {
       "structure": "#biomeswevegone:abandoned_praire_houses",
       "factor": 2
+    },
+    {
+      "structure": "taxtg:giant_cherryblossom_tree",
+      "factor": 1.0
+    },
+    {
+      "structure": "taxtg:giant_oak_tree",
+      "factor": 1.0
+    },
+    {
+      "structure": "taxtg:giant_cherryjungle_tree",
+      "factor": 1.0
+    },
+    {
+      "structure": "taxtg:giant_spruce_tree",
+      "factor": 1.0
     }
     // example of the mansion being doubled in rarity (the mod's default)
     // add the structures you want to modify in the format:
