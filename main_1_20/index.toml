@@ -70,7 +70,7 @@ hash = "2d10b6249926abb43351ca7bae16ebd396842ae96ff2455f464ca8e43dfc8d7e"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "d3371e4c6a771a18d27ec96fa43282c6f27e5d3d2a576c3106980dbe9909b082"
+hash = "774f6ba1abbf4b343920d6811602f61f02be6a6782d2cc2c80b96706c1d8463f"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -83,6 +83,10 @@ hash = "99ec348cfa6d5204b0c004fc705ee979c79177c4c78fd6c0edcf727174b1c26f"
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
 hash = "2c65933db480f873a2d71d85f4505b26d95c4f45171d696a490d926e7da7f927"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "2f98338311df26e7a774db9df0bd2bce84da6bee5c815e1bee7fa8961ac2c319"
 
 [[files]]
 file = "defaultoptions/create-server.toml"
