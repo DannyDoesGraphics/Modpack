@@ -41,6 +41,10 @@ file = "config/ftbquests/quests/data.snbt"
 hash = "09898b67cd8d405913aab4ce68096767ffa25685f20b4d91c8e33e5f0fb176e7"
 
 [[files]]
+file = "config/item_obliterator.json"
+hash = "ccc6c8733d1e18d8793af3285dae6ba5c604fbc664892e37dbce71760d0b74e6"
+
+[[files]]
 file = "config/jade/jade.json"
 hash = "510f629fc80685d5438bb22c0444397b4ed393bb8f531ba7e9d70086e2267648"
 
@@ -51,6 +55,10 @@ hash = "2d10b6249926abb43351ca7bae16ebd396842ae96ff2455f464ca8e43dfc8d7e"
 [[files]]
 file = "config/sparsestructures.json5"
 hash = "4d4422918f909f8aa7641400ce6d03c0c4d5eef333e3c463a84d4c80ad80f19e"
+
+[[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "2c65933db480f873a2d71d85f4505b26d95c4f45171d696a490d926e7da7f927"
 
 [[files]]
 file = "defaultoptions/create-server.toml"
@@ -227,7 +235,11 @@ hash = "54e6a55c1a03314c0a25578675dc5327b7fe1d681f951410f4e668371da647b3"
 
 [[files]]
 file = "kubejs/server_scripts/auto_shutdown.js"
-hash = "ceca99e21aa736ebbf42745620eeefbc241388ba15b8073da5b639164f23db66"
+hash = "e938138c2b69b63b5d4954588b055da122a7bdfd7ab7a595f28f55978499cac7"
+
+[[files]]
+file = "kubejs/server_scripts/day_counter.js"
+hash = "c20b2a68449d3b738797e4f708220d0e72522c96b14a82d4b9f51e21f1574add"
 
 [[files]]
 file = "mods/DistantHorizons-2.3.0-b-dev-1.20.1-fabric-forge.jar"
@@ -554,6 +566,11 @@ hash = "03c55a1cbe4e547abba255cd02d157cb0ce3f8b782daa33797048061751b0f55"
 metafile = true
 
 [[files]]
+file = "mods/item-obliterator.pw.toml"
+hash = "8d2954e230da5baa467b2851827aed41e6c7544fd2ddbb581fa177efb2bc0ffb"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "7f6c0ca162ebadc819fa2fe5d925daec6144d3480a6d75c769a72b8b46b78f9f"
 metafile = true
@@ -691,6 +708,11 @@ metafile = true
 [[files]]
 file = "mods/music-maker-mod.pw.toml"
 hash = "89c6efe2b6bd0fdd7d47f8a9611fced3a4f21046c5d4a45538e14b5acfd25106"
+metafile = true
+
+[[files]]
+file = "mods/necronomicon.pw.toml"
+hash = "1802dcd780c6deb02fb0d9251474f221077c7c80b8d673585ab59a93f4fe2abb"
 metafile = true
 
 [[files]]
@@ -905,6 +927,11 @@ metafile = true
 [[files]]
 file = "mods/watermedia.pw.toml"
 hash = "8b108929d7d02119ed04797816f2cf34984cfa64ffe101828717ddd1ec867c22"
+metafile = true
+
+[[files]]
+file = "mods/you-thief-remastered-edition.pw.toml"
+hash = "64073c4e3821f207898cea590e67cfcc21293734832840099e78f18ac02a6405"
 metafile = true
 
 [[files]]
