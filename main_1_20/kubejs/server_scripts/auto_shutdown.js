@@ -1,5 +1,5 @@
 let lastActivityTime = Date.now(); // Track the last time players were online
-const maxInactivityMillis = 300000; // Maximum inactivity duration in milliseconds (e.g., 5 minutes)
+const maxInactivityMillis = 10; // Maximum inactivity duration in milliseconds (e.g., 5 minutes)
 
 function checkInactivity(server) {
     const onlinePlayers = server.players.size();
@@ -17,10 +17,9 @@ function checkInactivity(server) {
     }
 }
 
-// Schedule a background task to check inactivity every second
-global.setInterval(() => {
-    const server = globalThis.server; // Assuming `server` is globally accessible
-    if (server) {
-        checkInactivity(server);
-    }
-}, 1000); // Check every 1 second
+ServerEvents.loaded(event => {
+    // Schedule a background task to check inactivity every second
+    setInterval(() => {
+        checkInactivity(event.server);
+    }, 1000); // Check every 1 second
+});
