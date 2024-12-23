@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "taxtg:giant_spruce_tree",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "biomes": [
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:snowy_taiga",
+    "minecraft:taiga",
+    "biomeswevegone:canadian_shield",
+    "biomeswevegone:coniferous_forest",
+    "biomeswevegone:dacite_ridges"
+  ],
+  "use_expansion_hack": false
+}

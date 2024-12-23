@@ -289,6 +289,22 @@ file = "global_packs/required_data/DAM/data/simplehats/loot_tables/inject/hatbag
 hash = "a7ebf259b0f0d8cae1ab9fc1a13067a5cf664e10b07d9b3218da78bf0c33e144"
 
 [[files]]
+file = "global_packs/required_data/DAM/data/taxtg/worldgen/structure/giant_cherryblossom_tree.json"
+hash = "33d8c4c74f744ed7d001f424aa6297fdc7f44a7e24806614fde139c571b510da"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/taxtg/worldgen/structure/giant_jungle_tree.json"
+hash = "947e2c62a17abe864b5b525f3f5009e7b006c1202fd4c0e86f5d929d3894e590"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/taxtg/worldgen/structure/giant_oak_tree.json"
+hash = "0212c64ace0e70195156c2752bbc62306d4ea45e786775e6562682ca070e9917"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/taxtg/worldgen/structure/giant_spruce_tree.json"
+hash = "b7c7be2ccf6f14d979f0faf53d0fb0c5f953a8b9aeeff40323f46e994863989a"
+
+[[files]]
 file = "global_packs/required_data/DAM/data/twilightforest/loot_tables/entities/hydra.json"
 hash = "38ddcd8b980314734648be8655f5b4450fc3a0f2d8f85d2361cbfb69f40c324b"
 
