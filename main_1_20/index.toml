@@ -10,7 +10,7 @@ hash = "db5c9fddb7816fae75ecdb86e604c97408eca8626d785b9380a0b39d68b8bd58"
 
 [[files]]
 file = "config/betterdays-common.toml"
-hash = "470761709d6db769ee5c7e053b31a3b67382884265c8f4bdc393017240151659"
+hash = "614c1c37bd243b25b3c16466318887d1187320d72717dfbe934281b93f8ef853"
 
 [[files]]
 file = "config/create_connected-common.toml"
