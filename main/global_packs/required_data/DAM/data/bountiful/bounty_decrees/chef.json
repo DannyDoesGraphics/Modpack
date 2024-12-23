@@ -1,0 +1,10 @@
+{
+	"name": "Chef",
+	"objectives": [
+		"chef_objs",
+		"butcher_objs"
+	],
+	"rewards": [
+        "chef_rews"
+	]
+}

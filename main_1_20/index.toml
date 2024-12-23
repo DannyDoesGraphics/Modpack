@@ -109,6 +109,46 @@ file = "global_packs/required_data/DAM/data/alexscaves/loot_tables/entities/trem
 hash = "632946f6967c3408be16da6f0e8587e940a376d3eeb1df23e9dd9be3919c525b"
 
 [[files]]
+file = "global_packs/required_data/DAM/data/bountiful/bounty_decrees/mh.json"
+hash = "9420a5cf68c219a94b9256918eb2e15ae1f015ba8520f948c422eadd5073efe2"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/bountiful/bounty_decrees/photographer.json"
+hash = "7908e18e27b6d3dc37bf8a65b849245e87cffefaf22c9c8aa60264cf3432d31d"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/bountiful/bounty_pools/_all_objs.json"
+hash = "d0a3aff67ae16b342a5c500f2578672a9a1595df77859f8bce3c10f6aa2c90be"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/bountiful/bounty_pools/_all_rews.json"
+hash = "ce62c090b8ceb855d2ffcff043ed1bb289b336ebcd15e38f3e222528053b37dd"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/bountiful/bounty_pools/fisherman_objs.json"
+hash = "dbad43d0e5fe2f581c42e4e74d552b1cbd365400b7ac3e7167b8260ea9d07c87"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/bountiful/bounty_pools/fisherman_rews.json"
+hash = "f2e66d4fef01f02825504d46c39ec6dc35cd9b6c393224288d7a2b249e18bb56"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/bountiful/bounty_pools/mh_objs.json"
+hash = "a52e6a8761c0252846715c765c670eb05fc0017d5f84501e3c9bb97b169dc376"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/bountiful/bounty_pools/mh_rews.json"
+hash = "7c2f0342b8297b399f1914fb5b0545ba274338f212c3e326cb7722f95074cd4b"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/bountiful/bounty_pools/ph_objs.json"
+hash = "e128bf24c02177ed4073d2fcdfc514bb3c21c3471a2c3c2fafdb0354bf6824f8"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/bountiful/bounty_pools/ph_rews.json"
+hash = "397baa96d53937b51bcd777fb494b9177a1f59fd562c096dd05bcce4e7e932bb"
+
+[[files]]
 file = "global_packs/required_data/DAM/data/cataclysm/loot_tables/entities/ancient_remnant.json"
 hash = "bb9768c055aa6b3881349a7acddcfacdf2d4c72d218e5743573dcf45390cae4e"
 
@@ -233,6 +273,22 @@ file = "global_packs/required_data/DAM/data/sereneseasons/tags/worldgen/biome/tr
 hash = "9179628f35f9014b295fa36c7644038d8414d728ed5cc7f751b23a1507e5d5aa"
 
 [[files]]
+file = "global_packs/required_data/DAM/data/simplehats/loot_modifiers/hat_lootinject_chest.json"
+hash = "0ff145ee8ca63f2a73e9d9607d08a6b504fcd4b75c1704cec99d6cf503f78842"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/simplehats/loot_modifiers/hat_lootinject_entity.json"
+hash = "8f6eebed6cdde684abdeac9745e20ffdfee5cab322ba3cde14fa41115f38a070"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/simplehats/loot_tables/inject/hatbag_chest.json"
+hash = "b5d4a2d8c5aadb1738d68a6f9f7c7377cd911ec777c3e61676d3c1887a82ae3f"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/simplehats/loot_tables/inject/hatbag_entity.json"
+hash = "a7ebf259b0f0d8cae1ab9fc1a13067a5cf664e10b07d9b3218da78bf0c33e144"
+
+[[files]]
 file = "global_packs/required_data/DAM/data/twilightforest/loot_tables/entities/hydra.json"
 hash = "38ddcd8b980314734648be8655f5b4450fc3a0f2d8f85d2361cbfb69f40c324b"
 
@@ -260,6 +316,10 @@ metafile = true
 [[files]]
 file = "global_packs/required_data/waterframes-server.toml"
 hash = "54e6a55c1a03314c0a25578675dc5327b7fe1d681f951410f4e668371da647b3"
+
+[[files]]
+file = "kubejs/client_scripts/bountiful.js"
+hash = "5b5f3e0b273ad78d4f2de9176ff74e1ec1c5afd9f1ebfb0245555e6c1eb0d4c6"
 
 [[files]]
 file = "kubejs/server_scripts/auto_shutdown.js"
@@ -361,6 +421,11 @@ metafile = true
 [[files]]
 file = "mods/blockui.pw.toml"
 hash = "5be62cf52a3584f39286d261f9325a1ddfb0efb6f1838b9f368df6a28cab3d15"
+metafile = true
+
+[[files]]
+file = "mods/bountiful.pw.toml"
+hash = "b317b19055dd6bb83ad65a3dc937fd69eb458e5cc265c023a7de0ac6d39bbef0"
 metafile = true
 
 [[files]]
@@ -524,7 +589,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "a1293fe201a35ef73ad1d4f313e8beef21dff3d5f1611ef795aeda59c6ba65c5"
+hash = "1102c26c8d4affe3248fd70298e0a5ccc86f7791b33a634955bd4fa7ff927897"
 metafile = true
 
 [[files]]
@@ -648,6 +713,11 @@ hash = "dca44614a72da5f7d2d57823cc54aaf3335d652c1a447a6e5df2e60365a6ea95"
 metafile = true
 
 [[files]]
+file = "mods/kambrik.pw.toml"
+hash = "c87302d1a4dc50b28115cd591dd32f751a0b9ca880f20658d2e537cb117a7df8"
+metafile = true
+
+[[files]]
 file = "mods/kiwi.pw.toml"
 hash = "d18b670d2dd2cbbcd4325312207040b8b068f84077e60b475ad1ecd05fcd4232"
 metafile = true
@@ -734,7 +804,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "0eacb2b9551358ec97b7c790f324a327a439d98852c2df5bd2d313cb024ea50f"
+hash = "cbb8fc4b97e5ad290e68f9895bfa8b12c33b4211d1134fe6836195ce2fe50016"
 metafile = true
 
 [[files]]
@@ -904,6 +974,11 @@ metafile = true
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
 hash = "5845ae5b5b2510a6cdd5699ccef3dfa10e3218d4348ddb10c057fed7c82aa65a"
+metafile = true
+
+[[files]]
+file = "mods/simple-hats.pw.toml"
+hash = "d230becbad974464c274e76081ff460f4b66724ef7f590cfc8fe8ff9253f2c43"
 metafile = true
 
 [[files]]
