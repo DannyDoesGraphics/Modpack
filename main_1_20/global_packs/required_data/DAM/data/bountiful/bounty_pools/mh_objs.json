@@ -186,6 +186,39 @@
             "unitWorth": 500,
             "rarity": "RARE",
             "timeMult": 10.0
+        },
+        "mh_obj_cockatrice": {
+            "type": "entity",
+            "content": "aether:cockatrice",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 500,
+            "rarity": "RARE",
+            "timeMult": 10.0
+        },
+        "mh_obj_zephyr": {
+            "type": "entity",
+            "content": "aether:zephyr",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 400,
+            "rarity": "RARE",
+            "timeMult": 10.0
+        },
+        "mh_obj_skeletion_druid": {
+            "type": "entity",
+            "content": "aether:skeleton_druid",
+            "amount": {
+                "min": 1,
+                "max": 32
+            },
+            "unitWorth": 500,
+            "rarity": "RARE",
+            "timeMult": 10.0
         }
     }
 }
