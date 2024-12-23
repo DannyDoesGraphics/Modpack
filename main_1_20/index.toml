@@ -93,6 +93,10 @@ file = "defaultoptions/create-server.toml"
 hash = "6850c1c92516f61cf224cd17520ccade2421b5ad5a9e5db6604943a44e2b75c4"
 
 [[files]]
+file = "defaultoptions/minecolonies-server.toml"
+hash = "5a4e512b397d5f65127801e140ff7244f2c6a2992ab6d33c660bd6557a63ad36"
+
+[[files]]
 file = "defaultoptions/quality_food-server.toml"
 hash = "e22e7d14b6d3ecb6c165a9768ac106007ff109591a0f5aa5b7b47fc51007b952"
 
@@ -134,7 +138,7 @@ hash = "f2e66d4fef01f02825504d46c39ec6dc35cd9b6c393224288d7a2b249e18bb56"
 
 [[files]]
 file = "global_packs/required_data/DAM/data/bountiful/bounty_pools/mh_objs.json"
-hash = "a52e6a8761c0252846715c765c670eb05fc0017d5f84501e3c9bb97b169dc376"
+hash = "c4b578b0cff9e74c2ddfa5681610ef7c84f012b90697f31c0df19f97bf1fa0f2"
 
 [[files]]
 file = "global_packs/required_data/DAM/data/bountiful/bounty_pools/mh_rews.json"
@@ -323,6 +327,16 @@ hash = "be9928d801d786e548297f9c4735d6c2c94a665a9ac44086cf74b8c453873e56"
 [[files]]
 file = "global_packs/required_data/DAM/pack.mcmeta"
 hash = "0f8232e15da31dd677370cde5075c6f4280adfeda53b314af35a793b07a21c1b"
+
+[[files]]
+file = "global_packs/required_data/better-compass.pw.toml"
+hash = "b8a74150f0db9b77b9f7bee074ec27b3dbef24ac62678238dbef80190c34014f"
+metafile = true
+
+[[files]]
+file = "global_packs/required_data/no-despawning-death-loot.pw.toml"
+hash = "f52fa2ecf799f8d84cc0bbb1fd98ea7158361256c45fa20c06a1d0beaaadc408"
+metafile = true
 
 [[files]]
 file = "global_packs/required_data/no-elytra-firework-boost.pw.toml"
@@ -920,6 +934,11 @@ metafile = true
 [[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "765987a78e5d8c782d0da2de99998b43b5907d6c41347d3804045ad109e4a586"
+metafile = true
+
+[[files]]
+file = "mods/playerrevive.pw.toml"
+hash = "256c8f826d91567bc5234062f9bf1dbd0f2262c599266408c19aea5150b0c981"
 metafile = true
 
 [[files]]

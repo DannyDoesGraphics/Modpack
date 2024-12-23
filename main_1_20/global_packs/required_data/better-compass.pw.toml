@@ -1,0 +1,13 @@
+name = "Better Compass"
+filename = "PK_Better_Compass_V.2.0.2_MC_1.20_to_1.20.4.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JG6g520a/versions/Dv7SP1nU/PK_Better_Compass_V.2.0.2_MC_1.20_to_1.20.4.zip"
+hash-format = "sha512"
+hash = "a1855427be5a3932fab5c9c7f792a32197effa64876dc8d37321323b2aea4957dc3a5894628910c2c598edd9830aa48c4390a82b433994f6307958ef9195ce03"
+
+[update]
+[update.modrinth]
+mod-id = "JG6g520a"
+version = "Dv7SP1nU"
