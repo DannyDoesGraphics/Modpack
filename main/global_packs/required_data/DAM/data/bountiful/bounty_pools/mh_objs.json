@@ -1,0 +1,103 @@
+{
+    "content": {
+        "mh_obj_slime": {
+            "type": "entity",
+            "content": "minecraft:slime",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 150,
+            "timeMult": 1.3,
+            "rarity": "COMMON"
+        },
+        "mh_obj_slime_explosion": {
+            "type": "entity",
+            "content": "minecraft:slime",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 150,
+            "timeMult": 1.3,
+            "weightMult": 0.2
+        },
+        "mh_obj_spider": {
+            "type": "entity",
+            "content": "minecraft:spider",
+            "amount": {
+                "min": 2,
+                "max": 4
+            },
+            "unitWorth": 400,
+            "timeMult": 1.5,
+            "rarity": "COMMON"
+        },
+        "mh_obj_zombie": {
+            "type": "entity",
+            "content": "minecraft:zombie",
+            "amount": {
+                "min": 2,
+                "max": 8
+            },
+            "unitWorth": 300,
+            "timeMult": 1.5,
+            "rarity": "COMMON"
+        },
+        "mh_obj_skeleton": {
+            "type": "entity",
+            "content": "minecraft:skeleton",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 400,
+            "timeMult": 1.5,
+            "rarity": "COMMON"
+        },
+        "mh_obj_creeper": {
+            "type": "entity",
+            "content": "minecraft:creeper",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 300,
+            "timeMult": 1.5,
+            "rarity": "COMMON"
+        },
+        "mh_obj_centipede": {
+            "type": "entity",
+            "content": "alexsmobs:centipede_head",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 2000,
+            "rarity": "RARE",
+            "timeMult": 2.0
+        },
+        "mh_obj_wither": {
+            "type": "entity",
+            "content": "minecraft:wither",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50000,
+            "rarity": "LEGENDARY",
+            "timeMult": 4.0
+        },
+        "mh_obj_void_worm": {
+            "type": "entity",
+            "content": "alexsmobs:void_worm",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 18000,
+            "rarity": "EPIC",
+            "timeMult": 2.0
+        }
+    }
+}

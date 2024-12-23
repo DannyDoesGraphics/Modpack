@@ -1,0 +1,88 @@
+{
+    "content": {
+        "all_rew_common_hatbag_reward": {
+            "type": "item",
+            "content": "simplehats:hatbag_common",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "rarity": "UNCOMMON",
+            "unitWorth": 2000
+        },
+        "all_rew_uncommon_hatbag_reward": {
+            "type": "item",
+            "content": "simplehats:hatbag_uncommon",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "rarity": "RARE",
+            "unitWorth": 4000
+        },
+        "all_rew_rare_hatbag_reward": {
+            "type": "item",
+            "content": "simplehats:hatbag_rare",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "rarity": "RARE",
+            "unitWorth": 8000,
+            "forbids": [
+                {
+                    "type": "entity",
+                    "content": "minecraft:zombie"
+                },
+                {
+                    "type": "entity",
+                    "content": "minecraft:skeleton"
+                }
+            ]
+        },
+        "all_rew_epic_hatbag_reward": {
+            "type": "item",
+            "content": "simplehats:hatbag_epic",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "rarity": "EPIC",
+            "unitWorth": 16000,
+            "forbids": [
+                {
+                    "type": "entity",
+                    "content": "minecraft:zombie"
+                },
+                {
+                    "type": "entity",
+                    "content": "minecraft:skeleton"
+                },
+                {
+                    "type": "entity",
+                    "content": "minecraft:creeper"
+                },
+                {
+                    "type": "entity",
+                    "content": "minecraft:spider"
+                },
+                {
+                    "type": "entity",
+                    "content": "minecraft:slime"
+                }
+            ]
+        },
+        "all_rew_primary_currency": {
+            "amount": {
+				"min": 1,
+				"max": 16
+			}
+        },
+        "all_rew_primary_currency_rare_bargain": {
+            "amount": {
+				"min": 1,
+				"max": 8
+			}
+        }
+    }
+}

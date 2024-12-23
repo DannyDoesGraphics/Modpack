@@ -1,0 +1,204 @@
+{
+    "content": {
+        "fishreman_rew_mint_carp": {
+            "type": "item",
+            "content": "tide:mint_carp",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_mint_clayfish": {
+            "type": "item",
+            "content": "tide:clayfish",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_mint_trout": {
+            "type": "item",
+            "content": "tide:trout",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_mint_angelfish": {
+            "type": "item",
+            "content": "tide:angelfish",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_mint_barracuda": {
+            "type": "item",
+            "content": "tide:barracuda",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_mint_sailfish": {
+            "type": "item",
+            "content": "tide:sailfish",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_mint_catfish": {
+            "type": "item",
+            "content": "tide:catfish",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_mint_pike": {
+            "type": "item",
+            "content": "tide:pike",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_mint_bass": {
+            "type": "item",
+            "content": "tide:bass",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_mint_tuna": {
+            "type": "item",
+            "content": "tide:tuna",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_yellow_perch": {
+            "type": "item",
+            "content": "tide:yellow_perch",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_ocean_perch": {
+            "type": "item",
+            "content": "tide:ocean_perch",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_guppy": {
+            "type": "item",
+            "content": "tide:guppy",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_mint_bluegill": {
+            "type": "item",
+            "content": "tide:bluegill",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_mint_mackerel": {
+            "type": "item",
+            "content": "tide:mackerel",
+            "rarity": "UNCOMMON",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 65
+        },
+        "fishreman_rew_mint_cave_eel": {
+            "type": "item",
+            "content": "tide:cave_eel",
+            "rarity": "RARE",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 100
+        },
+        "fishreman_rew_iron_tetra": {
+            "type": "item",
+            "content": "tide:iron_tetra",
+            "rarity": "RARE",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 100
+        },
+        "fishreman_rew_glowfish": {
+            "type": "item",
+            "content": "tide:glowfish",
+            "rarity": "RARE",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 100
+        },
+        "fishreman_rew_mint_anglerfish": {
+            "type": "item",
+            "content": "tide:anglerfish",
+            "rarity": "RARE",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 100
+        },
+        "fishreman_rew_cave_crawler": {
+            "type": "item",
+            "content": "tide:cave_crawler",
+            "rarity": "RARE",
+            "amount": {
+                "min": 3,
+                "max": 15
+            },
+            "unitWorth": 100
+        }
+    }
+}
