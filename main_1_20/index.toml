@@ -409,6 +409,11 @@ hash = "b84646283690a60b7759c6fd4ddef324225de6ea2eb99d4a4bdc1af78bddcdd5"
 metafile = true
 
 [[files]]
+file = "mods/antique-atlas-4.pw.toml"
+hash = "dabd916839063ae6e173ee945d11d42dc54dd75b55c620043bd3a093d299e05c"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "793693a85f3c87d4e899ee0c58deabc53690bf5a70f17343f28fd5063ce8a1e1"
 metafile = true
@@ -491,6 +496,11 @@ metafile = true
 [[files]]
 file = "mods/combat-roll.pw.toml"
 hash = "d6a121d9d5077c45622f94bcf146e1bc5a2e06dd9ab3f6cdebfd0778e0c0c45c"
+metafile = true
+
+[[files]]
+file = "mods/connector.pw.toml"
+hash = "852ee3d5dea735c0c8f4c030edb06164863e7d27eef535c697f86a8b20a1cff0"
 metafile = true
 
 [[files]]
@@ -643,6 +653,11 @@ hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
 metafile = true
 
 [[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "55cfba35c153fb922dd2d52b24fa163b040dee11be2fdff6656093a919c69ca0"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "6e12f6c7549e2a4029c61d6849b187d6ec26c286ac216ad2db64178c0f495615"
 metafile = true
@@ -735,6 +750,11 @@ metafile = true
 [[files]]
 file = "mods/jaopca.pw.toml"
 hash = "3f1207d625ee538fbbaab624ee18a630de87bd7a83dfee80aa985672c57624b2"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "3c4797a9ade2ad41b4163a8838ad95b27f2b07906bf44f1c05a04c822e44719b"
 metafile = true
 
 [[files]]
@@ -1049,6 +1069,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "21ded7427eed05b00fd5f1fb2c1e5232809113dc9020f612269181cad844a1fb"
+metafile = true
+
+[[files]]
+file = "mods/surveyor.pw.toml"
+hash = "9f37f04384bd80a9c5d0dd72aa55cc7884ec18818d5657b7ec2c0dad4ff1358a"
 metafile = true
 
 [[files]]
