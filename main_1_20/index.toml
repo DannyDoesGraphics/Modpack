@@ -369,6 +369,11 @@ hash = "2e31627453295ef5d88ada8a3d294cd04eec3ef61dfd9f8abeee8d837f4b9dc5"
 metafile = true
 
 [[files]]
+file = "mods/accessories-tc-layer.pw.toml"
+hash = "886832ee8ee9622623a9d36351f3f955a923d3e67a0b097532d1c8b8fc7848b1"
+metafile = true
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "fc7a2e6906974b8f7ed9acced35b318b3ef55e336fe26bbc3947d171400466ce"
 metafile = true
@@ -1033,7 +1038,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-hats.pw.toml"
-hash = "d230becbad974464c274e76081ff460f4b66724ef7f590cfc8fe8ff9253f2c43"
+hash = "50034f442817b191a1b8d91577475ceadb148b67c0d262f7bd88168904aef666"
 metafile = true
 
 [[files]]

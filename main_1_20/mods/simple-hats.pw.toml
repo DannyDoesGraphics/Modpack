@@ -1,13 +1,13 @@
 name = "Simple Hats"
-filename = "simplehats-forge-1.20.1-0.3.2.jar"
+filename = "simplehats-fabric-1.20.1-0.3.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/iSkQCp6b/versions/PH3QFp5w/simplehats-forge-1.20.1-0.3.2.jar"
+url = "https://cdn.modrinth.com/data/iSkQCp6b/versions/SDPZOmWZ/simplehats-fabric-1.20.1-0.3.2.jar"
 hash-format = "sha512"
-hash = "5f2cf4278290a9b8893ed540eddc1e04059946aef633d611ec8d74201cf4c3b0917719f824b9463967c575c473e94a8dceef8ee6822639c094b25c50f6cac6dc"
+hash = "b9da2150f2e08d19783d09b32c5ff61549f86d15a8a0920dd90bbd3e081ff43e18d8d4a05dbdcfa9c60083343c97b0a499ebbf16b583cd169f277efb1e04cd07"
 
 [update]
 [update.modrinth]
 mod-id = "iSkQCp6b"
-version = "PH3QFp5w"
+version = "SDPZOmWZ"
