@@ -1148,12 +1148,12 @@ metafile = true
 
 [[files]]
 file = "mods/truly-modular-archery.pw.toml"
-hash = "f4f5fec1fb130500431215ecdc5c6139c4202541307cf92e6e613a483131ae13"
+hash = "1d6e54343d91e30fadb30b9fa8065b4409267c5014a1ef0651e9200389d77253"
 metafile = true
 
 [[files]]
 file = "mods/truly-modular-arsenal.pw.toml"
-hash = "cee6c97f16c491690fefa4d70ea0ba43007211471ff608d207c64f4ee9f684f8"
+hash = "800fe8615e207ddfb7988f2900e89370230234898c1ebce1df3bef31837015bd"
 metafile = true
 
 [[files]]

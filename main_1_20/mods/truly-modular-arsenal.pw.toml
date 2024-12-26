@@ -1,13 +1,13 @@
 name = "Truly Modular: Arsenal"
-filename = "Truly-Modular-Arsenal-1.0-pre-release.2-1.20.1.jar"
+filename = "Truly-Modular-arsenal-arsenal-forge-1.12-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/V4LaId7f/versions/RBGrIZky/Truly-Modular-Arsenal-1.0-pre-release.2-1.20.1.jar"
+url = "https://cdn.modrinth.com/data/V4LaId7f/versions/dOsUumCK/Truly-Modular-arsenal-arsenal-forge-1.12-1.20.1.jar"
 hash-format = "sha512"
-hash = "9449a72a87d22c9e15f5d25b2b277a0fb4e88fef99200f3b4010a22a17656151e3fb6935d1838bc15f1a0dda78b6558f1bb23de465837db2743d8e95eb7a77d0"
+hash = "8623868226ecafd6a883e6ab1a6fd9247b47b7cf69d3755d0b87a5157b46d988734405f18e13187e4fa5878798d5070ff1a06ee4f406f6bcc70d56e87ec49a3d"
 
 [update]
 [update.modrinth]
 mod-id = "V4LaId7f"
-version = "RBGrIZky"
+version = "dOsUumCK"
