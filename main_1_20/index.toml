@@ -668,6 +668,11 @@ hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
 metafile = true
 
 [[files]]
+file = "mods/forgematica.pw.toml"
+hash = "b07eb1a468072448635497c0b0f08bb16834cc161790625eddc9f995c0d77740"
+metafile = true
+
+[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "55cfba35c153fb922dd2d52b24fa163b040dee11be2fdff6656093a919c69ca0"
 metafile = true
@@ -855,6 +860,11 @@ metafile = true
 [[files]]
 file = "mods/macaws-holidays.pw.toml"
 hash = "c2b6ff731ec50589e048a1b424bed73d3d3498cc99b3588db6c224465bb82454"
+metafile = true
+
+[[files]]
+file = "mods/mafglib.pw.toml"
+hash = "9c4da7c2784ead3ef2486ec80417cbcedcf8d35a5176bccdbebb8469d60d5e7a"
 metafile = true
 
 [[files]]
@@ -1074,6 +1084,16 @@ metafile = true
 [[files]]
 file = "mods/sparsestructuresreforged.pw.toml"
 hash = "74317333f3add3a1cb411d1bab46c3fdba6b2ac9df6e953b582af9e0dc1932d4"
+metafile = true
+
+[[files]]
+file = "mods/storage-drawers-create-compat.pw.toml"
+hash = "000b6ed7423aa323da45cdcd9db145f4f07acd8bc9cd9abc4e335f5651605af4"
+metafile = true
+
+[[files]]
+file = "mods/storagedrawers.pw.toml"
+hash = "fd6155814d00766c567f1b8459645346e125b3ee4bf37757f70084e281f8a7dc"
 metafile = true
 
 [[files]]
