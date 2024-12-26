@@ -414,6 +414,11 @@ hash = "b84646283690a60b7759c6fd4ddef324225de6ea2eb99d4a4bdc1af78bddcdd5"
 metafile = true
 
 [[files]]
+file = "mods/ante.pw.toml"
+hash = "03b1e31dee87372b13e694b5790ad083aa2431423738b985c827205fc9f48091"
+metafile = true
+
+[[files]]
 file = "mods/antique-atlas-4.pw.toml"
 hash = "dabd916839063ae6e173ee945d11d42dc54dd75b55c620043bd3a093d299e05c"
 metafile = true
@@ -521,6 +526,11 @@ metafile = true
 [[files]]
 file = "mods/create-connected.pw.toml"
 hash = "a69f6a12d1cbf4eb25ae928796dc96f51c4f26081665c413be35172f1de558b8"
+metafile = true
+
+[[files]]
+file = "mods/create-copper-zinc.pw.toml"
+hash = "7c0843319b81c8ad307690378d6f5bc87ef3f8015f687bb6f1a4103cdc9b0845"
 metafile = true
 
 [[files]]
@@ -634,7 +644,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "1102c26c8d4affe3248fd70298e0a5ccc86f7791b33a634955bd4fa7ff927897"
+hash = "d78233f2d3299400d8edf436ae6aa5811c5e48db7f1f3e9c9b630460645665a6"
 metafile = true
 
 [[files]]
@@ -664,7 +674,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "6e12f6c7549e2a4029c61d6849b187d6ec26c286ac216ad2db64178c0f495615"
+hash = "15a17641d9dac6c7e026f827dcfdb6cdf9682a4233bfee4884764d9bd8981eb7"
 metafile = true
 
 [[files]]
@@ -719,7 +729,7 @@ metafile = true
 
 [[files]]
 file = "mods/guard-villagers.pw.toml"
-hash = "881a343c0c55719a0e85539e10925d38abaa0001426720448775c5c7b9dc0414"
+hash = "513fdc2e9937e75cfa2d581f4bf30a94803c6c9abc4af7a4e731bb0b6f48be21"
 metafile = true
 
 [[files]]
@@ -859,7 +869,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "cbb8fc4b97e5ad290e68f9895bfa8b12c33b4211d1134fe6836195ce2fe50016"
+hash = "79372f0359bf2846118764cbacb77638cc88f960e1aac90495eeccd11e560e89"
 metafile = true
 
 [[files]]
@@ -884,7 +894,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "1e09c146381898d9f8fb0d62f186fc596f5157920cb9ae1dc086b0d0abf29645"
+hash = "c9c7e7cce158186a4825959bf63269cb2ee811d15c518a65a6c7fff00651396f"
 metafile = true
 
 [[files]]
@@ -1108,7 +1118,7 @@ metafile = true
 
 [[files]]
 file = "mods/tide.pw.toml"
-hash = "c31e9f9c2d9a1d70423288c6cc38d6cba008ccc40f3d11cd5dbc6dbac1854956"
+hash = "afb531a3046121a883b39c09df4e733b52acd6539e78da9a70710db5c8695803"
 metafile = true
 
 [[files]]
@@ -1138,12 +1148,12 @@ metafile = true
 
 [[files]]
 file = "mods/truly-modular-archery.pw.toml"
-hash = "1d6e54343d91e30fadb30b9fa8065b4409267c5014a1ef0651e9200389d77253"
+hash = "f4f5fec1fb130500431215ecdc5c6139c4202541307cf92e6e613a483131ae13"
 metafile = true
 
 [[files]]
 file = "mods/truly-modular-arsenal.pw.toml"
-hash = "800fe8615e207ddfb7988f2900e89370230234898c1ebce1df3bef31837015bd"
+hash = "cee6c97f16c491690fefa4d70ea0ba43007211471ff608d207c64f4ee9f684f8"
 metafile = true
 
 [[files]]
