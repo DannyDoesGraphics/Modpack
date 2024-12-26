@@ -1,0 +1,13 @@
+name = "Storage Drawers Create compat"
+filename = "storage-drawers-create-compat-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/c8JYP4m3/versions/v9ArAQEh/storage-drawers-create-compat-1.0.0.jar"
+hash-format = "sha512"
+hash = "07f4f62234872dc05166db6ae5fb99cdcd9eecbfc10f2a19885a5d92d0839d6b6a2449473025d41d89103696d54ca82199e5d15cc72ff4027034d3efd333da2f"
+
+[update]
+[update.modrinth]
+mod-id = "c8JYP4m3"
+version = "v9ArAQEh"
