@@ -14,7 +14,7 @@ hash = "614c1c37bd243b25b3c16466318887d1187320d72717dfbe934281b93f8ef853"
 
 [[files]]
 file = "config/create_connected-common.toml"
-hash = "cf49308188e5ab430b4de24f37f925dd571e7576218badbcab494696e4a49bb8"
+hash = "611a8659b2236d9969c0a2465268081da784fc8b57f869bd14f156b134af4c37"
 
 [[files]]
 file = "config/dungeon_crawl.toml"
