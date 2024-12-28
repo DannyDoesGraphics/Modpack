@@ -14,7 +14,7 @@ hash = "614c1c37bd243b25b3c16466318887d1187320d72717dfbe934281b93f8ef853"
 
 [[files]]
 file = "config/create_connected-common.toml"
-hash = "6ad658eebc5bb0d7c517721289806b5992cd0ede33c058cbc3b18e5e8d4379e1"
+hash = "cf49308188e5ab430b4de24f37f925dd571e7576218badbcab494696e4a49bb8"
 
 [[files]]
 file = "config/dungeon_crawl.toml"
@@ -50,7 +50,7 @@ hash = "09898b67cd8d405913aab4ce68096767ffa25685f20b4d91c8e33e5f0fb176e7"
 
 [[files]]
 file = "config/item_obliterator.json"
-hash = "ccc6c8733d1e18d8793af3285dae6ba5c604fbc664892e37dbce71760d0b74e6"
+hash = "146fe1059a67fb6268830571c64d5f0378ddf3da28b09f5923ce8ba3883692ca"
 
 [[files]]
 file = "config/jade/jade.json"
