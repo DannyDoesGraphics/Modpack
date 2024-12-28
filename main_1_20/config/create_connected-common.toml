@@ -56,7 +56,7 @@ migrateCopycatsOnInitialize = true
 	logistics = true
 	#.
 	#All copycats (Install Create: Copycats+ to upgrade)
-	copycats = false
+	copycats = true
 	#.
 	#All building palette blocks
 	palette = true
