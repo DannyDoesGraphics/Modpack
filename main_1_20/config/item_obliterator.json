@@ -1,17 +1,6 @@
 {
   "blacklisted_items": [
-    "//Items here will be unusable completely",
-    "create_connected:copycat_catwalk",
-    "create_connected:copycat_block",
-    "create_connected:copycat_slab",
-    "create_connected:copycat_beam",
-    "create_connected:copycat_vertical_step",
-    "create_connected:copycat_stairs",
-    "create_connected:copycat_fence",
-    "create_connected:copycat_fence_gate",
-    "create_connected:copycat_wall",
-    "create_connected:copycat_board",
-    "create_connected:copycat_box"
+    "//Items here will be unusable completely"
   ],
   "only_disable_interactions": [
     "//Items here will not be able to be right-clicked (Interact)",
