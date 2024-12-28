@@ -539,6 +539,11 @@ hash = "7c0843319b81c8ad307690378d6f5bc87ef3f8015f687bb6f1a4103cdc9b0845"
 metafile = true
 
 [[files]]
+file = "mods/create-deco.pw.toml"
+hash = "7fab5549421a6626beb06245584ebc29c850a1e3b3bfc400665eb167ae35866a"
+metafile = true
+
+[[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "f71550f98704bdda403df05c5ac5148a9bcd685825c60d46c53938049a86bb74"
 metafile = true
