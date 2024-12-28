@@ -379,6 +379,11 @@ hash = "fc7a2e6906974b8f7ed9acced35b318b3ef55e336fe26bbc3947d171400466ce"
 metafile = true
 
 [[files]]
+file = "mods/additional-placements.pw.toml"
+hash = "cf77e076d7bc9f3ba7252911d041c3bf3de01116986ac30f8ef9d505c4a5e1ef"
+metafile = true
+
+[[files]]
 file = "mods/aether.pw.toml"
 hash = "dd0f4e61a79c60a7917fea9ee710d849df0832d9de5e05ccedafbeedbc451895"
 metafile = true
