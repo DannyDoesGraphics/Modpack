@@ -27,11 +27,11 @@
       "factor": 1.0
     },
     {
-      "structure": cataclysm:burning_arena",
+      "structure": "cataclysm:burning_arena",
       "factor": 1.5
     },
     {
-      "structure": cataclysm:soul_black_smith",
+      "structure": "cataclysm:soul_black_smith",
       "factor": 1.5
     },
     {
