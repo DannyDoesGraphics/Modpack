@@ -5,6 +5,10 @@ file = "README.md"
 hash = "d331421f5b56cdddf123ea6ef4a618d059073d8789ce222cff32dd60b5feb089"
 
 [[files]]
+file = "config/additionalplacements-startup.toml"
+hash = "2eec97bea180f60cf25f0aef22029ee36f7e4a79f850b00d210dfc9680da916e"
+
+[[files]]
 file = "config/alexscaves-client.toml"
 hash = "db5c9fddb7816fae75ecdb86e604c97408eca8626d785b9380a0b39d68b8bd58"
 
@@ -50,7 +54,7 @@ hash = "09898b67cd8d405913aab4ce68096767ffa25685f20b4d91c8e33e5f0fb176e7"
 
 [[files]]
 file = "config/item_obliterator.json"
-hash = "146fe1059a67fb6268830571c64d5f0378ddf3da28b09f5923ce8ba3883692ca"
+hash = "d9e9720d3ce49fc7fd7c5c9908fb059231639ee073e20afee3b322f73c376f52"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -70,7 +74,7 @@ hash = "2d10b6249926abb43351ca7bae16ebd396842ae96ff2455f464ca8e43dfc8d7e"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "774f6ba1abbf4b343920d6811602f61f02be6a6782d2cc2c80b96706c1d8463f"
+hash = "89c5e00a56c303f66ce390b7b22497d827b8f94a3c4eb906204fb972584a6152"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -334,13 +338,18 @@ hash = "b8a74150f0db9b77b9f7bee074ec27b3dbef24ac62678238dbef80190c34014f"
 metafile = true
 
 [[files]]
+file = "global_packs/required_data/disable-ae2-meteors-applied-energistics-2.pw.toml"
+hash = "9562fe1d76fe5c02e2d1f05018283ed3192e46cc49fd6fbeb53af2126d633cf9"
+metafile = true
+
+[[files]]
 file = "global_packs/required_data/no-despawning-death-loot.pw.toml"
 hash = "f52fa2ecf799f8d84cc0bbb1fd98ea7158361256c45fa20c06a1d0beaaadc408"
 metafile = true
 
 [[files]]
 file = "global_packs/required_data/no-elytra-firework-boost.pw.toml"
-hash = "f2c7169128cc43a5a4fe8013b2d4cb50c3cd52f3cbdebffede365a2f1672a92c"
+hash = "5007cc27d09936d722b5a40b4bcea0abc4100a3e9f7bc41979c3d2e3f0a30752"
 metafile = true
 
 [[files]]
@@ -361,7 +370,7 @@ hash = "c20b2a68449d3b738797e4f708220d0e72522c96b14a82d4b9f51e21f1574add"
 
 [[files]]
 file = "mods/DistantHorizons-2.3.0-b-dev-1.20.1-fabric-forge.jar"
-hash = "f87653bc8eb75d244897890ac35dfaff03ef5d75d7e9241b5278f212ba4d3318"
+hash = "f1ce692263c9659c4b705377bb6eab46c317b1c1f75b8801d09ef0425c649783"
 
 [[files]]
 file = "mods/accessories-cc-layer.pw.toml"
@@ -405,7 +414,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "c52aab6767b8a08db1fa860cee2f8019d804b92b80fbe78f701fcd4b37d6ad7d"
+hash = "1b7cb85da62669f134913bda2228fc7aaa2af7e3aef2a3312961acb3543178df"
 metafile = true
 
 [[files]]
@@ -521,6 +530,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
+metafile = true
+
+[[files]]
+file = "mods/copycats.pw.toml"
+hash = "b2f084d89589870c6b4a6987f4f579ab0e771c3afb1e442f9507be21cdc115a1"
 metafile = true
 
 [[files]]
@@ -724,7 +738,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "1484808760dad0e89dfbd3e3758b96dc9ecbb3d46fcec1489ac9d090213376c6"
+hash = "7ebfb737cf7bc520cdfd207892af2d7e399d69f83500042a8860084a2726a32f"
 metafile = true
 
 [[files]]
@@ -894,7 +908,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "79372f0359bf2846118764cbacb77638cc88f960e1aac90495eeccd11e560e89"
+hash = "f0146af0422d733afcbdb6e1050ae56a4963d85b847a98e956055c77c75b4e54"
 metafile = true
 
 [[files]]
@@ -909,7 +923,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "a77186c42b3385f777722ad96f80f6bda946460ba3bcd1638367dca113f8500b"
+hash = "dcd4e240c0a28f6f1f7899aa3c80193894791e7a44b7759e22787cf24f83ea1f"
 metafile = true
 
 [[files]]
@@ -919,7 +933,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "c9c7e7cce158186a4825959bf63269cb2ee811d15c518a65a6c7fff00651396f"
+hash = "d7020b5b9bcdbdb7ac63adf916da4b9f8c9e7e66a79b8657e746c23680cf72c7"
 metafile = true
 
 [[files]]
@@ -968,12 +982,12 @@ hash = "5b6979fec27b84a7c4cb6a5488936fc374190b731f8675c72c4a3b6872839afe"
 
 [[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "bacc84270f180d613e14e3cd114fe07539dbb5d144631dc68677a51a6cad5922"
+hash = "793db0ba9b343c78d9467ca4e6059c3536a5f63d37d97c7ce3de1cf6cc9922ef"
 metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "63af7b8f6dc4a8a52d73d9b05713473342a639bbf18b1066c3e23789685c3fe5"
+hash = "adcdffc1a10a3d195906d026e809fe1177a9d84334597fb28e49fd54ec48c389"
 metafile = true
 
 [[files]]
@@ -1213,7 +1227,7 @@ metafile = true
 
 [[files]]
 file = "mods/watermedia.pw.toml"
-hash = "8b108929d7d02119ed04797816f2cf34984cfa64ffe101828717ddd1ec867c22"
+hash = "fb4cd8bcbc6e25b20ead4d366a68aae08e4a1211b5410bd62009e5d529b00668"
 metafile = true
 
 [[files]]
@@ -1248,7 +1262,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/better-leaves.pw.toml"
-hash = "da6cacd85d1b3dd1b058aac6934094901fe802b16370f5da8bab73da8ea20c78"
+hash = "fcf82349376d262a92a072501f628782dab401720b1225cf8b3cc9e39ce56413"
 metafile = true
 
 [[files]]

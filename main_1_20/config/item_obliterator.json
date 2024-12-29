@@ -1,6 +1,7 @@
 {
   "blacklisted_items": [
-    "//Items here will be unusable completely"
+    "ae2:charger",
+    "ae2:inscriber"
   ],
   "only_disable_interactions": [
     "//Items here will not be able to be right-clicked (Interact)",

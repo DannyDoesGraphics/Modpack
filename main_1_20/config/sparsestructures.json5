@@ -11,6 +11,30 @@
   // this is a list of custom spread factors
   "customSpreadFactors": [
     {
+      "structure": "minecraft:fortress",
+      "factor": 1.0
+    },
+    {
+      "structure": "betterfortress:fortress",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:bastion_remnant",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:stronghold",
+      "factor": 1.0
+    },
+    {
+      "structure": cataclysm:burning_arena",
+      "factor": 1.5
+    },
+    {
+      "structure": cataclysm:soul_black_smith",
+      "factor": 1.5
+    },
+    {
       "structure": "taxtg:giant_cherryblossom_tree",
       "factor": 1.0
     },
