@@ -18,11 +18,15 @@ hash = "614c1c37bd243b25b3c16466318887d1187320d72717dfbe934281b93f8ef853"
 
 [[files]]
 file = "config/create_connected-common.toml"
-hash = "611a8659b2236d9969c0a2465268081da784fc8b57f869bd14f156b134af4c37"
+hash = "cf49308188e5ab430b4de24f37f925dd571e7576218badbcab494696e4a49bb8"
 
 [[files]]
 file = "config/dungeon_crawl.toml"
 hash = "b13cb68cbfd8e638a5cbb91e9870192f5f2fb2fcdf34a45c5f02c8d8782b6949"
+
+[[files]]
+file = "config/effortless.toml"
+hash = "e1d7b7a6026575292c4591e4893147d9edc05c340c711721c8ff27c5426caa21"
 
 [[files]]
 file = "config/emi.css"
@@ -53,8 +57,8 @@ file = "config/ftbquests/quests/data.snbt"
 hash = "09898b67cd8d405913aab4ce68096767ffa25685f20b4d91c8e33e5f0fb176e7"
 
 [[files]]
-file = "config/item_obliterator.json"
-hash = "d9e9720d3ce49fc7fd7c5c9908fb059231639ee073e20afee3b322f73c376f52"
+file = "config/item_obliterator.json5"
+hash = "4b3b2307bb7bf2500224353013d2d5386f4f30b3480d7396fbf6181cc29fb55d"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -107,6 +111,10 @@ hash = "e22e7d14b6d3ecb6c165a9768ac106007ff109591a0f5aa5b7b47fc51007b952"
 [[files]]
 file = "defaultoptions/waterframes-server.toml"
 hash = "aca5a5a58d9d5af1c45fe77b507a35a1095cc623f9c0130e5c30114a21b5a66f"
+
+[[files]]
+file = "global_packs/required_data/DAM/data/ae2/tags/worldgen/biome/has_meteorites.json"
+hash = "3ed74e33314a931be9d6af0aa3f4912754ae466860cc7588e843008257e5bcea"
 
 [[files]]
 file = "global_packs/required_data/DAM/data/alexscaves/loot_tables/entities/gum_worm.json"
@@ -313,6 +321,10 @@ file = "global_packs/required_data/DAM/data/taxtg/worldgen/structure/giant_spruc
 hash = "b7c7be2ccf6f14d979f0faf53d0fb0c5f953a8b9aeeff40323f46e994863989a"
 
 [[files]]
+file = "global_packs/required_data/DAM/data/tfmg/recipes/polarizing/ae2_certus_quartz.json"
+hash = "4b75c5feb1d42f63303d2a4ae3638babca26c83a844f238dff79a524d9f3a5c4"
+
+[[files]]
 file = "global_packs/required_data/DAM/data/twilightforest/loot_tables/entities/hydra.json"
 hash = "38ddcd8b980314734648be8655f5b4450fc3a0f2d8f85d2361cbfb69f40c324b"
 
@@ -343,6 +355,11 @@ hash = "9562fe1d76fe5c02e2d1f05018283ed3192e46cc49fd6fbeb53af2126d633cf9"
 metafile = true
 
 [[files]]
+file = "global_packs/required_data/explosion-rebuilder.pw.toml"
+hash = "76f18622347ed919ac328cdd17565ec547dcf00c6c6b6d306dceef3e2c06a644"
+metafile = true
+
+[[files]]
 file = "global_packs/required_data/no-despawning-death-loot.pw.toml"
 hash = "f52fa2ecf799f8d84cc0bbb1fd98ea7158361256c45fa20c06a1d0beaaadc408"
 metafile = true
@@ -366,7 +383,7 @@ hash = "91905b89ee625efae326591481975fcee1b8ae86bbd90ac309ffc0c4454a184c"
 
 [[files]]
 file = "kubejs/server_scripts/day_counter.js"
-hash = "c20b2a68449d3b738797e4f708220d0e72522c96b14a82d4b9f51e21f1574add"
+hash = "8e3c5aaf543139824df31358495740a6e782676286bdd113fbc5ce913ad905d0"
 
 [[files]]
 file = "mods/DistantHorizons-2.3.0-b-dev-1.20.1-fabric-forge.jar"
@@ -390,6 +407,11 @@ metafile = true
 [[files]]
 file = "mods/additional-placements.pw.toml"
 hash = "cf77e076d7bc9f3ba7252911d041c3bf3de01116986ac30f8ef9d505c4a5e1ef"
+metafile = true
+
+[[files]]
+file = "mods/ae2.pw.toml"
+hash = "ede64c0b2041a6ea24b1406891e18ecd8210f517433a6ee26b82378e06d4abc0"
 metafile = true
 
 [[files]]
@@ -573,6 +595,11 @@ hash = "ba16d5e568349bc79bb6a648090047fee23db3931f5399f9ad09c930410c740c"
 metafile = true
 
 [[files]]
+file = "mods/create-tfmg.pw.toml"
+hash = "1ea4e0f523d42b19dc47c558c82b554d26b3d0a622eb886e0f30ca502a2a4580"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "1eceb4e4ab86c793f992ce9444e92f46dae76c3f744d8e19feb1143fb6c01939"
 metafile = true
@@ -615,6 +642,11 @@ metafile = true
 [[files]]
 file = "mods/dungeon-crawl.pw.toml"
 hash = "ee1b4b6d53fce1aa5a3eaa8cb321b56e55a9e3fffeb31152ab1dcd130284eaf1"
+metafile = true
+
+[[files]]
+file = "mods/effortless.pw.toml"
+hash = "fb8c406df1d243e232f370c91d84be4685078a00f9bc17316f20b9d15b65b460"
 metafile = true
 
 [[files]]
@@ -772,6 +804,11 @@ hash = "72a14874aee80236d70aad285742bf4ab03381bfa48eab1c5da4a794c860ba62"
 metafile = true
 
 [[files]]
+file = "mods/in-control.pw.toml"
+hash = "4bb106cc2b05044bd36461c7006566263e01ce443104d2d9459a0fa92b464265"
+metafile = true
+
+[[files]]
 file = "mods/iris-flw-compat.pw.toml"
 hash = "03c55a1cbe4e547abba255cd02d157cb0ce3f8b782daa33797048061751b0f55"
 metafile = true
@@ -819,6 +856,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "7ea985404ee4cc9082472c6869ec146309f526e395361b39f2f4c1a43506c41d"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-tfmg.pw.toml"
+hash = "bddb09625f797d5fe1d7ba4e139a6c418389baee175dfe605bd488331175f834"
 metafile = true
 
 [[files]]
