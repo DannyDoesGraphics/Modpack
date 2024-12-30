@@ -17,7 +17,7 @@ ServerEvents.tick(event => {
 
         // Define the target time for morning (e.g., 1000 ticks)
         const morningTime = 1000;
-        const day = getCurrentDay(server);
+        const day = getCurrentDay(server) + 1;
         const timeOfDay = player.level.dayTime() % 24000;
         // Display the message using the typewriter effect
         if (timeOfDay >= 1000 && notifiedPlayers[player.uuid] !== day) {
