@@ -355,11 +355,6 @@ hash = "9562fe1d76fe5c02e2d1f05018283ed3192e46cc49fd6fbeb53af2126d633cf9"
 metafile = true
 
 [[files]]
-file = "global_packs/required_data/explosion-rebuilder.pw.toml"
-hash = "76f18622347ed919ac328cdd17565ec547dcf00c6c6b6d306dceef3e2c06a644"
-metafile = true
-
-[[files]]
 file = "global_packs/required_data/no-despawning-death-loot.pw.toml"
 hash = "f52fa2ecf799f8d84cc0bbb1fd98ea7158361256c45fa20c06a1d0beaaadc408"
 metafile = true
