@@ -1,0 +1,17 @@
+[
+    {
+        "mob": ["capycraft:capybara"],
+        "dimension": "minecraft:overworld",
+        "biometags": [
+            "biomeswevegone:swamp",
+            "biomeswevegone:jungle"
+        ],
+        "result": "default"
+    },
+    {
+        "mob": ["capycraft:capybara"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    }
+]

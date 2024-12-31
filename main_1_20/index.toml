@@ -57,6 +57,14 @@ file = "config/ftbquests/quests/data.snbt"
 hash = "09898b67cd8d405913aab4ce68096767ffa25685f20b4d91c8e33e5f0fb176e7"
 
 [[files]]
+file = "config/incontrol/spawn.json"
+hash = "b4ed34924b80b2563778572cbbf23e56a093906e0ba6e80f0a5969073108299a"
+
+[[files]]
+file = "config/incontrol/spawner.json"
+hash = "e9961d5c8a08b52735159ed73f66b51781bc808098eb505d934872eeb19fc05f"
+
+[[files]]
 file = "config/item_obliterator.json5"
 hash = "4b3b2307bb7bf2500224353013d2d5386f4f30b3480d7396fbf6181cc29fb55d"
 
