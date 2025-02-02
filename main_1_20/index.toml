@@ -1092,11 +1092,6 @@ hash = "d896b4366c70c4aa29a6f731609252bee501cfdd4e60a887ef69a000f9d1b88a"
 metafile = true
 
 [[files]]
-file = "mods/radium.pw.toml"
-hash = "bbdd40b650286973d44b1931d4b8c4bcc02b02f2c5583545709347503bd13057"
-metafile = true
-
-[[files]]
 file = "mods/refined-storage-addons.pw.toml"
 hash = "0ee71b669f9284e78bbde6e9d8bf02a2d92e822a870bd3171f265f570bd0c8e5"
 metafile = true
