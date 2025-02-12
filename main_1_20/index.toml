@@ -382,7 +382,7 @@ hash = "5b5f3e0b273ad78d4f2de9176ff74e1ec1c5afd9f1ebfb0245555e6c1eb0d4c6"
 
 [[files]]
 file = "kubejs/server_scripts/auto_shutdown.js"
-hash = "ceca99e21aa736ebbf42745620eeefbc241388ba15b8073da5b639164f23db66"
+hash = "2c76d5ad6b2bcb9822de675b488ecea8c3d5a37c5f5a4faaa827df1ea5a3a432"
 
 [[files]]
 file = "kubejs/server_scripts/day_counter.js"

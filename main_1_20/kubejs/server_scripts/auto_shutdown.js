@@ -10,6 +10,8 @@ ServerEvents.tick(event => {
         if (inactivityTicks >= maxInactivityTicks) {
             console.info('No players detected for the specified duration. Shutting down server...');
             server.runCommand('/stop');
+        } else if (inactivityTicks % 100 == 0) {
+            console.info(`Inactivity tick: ${inactivityTicks}/${maxInactivityTicks}`);
         }
     } else {
         inactivityTicks = 0; // Reset the counter if players are online
