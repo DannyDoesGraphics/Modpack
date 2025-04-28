@@ -1,0 +1,16 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "d0652639d4b9913a066768cbab92dd09330df5c6558a53a043baf7c541ca4a94"
+metafile = true
+
+[[files]]
+file = "mods/fabricproxy-lite.pw.toml"
+hash = "32ac3f88a059313563d2303ae77a5fc31c3e4c2256f2f678f21e54fb9b46eec8"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "5773d3e597b591a9cd1d6d0808aa5820ecfef9f95c3ebe88aae485980f032e8a"
+metafile = true
