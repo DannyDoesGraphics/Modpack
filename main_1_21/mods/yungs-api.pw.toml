@@ -1,13 +1,13 @@
 name = "YUNG's API"
-filename = "YungsApi-1.21.1-NeoForge-5.1.3.jar"
+filename = "YungsApi-1.21.1-NeoForge-5.1.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Ua7DFN59/versions/MoMQNZ94/YungsApi-1.21.1-NeoForge-5.1.3.jar"
+url = "https://cdn.modrinth.com/data/Ua7DFN59/versions/x20IZIXE/YungsApi-1.21.1-NeoForge-5.1.4.jar"
 hash-format = "sha512"
-hash = "0c7323c49ec9a2d91cdeabbd053de1654c0ecfa5b216a487116e39e43d0ff203f31e1239f0ef30910bf20a6d0fcbae16e27e9503514c4f5906c068a942f3abf6"
+hash = "8c687d620a1654357c9ce45d11c3cb3ffd75a54ceb2ee50e849a4cc07e782c9bb8bae519077c24869b5556c5c409daf309dd8bce61da04dcc4c671aa90ba99e1"
 
 [update]
 [update.modrinth]
 mod-id = "Ua7DFN59"
-version = "MoMQNZ94"
+version = "x20IZIXE"

@@ -1,0 +1,13 @@
+name = "Additional Placements"
+filename = "AdditionalPlacements-NeoForge-1.21-2.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/f5TwOKkb/versions/sNoPVjJc/AdditionalPlacements-NeoForge-1.21-2.2.2.jar"
+hash-format = "sha512"
+hash = "29dc52b27f6ec93e653fbb5d1bbf23f21913bd82fd26206df139c6f0ea12652db3cd07ab79db3a7e875c79a4015dda4ce875a5fd2b1f79822bfedd20fc05d1ea"
+
+[update]
+[update.modrinth]
+mod-id = "f5TwOKkb"
+version = "sNoPVjJc"

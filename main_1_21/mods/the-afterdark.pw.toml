@@ -1,0 +1,13 @@
+name = "The Afterdark"
+filename = "the_afterdark-1.21.1-neoforge-1.0.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EjqfdsbN/versions/McycPVDO/the_afterdark-1.21.1-neoforge-1.0.3.1.jar"
+hash-format = "sha512"
+hash = "fc4fa08c69646e0aa6c8238a9c9ef192427baf6ae8d4cbf48ac7be1327647311da530f909e3d7a4ce0bb8d9090048378e995bf8fa406f464da4a28590099f1b9"
+
+[update]
+[update.modrinth]
+mod-id = "EjqfdsbN"
+version = "McycPVDO"

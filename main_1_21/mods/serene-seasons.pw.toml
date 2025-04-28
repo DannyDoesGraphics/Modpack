@@ -1,13 +1,13 @@
 name = "Serene Seasons"
-filename = "SereneSeasons-neoforge-1.21.1-10.1.0.1.jar"
+filename = "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/e0bNACJD/versions/b2S4BcbP/SereneSeasons-neoforge-1.21.1-10.1.0.1.jar"
+url = "https://cdn.modrinth.com/data/e0bNACJD/versions/SPj5bJoM/SereneSeasons-neoforge-1.21.1-10.1.0.3.jar"
 hash-format = "sha512"
-hash = "0dcd54eba9ad7478110861affea6fb4e057b0da45b9993112f4e85b855001e251c65e83c9ab4a68ade49a582d3311d856db0f8bc0cc5b4d879cd63a07d9f4933"
+hash = "8d6c2712019da586c9f3a1372f2951173cd5f7a821645ffa03e4448e56f6b277aab0651307e1d4d9e0944cb02d32b2caff581bde912cb21fc6fd7b7d84655b8c"
 
 [update]
 [update.modrinth]
 mod-id = "e0bNACJD"
-version = "b2S4BcbP"
+version = "SPj5bJoM"
