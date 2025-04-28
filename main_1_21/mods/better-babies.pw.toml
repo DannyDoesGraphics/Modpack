@@ -1,0 +1,13 @@
+name = "Better Babies"
+filename = "better-babies-0.7.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W9qgAZfz/versions/A4g4fcwi/better-babies-0.7.13.jar"
+hash-format = "sha512"
+hash = "898cd14aa83adb05e4f89e945890fb781ec43db74ceb3d8d42d7eba2dc71c4a513b0cdac459d26459acff16509d3b475346ed1628ef077f8f46aed5957f52b6b"
+
+[update]
+[update.modrinth]
+mod-id = "W9qgAZfz"
+version = "A4g4fcwi"

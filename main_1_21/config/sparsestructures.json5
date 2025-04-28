@@ -1,0 +1,196 @@
+// ### THE MOD REQUIRES A RESTART OF THE GAME TO APPLY CHANGES ###
+{
+  // this is the main spread factor (default is 2)
+  //
+  // tips : a spread factor can be a decimal number (such as 1.5)
+  //        a spread factor of 1 means all structure's placement are not modified (useful if you want to use only custom spread factors)
+  //        a spread factor above 1 means all structures are rarer
+  //        a spread factor below 1 means all structure are more common
+  "spreadFactor": 2,
+
+  // this is a list of custom spread factors
+  "customSpreadFactors": [
+    // example of the mansion being doubled in rarity (the mod's default)
+    {
+      "structure": "dungeons_arise:major_structures",
+      "factor": 4
+    },
+    {
+      "structure": "dungeons_arise:minor_structures",
+      "factor": 3
+    },
+    {
+      "structure": "taxtg:giant_birch_tree",
+      "factor": 1.0
+    },
+    {
+      "structure": "taxtg:giant_cherryblossom_tree",
+      "factor": 1.0
+    },
+    {
+      "structure": "taxtg:giant_jungle_tree",
+      "factor": 1.0
+    },
+    {
+      "structure": "taxtg:giant_oak_tree",
+      "factor": 1
+    },
+    {
+      "structure": "taxtg:giant_spruce_tree",
+      "factor": 1
+    },
+    {
+      "structure": "the_afterdark:teleport_altar",
+      "factor": 1
+    },
+    {
+      "structure": "the_bumblezone:bumbling_beepartments",
+      "factor": 1
+    },
+    {
+      "structure": "the_bumblezone:cell_maze",
+      "factor": 1
+    },
+    {
+      "structure": "the_bumblezone:cherry_veteran_tree",
+      "factor": 1
+    },
+    {
+      "structure": "the_bumblezone:hanging_structures",
+      "factor": 1
+    },
+    {
+      "structure": "the_bumblezone:honey_cave_room",
+      "factor": 1
+    },
+    {
+      "structure": "the_bumblezone:main_structures",
+      "factor": 1
+    },
+    {
+      "structure": "the_bumblezone:pollinated_stream",
+      "factor": 1
+    },
+    {
+      "structure": "the_bumblezone:sempiternal_sanctums",
+      "factor": 1
+    },
+    {
+      "structure": "the_bumblezone:throne_pillar",
+      "factor": 1
+    },
+    {
+      "structure": "the_bumblezone:tiny_structures",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:aurora_palace",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:dark_tower",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:fallen_trunk",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:final_castle",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:giant_house",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:hedge_maze",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:hollow_tree",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:hydra_lair",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:knight_stronghold",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:labyrinth",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:large_hollow_hill",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:lich_tower",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:medium_hollow_hill",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:naga_courtyard",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:quest_grove",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:small_hollow_hill",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:troll_cave",
+      "factor": 1
+    },
+    {
+      "structure": "twilightforest:yeti_cave",
+      "factor": 1
+    },
+    {
+      "structure": "aether:bronze_dungeon",
+      "factor": 1
+    },
+    {
+      "structure": "aether:large_aercloud",
+      "factor": 1
+    },
+    {
+      "structure": "aether:silver_and_gold_dungeons",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:fortress",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:bastion_remnant",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:stronghold",
+      "factor": 1
+    }
+
+    // add the structures you want to modify in the format:
+    // {
+    //     "structure": "namespace:structure_name",
+    //     "factor": number
+    // },
+    // where "structure" is a structure_set or the name of a structure
+    // /!\ if you put the name of a structure, all structures in its set will be modified
+    // (example : "minecraft:village_plains" will modify all structures in the "villages" set)
+    // see https://minecraft.wiki/w/Tutorials/Custom_structures#Structure_Set for more info
+    //
+    // tip : you can dump all structure sets in a file by running the custom command /dumpstructuresets
+    // tip : the same spread factors rules apply here
+  ]
+}
