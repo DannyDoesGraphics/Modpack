@@ -250,6 +250,11 @@ hash = "0a4d0034c5a1379d5aa57c0a104aaa2adbb98f1e2b89d4ec0b7ef68df2e16a1a"
 metafile = true
 
 [[files]]
+file = "mods/continuity.pw.toml"
+hash = "2e082857985c7550efdad38a1997b9805051b07fb61b0cd30921e786a8521130"
+metafile = true
+
+[[files]]
 file = "mods/corgilib.pw.toml"
 hash = "7f657c9071754b89ccfa3b138c33e73fb8414384b6c442396a951a6ad97e4956"
 metafile = true
