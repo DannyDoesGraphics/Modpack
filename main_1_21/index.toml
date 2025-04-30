@@ -5,6 +5,10 @@ file = "README.md"
 hash = "553c497eb995835c769801a44772786079a0606df5de7e83cb2da5151cab220d"
 
 [[files]]
+file = "config/aether-startup.toml"
+hash = "d73589c763bf76634a796a80a71a315e00e18366211c402f857f1374cab27faf"
+
+[[files]]
 file = "config/aether/aether-server.toml"
 hash = "ee72d076a8fa1edd02489c42b620db2dbdab82b10fbce8764b7e961529af19e9"
 
@@ -21,8 +25,16 @@ file = "config/immersive_portals.json"
 hash = "6fd1f5a38b3ef74f55e0513051f2199a7b724c69200db05737becb7f015b55ab"
 
 [[files]]
+file = "config/jade/plugins.json"
+hash = "164be2a28ee4c0a5f4f7215b6e89daf70c9f22c62b160e92429ac8196040d5ea"
+
+[[files]]
 file = "config/resourcepackoverrides.json"
-hash = "3eedf3f9c10a08115e7e49eae6a5a268f0f948a277bfcf027b388609918341fd"
+hash = "97d193b3e87c16d1d9ec16ae9b7084953f0b59e2a0ba313a5fb48428349f4354"
+
+[[files]]
+file = "config/simple_death_improvements-server.toml"
+hash = "5038ef1ae0f0ecca6af46d44afd42542e363907aa68bf65ef76304387187f928"
 
 [[files]]
 file = "config/snowrealmagic-common.yaml"
@@ -124,7 +136,7 @@ metafile = true
 
 [[files]]
 file = "mods/accessories.pw.toml"
-hash = "198f7f872d0fe7c40702b48e5a073bf4c84b3ab2dad1bef7a1403c380072cc4d"
+hash = "03cb643aac647a345a61f69621c1100614bf2f680308ae14ff48547f4e053791"
 metafile = true
 
 [[files]]
@@ -134,7 +146,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2.pw.toml"
-hash = "8b88c1ec4cbaf5e92a5a754e418d7baa8ac00679c4f2c09103ceab1d9f2a0255"
+hash = "58d049e9ebbb9cf6e98f25f9d095a17a26a2dfc7971dd1400199b70f5339ceb7"
 metafile = true
 
 [[files]]
@@ -198,8 +210,13 @@ hash = "e1f1588b18947699ddc9b4f7c5b5406c5559155b8cb52dcd0f203c07c31cd0b8"
 metafile = true
 
 [[files]]
+file = "mods/blueprint.pw.toml"
+hash = "4f033e62484a79ee8fec7868e9113d18b9c4c12aa9678b13a1dd84d598aa9868"
+metafile = true
+
+[[files]]
 file = "mods/c2me-neoforge.pw.toml"
-hash = "e6df58ecd21087031aef60a38c696a6ee1679d0d48227e0c26fbe2b41701b053"
+hash = "cee929d9295646c0726c19af7ac822dd18b474536f085844c202757e3521be97"
 metafile = true
 
 [[files]]
@@ -314,12 +331,12 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "172bbd60b0bd54c17e2296b157cbfb9961129f8570812b785b38d2e957127102"
+hash = "255e64498ced424b440a86398df6f7caeacd52d03ee61ffb039f1a617eff47f8"
 metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "665ac754693e58a2422621f24160b217c43540962b7d59cc9ff6e3e75cf9765e"
+hash = "7bebff0ec65bcef0fc44358719d3b9ccc6e0d658ea49c07b24c3d9416e4576f2"
 metafile = true
 
 [[files]]
@@ -379,7 +396,7 @@ metafile = true
 
 [[files]]
 file = "mods/horseman.pw.toml"
-hash = "2a45363c060ad5aaeeaeca1946538b614cd56b61f21791f6a2dce71dc79643d2"
+hash = "d81f9aeba91a685fa9f3f534a223428a76c7518017f88bd51ecd223b0f00b2c7"
 metafile = true
 
 [[files]]
@@ -464,12 +481,12 @@ metafile = true
 
 [[files]]
 file = "mods/modular-item-api.pw.toml"
-hash = "c246c212432ad9c2eef8de705566f2ece221a7f32dbeca2a669cb0892a6a1153"
+hash = "246a83e161e5e255166cb794da73f7e4424fdb5f45e0e997fe2b684387e49380"
 metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "55553ccd1062972551333d691b8e9d62f20c62e48d49528919b123dcb84932df"
+hash = "87e3acd7d3cdda6d8c99f26dafd871ba6057b6ca54650b43e6b91939069a91e5"
 metafile = true
 
 [[files]]
@@ -484,7 +501,7 @@ metafile = true
 
 [[files]]
 file = "mods/neruina.pw.toml"
-hash = "19c68c2f99dc061cb213d8a73f7bf1a40cfcfabdde6c6930c09875842576136b"
+hash = "735a2f161f0d88f7b80571c9ec2a97f9f88763fee406f4a8157752280a1d3e4c"
 metafile = true
 
 [[files]]
@@ -599,7 +616,7 @@ metafile = true
 
 [[files]]
 file = "mods/sparsestructures.pw.toml"
-hash = "b487cf3286d1b4221b0234efa2d5bba91d669a7decbf08e3e7bb3ae64251c9e0"
+hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
 metafile = true
 
 [[files]]
@@ -619,7 +636,7 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "b0ab090b5137ad84e78c34214515aa2389af39c1555297223b896ea44a8e33c1"
+hash = "04bb9ca65877a188b0fcbb7af6cadb0b1a9c97c0c2ce2be1ffec0520936fd067"
 metafile = true
 
 [[files]]
@@ -689,12 +706,17 @@ metafile = true
 
 [[files]]
 file = "mods/watermedia.pw.toml"
-hash = "7a7ee4d3c2d9dec4adffd36e15fd6affb53a6b5f55406a7500a1bbd23c3127db"
+hash = "eef977bcac4bfd222529a55088771722227f25ff8174338809783a7871caa27d"
 metafile = true
 
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
 hash = "4ba42e13f09ee4ea555e430aadc54b2d6e4ffa0ac2f0aebfa5a0542f193c5f47"
+metafile = true
+
+[[files]]
+file = "mods/woodworks.pw.toml"
+hash = "2a5a81eb294d1b0f1a2ee8289fe9ed687a6a63845eae4b5ca3e6d7ff12d2c85f"
 metafile = true
 
 [[files]]
