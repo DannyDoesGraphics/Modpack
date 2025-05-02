@@ -1,0 +1,13 @@
+name = "LTS_1_21"
+author = "Danny le"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "fdcb94024fa3bfb7019b29d7315b949ed4cbd931b8e00ce9b187920842ff06c2"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.169"
