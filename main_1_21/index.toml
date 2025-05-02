@@ -128,6 +128,11 @@ hash = "03cb643aac647a345a61f69621c1100614bf2f680308ae14ff48547f4e053791"
 metafile = true
 
 [[files]]
+file = "mods/adaptiveview.pw.toml"
+hash = "529e276bee7759b8757940125ea363b09788dbfc250b8690da11df94ff3c0f81"
+metafile = true
+
+[[files]]
 file = "mods/additional-placements.pw.toml"
 hash = "0417a9df6d572aa2a0d07f6ea87589c3adc61adec750f1c84d7977a5b66b2d1e"
 metafile = true
