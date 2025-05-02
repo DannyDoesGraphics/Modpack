@@ -508,6 +508,11 @@ hash = "7c7c332502a1e7aefedab9ba9b7db02e5de5e45b9215b2dc878cfa61eb226f48"
 metafile = true
 
 [[files]]
+file = "mods/neovelocity.pw.toml"
+hash = "8ba084ecbe33e45bb1c197e066ca511373ab288241d586d50317c35de80f2c28"
+metafile = true
+
+[[files]]
 file = "mods/neruina.pw.toml"
 hash = "735a2f161f0d88f7b80571c9ec2a97f9f88763fee406f4a8157752280a1d3e4c"
 metafile = true
@@ -535,11 +540,6 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "b30bf3e10fdb43cb451091d4cc8ff88081895686c492c1bbff50ce0c74a3e85b"
-metafile = true
-
-[[files]]
-file = "mods/proxy-compatible-forge.pw.toml"
-hash = "9298c71cb4097016d0ef14c35be9feadb2f5b6ac5b98376bd3efd64cc31dec58"
 metafile = true
 
 [[files]]
