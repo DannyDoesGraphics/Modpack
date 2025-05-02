@@ -9,6 +9,10 @@ file = "config/ae2-common.toml"
 hash = "92008abb8a04055952c3fffd9bba1e78f82d2a4bb5584b502dd29e282b225876"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "8e3bff854e3edc4379d3bde6667e3fa349990c80713da3c237dc6b9d285e6280"
+
+[[files]]
 file = "global_packs/required_data/DAM/data/ae2/tags/biomes/has_meteorites.json"
 hash = "19c5058584f41946a20b0c940601ad6583fa1ff44e846c3bc9cae96810858271"
 
