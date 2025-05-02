@@ -1,0 +1,19 @@
+{
+    "schema_version": "2",
+    "default_packs": [
+        "file/Better-Leaves-9.2.zip",
+        "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+        "file/FreshAnimations_v1.9.2.zip"
+    ],
+    "pack_overrides": {
+      "1": [
+          "file/Better-Leaves-9.2.zip",
+          "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+          "file/FreshAnimations_v1.9.2.zip"
+      ],
+      "$$1": {
+        "hidden": true,
+        "required": true
+      }
+    }
+  }

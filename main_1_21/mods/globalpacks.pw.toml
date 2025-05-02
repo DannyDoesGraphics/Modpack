@@ -1,0 +1,13 @@
+name = "Global Packs"
+filename = "globalpacks-neoforge-1.21-21.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NRLPy2mk/versions/NQw9qmLn/globalpacks-neoforge-1.21-21.0.1.jar"
+hash-format = "sha512"
+hash = "2411f9ac53fc7d4ea4d96c6d374d6279df11d890641e7481535950f537ced1028402715be26e52e32fe251f0dff23d64aa132ae52a0a5913b6c0437230818352"
+
+[update]
+[update.modrinth]
+mod-id = "NRLPy2mk"
+version = "NQw9qmLn"
