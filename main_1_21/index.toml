@@ -10,7 +10,7 @@ hash = "92008abb8a04055952c3fffd9bba1e78f82d2a4bb5584b502dd29e282b225876"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "8e3bff854e3edc4379d3bde6667e3fa349990c80713da3c237dc6b9d285e6280"
+hash = "2c0b439f5257e7d5994ecd30235504451f20fc698254ffed684a1562b395027d"
 
 [[files]]
 file = "global_packs/required_data/DAM/data/ae2/tags/biomes/has_meteorites.json"
