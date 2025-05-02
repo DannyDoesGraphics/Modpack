@@ -9,12 +9,44 @@ file = "config/ae2-common.toml"
 hash = "92008abb8a04055952c3fffd9bba1e78f82d2a4bb5584b502dd29e282b225876"
 
 [[files]]
+file = "config/biomeswevegone/world_generation.json5"
+hash = "75cfbb3218598064d3f25dc9156428950bcdbb4e8ac5c8537f728cd907335b03"
+
+[[files]]
+file = "config/immersive_portals.json"
+hash = "6fd1f5a38b3ef74f55e0513051f2199a7b724c69200db05737becb7f015b55ab"
+
+[[files]]
+file = "config/resourcepackoverrides.json"
+hash = "97d193b3e87c16d1d9ec16ae9b7084953f0b59e2a0ba313a5fb48428349f4354"
+
+[[files]]
+file = "config/sparsestructures.json5"
+hash = "f48541d1202f166106c9d50e0cdf9e2fda251a67cc9d5c8f7245f2dcde66d654"
+
+[[files]]
+file = "config/supplementaries-common.toml"
+hash = "e362a2470f1eef5c5f32c229e79ba62fd708d68e4ae1ae9756829e2f05b59f0d"
+
+[[files]]
 file = "config/tectonic.json"
-hash = "2c0b439f5257e7d5994ecd30235504451f20fc698254ffed684a1562b395027d"
+hash = "994559f116f579c85e932b9d2a3012497f6e0bd152cd310ddce5d2035fd30af3"
+
+[[files]]
+file = "config/the_bumblezone/dimension.toml"
+hash = "ccbd4613547d1f9b3c6dcd20ef0b3b5645b9a35e504d11ba459420646dcc5688"
+
+[[files]]
+file = "config/twilightforest-common.toml"
+hash = "106e1fe9b4868787ff3ea58fc0ca1f057220de85d15ca2193577cba68e7f4f71"
+
+[[files]]
+file = "config/waterframes-server.toml"
+hash = "418cc16fe115bc6b671d15260ac7e96c88afda23f557bcfba711d51a38622775"
 
 [[files]]
 file = "global_packs/required_data/DAM/data/ae2/tags/biomes/has_meteorites.json"
-hash = "19c5058584f41946a20b0c940601ad6583fa1ff44e846c3bc9cae96810858271"
+hash = "3ed74e33314a931be9d6af0aa3f4912754ae466860cc7588e843008257e5bcea"
 
 [[files]]
 file = "global_packs/required_data/DAM/data/sereneseasons/tags/block/autumn_crops.json"
@@ -356,6 +388,11 @@ hash = "dbd756dd9bb17e6ecebcf2d7052a67a2da1c7dd378bc2089bc154916080fe031"
 metafile = true
 
 [[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "61655c89d316c28e462e9439082c6376a2147052038cbb594b30b22dca69b409"
+metafile = true
+
+[[files]]
 file = "mods/guard-villagers.pw.toml"
 hash = "bb6b6e411d049c2f6bb4370d59804c49b6490ca30b7d3ca48ce7ed8da63b810b"
 metafile = true
@@ -661,6 +698,11 @@ hash = "da1c1cf28e8d5ffe377998d29d59eae29a2020f2de7a0aea7f7253acdc695cfd"
 metafile = true
 
 [[files]]
+file = "mods/trek.pw.toml"
+hash = "bc4d7e627bc7d973a9fb613a8f6ae821491fe9d0953dbcb19addbf8eb603d1f6"
+metafile = true
+
+[[files]]
 file = "mods/truly-modular-archery.pw.toml"
 hash = "bced15d9af3cbc91d434120c0f6881fbf101cd0ea208808fd231e6dac2c6b95e"
 metafile = true
@@ -762,7 +804,7 @@ hash = "952dbfb2d6ecd2e847599803ed26a3b5f7c53b5ace15d5cb2ddbd9f17f6062a8"
 
 [[files]]
 file = "old_config/tectonic.json"
-hash = "84640a202b9996d64b0faa1ded4c6451d3c21a0119fd12fa2cf4cda6fe6f7390"
+hash = "413bf03aea8aa2d3d06e39513e39ccd14464199a6306b9593ef376f8f99a3fd5"
 
 [[files]]
 file = "old_config/the_bumblezone/dimension.toml"
