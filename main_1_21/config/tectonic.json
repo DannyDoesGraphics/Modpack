@@ -6,7 +6,7 @@
       "vegetation_scale": 0.5
     },
     "continents": {
-      "continents_scale": 0.26,
+      "continents_scale": 0.15,
       "erosion_scale": 0.25,
       "flat_terrain_skew": 0.1,
       "ocean_offset": -0.8,
