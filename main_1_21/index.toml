@@ -5,56 +5,12 @@ file = "README.md"
 hash = "553c497eb995835c769801a44772786079a0606df5de7e83cb2da5151cab220d"
 
 [[files]]
-file = "config/aether-startup.toml"
-hash = "d73589c763bf76634a796a80a71a315e00e18366211c402f857f1374cab27faf"
+file = "config/ae2-common.toml"
+hash = "92008abb8a04055952c3fffd9bba1e78f82d2a4bb5584b502dd29e282b225876"
 
 [[files]]
-file = "config/aether/aether-server.toml"
-hash = "ee72d076a8fa1edd02489c42b620db2dbdab82b10fbce8764b7e961529af19e9"
-
-[[files]]
-file = "config/afterdark.json"
-hash = "fa1ffeb5086e36897915acdd53fdaac676683f5bd2697ec6db1f21b4d910b779"
-
-[[files]]
-file = "config/deeperdarker-common.toml"
-hash = "216cba34f4b7bb6f75ac414c98bea3ec02765adaa369f3d681c3b01ee62faaf5"
-
-[[files]]
-file = "config/immersive_portals.json"
-hash = "6fd1f5a38b3ef74f55e0513051f2199a7b724c69200db05737becb7f015b55ab"
-
-[[files]]
-file = "config/jade/plugins.json"
-hash = "164be2a28ee4c0a5f4f7215b6e89daf70c9f22c62b160e92429ac8196040d5ea"
-
-[[files]]
-file = "config/resourcepackoverrides.json"
-hash = "97d193b3e87c16d1d9ec16ae9b7084953f0b59e2a0ba313a5fb48428349f4354"
-
-[[files]]
-file = "config/simple_death_improvements-server.toml"
-hash = "5038ef1ae0f0ecca6af46d44afd42542e363907aa68bf65ef76304387187f928"
-
-[[files]]
-file = "config/snowrealmagic-common.yaml"
-hash = "3252fbf25fe81c5a909a4f4105b9506623d6c5fce4465f293a125043a55d9b73"
-
-[[files]]
-file = "config/sparsestructures.json5"
-hash = "952dbfb2d6ecd2e847599803ed26a3b5f7c53b5ace15d5cb2ddbd9f17f6062a8"
-
-[[files]]
-file = "config/tectonic.json"
-hash = "84640a202b9996d64b0faa1ded4c6451d3c21a0119fd12fa2cf4cda6fe6f7390"
-
-[[files]]
-file = "config/the_bumblezone/dimension.toml"
-hash = "51f99f65baaabd5d27a4d3629b85d242209c0dbdc1d1a207ee0ae008e2046c2c"
-
-[[files]]
-file = "config/waterframes-server.toml"
-hash = "b812552711f9158a9ae74118994770dacdb1ca4a9d04f24140df18d9f5cd0ed7"
+file = "global_packs/required_data/DAM/data/ae2/tags/biomes/has_meteorites.json"
+hash = "19c5058584f41946a20b0c940601ad6583fa1ff44e846c3bc9cae96810858271"
 
 [[files]]
 file = "global_packs/required_data/DAM/data/sereneseasons/tags/block/autumn_crops.json"
@@ -119,10 +75,6 @@ hash = "b7c7be2ccf6f14d979f0faf53d0fb0c5f953a8b9aeeff40323f46e994863989a"
 [[files]]
 file = "global_packs/required_data/DAM/pack.mcmeta"
 hash = "0f8232e15da31dd677370cde5075c6f4280adfeda53b314af35a793b07a21c1b"
-
-[[files]]
-file = "kubejs/server_scripts/auto_shutdown.js"
-hash = "ceca99e21aa736ebbf42745620eeefbc241388ba15b8073da5b639164f23db66"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -200,6 +152,11 @@ hash = "081fe633c2c73b0d5e37a81d3973502d563f5d545246fde0510a2004ece78f95"
 metafile = true
 
 [[files]]
+file = "mods/beautify.pw.toml"
+hash = "5e3421b58c8c905e686ed7b63d2fe086fe3265009347ca01aba99f13cb8edca3"
+metafile = true
+
+[[files]]
 file = "mods/better-babies.pw.toml"
 hash = "9a075ff203dfcae0be5247d67082a542ca5c3543051bac09ba8f61ee0a1aab09"
 metafile = true
@@ -222,6 +179,11 @@ metafile = true
 [[files]]
 file = "mods/caelus.pw.toml"
 hash = "992b0dca9683f225fc774d779762d18a009f2d82b9d051e7c0b55a33a95d9238"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
+hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
@@ -336,7 +298,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "255e64498ced424b440a86398df6f7caeacd52d03ee61ffb039f1a617eff47f8"
+hash = "9739506f0f40eecbe72e059a3f93210505b00a63c7f14dd1272ce51f6e597982"
 metafile = true
 
 [[files]]
@@ -401,7 +363,7 @@ metafile = true
 
 [[files]]
 file = "mods/horseman.pw.toml"
-hash = "d81f9aeba91a685fa9f3f534a223428a76c7518017f88bd51ecd223b0f00b2c7"
+hash = "1f214989dd8450d20594345cefd4ccb9ffb0318ea5289dffa4f1023b0dd8aefc"
 metafile = true
 
 [[files]]
@@ -526,12 +488,17 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "9a5e7562b6a82d3817958d3b0f1361a1e9f0cae52c3598a305539f7330e5e629"
+hash = "d8056a633731250cb7803a6525f1084baca35622ef6322d934cd0d0730f9e60a"
 metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "b30bf3e10fdb43cb451091d4cc8ff88081895686c492c1bbff50ce0c74a3e85b"
+metafile = true
+
+[[files]]
+file = "mods/proxy-compatible-forge.pw.toml"
+hash = "9298c71cb4097016d0ef14c35be9feadb2f5b6ac5b98376bd3efd64cc31dec58"
 metafile = true
 
 [[files]]
@@ -622,6 +589,11 @@ metafile = true
 [[files]]
 file = "mods/sparsestructures.pw.toml"
 hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
+metafile = true
+
+[[files]]
+file = "mods/stitch.pw.toml"
+hash = "87efe123ee3fe0133a4e951f110a98a32b16068a3033f2c3a0dbed574ff48cf0"
 metafile = true
 
 [[files]]
@@ -745,6 +717,58 @@ hash = "0cc13a86488cf89d2989edc1636fa63c7efa2fe819246d42af35113458d5ba5b"
 metafile = true
 
 [[files]]
+file = "old_config/aether-startup.toml"
+hash = "d73589c763bf76634a796a80a71a315e00e18366211c402f857f1374cab27faf"
+
+[[files]]
+file = "old_config/aether/aether-server.toml"
+hash = "ee72d076a8fa1edd02489c42b620db2dbdab82b10fbce8764b7e961529af19e9"
+
+[[files]]
+file = "old_config/afterdark.json"
+hash = "fa1ffeb5086e36897915acdd53fdaac676683f5bd2697ec6db1f21b4d910b779"
+
+[[files]]
+file = "old_config/deeperdarker-common.toml"
+hash = "216cba34f4b7bb6f75ac414c98bea3ec02765adaa369f3d681c3b01ee62faaf5"
+
+[[files]]
+file = "old_config/immersive_portals.json"
+hash = "6fd1f5a38b3ef74f55e0513051f2199a7b724c69200db05737becb7f015b55ab"
+
+[[files]]
+file = "old_config/jade/plugins.json"
+hash = "164be2a28ee4c0a5f4f7215b6e89daf70c9f22c62b160e92429ac8196040d5ea"
+
+[[files]]
+file = "old_config/resourcepackoverrides.json"
+hash = "97d193b3e87c16d1d9ec16ae9b7084953f0b59e2a0ba313a5fb48428349f4354"
+
+[[files]]
+file = "old_config/simple_death_improvements-server.toml"
+hash = "5038ef1ae0f0ecca6af46d44afd42542e363907aa68bf65ef76304387187f928"
+
+[[files]]
+file = "old_config/snowrealmagic-common.yaml"
+hash = "3252fbf25fe81c5a909a4f4105b9506623d6c5fce4465f293a125043a55d9b73"
+
+[[files]]
+file = "old_config/sparsestructures.json5"
+hash = "952dbfb2d6ecd2e847599803ed26a3b5f7c53b5ace15d5cb2ddbd9f17f6062a8"
+
+[[files]]
+file = "old_config/tectonic.json"
+hash = "84640a202b9996d64b0faa1ded4c6451d3c21a0119fd12fa2cf4cda6fe6f7390"
+
+[[files]]
+file = "old_config/the_bumblezone/dimension.toml"
+hash = "51f99f65baaabd5d27a4d3629b85d242209c0dbdc1d1a207ee0ae008e2046c2c"
+
+[[files]]
+file = "old_config/waterframes-server.toml"
+hash = "b812552711f9158a9ae74118994770dacdb1ca4a9d04f24140df18d9f5cd0ed7"
+
+[[files]]
 file = "resourcepacks/better-leaves.pw.toml"
 hash = "5507b242a9db7237f92f75009d0036fc606ccbde30de9ad520dac873812126ab"
 metafile = true
@@ -757,4 +781,9 @@ metafile = true
 [[files]]
 file = "resourcepacks/tras-fresh-player.pw.toml"
 hash = "32fe0fe8941110f8fba07ce7768faa1797de6b28e961ab65b483c380fc0a365a"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "cfb57ffe639b04b5aee53ca280aad97e5c94395059a049a47b24af0660776904"
 metafile = true

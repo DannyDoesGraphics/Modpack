@@ -1,13 +1,13 @@
 name = "Oh The Trees You'll Grow"
-filename = "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.0.10.jar"
+filename = "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.0.11.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/g8NOG5OR/versions/BOcSuw5O/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.0.10.jar"
+url = "https://cdn.modrinth.com/data/g8NOG5OR/versions/8nBKcpJt/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.0.11.jar"
 hash-format = "sha512"
-hash = "6868ba97ea8ab1bdd1269ec65495fa77e148d1e9e8797de776c156ad042af898ec77591e8e3f99cbe585e9bffb8a5ab0420324f8317fc46e10c1ea22752fd07a"
+hash = "dd2efa91479b74594add1f3bd46ad19f5cae40fe191c463625d217b8015ae5c1061d75723776ac7d762f8467bc98a76171028504f7d253a0b396b6e22801d71f"
 
 [update]
 [update.modrinth]
 mod-id = "g8NOG5OR"
-version = "BOcSuw5O"
+version = "8nBKcpJt"
