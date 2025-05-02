@@ -7,10 +7,13 @@ hash = "553c497eb995835c769801a44772786079a0606df5de7e83cb2da5151cab220d"
 [[files]]
 file = "config/ae2-common.toml"
 hash = "92008abb8a04055952c3fffd9bba1e78f82d2a4bb5584b502dd29e282b225876"
+<<<<<<< HEAD
 
 [[files]]
 file = "global_packs/required_data/DAM/data/ae2/tags/biomes/has_meteorites.json"
 hash = "19c5058584f41946a20b0c940601ad6583fa1ff44e846c3bc9cae96810858271"
+=======
+>>>>>>> 5e6343eb81aa094377e2992431a74f9f3b4c152a
 
 [[files]]
 file = "global_packs/required_data/DAM/data/sereneseasons/tags/block/autumn_crops.json"
