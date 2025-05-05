@@ -33,15 +33,75 @@
     },
     {
       "structure": "taxtg:giant_oak_tree",
-      "factor": 1
+      "factor": 1.0
     },
     {
       "structure": "taxtg:giant_spruce_tree",
-      "factor": 1
+      "factor": 1.0
+    },
+    {
+      "structure": "trek:end/common",
+      "factor": 2.0
+    },
+    {
+      "structure": "trek:end/medium",
+      "factor": 3.0
+    },
+    {
+      "structure": "trek:end/rare",
+      "factor": 4.0
+    },
+    {
+      "structure": "trek:end/very_common",
+      "factor": 1.5
+    },
+    {
+      "structure": "trek:end/very_rare",
+      "factor": 6.0
+    },
+    {
+      "structure": "trek:nether/common",
+      "factor": 2.0
+    },
+    {
+      "structure": "trek:nether/medium",
+      "factor": 3.0
+    },
+    {
+      "structure": "trek:nether/rare",
+      "factor": 4.0
+    },
+    {
+      "structure": "trek:nether/very_common",
+      "factor": 1.5
+    },
+    {
+      "structure": "trek:nether/very_rare",
+      "factor": 6.0
+    },
+    {
+      "structure": "trek:overworld/common",
+      "factor": 2.0
+    },
+    {
+      "structure": "trek:overworld/medium",
+      "factor": 3.0
+    },
+    {
+      "structure": "trek:overworld/rare",
+      "factor": 4.0
+    },
+    {
+      "structure": "trek:overworld/very_common",
+      "factor": 1.5
+    },
+    {
+      "structure": "trek:overworld/very_rare",
+      "factor": 6.0
     },
     {
       "structure": "the_afterdark:teleport_altar",
-      "factor": 1
+      "factor": 0
     },
     {
       "structure": "the_bumblezone:bumbling_beepartments",

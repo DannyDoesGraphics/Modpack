@@ -67,11 +67,11 @@
     },
     {
       "structure": "dungeons_arise:major_structures",
-      "factor": 6
+      "factor": 5
     },
     {
       "structure": "dungeons_arise:minor_structures",
-      "factor": 4
+      "factor": 3
     },
     {
       "structure": "twilightforest:aurora_palace",
@@ -147,7 +147,7 @@
     },
     {
       "structure": "the_bumblezone:bumbling_beepartments",
-      "factor": 1//REPLACE WITH YOUR CUSTOM SPREADING FACTOR HERE
+      "factor": 1
     },
     {
       "structure": "the_bumblezone:bumbling_beepartments",
