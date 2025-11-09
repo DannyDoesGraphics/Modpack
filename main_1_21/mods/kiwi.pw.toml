@@ -1,0 +1,13 @@
+name = "Kiwi 🥝"
+filename = "Kiwi-1.21.1-NeoForge-15.6.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ufdDoWPd/versions/IP7Ou4CA/Kiwi-1.21.1-NeoForge-15.6.2.jar"
+hash-format = "sha512"
+hash = "b61f9747b64ab1018d16c4c2e6d693ced030f6358ef1f9efb2ba3fa0840b041ffdd800c7170d1d511cf5454cd33a04572ed2125ab8525e373af2c7da53207f08"
+
+[update]
+[update.modrinth]
+mod-id = "ufdDoWPd"
+version = "IP7Ou4CA"
