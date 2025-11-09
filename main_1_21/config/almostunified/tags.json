@@ -1,0 +1,19 @@
+{
+  "custom_tags": {
+    "c:ingots/silicon": [
+      "tfmg:silicon_ingot",
+      "ae2:silicon",
+      "refinedstorage:silicon"
+    ]
+  },
+  "tag_substitutions": {
+    "c:ingots/silicon": ["c:silicon"]
+  },
+  "item_tag_inheritance_mode": "ALLOW",
+  "item_tag_inheritance": {
+    "c:ingots/silicon": ["c:silicon"]
+  },
+  "block_tag_inheritance_mode": "ALLOW",
+  "block_tag_inheritance": {},
+  "emi_strict_hiding": true
+}

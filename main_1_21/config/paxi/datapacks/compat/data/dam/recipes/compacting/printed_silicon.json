@@ -1,0 +1,16 @@
+{
+    "type": "create:compacting",
+    "heat_requirement": "superheated",
+    "ingredients": [
+        {
+            "item": "tfmg:silicon_ingot"
+        }
+    ],
+    "results": [
+        {
+            "item": {
+                "id": "ae2:printed_silicon"
+            }
+        }
+    ]
+}
