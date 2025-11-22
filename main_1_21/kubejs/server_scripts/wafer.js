@@ -1,11 +1,4 @@
 ServerEvents.recipes(event => {
-    // Check if TFMG items exist, otherwise use DAM items
-    const pSemiconductor = Item.exists('tfmg:p_semiconductor') ? 'tfmg:p_semiconductor' : 'dam:p_semiconductor';
-    const nSemiconductor = Item.exists('tfmg:n_semiconductor') ? 'tfmg:n_semiconductor' : 'dam:n_semiconductor';
-    const resistor = Item.exists('tfmg:resistor') ? 'tfmg:resistor' : 'dam:resistor';
-    const transistor = Item.exists('tfmg:transistor_item') ? 'tfmg:transistor_item' : 'dam:transistor';
-    const circuitBoard = Item.exists('tfmg:circuit_board') ? 'tfmg:circuit_board' : 'dam:circuit_board';
-    const sulfuricAcid = Fluid.exists('tfmg:sulfuric_acid') ? 'tfmg:sulfuric_acid' : 'dam:sulfuric_acid';
 
     // get raw silicon wafers
     event.custom({
@@ -80,7 +73,7 @@ ServerEvents.recipes(event => {
                 type: "create:deploying",
                 ingredients: [
                     { item: "dam:incomplete_silicon_wafer" },
-                    { item: pSemiconductor }
+                    { item: "tfmg:p_semiconductor" }
                 ],
                 results: [
                     { id: "dam:incomplete_silicon_wafer" }
@@ -90,7 +83,7 @@ ServerEvents.recipes(event => {
                 type: "create:deploying",
                 ingredients: [
                     { item: "dam:incomplete_silicon_wafer" },
-                    { item: nSemiconductor }
+                    { item: "tfmg:n_semiconductor" }
                 ],
                 results: [
                     { id: "dam:incomplete_silicon_wafer" }
@@ -112,7 +105,7 @@ ServerEvents.recipes(event => {
                 type: "create:filling",
                 ingredients: [
                     { item: "dam:incomplete_silicon_wafer" },
-                    { type: "fluid_stack", amount: 100, fluid: sulfuricAcid }
+                    { type: "fluid_stack", amount: 100, fluid: "tfmg:sulfuric_acid" }
                 ],
                 results: [
                     { id: "dam:incomplete_silicon_wafer" }
@@ -173,10 +166,10 @@ ServerEvents.recipes(event => {
         accept_mirrored: false,
         key: {
             B: { item: "create:brass_sheet" },
-            E: { item: resistor },
-            R: { item: transistor },
+            E: { item: "tfmg:resistor" },
+            R: { item: "tfmg:transistor_item" },
             P: { item: "dam:bare_die" },
-            M: { item: circuitBoard },
+            M: { item: "tfmg:circuit_board" },
         },
         result: {
             count: 1,
@@ -218,7 +211,7 @@ ServerEvents.recipes(event => {
                 type: "create:deploying",
                 ingredients: [
                     { item: "dam:microprocessor" },
-                    { item: transistor },
+                    { item: "tfmg:transistor_item" },
                 ],
                 keepHeldItem: false,
                 results: [
@@ -266,8 +259,8 @@ ServerEvents.recipes(event => {
         ],
         key: {
             S: { item: "create:sturdy_sheet" },        // rigid substrate (Create item)
-            P: { item: circuitBoard },         // multilayer PCB proxy
-            M: { item: transistor },       // extra logic
+            P: { item: "tfmg:circuit_board" },         // multilayer PCB proxy
+            M: { item: "tfmg:transistor_item" },       // extra logic
             B: { item: "create:brass_sheet" },         // package frame / IHS frame
             X: { item: "dam:processor" },              // T2 core
             H: { item: "minecraft:iron_block" },       // heat spreader proxy

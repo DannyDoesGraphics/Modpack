@@ -33,10 +33,6 @@ file = "config/almostunified/unification/materials.json"
 hash = "30dfa4d57b1a6895cdf8e889080a870d1766e54e16167b09c36d1ce0e4423c73"
 
 [[files]]
-file = "config/astikorcartsredux-common.toml"
-hash = "cc6bf6cd24f542fbcd8c1ec8a72b87df72c353be58599e89b77f0d07bc8096c6"
-
-[[files]]
 file = "config/colorwheel-client.toml"
 hash = "3cb43d65a1c4aa8a62fc1bf76661c065f9e886e44932ed584a5dffe97fb2e67b"
 
@@ -92,24 +88,12 @@ hash = "fa48e21477d4eee6f28644ca57f280ff8f0d9ad1bf45fbdcd29e73a5895e4c30"
 metafile = true
 
 [[files]]
-file = "config/sparsestructures.json5"
-hash = "fd0cc205947abfc66bbf3e04163f371c62603ea252390e766e7434fd83d9ee99"
-
-[[files]]
 file = "config/tectonic.json"
-hash = "536b77893cb8908d814c5ab48ef4538eae2c654c7e5c94fd31a9a58c942224d5"
-
-[[files]]
-file = "config/treechop-common.toml"
-hash = "357ecb1b69f83f1ef1534d5debd1aaf909f28583774af14340c5992dbed97f82"
+hash = "eb60056a979c07b0c66abc02d13c03d48969eac7da14ff71d22f2aa904d07459"
 
 [[files]]
 file = "config/waterframes-server.toml"
 hash = "3246b602321836a598657ba04a686d7c62bfc2dcb73a76bfab0e131317e0b9b5"
-
-[[files]]
-file = "kubejs/assets/dam/textures/item/circuit_board.png"
-hash = "2770fc8528d1daab114e5c66c27432db1c43dc45606df63ccf0814c3cbc68ac8"
 
 [[files]]
 file = "kubejs/assets/dam/textures/item/cpu.png"
@@ -124,14 +108,6 @@ file = "kubejs/assets/dam/textures/item/microprocessor.png"
 hash = "dd9f32abd16eeffa5670c1cbaa470fd6c6e0c8baac5a491e006cceeeef148101"
 
 [[files]]
-file = "kubejs/assets/dam/textures/item/n_semiconductor.png"
-hash = "ab76230f7a22611786159e5172886e07031bc911b89818d564667c8c49e18ab5"
-
-[[files]]
-file = "kubejs/assets/dam/textures/item/p_semiconductor.png"
-hash = "b9529d7de5223cdeea0eab3460337092fbfff0fcd7c16b5bcca57baa8ce79b79"
-
-[[files]]
 file = "kubejs/assets/dam/textures/item/processor.png"
 hash = "922f5edce374a45cdf4b3f09b9d5e48cd9fdb8fa03c2b47d190df66f15b23e4c"
 
@@ -144,10 +120,6 @@ file = "kubejs/assets/dam/textures/item/raw_silicon_wafer.png"
 hash = "f04476068755614e8c8d592d2d2227afceb6e45d36f3050242b6b78c68b5e4be"
 
 [[files]]
-file = "kubejs/assets/dam/textures/item/resistor.png"
-hash = "42315395360aa6f1c9a88f47171bfe1480f90ae2e0ba0e34be5de929cdad2f58"
-
-[[files]]
 file = "kubejs/assets/dam/textures/item/silicon_die.png"
 hash = "315cd56ae95a94ec45b9833281cc4057e32bbc73af6f4c252d772bd57190b940"
 
@@ -156,52 +128,24 @@ file = "kubejs/assets/dam/textures/item/silicon_wafer.png"
 hash = "c9b3591fcc6a246ed9284cbfe542f60631870594240f8f1ccb84513aa2f956f5"
 
 [[files]]
-file = "kubejs/assets/dam/textures/item/transistor.png"
-hash = "81c9e3f237002b2c6a1c2bec386e11665923e58253f008b2525c725e7fa8f907"
-
-[[files]]
-file = "kubejs/assets/dam/textures/item/transistor_item.png"
-hash = "e0c6a1875ed979c341ba663612f83d28c75a380a9cd82f7898d12333b1e93052"
-
-[[files]]
-file = "kubejs/assets/dam/textures/item/unfinished_resistor.png"
-hash = "cc07bd102cb4121756ce6d3e4781fd8fcd0da37be75b7e8d2859182ad41c27be"
-
-[[files]]
-file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "469f774a06198beac18b384210efde463e513d4b68760df626bc992d64e9f9e2"
-
-[[files]]
-file = "kubejs/client_scripts/guideline.md"
-hash = "476faf42b5aeb3c7e0f4aab2e26e2f4794169152e37c08876169ecbe5fa57ce7"
-
-[[files]]
 file = "kubejs/client_scripts/via.js"
-hash = "23dd7aee293a82571892ce78b84795ff849b14561d72587624bd53e91f578ced"
+hash = "5fb98fa7cd8a864b53e1f9f0b05324c062d86d2933248005f86075adc5e9301e"
 
 [[files]]
-file = "kubejs/server_scripts/ae2.jsoff"
+file = "kubejs/server_scripts/ae2.js"
 hash = "a4a34f3f2a9d6ba6d29c64389a569373ac57b3713b48b999f50832d67f006f73"
 
 [[files]]
-file = "kubejs/server_scripts/refined_storage.jsoff"
+file = "kubejs/server_scripts/refined_storage.js"
 hash = "565f388f5b2a4e11f0f8f66fae279d24bdd585cecd4aecd4b8db8445a36dc840"
 
 [[files]]
-file = "kubejs/server_scripts/semiconductors.js"
-hash = "b668a3bb2615f4759954643408171acef57f4abe6187d12d33c851cf86f7d219"
-
-[[files]]
 file = "kubejs/server_scripts/wafer.js"
-hash = "7687f0da7137647d5283a6be6218a71265c6595a9b28d1270de70bc9422a90e9"
-
-[[files]]
-file = "kubejs/server_scripts/wafer.jsoff"
-hash = "7687f0da7137647d5283a6be6218a71265c6595a9b28d1270de70bc9422a90e9"
+hash = "3545cced882de2ca0c42f03e95dbed54063141dcaf7943033aed43d1d4229d6b"
 
 [[files]]
 file = "kubejs/startup_scripts/wafer.js"
-hash = "a7a70aabbba1e8b32638fe6197add7b8ec1a7a5cae66c369f74c8537aed6a3f0"
+hash = "402cf48de85235d92db701bac8ba9eec96348ff8638e18d2ca752dc6c5b884a4"
 
 [[files]]
 file = "mods/accessories-cc-layer.pw.toml"
@@ -221,31 +165,6 @@ metafile = true
 [[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "cd3dc0764b530a3323e94b880f9ee9f1910036468245dcfb32c4702e19494b0f"
-metafile = true
-
-[[files]]
-file = "mods/astikorcarts-redux.pw.toml"
-hash = "ae56960397cf0e01f21b448093590643ad70bb390da44732ca46dc5261f4d536"
-metafile = true
-
-[[files]]
-file = "mods/autohud.pw.toml"
-hash = "1d39c4b2c4554ef1532b3f0d22e6a06d8750ce11acb2f51ba7d78868c7f4cdb7"
-metafile = true
-
-[[files]]
-file = "mods/betterdays.pw.toml"
-hash = "491bbce364b6fefc3ec6292cde7c2cd17b18f358f2bf59628c9d84ba9c43d2f6"
-metafile = true
-
-[[files]]
-file = "mods/carry-on.pw.toml"
-hash = "8fde54624913d86f1176cd1086fa485f1a872573dac144347c57cab76596b715"
-metafile = true
-
-[[files]]
-file = "mods/cloth-config.pw.toml"
-hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
@@ -309,18 +228,13 @@ hash = "ee76dbe108ebf5cf68047f60ecabee5aeb029015253dc82c007b941a6d6cfcdf"
 metafile = true
 
 [[files]]
-file = "mods/create-tfmg.pw.toml"
-hash = "e9561ff24c431e4fd95d851f4d9755b52b52a5c24ecc3a1ad15ab8ef20087ba9"
-metafile = true
-
-[[files]]
 file = "mods/create.pw.toml"
 hash = "d6043c928c34ce1f4ada544a49193f95c281665cf88d4931e73370ea02870bed"
 metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "48cbc3da595efc9c3e04fb06bf9ba71861fcbd2e70dc1596a38ccb14b5179edc"
+hash = "36fe638633083667b1fd66b53fd1e0d76467dec3a58062fede8207350bd6771d"
 metafile = true
 
 [[files]]
@@ -349,33 +263,18 @@ hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
 metafile = true
 
 [[files]]
-file = "mods/endrem.pw.toml"
-hash = "db22718a1efaf2c691cf3bdddc61b0b06bedff7cb0722aa8b1bdf4f095d116cc"
-metafile = true
-
-[[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "dfc5252f31339a2f2b900399802f2e787ebe4d6e061bd150aaef50a20d2a6d20"
+hash = "6b5fa0d3a684cf6cf33f1399c2b4bdbee34dbe362548808315b488ac172e2ada"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "847b1ef4cab7e5310e058ec2118f4e257327252c230bea328afacac3b1ddd9ad"
-metafile = true
-
-[[files]]
-file = "mods/euphoria-patches.pw.toml"
-hash = "cd77d7f479a925f2c5147a9e4103a7c35c19292bf3a3144a59ecbb2905ceba62"
+hash = "f48d8d1f04f68dc8e6cac4ed4768790fa7ab35ee23c2aaed5391d862c6043eab"
 metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "ce8ed8b130007ccc3d3e27d4e278baade5614bfd9b73f6d5ab0be66ceea159e3"
-metafile = true
-
-[[files]]
-file = "mods/fdlib.pw.toml"
-hash = "5293ee5ce35baf07ce516a53d10f33230da8fc004ad2a443468b0dd3be85b06c"
+hash = "de0ae2cf84978371ec73eae99fb7e4af91af9a82cb5e3edf1192ae54098e4eff"
 metafile = true
 
 [[files]]
@@ -409,18 +308,8 @@ hash = "960fb33c17aca9c635f99009c1f16d75c312d043e302a599f6ce8040452079e6"
 metafile = true
 
 [[files]]
-file = "mods/glitchcore.pw.toml"
-hash = "dbd756dd9bb17e6ecebcf2d7052a67a2da1c7dd378bc2089bc154916080fe031"
-metafile = true
-
-[[files]]
 file = "mods/guideme.pw.toml"
 hash = "b8aee2057378b6f054f94550684d9a3f41ded7cc47794c8b01c107c8c2115ceb"
-metafile = true
-
-[[files]]
-file = "mods/immersive-snow.pw.toml"
-hash = "759ebd337fa67f558a204baef57041ca0392fd206c786a3e7643a5c6b27f4cee"
 metafile = true
 
 [[files]]
@@ -435,12 +324,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "543086dc0db330c268dcfcadaecd179ea389f0b5749d82ef6b06a22cfb7952e6"
+hash = "68e555e2c925017ccd7864862b30da4314a14b43db9b8b48fdf7546c1632495e"
 metafile = true
 
 [[files]]
 file = "mods/kiwi.pw.toml"
-hash = "caa948011054593b7452cfc4fa7276ff61748770285fd6b7ee5078816eed043b"
+hash = "1fc574113671a1018c9b4463f3a99d7713853df4c9536e9a2bf29b466d1e5ed5"
 metafile = true
 
 [[files]]
@@ -450,20 +339,12 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "5113f78787651e11f104807a95760c4af97288c3602ca11d65205387a0886519"
+hash = "44f984abd4e0313b105cdffd27dfc3831baf0032d6cb3908503aa9c77411be59"
 metafile = true
 
 [[files]]
-file = "mods/larion-worldgen.pw.toml.inactive"
+file = "mods/larion-worldgen.pw.toml"
 hash = "cfd9584cd85b80ce1bc993112f337200ea603149edb6bb47af5f5c915529adf4"
-
-[[files]]
-file = "mods/lithosphere.pw.toml.inactive"
-hash = "337093b94742d334ad349d4fbfe1b74a9b885784ac6d43432896b3dc527260a9"
-
-[[files]]
-file = "mods/lithostitched.pw.toml"
-hash = "f8edc1d5fadb1b65f8f869893ec637ec8a5e5f92fb0a7f140e9e62977668f895"
 metafile = true
 
 [[files]]
@@ -478,17 +359,12 @@ metafile = true
 
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "ad52f42cb5e9080cd493d1e7b2acfbc6c662ece8f094288604d54a224ce0e440"
+hash = "9a7118b1d0ae1239f880c4f7fb921d14f49ed04b780fb8d0d439f923c0b6e523"
 metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "34af73fbc06558118a046d6c4c26a555337f5e971ba59b42ca13471c57127f1f"
-metafile = true
-
-[[files]]
-file = "mods/mowzies-mobs.pw.toml"
-hash = "db3d3f1719c6f643a64565e3cf10c5cfe015deecd102e4059e37bf35dbda6364"
+hash = "f438b2c5e6e4ac46cfe40c21b277ec273fdcc1290ff609d2bc832a328a6272ea"
 metafile = true
 
 [[files]]
@@ -507,12 +383,14 @@ hash = "d424a9260ef51bc102e56f0423d91dfabb739ccca8a86eb1c450ea631b739280"
 metafile = true
 
 [[files]]
-file = "mods/oh-the-biomes-weve-gone.pw.toml.inactive"
+file = "mods/oh-the-biomes-weve-gone.pw.toml"
 hash = "ec36bc71d2ac55e7e596e88ceed31e0e1dafcc20fd55e4771aa12deb84a086f7"
+metafile = true
 
 [[files]]
-file = "mods/oh-the-trees-youll-grow.pw.toml.inactive"
+file = "mods/oh-the-trees-youll-grow.pw.toml"
 hash = "53e138a80512bf0cbf316a98a8b15f7736b8542f08325793057af67bd3df9961"
+metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
@@ -540,11 +418,6 @@ hash = "645655e6efa56ea48a5c0f84f5c745d3f0986c49497ce54f538318b1865138d3"
 metafile = true
 
 [[files]]
-file = "mods/qliphoth-awakening.pw.toml"
-hash = "688922712852e585a4d151c59e114afda341555f41f25f99a0d58fc6d7cae081"
-metafile = true
-
-[[files]]
 file = "mods/refined-storage.pw.toml"
 hash = "2615ce20109fe11c8673991a1eb2cdfea463cd38926c067a8b9088eee7a8607d"
 metafile = true
@@ -560,16 +433,6 @@ hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
 
 [[files]]
-file = "mods/serene-seasons.pw.toml"
-hash = "73b1e4f6608fcd396acc3e4e7aa753d314c8810ef4caf831ed93d9932d93f896"
-metafile = true
-
-[[files]]
-file = "mods/snow-real-magic.pw.toml"
-hash = "a1deef8071fb83a13df63c289576813b82f0687eebda9b48b7667620d5d45103"
-metafile = true
-
-[[files]]
 file = "mods/sodium.pw.toml"
 hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
@@ -581,17 +444,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-perfected.pw.toml"
-hash = "bb2880163c874a52f90f0abe23c22ac3ed27ef867254e6de6ec5c65360355860"
-metafile = true
-
-[[files]]
-file = "mods/sparsestructures.pw.toml"
-hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
-metafile = true
-
-[[files]]
-file = "mods/tectonic.pw.toml"
-hash = "8ad02530347f7b0dfe84b8eb081e2eaa23cae536de0d289137902f7557fb3a33"
+hash = "f2521529c79759ea41a1969e9afb1106d819ec4d4e0799b3b40c1fc6beb1965c"
 metafile = true
 
 [[files]]
@@ -600,13 +453,8 @@ hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
 
 [[files]]
-file = "mods/treechop.pw.toml"
-hash = "da1c1cf28e8d5ffe377998d29d59eae29a2020f2de7a0aea7f7253acdc695cfd"
-metafile = true
-
-[[files]]
 file = "mods/via-romana.pw.toml"
-hash = "10094d35edff539271c05ce24570bb5fa73acd137207e5c699f021b864b698fd"
+hash = "e6d877dc7758cf5a55565128d88651ac0f496fdc722f242636b215173daa3aeb"
 metafile = true
 
 [[files]]
@@ -616,7 +464,7 @@ metafile = true
 
 [[files]]
 file = "mods/watermedia.pw.toml"
-hash = "f92f076e36b732f61db1a8553d73758be63e5841d26f229dd20a7d33b973f22f"
+hash = "0ac001016ee3f739c78c5e944761d75db0d2ca683c321d194825104868d32017"
 metafile = true
 
 [[files]]
