@@ -1,13 +1,13 @@
 name = "Via Romana: Infrastructure-Driven Fast Travel"
-filename = "via_romana-2.1.2+1.21.1-neoforge.jar"
+filename = "via_romana-2.1.1+1.21.1-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/FVToiKwr/versions/oogwFuaw/via_romana-2.1.2%2B1.21.1-neoforge.jar"
+url = "https://cdn.modrinth.com/data/FVToiKwr/versions/CH55MKtI/via_romana-2.1.1%2B1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "8a0b4f087cb1b7360f66567204a7b427e70b827f4946c33d6931f3544cb74e70609ab2f08a29124573f6d0a8030a6240ec9c5a2a1ba0a98fbaa1ac84d543cee9"
+hash = "37c7c0223607d21e90615123a56fa2d5949e72af533a4afe693d8e9af43901ef9e5efc36f7700f851ed6ae2119002386336429e8e3958413382aee02d8a73c67"
 
 [update]
 [update.modrinth]
 mod-id = "FVToiKwr"
-version = "oogwFuaw"
+version = "CH55MKtI"
