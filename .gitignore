@@ -1,6 +1,9 @@
 # Exclude exported Modrinth modpacks
 *.mrpack
 
+# Exclude zip archives (large files)
+*.zip
+
 # Exclude .direnv
 .direnv
 
