@@ -1,0 +1,13 @@
+name = "Macaw's Furniture"
+filename = "mcw-furniture-3.4.0-mc1.21.1neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db60a050b63dc364655d0bfe98720fd637fdf093"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7197895
+project-id = 359540

@@ -1,0 +1,13 @@
+name = "Ars Additions"
+filename = "ars_additions-1.21.1-21.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1f230a275b130d4506d288fcc6bb07948bcedc51"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6928685
+project-id = 974408

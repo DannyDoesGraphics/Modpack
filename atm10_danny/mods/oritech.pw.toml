@@ -1,0 +1,13 @@
+name = "Oritech"
+filename = "oritech-neoforge-1.21.1-0.19.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "be5aebf14b66cc10c65614d00769949f7b6ed50f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7194867
+project-id = 1030830

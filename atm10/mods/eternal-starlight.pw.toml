@@ -1,0 +1,13 @@
+name = "Eternal Starlight"
+filename = "eternalstarlight-0.6.1-hotfix+1.21.1+neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6987e8813ec913aa0de148398282a3a410609e86"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7125945
+project-id = 1080592

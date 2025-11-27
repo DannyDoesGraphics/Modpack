@@ -1,0 +1,13 @@
+name = "Mo' Structures (NeoForge/Fabric)"
+filename = "mostructures-neoforge-1.6.0+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f374bd80196e5dfe1f3fc8f4703ce9c20334ff02"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6857966
+project-id = 378266

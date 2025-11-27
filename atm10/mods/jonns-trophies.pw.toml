@@ -1,0 +1,13 @@
+name = "Jonn's Trophies"
+filename = "trophymanager-1.21.1-2.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "73105ab0956878637662272c82a2cb0a3db50255"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7184552
+project-id = 510170

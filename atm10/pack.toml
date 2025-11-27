@@ -1,0 +1,12 @@
+name = "ATM_10_Dannys"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8d5877f4cbd904c236ac3ff5a0a701a2816b12b5b5be2aa52728dc8a42638288"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.215"

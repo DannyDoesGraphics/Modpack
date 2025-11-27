@@ -1,0 +1,13 @@
+name = "Mama's Merrymaking - A Minecraft Christmas and Winter Holiday Mod"
+filename = "merrymaking-1.21.1-10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8b114631778eaf3606965b6c0b837a3e8a92ad5b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6939688
+project-id = 430867

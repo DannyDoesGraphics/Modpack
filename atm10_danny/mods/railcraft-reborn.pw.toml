@@ -1,0 +1,13 @@
+name = "Railcraft Reborn"
+filename = "railcraft-reborn-1.21.1-1.2.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d6d4cb74109dd5d27beb07b705edd158ad5e8ace"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7191620
+project-id = 901491

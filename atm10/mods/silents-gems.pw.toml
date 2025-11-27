@@ -1,0 +1,13 @@
+name = "Silent's Gems"
+filename = "silentgems-1.21.1-neoforge-5.1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8fca815695a969398d29e0d1da36d8db5ffa04bd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6973922
+project-id = 220311
