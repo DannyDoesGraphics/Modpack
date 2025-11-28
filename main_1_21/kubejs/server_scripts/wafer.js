@@ -88,14 +88,14 @@ ServerEvents.recipes(event => {
         ]
     });
 
-    // 6-step FEOL loop: Clean -> Oxidize -> Photoresist -> Etch -> Dope -> Anneal (8x)
+    // FEOL loop: Clean -> Oxidize -> Photoresist -> UV Expose -> Etch -> N-Dope -> P-Dope -> Anneal (8x)
     event.custom({
         type: "create:sequenced_assembly",
         ingredient: { item: "dam:incomplete_silicon_wafer" },
         transitional_item: { id: "dam:incomplete_silicon_wafer" },
         loops: 8,
         sequence: [
-            // Clean
+            // Clean wafer surface
             {
                 type: "create:filling",
                 ingredients: [
@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
                     { id: "dam:incomplete_silicon_wafer" }
                 ]
             },
-            // Grow oxide barrier
+            // Thermal oxidation - grow SiO2 gate oxide
             {
                 type: "create:deploying",
                 ingredients: [
@@ -118,7 +118,19 @@ ServerEvents.recipes(event => {
                     { id: "dam:incomplete_silicon_wafer" }
                 ]
             },
-            // Spin on photoresist + mask stack
+            // Spin-coat photoresist
+            {
+                type: "create:deploying",
+                ingredients: [
+                    { item: "dam:incomplete_silicon_wafer" },
+                    { item: "tfmg:plastic_sheet" }
+                ],
+                keepHeldItem: false,
+                results: [
+                    { id: "dam:incomplete_silicon_wafer" }
+                ]
+            },
+            // Align photomask
             {
                 type: "create:deploying",
                 ingredients: [
@@ -130,30 +142,65 @@ ServerEvents.recipes(event => {
                     { id: "dam:incomplete_silicon_wafer" }
                 ]
             },
-            // Etch in sulfuric acid
+            // UV exposure through mask
+            {
+                type: "create:deploying",
+                ingredients: [
+                    { item: "dam:incomplete_silicon_wafer" },
+                    { item: "tfmg:neon_tube" }
+                ],
+                keepHeldItem: true,
+                results: [
+                    { id: "dam:incomplete_silicon_wafer" }
+                ]
+            },
+            // Develop and etch exposed oxide (HF proxy)
             {
                 type: "create:filling",
                 ingredients: [
                     { item: "dam:incomplete_silicon_wafer" },
-                    { type: "fluid_stack", amount: 100, fluid: "tfmg:sulfuric_acid" }
+                    { type: "fluid_stack", amount: 50, fluid: "tfmg:hydrogen" }
                 ],
                 results: [
                     { id: "dam:incomplete_silicon_wafer" }
                 ]
             },
-            // Dope exposed channels
+            // Strip photoresist with acid
+            {
+                type: "create:filling",
+                ingredients: [
+                    { item: "dam:incomplete_silicon_wafer" },
+                    { type: "fluid_stack", amount: 50, fluid: "tfmg:sulfuric_acid" }
+                ],
+                results: [
+                    { id: "dam:incomplete_silicon_wafer" }
+                ]
+            },
+            // Ion implant n-type dopant (phosphorus/arsenic proxy)
             {
                 type: "create:deploying",
                 ingredients: [
                     { item: "dam:incomplete_silicon_wafer" },
-                    { item: "tfmg:transistor_item" }
+                    { item: "tfmg:n_semiconductor" }
                 ],
                 keepHeldItem: false,
                 results: [
                     { id: "dam:incomplete_silicon_wafer" }
                 ]
             },
-            // Rapid thermal anneal / CMP proxy
+            // Ion implant p-type dopant (boron proxy)
+            {
+                type: "create:deploying",
+                ingredients: [
+                    { item: "dam:incomplete_silicon_wafer" },
+                    { item: "tfmg:p_semiconductor" }
+                ],
+                keepHeldItem: false,
+                results: [
+                    { id: "dam:incomplete_silicon_wafer" }
+                ]
+            },
+            // Rapid thermal anneal to activate dopants
             {
                 type: "create:pressing",
                 ingredients: [
@@ -198,17 +245,19 @@ ServerEvents.recipes(event => {
                     { id: "dam:defective_wafer" }
                 ]
             },
+            // Re-apply photoresist
             {
                 type: "create:deploying",
                 ingredients: [
                     { item: "dam:defective_wafer" },
-                    { item: "minecraft:glass_pane" }
+                    { item: "tfmg:plastic_sheet" }
                 ],
-                keepHeldItem: true,
+                keepHeldItem: false,
                 results: [
                     { id: "dam:defective_wafer" }
                 ]
             },
+            // Strip defective layers
             {
                 type: "create:filling",
                 ingredients: [
@@ -225,14 +274,14 @@ ServerEvents.recipes(event => {
         ]
     });
 
-    // Back-end metallization: dielectric -> pattern -> copper -> CMP (4x)
+    // BEOL Damascene metallization: dielectric -> litho -> etch -> barrier -> copper -> CMP (4x for 4 metal layers)
     event.custom({
         type: "create:sequenced_assembly",
         ingredient: { item: "dam:patterned_wafer" },
         transitional_item: { id: "dam:patterned_wafer" },
         loops: 4,
         sequence: [
-            // Deposit interlayer dielectric
+            // Deposit interlayer dielectric (ILD)
             {
                 type: "create:deploying",
                 ingredients: [
@@ -244,19 +293,54 @@ ServerEvents.recipes(event => {
                     { id: "dam:patterned_wafer" }
                 ]
             },
-            // Pattern trenches
+            // Spin-coat photoresist for via/trench patterning
             {
                 type: "create:deploying",
                 ingredients: [
                     { item: "dam:patterned_wafer" },
-                    { item: "minecraft:redstone" }
+                    { item: "tfmg:plastic_sheet" }
+                ],
+                keepHeldItem: false,
+                results: [
+                    { id: "dam:patterned_wafer" }
+                ]
+            },
+            // UV expose interconnect pattern
+            {
+                type: "create:deploying",
+                ingredients: [
+                    { item: "dam:patterned_wafer" },
+                    { item: "tfmg:neon_tube" }
                 ],
                 keepHeldItem: true,
                 results: [
                     { id: "dam:patterned_wafer" }
                 ]
             },
-            // Fill with copper
+            // Plasma etch trenches and vias
+            {
+                type: "create:filling",
+                ingredients: [
+                    { item: "dam:patterned_wafer" },
+                    { type: "fluid_stack", amount: 50, fluid: "tfmg:sulfuric_acid" }
+                ],
+                results: [
+                    { id: "dam:patterned_wafer" }
+                ]
+            },
+            // Deposit TaN/Ta barrier layer (prevents Cu diffusion)
+            {
+                type: "create:deploying",
+                ingredients: [
+                    { item: "dam:patterned_wafer" },
+                    { item: "tfmg:nickel_sheet" }
+                ],
+                keepHeldItem: false,
+                results: [
+                    { id: "dam:patterned_wafer" }
+                ]
+            },
+            // Electroplate copper fill
             {
                 type: "create:deploying",
                 ingredients: [
@@ -268,7 +352,7 @@ ServerEvents.recipes(event => {
                     { id: "dam:patterned_wafer" }
                 ]
             },
-            // CMP to planarize
+            // CMP to planarize excess copper
             {
                 type: "create:pressing",
                 ingredients: [
@@ -421,12 +505,12 @@ ServerEvents.recipes(event => {
                     { id: "dam:microprocessor" }
                 ]
             },
-            // transistor interconnect
+            // solder bump interconnect (flip-chip)
             {
                 type: "create:deploying",
                 ingredients: [
                     { item: "dam:microprocessor" },
-                    { item: "tfmg:transistor_item" },
+                    { item: "tfmg:lead_nugget" },
                 ],
                 keepHeldItem: false,
                 results: [
