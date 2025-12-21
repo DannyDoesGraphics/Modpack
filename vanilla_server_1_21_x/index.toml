@@ -26,6 +26,11 @@ hash = "7345effda3ffcc376275666335af5b8a504887d1e95d13b257cb7e44695ba1aa"
 metafile = true
 
 [[files]]
+file = "mods/floodgate.pw.toml"
+hash = "ece34207ca75882863aa616328af686011fd554595b80a7858ddcc4848d5768d"
+metafile = true
+
+[[files]]
 file = "mods/geyser.pw.toml"
 hash = "e81e05075738f12978aafd03de73346b895f68fa7e957e1ba1a9df7190277939"
 metafile = true
@@ -53,4 +58,9 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "c0a85192cfec296d8ab8690e91bfeb932efde590af289ec263616ed36543cee7"
+metafile = true
+
+[[files]]
+file = "mods/viaversion.pw.toml"
+hash = "efc5c879cda829efd15fb8bc3bc1bfb218fc7502b5d0a85d495d8b33d58180e3"
 metafile = true
