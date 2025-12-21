@@ -1,13 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "1b6acd374e376f9dee939184a228eb8b1a8fd1abb5074a8a6cff2473712aeadb"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "a43e3d76464a16015d62ba08d51da734f92377f0889c3984656d6d5739d284b2"
+hash = "d06bd663c0b321e02f82c2a95f43f7f5e5b704f6b9ce4c7e4067f4d5c9e51245"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "b51659a7fdd17e134028a747bd8e4e8fb9ab9d88038577d088049a5c381f09dc"
+hash = "816a274a51586b2a1e328b70fef8aba88c8e0c64205bebb2773cde8bc205f20f"
 metafile = true
 
 [[files]]
@@ -17,10 +22,10 @@ metafile = true
 
 [[files]]
 file = "mods/geyser.pw.toml"
-hash = "1ea81e3584c8dbdac95964ca43aa2e5b0076b6534ae4a2ae077e4b8581f5e3f3"
+hash = "e81e05075738f12978aafd03de73346b895f68fa7e957e1ba1a9df7190277939"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "cdde1ed66709cde0656be902a1109532f255fd1526991acebe91116a4ab399df"
+hash = "5936eea7a83a33027fae99530fec0fa76511ee1ecbfee8125944ba1f470e7713"
 metafile = true

@@ -1,0 +1,181 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    // Refined Storage (not installed)
+    "refinedstorage:raw_basic_processor",
+    "refinedstorage:raw_improved_processor",
+    "refinedstorage:raw_advanced_processor",
+
+    // AE2 - Meteorite
+    "ae2:meteorite_compass",
+    "ae2:mysterious_cube",
+    "ae2:not_so_mysterious_cube",
+
+    // AE2 - Fluix
+    "ae2:fluix_crystal",
+    "ae2:fluix_dust",
+    "ae2:fluix_block",
+    "ae2:fluix_pearl",
+    "ae2:fluix_axe",
+    "ae2:fluix_hoe",
+    "ae2:fluix_pickaxe",
+    "ae2:fluix_shovel",
+    "ae2:fluix_sword",
+    "ae2:fluix_upgrade_smithing_template",
+    "ae2:fluix_slab",
+    "ae2:fluix_stairs",
+    "ae2:fluix_wall",
+
+    // AE2 - Certus Quartz
+    "ae2:certus_quartz_crystal",
+    "ae2:charged_certus_quartz_crystal",
+    "ae2:certus_quartz_dust",
+    "ae2:certus_quartz_axe",
+    "ae2:certus_quartz_hoe",
+    "ae2:certus_quartz_pickaxe",
+    "ae2:certus_quartz_shovel",
+    "ae2:certus_quartz_sword",
+    "ae2:certus_quartz_cutting_knife",
+    "ae2:certus_quartz_wrench",
+
+    // AE2 - Quartz Growth
+    "ae2:growth_accelerator",
+    "ae2:quartz_fixture",
+    "ae2:small_quartz_bud",
+    "ae2:medium_quartz_bud",
+    "ae2:large_quartz_bud",
+    "ae2:quartz_cluster",
+    "ae2:damaged_budding_quartz",
+    "ae2:chipped_budding_quartz",
+    "ae2:flawed_budding_quartz",
+    "ae2:flawless_budding_quartz",
+
+    // AE2 - Inscriber/Processor System
+    "ae2:inscriber",
+    "ae2:charger",
+    "ae2:silicon_press",
+    "ae2:logic_processor_press",
+    "ae2:calculation_processor_press",
+    "ae2:engineering_processor_press",
+    "ae2:name_press",
+    "ae2:printed_silicon",
+    "ae2:printed_logic_processor",
+    "ae2:printed_calculation_processor",
+    "ae2:printed_engineering_processor",
+    "ae2:silicon",
+    "ae2:logic_processor",
+    "ae2:calculation_processor",
+    "ae2:engineering_processor",
+
+    // AE2 - Quartz Decoratives
+    "ae2:quartz_block",
+    "ae2:quartz_slab",
+    "ae2:quartz_stairs",
+    "ae2:quartz_wall",
+    "ae2:quartz_bricks",
+    "ae2:quartz_brick_slab",
+    "ae2:quartz_brick_stairs",
+    "ae2:quartz_brick_wall",
+    "ae2:quartz_pillar",
+    "ae2:quartz_pillar_slab",
+    "ae2:quartz_pillar_stairs",
+    "ae2:quartz_pillar_wall",
+    "ae2:chiseled_quartz_block",
+    "ae2:chiseled_quartz_slab",
+    "ae2:chiseled_quartz_stairs",
+    "ae2:chiseled_quartz_wall",
+    "ae2:cut_quartz_block",
+    "ae2:cut_quartz_slab",
+    "ae2:cut_quartz_stairs",
+    "ae2:cut_quartz_wall",
+    "ae2:smooth_quartz_block",
+    "ae2:smooth_quartz_slab",
+    "ae2:smooth_quartz_stairs",
+    "ae2:smooth_quartz_wall",
+    "ae2:quartz_glass",
+    "ae2:quartz_vibrant_glass",
+
+    // AE2 - Debug/Misc
+    "ae2:debug_card",
+    "ae2:debug_cube_gen",
+    "ae2:debug_energy_gen",
+    "ae2:debug_eraser",
+    "ae2:debug_item_gen",
+    "ae2:debug_meteorite_placer",
+    "ae2:debug_phantom_node",
+    "ae2:debug_replicator_card",
+    "ae2:sky_dust",
+    "ae2:ender_dust",
+    "ae2:matter_ball",
+    "ae2:tiny_tnt",
+    "ae2:crystal_resonance_generator",
+
+    // MEGA Cells
+    "megacells:accumulation_processor",
+    "megacells:accumulation_processor_press",
+    "megacells:printed_accumulation_processor",
+
+    // Extended AE - Concurrent Processor
+    "extendedae:concurrent_processor",
+    "extendedae:concurrent_processor_press",
+    "extendedae:concurrent_processor_print",
+
+    // Extended AE - Entro Growth
+    "extendedae:entro_seed",
+    "extendedae:entro_shard",
+    "extendedae:entro_crystal",
+    "extendedae:entro_dust",
+    "extendedae:entro_cluster",
+    "extendedae:entro_cluster_small",
+    "extendedae:entro_cluster_medium",
+    "extendedae:entro_cluster_large",
+    "extendedae:entro_budding_hardly",
+    "extendedae:entro_budding_half",
+    "extendedae:entro_budding_mostly",
+    "extendedae:entro_budding_fully",
+    "extendedae:quartz_blend"
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": true
+}

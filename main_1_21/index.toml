@@ -112,6 +112,10 @@ file = "dump/armor_material/minecraft.json"
 hash = "6c9337727d65f0b797f7385f5f16378c07880611508830112c0a68d9d9ee83b6"
 
 [[files]]
+file = "dump/attachment_types/ae2.json"
+hash = "31e3f726542eb67e7f91defee2c9a7c3c57eb6909cc19acd65689e982424f0c3"
+
+[[files]]
 file = "dump/attachment_types/create.json"
 hash = "7f3db6e85b1a807b8a2790da2f22e7aa1fc1c9893c20e5695e0ba35b92977c23"
 
@@ -152,6 +156,14 @@ file = "dump/biome_modifier_serializers/neoforge.json"
 hash = "06ab98a994fc01d91b79f2fae93994b3d0719783d9f90dd55c27e692e12324f7"
 
 [[files]]
+file = "dump/block/ae2.json"
+hash = "d6d2cc29468eb7c29d75a8ea925779e4e21aba203f1344d12be7c5f38ec0f1b1"
+
+[[files]]
+file = "dump/block/appex.json"
+hash = "4cc5c239df0e056fc7ed67bd5c3f8512e4ee18d2dc114c167740ba8e22d8c256"
+
+[[files]]
 file = "dump/block/create.json"
 hash = "2b45f88ec51cd306ec2162280b068e1028a5a3cb5f0bfd469fb55a1bb10e0564"
 
@@ -166,6 +178,14 @@ hash = "6695b22e3f209ca2d7c1d53450983efb5120aec23c0c146bbf2b72a506f2e064"
 [[files]]
 file = "dump/block/create_power_loader.json"
 hash = "6bf19fd13ed829e2f100ca9cf60ba39070ab6d56376d4bab8d249a9482971d4a"
+
+[[files]]
+file = "dump/block/extendedae.json"
+hash = "1c1867dad3375ff6c8ea84ecfb1632e046b7a42c9edd6b454c41e160d3be4a42"
+
+[[files]]
+file = "dump/block/megacells.json"
+hash = "91f60d2b715c9a4e193d3efd6b47f566d44e99ac31758428ac731c050a47497b"
 
 [[files]]
 file = "dump/block/minecraft.json"
@@ -188,6 +208,14 @@ file = "dump/block/waterframes.json"
 hash = "79fbbb7e762fec296f2baacbf8c967432fb25e39818ba32fa0bfd598e6e53ea4"
 
 [[files]]
+file = "dump/block_entity_type/ae2.json"
+hash = "b02ef2b48be98dcc9cb530c3dc26b8c4fc4bd5fe2b88d78eee4d4d5de0f51f7d"
+
+[[files]]
+file = "dump/block_entity_type/appex.json"
+hash = "4cc5c239df0e056fc7ed67bd5c3f8512e4ee18d2dc114c167740ba8e22d8c256"
+
+[[files]]
 file = "dump/block_entity_type/create.json"
 hash = "af133fccc19dcea6199ba6694a16f2603fae0526e6701a300f25e586e507c367"
 
@@ -202,6 +230,14 @@ hash = "57a434f46109aabc209b809acbad914d555cecf21271afd06bf028403632a052"
 [[files]]
 file = "dump/block_entity_type/create_power_loader.json"
 hash = "6bf19fd13ed829e2f100ca9cf60ba39070ab6d56376d4bab8d249a9482971d4a"
+
+[[files]]
+file = "dump/block_entity_type/extendedae.json"
+hash = "525dd43352ac99761cf2f59aa6bec652930d9b5ac386f0956f035226e9d30719"
+
+[[files]]
+file = "dump/block_entity_type/megacells.json"
+hash = "a74da01a790c2ab91ef79d3a224cccc40d8255631fe8516e0a431124c6117ce6"
 
 [[files]]
 file = "dump/block_entity_type/minecraft.json"
@@ -256,6 +292,10 @@ file = "dump/command_argument_type/creativecore.json"
 hash = "a93146f158a355dc174a95dcf6b98a8f590d9c4aa98b0b602f1976b5214a01a6"
 
 [[files]]
+file = "dump/command_argument_type/guideme.json"
+hash = "103e7913c1461a397ec1c2287f5606a26c7a7fbb0894330b5c21173ffba27637"
+
+[[files]]
 file = "dump/command_argument_type/minecraft.json"
 hash = "41f186a6ba373a6c10e1b22d98412022cf83e3a21fb652b010b1445d7df6b516"
 
@@ -270,6 +310,10 @@ hash = "f74ed08bcaf33b64fd9b202f3be19c4cb76bde26182f5c25726aded808f0cff9"
 [[files]]
 file = "dump/condition_codecs/create_connected.json"
 hash = "e805dddbe8c8fcceb373ce759cd12e389b1c3b5a4e6d32a876e410ee9e5cb940"
+
+[[files]]
+file = "dump/condition_codecs/extendedae.json"
+hash = "3a639ca8b9ae9495e9162f60a7042722325329e30fbaba6d53417b6127215aa3"
 
 [[files]]
 file = "dump/condition_codecs/lithostitched.json"
@@ -292,6 +336,18 @@ file = "dump/contraption_type/tfmg.json"
 hash = "caf84f24aa84047cf828d5e2d4b764ce1e788fa1b1c1a09cbe603dd199fd0164"
 
 [[files]]
+file = "dump/creative_mode_tab/ae2.json"
+hash = "b4ec946e2e51a0da459bd7dabd5ec2a389457a77599b7d4ff714af355a799e9d"
+
+[[files]]
+file = "dump/creative_mode_tab/ae2importexportcard.json"
+hash = "34941036350f0fb833336a8e0adafa585182da806b2701f892e722a6e7776d73"
+
+[[files]]
+file = "dump/creative_mode_tab/appex.json"
+hash = "6a6b6bb2a547097115215c78e82e1eec07a4cc6948c2cd478f62bcc0e1fc195c"
+
+[[files]]
 file = "dump/creative_mode_tab/create.json"
 hash = "df340d337761fe9c57ee782b32c8624157fa7687b8ae8482eebd43c8dc887874"
 
@@ -312,8 +368,16 @@ file = "dump/creative_mode_tab/everycomp.json"
 hash = "3fab53da8a458d0697a9b4e2fa61ddc89e9784098ae0f17ae5f8762140c9a5ea"
 
 [[files]]
+file = "dump/creative_mode_tab/extendedae.json"
+hash = "0e88fb347fef9421466870cf63e72dccd849e30f5e80178908966dca4aebd1a9"
+
+[[files]]
 file = "dump/creative_mode_tab/kubejs.json"
 hash = "0297030e5baafc5204361b45227f658aff1080ce436e6091ec75747b5a37869f"
+
+[[files]]
+file = "dump/creative_mode_tab/megacells.json"
+hash = "f15193ccdecb64e2ec1f228ccba39e9b313bff586579b522616e4885e9942f45"
 
 [[files]]
 file = "dump/creative_mode_tab/minecraft.json"
@@ -329,7 +393,15 @@ hash = "e8c7be04550823a790c2b6adfaa301b4c6d475bafcdfb1025c84735f510e3bb4"
 
 [[files]]
 file = "dump/custom_stat/minecraft.json"
-hash = "f94e010c7b5b1dc92545314c0ac869f7d7131de774b7819ccfed0ed09fa45b62"
+hash = "005278ed380b84cdd6f43a6df870f28317e16b06752af0cdabdc9f496ea48e60"
+
+[[files]]
+file = "dump/custom_stat/via_romana.json"
+hash = "5e9f20f14b98c5271ea81651882de5f656c5558ec61e5d35c4785d1cc92b77fe"
+
+[[files]]
+file = "dump/damage_type/ae2.json"
+hash = "bfbf013d8616c9abec8023a81a58c77aa5663fc1ac74d3d63b8ce57e9eef4fcb"
 
 [[files]]
 file = "dump/damage_type/create.json"
@@ -348,6 +420,22 @@ file = "dump/damage_type/tfmg.json"
 hash = "be8db12fb5beb69ba9c7e78ae2d02c45abbee30a16e3699d88b36ff536926218"
 
 [[files]]
+file = "dump/data_component_type/ae2.json"
+hash = "06ad6c0d2a28042ec105ec7830aefa9232b2ab35fa574a53432e88c93c6bbf19"
+
+[[files]]
+file = "dump/data_component_type/ae2importexportcard.json"
+hash = "014f42c64f2254b5a3beacfe7eef476753566ecb48ed86905ab5c21f384e564f"
+
+[[files]]
+file = "dump/data_component_type/ae2wtlib.json"
+hash = "b7307210b866e0cb45ffa747590ba161538791f910fa932c8b36b5eb83604102"
+
+[[files]]
+file = "dump/data_component_type/appex.json"
+hash = "328a6940030446b0991eac1dcfa508eba410358a55a32d87325a0c60fbfea333"
+
+[[files]]
 file = "dump/data_component_type/create.json"
 hash = "caf8d787d360cb6db8d8cb5ce872703fd0ee7eb769ae179b9a24be2428eb38b0"
 
@@ -358,6 +446,18 @@ hash = "1bc214f9417df3785c4e378f5619b9a47cb7c537e5c78211d7096709670b16f8"
 [[files]]
 file = "dump/data_component_type/create_pattern_schematics.json"
 hash = "f11d35544b9024995b30094a9096b6936d2927a91ba406f25ff0bd5fab541e07"
+
+[[files]]
+file = "dump/data_component_type/extendedae.json"
+hash = "d081a195843785dc4fe30363eca7e74ecf8924d5a4786a67a4864c8cefa45bc0"
+
+[[files]]
+file = "dump/data_component_type/guideme.json"
+hash = "f007b6803fa96e97d98ebc8d7cf051972e5a800202741e3190d874f8c9752ab5"
+
+[[files]]
+file = "dump/data_component_type/megacells.json"
+hash = "cf3b0cb9eff0316be999c5107a2d2c6b04ef16731e03cb87dc90fdc0a2c7edd4"
 
 [[files]]
 file = "dump/data_component_type/minecraft.json"
@@ -382,6 +482,10 @@ hash = "94c65951b7c0ca3c654ec2af30a8a20ec02d273166d290057f2b607a1003b599"
 [[files]]
 file = "dump/dimension/minecraft.json"
 hash = "c7530bd64902f93b5880c1618c7d40da4c269efec9fbab5ab015f9ab7308476d"
+
+[[files]]
+file = "dump/dimension_type/ae2.json"
+hash = "3ae551c5ef1dbceee24231a3db39c622fe40e8bd57dafe390b06b0744e7c6ad1"
 
 [[files]]
 file = "dump/dimension_type/minecraft.json"
@@ -458,6 +562,10 @@ hash = "342f719bfae197d2349b1c2bdd85b9626fec5a4fa763a810d314e71eeaaad9f8"
 [[files]]
 file = "dump/entity_sub_predicate_type/neoforge.json"
 hash = "42f4921210c2529baaf6ce28c64966b61d3da61407cedf730fe793bb23adffd7"
+
+[[files]]
+file = "dump/entity_type/ae2.json"
+hash = "327f3ffa6b3c7655eb92a52ce9b00187d40fddbff46a6b772619bcff57402fff"
 
 [[files]]
 file = "dump/entity_type/create.json"
@@ -564,6 +672,18 @@ file = "dump/int_provider_type/minecraft.json"
 hash = "65fa2978468be2cc3c249a45fa8b8b2dd925bf76e12191543405e89196b67c79"
 
 [[files]]
+file = "dump/item/ae2.json"
+hash = "9f8035452dff956efbab4f0969b913c8e90dafc5b1b45d65408b61eda65bbe42"
+
+[[files]]
+file = "dump/item/ae2importexportcard.json"
+hash = "b71fd329f0894c62473fd92e12508cb409252a117cdaafdfef37069824f735bf"
+
+[[files]]
+file = "dump/item/appex.json"
+hash = "23623519a707b37e4df3ed2dee57fc6df1127ac9088daf6f758a89bf04eb180b"
+
+[[files]]
 file = "dump/item/create.json"
 hash = "39c93273db683f7dc55077954d34e07e853de4fcf4316885737d618afcc0b3c3"
 
@@ -585,11 +705,23 @@ hash = "6bf19fd13ed829e2f100ca9cf60ba39070ab6d56376d4bab8d249a9482971d4a"
 
 [[files]]
 file = "dump/item/dam.json"
-hash = "3389b2e64e7ff6bf7bdc37fa3ab7876a1ed7940643450469a17c885115ae0ef9"
+hash = "bdb019de7bc3dd18d3319c95e4c710147a9218d43023981b0d69658b5ab21c3b"
 
 [[files]]
 file = "dump/item/everycomp.json"
 hash = "f292cc6731864e9bb7c9a44654bcd20855b134cb2608c6ea1373c02bf519becf"
+
+[[files]]
+file = "dump/item/extendedae.json"
+hash = "99f5f99b6e3d976d488725566d438a6e36576d8ed3a4aab86f6cf01e2335afb7"
+
+[[files]]
+file = "dump/item/guideme.json"
+hash = "ea3d8f047155418bffbb25eafb788cca64768789e0a5d5660a485229ca83531f"
+
+[[files]]
+file = "dump/item/megacells.json"
+hash = "980c623b2f6f135c6871c1b2a553561f2479e3c80a88961f9f19e3c12e6185bd"
 
 [[files]]
 file = "dump/item/minecraft.json"
@@ -634,6 +766,14 @@ hash = "a20c8c34ee1cd65962b713a180c1c431f8599d22127a41c5668bfc60123f1639"
 [[files]]
 file = "dump/jukebox_song/minecraft.json"
 hash = "1dbee8515dbcb5967355de6d88597c2f1a4067c40b9f1a23cb440fe42cf975af"
+
+[[files]]
+file = "dump/keytypes/ae2.json"
+hash = "3aaac46271792fa5ccd1072ad04e21bcbcfb8918feb7e76f4d3aa713fd29e064"
+
+[[files]]
+file = "dump/keytypes/appex.json"
+hash = "ecfb90df8796696b8188348be8b83a1014c1702ed5d5e7b4eeae167b23957df3"
 
 [[files]]
 file = "dump/loot_condition_type/lootify.json"
@@ -696,6 +836,18 @@ file = "dump/memory_module_type/minecraft.json"
 hash = "c8ecb05e627a9e144d2286f9e727b6e0c882dd6c9fb54dcf1e110474ba743224"
 
 [[files]]
+file = "dump/menu/ae2.json"
+hash = "170994ac5fe580a9a4907a0e0a571c284a6d8a5c8190bec23159f84daf6705a0"
+
+[[files]]
+file = "dump/menu/ae2importexportcard.json"
+hash = "b71fd329f0894c62473fd92e12508cb409252a117cdaafdfef37069824f735bf"
+
+[[files]]
+file = "dump/menu/appex.json"
+hash = "6f4e5b8f5ba0a6d5bfd21a4011b7752e1f48f08f2bc5b48fafc6fec8415a3f7d"
+
+[[files]]
 file = "dump/menu/create.json"
 hash = "eb55ee9b633b7bccfc74652cd198c11345d5fbf89be61de7779793c6c1684102"
 
@@ -704,8 +856,16 @@ file = "dump/menu/creativecore.json"
 hash = "f771e598cdb0fff92a391bf521c5e7b224ed62bb834cc3e998837b25955d6bd6"
 
 [[files]]
+file = "dump/menu/extendedae.json"
+hash = "653d631428e90f89195e5d671c2ce0460893052171768d34c1fa1b2b07bea5b1"
+
+[[files]]
 file = "dump/menu/kubejs.json"
 hash = "c6f526446876252fc44bbfb99def13d32d8314baa7ea9539f4cac542f2fde7f6"
+
+[[files]]
+file = "dump/menu/megacells.json"
+hash = "52584667b44bc0281ab3caddbbd32d1c1dc6fa8a0689bfb93405de619f03582f"
 
 [[files]]
 file = "dump/menu/minecraft.json"
@@ -753,7 +913,7 @@ hash = "8d1b41c740ac973ea5ed090e622003348ec83b5a7de22ac166b283377f59af6b"
 
 [[files]]
 file = "dump/mounted_item_storage_type/create_compatible_storage.json"
-hash = "9d76daf102340e53d5132fc2968e330755a96aa9d4c438d4f13008c9ec5aca62"
+hash = "6708c1f28f911a5200e55070198c2eca91026d251f30331584534dc0d3c3e52f"
 
 [[files]]
 file = "dump/mounted_item_storage_type/create_connected.json"
@@ -770,6 +930,10 @@ hash = "1325c1f088b376eb22fdcbae8bfa6821b87d30c54d24d4111e08d649a893ea29"
 [[files]]
 file = "dump/painting_variant/minecraft.json"
 hash = "eb809f6a7dcf83547f4faa22186fe75a2d4379a1a31cd500bb68891120d47a19"
+
+[[files]]
+file = "dump/particle_type/ae2.json"
+hash = "29a9af3529de355ef3f4f736ce9736b1965091d5f65d962d969ca981434275da"
 
 [[files]]
 file = "dump/particle_type/create.json"
@@ -790,6 +954,10 @@ hash = "84d280e71bbb6cbb77c473d849480f8f36c37ecc03ed2779ecb602b8706e6d48"
 [[files]]
 file = "dump/placement_condition_type/lithostitched.json"
 hash = "dc54e8aa0866e05cc333719fa4dd0c474cdbebfd851c2d415ff15909d0417ff6"
+
+[[files]]
+file = "dump/point_of_interest_type/ae2.json"
+hash = "9c10d204b77d4873767e5c3d6447e97ed8416b192c848fa58955b33007144232"
 
 [[files]]
 file = "dump/point_of_interest_type/minecraft.json"
@@ -828,12 +996,20 @@ file = "dump/processor_condition_type/lithostitched.json"
 hash = "a96bcb6578c10adc1cffc19b41d797f7023c6150ac04dfe15782919e888e3451"
 
 [[files]]
+file = "dump/recipe_serializer/ae2.json"
+hash = "3209b1406bdc45dbed861c7fc5f3f9be74ee8687f37bb927fed1c33b816a1560"
+
+[[files]]
 file = "dump/recipe_serializer/create.json"
 hash = "d1642864896f4227a74951dc8c64f718e078aff96b6a796b66bd7d8b11ce1397"
 
 [[files]]
 file = "dump/recipe_serializer/create_new_age.json"
 hash = "ccb6720151b89e1476a934536ba6fe0f924dd117acbafa774b58424b6dae512d"
+
+[[files]]
+file = "dump/recipe_serializer/extendedae.json"
+hash = "7e4d2f2c72532c06cf629f98e78a1a77a84e0a7e1973fc0fb324379594787546"
 
 [[files]]
 file = "dump/recipe_serializer/jei.json"
@@ -852,12 +1028,20 @@ file = "dump/recipe_serializer/tfmg.json"
 hash = "20dbb356f58ea6ed6c55301c84b414e766558a36ecb1a8f873f7267ab84d780c"
 
 [[files]]
+file = "dump/recipe_type/ae2.json"
+hash = "d154e7be52def299dc2654648e77de386e1ea87089148144bc47b758a6116b22"
+
+[[files]]
 file = "dump/recipe_type/create.json"
 hash = "90778d31e17589a36b9f6bcfa4d0f803260baf14f88a9bd02dd058f7aff2a865"
 
 [[files]]
 file = "dump/recipe_type/create_new_age.json"
 hash = "ccb6720151b89e1476a934536ba6fe0f924dd117acbafa774b58424b6dae512d"
+
+[[files]]
+file = "dump/recipe_type/extendedae.json"
+hash = "7e4d2f2c72532c06cf629f98e78a1a77a84e0a7e1973fc0fb324379594787546"
 
 [[files]]
 file = "dump/recipe_type/minecraft.json"
@@ -908,12 +1092,20 @@ file = "dump/soft_fluid/tfmg.json"
 hash = "ee9efafc43aaf6acdd84f9f5592e70cfdbe0d629a03b5e79c12709e8c7adf833"
 
 [[files]]
+file = "dump/sound_event/ae2.json"
+hash = "b952d2bbb1288abfec6c043266166faf6dd86b6d12707431dfabe659c46d96ba"
+
+[[files]]
 file = "dump/sound_event/create.json"
 hash = "7799a33bb7ed6b424fab0b77eca70e0cc037c945adc9fccaa0205a08cd722366"
 
 [[files]]
 file = "dump/sound_event/create_connected.json"
 hash = "f7f2ed0b53e4e6b2207c60efdb68a46f5546928e424afce4ed2cd477aa5280e7"
+
+[[files]]
+file = "dump/sound_event/guideme.json"
+hash = "f6531c9dea63bfa821ca0e37fb77337705f42eb1ae3b8af122716beb76b07e67"
 
 [[files]]
 file = "dump/sound_event/minecraft.json"
@@ -934,6 +1126,10 @@ hash = "7b7a75b3a9b0d8c356e8cccbac5f18eaa78a56c035688f2567fd238f6275d114"
 [[files]]
 file = "dump/template_list/lithostitched.json"
 hash = "a292e556b6b1a6662353fba1a4b61b0ca64e65c94525408b1db3d9389651f53f"
+
+[[files]]
+file = "dump/trigger_type/ae2.json"
+hash = "f63b49ec6a7f3cbf7a2e4b11338064ff6acea99d47b620a281b87d29552ec72f"
 
 [[files]]
 file = "dump/trigger_type/create.json"
@@ -960,6 +1156,10 @@ file = "dump/trim_pattern/minecraft.json"
 hash = "0863a00dc596ff5d18e46345e8f54fdcf3d2961e0a80c25ed51b1f0dfa102cb5"
 
 [[files]]
+file = "dump/villager_profession/ae2.json"
+hash = "9c10d204b77d4873767e5c3d6447e97ed8416b192c848fa58955b33007144232"
+
+[[files]]
 file = "dump/villager_profession/minecraft.json"
 hash = "3c21245a2dd828d37bc4191337d8df771f07c8f3a752e056cb70c6b587d9434e"
 
@@ -970,6 +1170,10 @@ hash = "b52f7df67f32a8f75a9134cdfb50cae0041d9c1ef4cf4727833f9b5c4bdd7032"
 [[files]]
 file = "dump/wolf_variant/minecraft.json"
 hash = "f853b7952ad329b7e35915db0dd03d8124e68cc17f6338e3a69b770be4761338"
+
+[[files]]
+file = "dump/worldgen/biome/ae2.json"
+hash = "3ae551c5ef1dbceee24231a3db39c622fe40e8bd57dafe390b06b0744e7c6ad1"
 
 [[files]]
 file = "dump/worldgen/biome/minecraft.json"
@@ -990,6 +1194,10 @@ hash = "d61b58276e96793390abf68f2f1da9fce405273b36ca55f0d1bcb72dd6338e8a"
 [[files]]
 file = "dump/worldgen/carver/minecraft.json"
 hash = "b5fa14bd69be99137c97be3a0be1dbf1d709cc3e1d63ae649f73751d1a9c8d16"
+
+[[files]]
+file = "dump/worldgen/chunk_generator/ae2.json"
+hash = "3ae551c5ef1dbceee24231a3db39c622fe40e8bd57dafe390b06b0744e7c6ad1"
 
 [[files]]
 file = "dump/worldgen/chunk_generator/minecraft.json"
@@ -1129,7 +1337,7 @@ hash = "8e507d63b45ee89673c0a1147f688f060b1604d5885130702e5639ed92deeaf6"
 
 [[files]]
 file = "dump/worldgen/placement_modifier_type/moonlight.json"
-hash = "2843c3bb46db72b24e4129929c11645977b494d8b38a983170efae3741c5be15"
+hash = "864bf03a76b7dd801d0f56b61f79164b34efd76d6d456c2238bbac974abd581b"
 
 [[files]]
 file = "dump/worldgen/pool_alias_binding/lithostitched.json"
@@ -1141,7 +1349,7 @@ hash = "7d5632d64cc316e8f2f78cf0c51a18e24f75976e135f810a89c480b17eb2ec5d"
 
 [[files]]
 file = "dump/worldgen/processor_list/lithostitched.json"
-hash = "4684ea95deb76ac87b9a6f487d6489c4f2555fccb01468e0be39d8b0b7b77ac5"
+hash = "44df59ef0c15abf7419df9d9fd92e527bd8f2c792be1c09500db4e6e7997aae4"
 
 [[files]]
 file = "dump/worldgen/processor_list/minecraft.json"
@@ -1152,8 +1360,16 @@ file = "dump/worldgen/root_placer_type/minecraft.json"
 hash = "c40d1caaf8421f9b4d11e6f5be5f4ddcd4d625a3df5b1cdd2e3e6d6c0d68f7db"
 
 [[files]]
+file = "dump/worldgen/structure/ae2.json"
+hash = "df188bad32b411ba5211d8c01f348147a0cf6bbc3c5db4b0c336bd839c1940d1"
+
+[[files]]
 file = "dump/worldgen/structure/minecraft.json"
 hash = "ddf5e68e9bf7a0d46f9da5a9237b06481c6a5c6f374676cdf5508a51d65e725e"
+
+[[files]]
+file = "dump/worldgen/structure_piece/ae2.json"
+hash = "1547afa10e84aefe1f82369e296c17649f0ff68f8659c9f55bd71b28a5ba6152"
 
 [[files]]
 file = "dump/worldgen/structure_piece/minecraft.json"
@@ -1192,8 +1408,16 @@ file = "dump/worldgen/structure_processor/minecraft.json"
 hash = "e4dd201cbcadb23e54be7d3754ff53c14a8b45ab9cb19edbf43b13e7b6e4b90b"
 
 [[files]]
+file = "dump/worldgen/structure_set/ae2.json"
+hash = "df188bad32b411ba5211d8c01f348147a0cf6bbc3c5db4b0c336bd839c1940d1"
+
+[[files]]
 file = "dump/worldgen/structure_set/minecraft.json"
 hash = "e3b5ffb934d37190c855fb979cec88ab9aa45e53df2bc71ee5afeb07aafa74b6"
+
+[[files]]
+file = "dump/worldgen/structure_type/ae2.json"
+hash = "1547afa10e84aefe1f82369e296c17649f0ff68f8659c9f55bd71b28a5ba6152"
 
 [[files]]
 file = "dump/worldgen/structure_type/lithostitched.json"
@@ -1244,6 +1468,10 @@ file = "kubejs/assets/dam/textures/item/cpu.png"
 hash = "1f4d0584a282e42397ab922bbca47cb0343a0359899cbb19375f3fffb850d58a"
 
 [[files]]
+file = "kubejs/assets/dam/textures/item/defective_metallized_wafer.png"
+hash = "dc57c0323e1c308fee64c48e8aa648e51158941de87b4c7321315e7a666eea68"
+
+[[files]]
 file = "kubejs/assets/dam/textures/item/defective_wafer.png"
 hash = "e113fd47ac144cd876995a1a055036754fae966bdf8c3cf29ce741928a9a3457"
 
@@ -1253,7 +1481,7 @@ hash = "b03761fa58fce8b76d3f4bb96b82b63c8eb3d2022ef88dda5b4a8f42aa19f144"
 
 [[files]]
 file = "kubejs/assets/dam/textures/item/incomplete_silicon_wafer.png"
-hash = "f116c3e21603866ad20aeafab84e2ee2add4037ca5161217c73f94a0fe266cf7"
+hash = "7be0b814024a38d9447c9e0006d619386dbcb87fad99c815b487b7447257bb8d"
 
 [[files]]
 file = "kubejs/assets/dam/textures/item/metallized_wafer.png"
@@ -1285,7 +1513,7 @@ hash = "315cd56ae95a94ec45b9833281cc4057e32bbc73af6f4c252d772bd57190b940"
 
 [[files]]
 file = "kubejs/assets/dam/textures/item/silicon_wafer.png"
-hash = "f116c3e21603866ad20aeafab84e2ee2add4037ca5161217c73f94a0fe266cf7"
+hash = "2862f8238ecad2e3c1de2ed21dd926027f6004f092af4c04a3d7e14b7cf7ae71"
 
 [[files]]
 file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
@@ -1309,23 +1537,46 @@ hash = "b70fc61d77b0474e52b6bc622c645918903bc702d54f11d5d965243c1f022924"
 
 [[files]]
 file = "kubejs/server_scripts/ae2.js"
-hash = "a4a34f3f2a9d6ba6d29c64389a569373ac57b3713b48b999f50832d67f006f73"
+hash = "c6ae8c670169ebf484368d2cb21d186ad673103909855736845fef76739cecf7"
 
 [[files]]
-file = "kubejs/server_scripts/refined_storage.js"
-hash = "565f388f5b2a4e11f0f8f66fae279d24bdd585cecd4aecd4b8db8445a36dc840"
+file = "kubejs/server_scripts/appex.js"
+hash = "1e40c4c38cbf6ffe7eb62223bf4c5a882fee9df38455ea53ef0b7c2935a5a952"
+
+[[files]]
+file = "kubejs/server_scripts/extendedae.js"
+hash = "af82089e23816acc338c17ae9ed168af3055e6a0d0a2cdbc73f53b218bce4acf"
+
+[[files]]
+file = "kubejs/server_scripts/megacells.js"
+hash = "c94dae6c3a6189f5a0327e4278e71dca7814a01ed70a639f65bf7c4cf01e90e8"
 
 [[files]]
 file = "kubejs/server_scripts/wafer.js"
-hash = "204e3bd22c9163e1ec9c1c7519b278861b6ce1d1cb6a699b2d3e965d41cf7489"
+hash = "1d26ef1a668ee1cc2ee0f379f0d708757d882532ab6e9388a9e216f495252f01"
 
 [[files]]
 file = "kubejs/startup_scripts/wafer.js"
-hash = "e21afa644d36e28be6c62a3ffab06ab08002a0c0db8082fcff5d51eb8a21ea91"
+hash = "bebe494c76d5702394fb3268123255fba9e73b5dd5434e93cccd0d7b152dea2a"
+
+[[files]]
+file = "mods/ae2-import-export-card.pw.toml"
+hash = "47f41878ce963e2f3cbef45bfddba12126dcd577a9dffe3908224f2cd59480c3"
+metafile = true
+
+[[files]]
+file = "mods/ae2.pw.toml"
+hash = "ed45c352a49b65c7221e57d979d0c6935522dfef4968aa5b7421f4d3e670ce40"
+metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "3213c881d019cd8f952f738c10d5a950ee52ff0084750b81f656a58a4a78515d"
+metafile = true
+
+[[files]]
+file = "mods/applied-experienced.pw.toml"
+hash = "190668ad2cdeb8fc446a903ee8bab868387a9f22d6ecfaecf33f332ca62e4f29"
 metafile = true
 
 [[files]]
@@ -1345,7 +1596,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-compatible-storage.pw.toml"
-hash = "c1015581ea9139b9955a3042f69e092926e4cfe2a5d7f426267219b947f9f4f2"
+hash = "401e8f4e10031ee04beac63930234878a69844774225f9da86ff083d7263ffaa"
 metafile = true
 
 [[files]]
@@ -1355,7 +1606,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-new-age.pw.toml"
-hash = "637a0f8e81eebbb776d07f7ce32d6b67675000b6259beacec1cbb1b1d730683d"
+hash = "39f627dbbf9ac72c2094429dfc9655416f5f65bed5e819ba3637354c836c341c"
 metafile = true
 
 [[files]]
@@ -1370,7 +1621,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-tfmg.pw.toml"
-hash = "e9561ff24c431e4fd95d851f4d9755b52b52a5c24ecc3a1ad15ab8ef20087ba9"
+hash = "232047cbbfb70ee4bb800492ba0fd4ad369b3ab4d76d179d48e6d9b0bb82b0e8"
 metafile = true
 
 [[files]]
@@ -1380,17 +1631,17 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "48cbc3da595efc9c3e04fb06bf9ba71861fcbd2e70dc1596a38ccb14b5179edc"
+hash = "4252858199f6d7854cd4612f8b345fe4486676f6e057d64d199239c05f9ae0a8"
 metafile = true
 
 [[files]]
 file = "mods/data-anchor.pw.toml"
-hash = "24f9fbd2a4862eb469a582734a97e1e6ab3d3ed1645421b0cf98a23e25ac25ca"
+hash = "bd6e5a7a9e97014a895f1b4c2c93f277bfe9dda92e3386483ab46a1bd739362d"
 metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "3f8fb0012b658c3ed2dfcde1385aa6255ee46cd18b77975d68665aaf0ee2a94d"
+hash = "5a7c1b20dfbc7f9d4816afe5f0a842d8cb718f6c08e7f78aef47bababe8c078a"
 metafile = true
 
 [[files]]
@@ -1410,12 +1661,32 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "6fa96954852997f4d6f8eb0fba02143dd1030f6183cf961dea0eeaa830f71ef1"
+hash = "ddb08f522e8334fc5f272ae1bb3769a4354832a959f1adb3fa69b02bb59a0cc1"
+metafile = true
+
+[[files]]
+file = "mods/experiencelib.pw.toml"
+hash = "c843be6a7be23a3cecb39b3035665a8769752b05a73fc0141bd4590703a42108"
+metafile = true
+
+[[files]]
+file = "mods/extended-ae.pw.toml"
+hash = "cbdc69a1935afa555f3afb930ed515860f0eeac4c459badb7ba3586f409eb696"
 metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "11c4ac6932c14f3ad5a2c63d7f39eee1e9a2a91ffc079d5bd917c9aa381abdfb"
+hash = "0580a44f77a6e88c906bce984b369ca757a0a73062203e9ce1a144544ede9c8a"
+metafile = true
+
+[[files]]
+file = "mods/glodium.pw.toml"
+hash = "8b30d03470cc27030f42b6719cdb8975f163ed336fc8592f0277a4291bb08aec"
+metafile = true
+
+[[files]]
+file = "mods/guideme.pw.toml"
+hash = "b8aee2057378b6f054f94550684d9a3f41ded7cc47794c8b01c107c8c2115ceb"
 metafile = true
 
 [[files]]
@@ -1424,8 +1695,13 @@ hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
 metafile = true
 
 [[files]]
+file = "mods/item-obliterator.pw.toml"
+hash = "139c5ee36d4528998d33d47ec4c5538f9ce7043b2197879db5f8945e8fe991bb"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
-hash = "ce48a82508562aff1f7fe3551c9800b445aac9ea9aecd9381754e936b17dce2c"
+hash = "5d49dd7272a1418fabed10e3ef9b5c79c3bbb9205d83e79e301c16ad0a0e89e6"
 metafile = true
 
 [[files]]
@@ -1435,7 +1711,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "c9a85ef82394085adf3471b89f5b9b5fe3d8d21dcaafb12da54bd679864dc137"
+hash = "e8c20c0c77e5df58d1386d8190ee16a957d78d62d361469db0b0c29458bf1e84"
 metafile = true
 
 [[files]]
@@ -1445,22 +1721,32 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "f8edc1d5fadb1b65f8f869893ec637ec8a5e5f92fb0a7f140e9e62977668f895"
+hash = "a14ce90c0dca8c48481e27761612a20a3197f942c7b32f39470e5f9de97e356b"
+metafile = true
+
+[[files]]
+file = "mods/mega.pw.toml"
+hash = "4f7bd3545378ae50d94d8c20ba011d685ebe1dadc54f3588b548dc30bd9de0bc"
 metafile = true
 
 [[files]]
 file = "mods/midnightlib.pw.toml"
-hash = "ccd8fcec866d3a283d2f58e44eb1a2174fb0f480fc6039ba144156e147e082d8"
+hash = "3382daf9b5fadbbef742b84fe5b09fa912cc75cd4234e0ba573b85a513354123"
 metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "fdd3e68ff962be188ee0b96cf5082f137ecee9b419cc0d0d7ad9bae124e13e45"
+hash = "56f90779687daa9101ae4dc2730a3b44b07ed3a5113eb4f4b41e36143b297f56"
 metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
+metafile = true
+
+[[files]]
+file = "mods/necronomicon.pw.toml"
+hash = "f4e01222594116f7ebe3bd3908ae066550172eafb9a1ef383b277be569c38e45"
 metafile = true
 
 [[files]]
@@ -1490,7 +1776,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "82fa5e74cae0b3f0199f9822f62a976da2dc6ee03deb543d537ce55d36b11fcb"
+hash = "78e3dde88f8a9b30ab337d824238df20c54f1cd283b2c5db8511f827bb9f8e9b"
 metafile = true
 
 [[files]]
@@ -1500,7 +1786,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-perfected.pw.toml"
-hash = "bb2880163c874a52f90f0abe23c22ac3ed27ef867254e6de6ec5c65360355860"
+hash = "2bf69f5f3a595f2ccf183c1897da887a28313a36b2bd5e8bf651c48bf1f0b4d8"
 metafile = true
 
 [[files]]
@@ -1510,7 +1796,7 @@ metafile = true
 
 [[files]]
 file = "mods/via-romana.pw.toml"
-hash = "b32211751857ab434a7756a7a4f361bd7786582e157691e02c7d22b0d328cc4b"
+hash = "c5756ed1c030278c32f812b2cd2a5f94f268cf60f4cec36d7f3632db724df689"
 metafile = true
 
 [[files]]
@@ -1519,8 +1805,13 @@ hash = "a255c29cb611f60aaad313b223bc424721be5998673002da6b589b2862912621"
 metafile = true
 
 [[files]]
+file = "mods/watermedia-yt-plugin.pw.toml"
+hash = "e0b5d86b63b2aa52bf50d3b58280fed584f8cfef65edc32e7a8b317690e877bc"
+metafile = true
+
+[[files]]
 file = "mods/watermedia.pw.toml"
-hash = "55c198688de4daacf8950fdfe94043661062afd3091c724bb212d2eb4424ce3c"
+hash = "9c14d2011a343872dfa72aee64ef7beb2f9f9e47867807b4b03726cfa8e429b7"
 metafile = true
 
 [[files]]
@@ -1530,7 +1821,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "64eaf7478e42d5143f4feeee87c56f779f4c3523f9fb06d8342484d36aa4442b"
+hash = "9a89a97f142873b9ab62d2c7c807ac22e6f16c828282052b416a6f3f7f785a48"
 metafile = true
 
 [[files]]
