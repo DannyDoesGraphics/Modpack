@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/anti-xray.pw.toml"
+hash = "7ffd2cbb973d987d543b36f12cc9362baae07b0983b83a8292f063ed4287f9a9"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "1b6acd374e376f9dee939184a228eb8b1a8fd1abb5074a8a6cff2473712aeadb"
 metafile = true
@@ -26,6 +31,21 @@ hash = "e81e05075738f12978aafd03de73346b895f68fa7e957e1ba1a9df7190277939"
 metafile = true
 
 [[files]]
+file = "mods/iris.pw.toml"
+hash = "43ae42453ad9c79d9ab1158e13b3230f3dd5d43c6abc088f566038152af3347f"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "88a36b21d538d44aca7dd0a7e5ad8c09b1b263be3f4381e3bb22bc9f94ee7290"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "5936eea7a83a33027fae99530fec0fa76511ee1ecbfee8125944ba1f470e7713"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "c0a85192cfec296d8ab8690e91bfeb932efde590af289ec263616ed36543cee7"
 metafile = true
