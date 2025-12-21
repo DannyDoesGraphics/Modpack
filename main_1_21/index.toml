@@ -42,7 +42,15 @@ hash = "7ba3ff9f2e51c045bf49828ca4e9fd3b181323e8278ebe6417d274fee1164254"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "939aa767a753e3b61334a1d519d7d33fce0d6e9e4ab1cfcf075169093410d63f"
+hash = "dcf09e6834e149306a31b5075a0d2ffa3a3b8a522bd32b4803bb5e7889751395"
+
+[[files]]
+file = "config/kiwi-client.yaml"
+hash = "1c5949d09e2cf5c5eba10c4034b588dd9d7f88d251a2b067c66a42408e5b99d2"
+
+[[files]]
+file = "config/kiwi-common.yaml"
+hash = "48bca49edf4ee6b363fe56139eec197f36399fb87e73b71443959bdb8598a955"
 
 [[files]]
 file = "config/naturaltemperature-common.toml"
@@ -82,6 +90,10 @@ metafile = true
 file = "config/paxi/resourcepacks/refined-storage-recreated.pw.toml"
 hash = "fa48e21477d4eee6f28644ca57f280ff8f0d9ad1bf45fbdcd29e73a5895e4c30"
 metafile = true
+
+[[files]]
+file = "config/snowrealmagic-common.yaml"
+hash = "100b1be6da6f535d878f4675b223d33136e7b6bbba54034c05be2e8d10a81770"
 
 [[files]]
 file = "config/tectonic.json"
@@ -1653,7 +1665,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-new-age.pw.toml"
-hash = "39f627dbbf9ac72c2094429dfc9655416f5f65bed5e819ba3637354c836c341c"
+hash = "92bebed546653fe88370d222662a8c6efed02d3299535c345c19dfac460a11cc"
 metafile = true
 
 [[files]]
@@ -1752,6 +1764,11 @@ hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
 metafile = true
 
 [[files]]
+file = "mods/immersive-snow.pw.toml"
+hash = "759ebd337fa67f558a204baef57041ca0392fd206c786a3e7643a5c6b27f4cee"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
 metafile = true
@@ -1763,7 +1780,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "5d49dd7272a1418fabed10e3ef9b5c79c3bbb9205d83e79e301c16ad0a0e89e6"
+hash = "4fa3642f9cc8fe22a6b787159de3c648071b999b823092cdf97ff39a7046f60d"
+metafile = true
+
+[[files]]
+file = "mods/kiwi.pw.toml"
+hash = "caa948011054593b7452cfc4fa7276ff61748770285fd6b7ee5078816eed043b"
 metafile = true
 
 [[files]]
@@ -1843,12 +1865,17 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "78e3dde88f8a9b30ab337d824238df20c54f1cd283b2c5db8511f827bb9f8e9b"
+hash = "97b2aef4e58e020a28122feea6dfcef731581cb12094047aae8c1e6077c54e75"
 metafile = true
 
 [[files]]
 file = "mods/sleep-warp-updated.pw.toml"
 hash = "065a6c92f489bce0ef6b27f0b05acde22920c5f5f15414171890ec5ea375fe16"
+metafile = true
+
+[[files]]
+file = "mods/snow-real-magic.pw.toml"
+hash = "a1deef8071fb83a13df63c289576813b82f0687eebda9b48b7667620d5d45103"
 metafile = true
 
 [[files]]
