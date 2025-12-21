@@ -1632,6 +1632,11 @@ hash = "cd8078f4d044e9fb548c2b792f2f1f1c04e1b80e1479446f67de3e8687dfbf67"
 metafile = true
 
 [[files]]
+file = "mods/connector.pw.toml"
+hash = "aa242da373359065cb62d8e1094e2f17b456f3ea300db145896cf6c6aae43101"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
 metafile = true
@@ -1702,6 +1707,11 @@ hash = "d3c9b48d7caa2ed964e5d1a4dab1da5655c63f0a7e4a59231c4369be7ffc30e1"
 metafile = true
 
 [[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "cd77d7f479a925f2c5147a9e4103a7c35c19292bf3a3144a59ecbb2905ceba62"
+metafile = true
+
+[[files]]
 file = "mods/every-compat.pw.toml"
 hash = "ddb08f522e8334fc5f272ae1bb3769a4354832a959f1adb3fa69b02bb59a0cc1"
 metafile = true
@@ -1714,6 +1724,11 @@ metafile = true
 [[files]]
 file = "mods/extended-ae.pw.toml"
 hash = "cbdc69a1935afa555f3afb930ed515860f0eeac4c459badb7ba3586f409eb696"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "ec1bd5b80399287ca33a113086bee9d5697b7e673c9f593e5a1aeca4c9bad4c9"
 metafile = true
 
 [[files]]
@@ -1832,6 +1847,11 @@ hash = "78e3dde88f8a9b30ab337d824238df20c54f1cd283b2c5db8511f827bb9f8e9b"
 metafile = true
 
 [[files]]
+file = "mods/sleep-warp-updated.pw.toml"
+hash = "065a6c92f489bce0ef6b27f0b05acde22920c5f5f15414171890ec5ea375fe16"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
@@ -1844,6 +1864,11 @@ metafile = true
 [[files]]
 file = "mods/supplemental-patches.pw.toml"
 hash = "30a8b719ae854c7d457a37ff539a1310ad6e4afaa9c4ffafe680b05e2835d4fd"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "ee4d30e45f196b78932dc795c211a9214d033397d79ed27ca05dbb82b02c2775"
 metafile = true
 
 [[files]]
