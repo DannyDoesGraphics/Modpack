@@ -1842,6 +1842,11 @@ hash = "2bf69f5f3a595f2ccf183c1897da887a28313a36b2bd5e8bf651c48bf1f0b4d8"
 metafile = true
 
 [[files]]
+file = "mods/supplemental-patches.pw.toml"
+hash = "30a8b719ae854c7d457a37ff539a1310ad6e4afaa9c4ffafe680b05e2835d4fd"
+metafile = true
+
+[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "8ad02530347f7b0dfe84b8eb081e2eaa23cae536de0d289137902f7557fb3a33"
 metafile = true
