@@ -9,13 +9,13 @@ StartupEvents.registry('item', event => {
     event.create("dam:defective_metallized_wafer").texture("dam:item/defective_metallized_wafer").displayName("Defective Metallized Wafer");
 
     // Node-specific wafers (7 process nodes)
-    event.create("dam:wafer_90nm").texture("dam:item/silicon_wafer").displayName("90nm Process Wafer");
-    event.create("dam:wafer_45nm").texture("dam:item/silicon_wafer").displayName("45nm Process Wafer");
-    event.create("dam:wafer_22nm").texture("dam:item/silicon_wafer").displayName("22nm Process Wafer");
-    event.create("dam:wafer_14nm").texture("dam:item/silicon_wafer").displayName("14nm Process Wafer");
-    event.create("dam:wafer_7nm").texture("dam:item/silicon_wafer").displayName("7nm Process Wafer");
-    event.create("dam:wafer_5nm").texture("dam:item/silicon_wafer").displayName("5nm Process Wafer");
-    event.create("dam:wafer_3nm").texture("dam:item/silicon_wafer").displayName("3nm Process Wafer");
+    event.create("dam:wafer_90nm").texture("dam:item/90_silicon_wafer").displayName("90nm Process Wafer");
+    event.create("dam:wafer_45nm").texture("dam:item/45_silicon_wafer").displayName("45nm Process Wafer");
+    event.create("dam:wafer_22nm").texture("dam:item/22_silicon_wafer").displayName("22nm Process Wafer");
+    event.create("dam:wafer_14nm").texture("dam:item/14_silicon_wafer").displayName("14nm Process Wafer");
+    event.create("dam:wafer_7nm").texture("dam:item/7_silicon_wafer").displayName("7nm Process Wafer");
+    event.create("dam:wafer_5nm").texture("dam:item/5_silicon_wafer").displayName("5nm Process Wafer");
+    event.create("dam:wafer_3nm").texture("dam:item/3_silicon_wafer").displayName("3nm Process Wafer");
 
     // Node-specific bare dies (7 process nodes)
     event.create("dam:bare_die_90nm").texture("dam:item/silicon_die").displayName("90nm Bare Die");

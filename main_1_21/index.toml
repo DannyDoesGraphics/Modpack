@@ -1456,6 +1456,34 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/dam/textures/item/14_silicon_wafer.png"
+hash = "c32b5f4c4eeb0fae1a1d3169e97efc8c9cd1c386df6c8f2dbcd05cb4614b0d3b"
+
+[[files]]
+file = "kubejs/assets/dam/textures/item/22_silicon_wafer.png"
+hash = "97606a449a9bc1196300d8e2ee2e09184e10b57905bfd09ee898c8715ab104d5"
+
+[[files]]
+file = "kubejs/assets/dam/textures/item/3_silicon_wafer.png"
+hash = "3a20bf7530ff40296aa00202b973244462c078b1d83b899f1d16120b00f77c41"
+
+[[files]]
+file = "kubejs/assets/dam/textures/item/45_silicon_wafer.png"
+hash = "07790179720e71ff067b3cd21a98c5618580b8f0a57a5abdfe797cc8161e4845"
+
+[[files]]
+file = "kubejs/assets/dam/textures/item/5_silicon_wafer.png"
+hash = "b27fa0a7f6f3ba154c6ddd27e0463f622fa002800e706bccb38229608ed88d5d"
+
+[[files]]
+file = "kubejs/assets/dam/textures/item/7_silicon_wafer.png"
+hash = "52596efe9c8dabfa4ce70b8683f94e98d6c5f2b1f95225d1435847b34dd41659"
+
+[[files]]
+file = "kubejs/assets/dam/textures/item/90_silicon_wafer.png"
+hash = "f6158b6af94ddd45d80278aa8efa9b7615292a32584d14b55e43247f442db283"
+
+[[files]]
 file = "kubejs/assets/dam/textures/item/base_wafer.pdn"
 hash = "e76d496ca198ec3c55a7cbcf583bdd56ae65b8410ae51d423b3efe95e325e187"
 
@@ -1532,32 +1560,36 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/config/item_obliterator.json5"
+hash = "a4b402270b6fa69ccdbf62fa0ab1ddcb307b62c5b31bc2352f3c7e0866b2c4a5"
+
+[[files]]
 file = "kubejs/config/web_server.json"
 hash = "b70fc61d77b0474e52b6bc622c645918903bc702d54f11d5d965243c1f022924"
 
 [[files]]
 file = "kubejs/server_scripts/ae2.js"
-hash = "c6ae8c670169ebf484368d2cb21d186ad673103909855736845fef76739cecf7"
+hash = "0d6807ac2dcfd47470c429df39b5aed616ca886463ec683c2c31e2c6390432fb"
 
 [[files]]
 file = "kubejs/server_scripts/appex.js"
-hash = "1e40c4c38cbf6ffe7eb62223bf4c5a882fee9df38455ea53ef0b7c2935a5a952"
+hash = "f842db5ae8b7bffae69d097e14db58205c486d9d155fc0d8805ae7293201b6d0"
 
 [[files]]
 file = "kubejs/server_scripts/extendedae.js"
-hash = "af82089e23816acc338c17ae9ed168af3055e6a0d0a2cdbc73f53b218bce4acf"
+hash = "2b45ca87eb6adbdaa7f60aece9a9dc2d34dfa3d1422c5a60c5b4227b45b24294"
 
 [[files]]
 file = "kubejs/server_scripts/megacells.js"
-hash = "c94dae6c3a6189f5a0327e4278e71dca7814a01ed70a639f65bf7c4cf01e90e8"
+hash = "8ce6b4324bd95e82e48e0e4101c0ce17d623f9dbd3d0a14c88b8f251bd9950c6"
 
 [[files]]
 file = "kubejs/server_scripts/wafer.js"
-hash = "1d26ef1a668ee1cc2ee0f379f0d708757d882532ab6e9388a9e216f495252f01"
+hash = "b901b442c05745b172a6c3b03c1cb43c659d28ba91d3456fe30291dfce24b6fe"
 
 [[files]]
 file = "kubejs/startup_scripts/wafer.js"
-hash = "bebe494c76d5702394fb3268123255fba9e73b5dd5434e93cccd0d7b152dea2a"
+hash = "932fe3b5394371696bd4f44dc1895066bb46d2aca9b0d20b33c8189cb7dd55bd"
 
 [[files]]
 file = "mods/ae2-import-export-card.pw.toml"
@@ -1577,6 +1609,16 @@ metafile = true
 [[files]]
 file = "mods/applied-experienced.pw.toml"
 hash = "190668ad2cdeb8fc446a903ee8bab868387a9f22d6ecfaecf33f332ca62e4f29"
+metafile = true
+
+[[files]]
+file = "mods/athena-ctm.pw.toml"
+hash = "9a9d6bf3715b20cbf83b967e4dd8b77972d1256e52a7b1c2bbfa4122f5acc931"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
+hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
@@ -1690,6 +1732,11 @@ hash = "b8aee2057378b6f054f94550684d9a3f41ded7cc47794c8b01c107c8c2115ceb"
 metafile = true
 
 [[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
 metafile = true
@@ -1762,6 +1809,11 @@ metafile = true
 [[files]]
 file = "mods/registry-dump.pw.toml"
 hash = "fc02b6ed75e6415eebe851d7161313f5e454079bb1280db97dec9949883e6841"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
 
 [[files]]
