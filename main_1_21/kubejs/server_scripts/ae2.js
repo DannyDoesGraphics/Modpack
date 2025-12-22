@@ -232,66 +232,67 @@ ServerEvents.recipes(event => {
 
     // Core components (basic_chip - 90nm/45nm)
 
-    // Annihilation core
+    // Annihilation core - uses electron tube
     event.remove({ output: "ae2:annihilation_core" });
     event.shaped("ae2:annihilation_core", [
-        " T ",
+        " E ",
         "NCN",
-        " T "
+        " E "
     ], {
-        T: "tfmg:transistor_item",
+        E: "create:electron_tube",
         N: "minecraft:quartz",
         C: "dam:basic_chip"
     });
 
-    // Formation core
+    // Formation core - uses electron tube
     event.remove({ output: "ae2:formation_core" });
     event.shaped("ae2:formation_core", [
-        " T ",
+        " E ",
         "GCG",
-        " T "
+        " E "
     ], {
-        T: "tfmg:transistor_item",
+        E: "create:electron_tube",
         G: "minecraft:glowstone_dust",
         C: "dam:basic_chip"
     });
 
-    // Basic card
+    // Basic card - uses copper circuit
     event.remove({ output: "ae2:basic_card" });
     event.shaped("ae2:basic_card", [
         "IR ",
-        "ICI",
+        "CPI",
         "IR "
     ], {
         I: "create:iron_sheet",
         R: "minecraft:redstone",
-        C: "dam:basic_chip"
+        C: "create_new_age:copper_circuit",
+        P: "dam:basic_chip"
     });
 
-    // Import bus
+    // Import bus - uses chute for passive intake
     event.remove({ output: "ae2:import_bus" });
     event.shaped("ae2:import_bus", [
         " A ",
         "ICI",
-        " B "
+        " U "
     ], {
         A: "ae2:annihilation_core",
         I: "create:iron_sheet",
         C: "dam:basic_chip",
-        B: "tfmg:circuit_board"
+        U: "create:chute"
     });
 
-    // Export bus
+    // Export bus - uses smart chute for filtered output
     event.remove({ output: "ae2:export_bus" });
     event.shaped("ae2:export_bus", [
         " F ",
         "ICI",
-        " B "
+        " U "
     ], {
         F: "ae2:formation_core",
         I: "create:iron_sheet",
         C: "dam:basic_chip",
-        B: "tfmg:circuit_board"
+        U: "create:smart_chute"
     });
 
     // Level emitter
@@ -368,16 +369,16 @@ ServerEvents.recipes(event => {
         C: "dam:basic_chip"
     });
 
-    // Condenser
+    // Condenser - uses basin for collection
     event.remove({ output: "ae2:condenser" });
     event.shaped("ae2:condenser", [
         "ISI",
-        "SCS",
+        "SBS",
         "ISI"
     ], {
         I: "create:iron_sheet",
         S: "tfmg:steel_casing",
-        C: "dam:basic_chip"
+        B: "create:basin"
     });
 
     // Standard components (standard_chip - 22nm/14nm)
@@ -395,7 +396,7 @@ ServerEvents.recipes(event => {
         I: "minecraft:diamond"
     });
 
-    // Storage bus
+    // Storage bus - uses inventory bridge
     event.remove({ output: "ae2:storage_bus" });
     event.shaped("ae2:storage_bus", [
         " P ",
@@ -405,22 +406,22 @@ ServerEvents.recipes(event => {
         P: "minecraft:piston",
         I: "create:iron_sheet",
         C: "dam:standard_chip",
-        B: "tfmg:circuit_board"
+        B: "create_connected:inventory_bridge"
     });
 
-    // Interface
+    // Interface - uses inventory access port
     event.remove({ output: "ae2:interface" });
     event.shaped("ae2:interface", [
         "ISI",
-        "ACF",
-        "IBI"
+        "APC",
+        "IFI"
     ], {
         I: "create:iron_sheet",
         S: "tfmg:steel_casing",
         A: "ae2:annihilation_core",
+        P: "create_connected:inventory_access_port",
         C: "dam:standard_chip",
-        F: "ae2:formation_core",
-        B: "tfmg:circuit_board"
+        F: "ae2:formation_core"
     });
 
     // Cable interface
@@ -429,16 +430,16 @@ ServerEvents.recipes(event => {
         "ae2:interface"
     ]);
 
-    // Pattern provider
+    // Pattern provider - uses depot for staging
     event.remove({ output: "ae2:pattern_provider" });
     event.shaped("ae2:pattern_provider", [
         "ISI",
-        "BCB",
+        "DCD",
         "ISI"
     ], {
         I: "create:iron_sheet",
         S: "tfmg:steel_casing",
-        B: "tfmg:circuit_board",
+        D: "create:depot",
         C: "dam:standard_chip"
     });
 
@@ -452,12 +453,12 @@ ServerEvents.recipes(event => {
     event.remove({ output: "ae2:drive" });
     event.shaped("ae2:drive", [
         "ISI",
-        "BCB",
+        "VCV",
         "ISI"
     ], {
         I: "create:iron_sheet",
         S: "tfmg:steel_casing",
-        B: "ae2:fluix_glass_cable",
+        V: "create:item_vault",
         C: "dam:standard_chip"
     });
 
@@ -465,12 +466,12 @@ ServerEvents.recipes(event => {
     event.remove({ output: "ae2:chest" });
     event.shaped("ae2:chest", [
         "IGI",
-        "BCB",
+        "VCV",
         "ISI"
     ], {
         I: "create:iron_sheet",
         G: "#c:glass_blocks",
-        B: "ae2:fluix_glass_cable",
+        V: "create:item_vault",
         C: "dam:standard_chip",
         S: "tfmg:steel_casing"
     });
@@ -478,12 +479,12 @@ ServerEvents.recipes(event => {
     // IO Port
     event.remove({ output: "ae2:io_port" });
     event.shaped("ae2:io_port", [
-        "IGI",
+        "IPI",
         "DCD",
         "ISI"
     ], {
         I: "create:iron_sheet",
-        G: "#c:glass_blocks",
+        P: "create:depot",
         D: "ae2:drive",
         C: "dam:standard_chip",
         S: "tfmg:steel_casing"
@@ -559,41 +560,42 @@ ServerEvents.recipes(event => {
         C: "tfmg:circuit_board"
     });
 
-    // Energy cell
+    // Energy cell - uses generator coil
     event.remove({ output: "ae2:energy_cell" });
     event.shaped("ae2:energy_cell", [
         "ICI",
-        "EBE",
+        "GBG",
         "ICI"
     ], {
         I: "create:iron_sheet",
         C: "tfmg:capacitor_item",
-        E: "tfmg:circuit_board",
+        G: "create_new_age:generator_coil",
         B: "dam:standard_chip"
     });
 
-    // Dense energy cell
+    // Dense energy cell - uses flywheel + kinetic battery
     event.remove({ output: "ae2:dense_energy_cell" });
     event.shaped("ae2:dense_energy_cell", [
         "ECE",
-        "CBC",
+        "KFK",
         "ECE"
     ], {
         E: "ae2:energy_cell",
         C: "tfmg:capacitor_item",
-        B: "dam:standard_chip"
+        K: "create_connected:kinetic_battery",
+        F: "create:flywheel"
     });
 
-    // Energy acceptor
+    // Energy acceptor - uses electrical connector
     event.remove({ output: "ae2:energy_acceptor" });
     event.shaped("ae2:energy_acceptor", [
         "ISI",
-        "TCT",
+        "ECE",
         "ISI"
     ], {
         I: "create:iron_sheet",
         S: "tfmg:steel_casing",
-        T: "tfmg:transformer",
+        E: "create_new_age:electrical_connector",
         C: "dam:standard_chip"
     });
 
@@ -642,62 +644,67 @@ ServerEvents.recipes(event => {
         P: "dam:basic_chip"
     });
 
-    // 16k cell component (45nm basic)
+    // 16k cell component (45nm basic) - mid-tier adds vault
     event.remove({ output: "ae2:cell_component_16k" });
     event.shaped("ae2:cell_component_16k", [
         "ICI",
-        "PPP",
+        "PVP",
         "ICI"
     ], {
         I: "create:iron_sheet",
         C: "ae2:cell_component_4k",
-        P: "dam:basic_chip"
+        P: "dam:basic_chip",
+        V: "create:item_vault"
     });
 
-    // 64k cell component (45nm basic)
+    // 64k cell component (45nm basic) - mid-tier with vault
     event.remove({ output: "ae2:cell_component_64k" });
     event.shaped("ae2:cell_component_64k", [
         "ICI",
-        "PPP",
+        "PVP",
         "ICI"
     ], {
         I: "create:iron_sheet",
         C: "ae2:cell_component_16k",
-        P: "dam:basic_chip"
+        P: "dam:basic_chip",
+        V: "create:item_vault"
     });
 
-    // 256k cell component (22nm standard)
+    // 256k cell component (22nm standard) - high-tier with silo
     event.remove({ output: "ae2:cell_component_256k" });
     event.shaped("ae2:cell_component_256k", [
         "ICI",
-        "PPP",
+        "PSP",
         "ICI"
     ], {
         I: "create:iron_sheet",
         C: "ae2:cell_component_64k",
-        P: "dam:standard_chip"
+        P: "dam:standard_chip",
+        S: "create_connected:item_silo"
     });
 
     // Item cell housing
     event.remove({ output: "ae2:item_cell_housing" });
     event.shaped("ae2:item_cell_housing", [
         "IGI",
-        "G G",
+        "GVG",
         "III"
     ], {
         I: "create:iron_sheet",
-        G: "#c:glass_blocks"
+        G: "#c:glass_blocks",
+        V: "create:item_vault"
     });
 
     // Fluid cell housing
     event.remove({ output: "ae2:fluid_cell_housing" });
     event.shaped("ae2:fluid_cell_housing", [
         "IGI",
-        "G G",
+        "GTG",
         "ICI"
     ], {
         I: "create:iron_sheet",
         G: "#c:glass_blocks",
+        T: "create:fluid_tank",
         C: "create:copper_sheet"
     });
 
@@ -753,7 +760,7 @@ ServerEvents.recipes(event => {
 
     // Advanced components (advanced_chip - 7nm/5nm)
 
-    // Molecular assembler
+    // Molecular assembler - uses mechanical arm
     event.remove({ output: "ae2:molecular_assembler" });
     event.shaped("ae2:molecular_assembler", [
         "ISI",
@@ -765,7 +772,7 @@ ServerEvents.recipes(event => {
         A: "ae2:annihilation_core",
         C: "dam:advanced_chip",
         F: "ae2:formation_core",
-        M: "create:precision_mechanism"
+        M: "create:mechanical_arm"
     });
 
     // Crafting accelerator (co-processor)

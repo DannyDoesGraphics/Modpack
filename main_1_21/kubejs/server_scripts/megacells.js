@@ -79,28 +79,30 @@ ServerEvents.recipes(event => {
 
     // Mega cell components (1M=14nm, 4M=7nm, 16M=5nm, 64M/256M=3nm)
 
-    // 1M cell component (14nm - Standard chip)
+    // 1M cell component (14nm - Standard chip) - uses item silo
     event.remove({ output: "megacells:cell_component_1m" });
     event.shaped("megacells:cell_component_1m", [
         "ICI",
-        "PPP",
+        "PSP",
         "ICI"
     ], {
         I: "megacells:sky_bronze_ingot",
         C: "ae2:cell_component_256k",
-        P: "dam:standard_chip"
+        P: "dam:standard_chip",
+        S: "create_connected:item_silo"
     });
 
-    // 4M cell component (7nm - Standard chip, more materials)
+    // 4M cell component (7nm - Standard chip) - uses item silo
     event.remove({ output: "megacells:cell_component_4m" });
     event.shaped("megacells:cell_component_4m", [
         "SCS",
-        "PPP",
+        "PIP",
         "SCS"
     ], {
         S: "megacells:sky_steel_ingot",
         C: "megacells:cell_component_1m",
-        P: "dam:standard_chip"
+        P: "dam:standard_chip",
+        I: "create_connected:item_silo"
     });
 
     // 16M cell component (5nm - Advanced chip)
@@ -143,26 +145,28 @@ ServerEvents.recipes(event => {
 
     // Mega cell housings
 
-    // Mega item cell housing
+    // Mega item cell housing - uses item silo
     event.remove({ output: "megacells:mega_item_cell_housing" });
     event.shaped("megacells:mega_item_cell_housing", [
         "SGS",
-        "G G",
+        "GIG",
         "SSS"
     ], {
         S: "megacells:sky_steel_ingot",
-        G: "#c:glass_blocks"
+        G: "#c:glass_blocks",
+        I: "create_connected:item_silo"
     });
 
-    // Mega fluid cell housing
+    // Mega fluid cell housing - uses fluid vessel
     event.remove({ output: "megacells:mega_fluid_cell_housing" });
     event.shaped("megacells:mega_fluid_cell_housing", [
         "SGS",
-        "G G",
+        "GVG",
         "SCS"
     ], {
         S: "megacells:sky_steel_ingot",
         G: "#c:glass_blocks",
+        V: "create_connected:fluid_vessel",
         C: "create:copper_sheet"
     });
 
@@ -286,18 +290,18 @@ ServerEvents.recipes(event => {
 
     // Mega interfaces and pattern providers
 
-    // Mega interface (7nm advanced)
+    // Mega interface (7nm advanced) - uses inventory access port
     event.remove({ output: "megacells:mega_interface" });
     event.shaped("megacells:mega_interface", [
         "SHS",
-        "AIF",
+        "API",
         "SBS"
     ], {
         S: "megacells:sky_steel_ingot",
         H: "tfmg:heavy_machinery_casing",
         A: "ae2:annihilation_core",
+        P: "create_connected:inventory_access_port",
         I: "ae2:interface",
-        F: "ae2:formation_core",
         B: "dam:advanced_chip"
     });
 
@@ -307,16 +311,16 @@ ServerEvents.recipes(event => {
         "megacells:mega_interface"
     ]);
 
-    // Mega pattern provider (7nm advanced)
+    // Mega pattern provider (7nm advanced) - uses depot
     event.remove({ output: "megacells:mega_pattern_provider" });
     event.shaped("megacells:mega_pattern_provider", [
         "SHS",
-        "BPB",
+        "DPD",
         "SAS"
     ], {
         S: "megacells:sky_steel_ingot",
         H: "tfmg:heavy_machinery_casing",
-        B: "tfmg:circuit_board",
+        D: "create:depot",
         P: "ae2:pattern_provider",
         A: "dam:advanced_chip"
     });
@@ -327,18 +331,18 @@ ServerEvents.recipes(event => {
         "megacells:mega_pattern_provider"
     ]);
 
-    // Mega energy cell
+    // Mega energy cell - uses flywheel + kinetic battery
 
     event.remove({ output: "megacells:mega_energy_cell" });
     event.shaped("megacells:mega_energy_cell", [
-        "SCS",
-        "EAE",
-        "SCS"
+        "SKS",
+        "EFE",
+        "SKS"
     ], {
         S: "megacells:sky_steel_ingot",
-        C: "tfmg:capacitor_item",
+        K: "create_connected:kinetic_battery",
         E: "ae2:dense_energy_cell",
-        A: "dam:advanced_chip"
+        F: "create:flywheel"
     });
 
     // Special components
@@ -382,15 +386,15 @@ ServerEvents.recipes(event => {
         I: "minecraft:piston"
     });
 
-    // Decompression module (5nm - multi-die for parallel decompression)
+    // Decompression module (5nm - multi-die) - uses mechanical pump
     event.remove({ output: "megacells:decompression_module" });
     event.shaped("megacells:decompression_module", [
-        "SHS",
+        "SPS",
         "MCM",
-        "SHS"
+        "SPS"
     ], {
         S: "megacells:sky_steel_ingot",
-        H: "tfmg:heavy_machinery_casing",
+        P: "create:mechanical_pump",
         M: "dam:multi_die_package",
         C: "megacells:compression_card"
     });

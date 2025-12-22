@@ -3,17 +3,17 @@
 
 ServerEvents.recipes(event => {
 
-    // Experience acceptor (22nm standard chip)
+    // Experience acceptor (22nm standard chip) - uses generator coil
 
     event.remove({ output: "appex:experience_acceptor" });
     event.shaped("appex:experience_acceptor", [
         "ISI",
-        "ECE",
+        "GCG",
         "ISI"
     ], {
         I: "create:iron_sheet",
         S: "tfmg:steel_casing",
-        E: "minecraft:experience_bottle",
+        G: "create_new_age:generator_coil",
         C: "dam:standard_chip"
     });
 
@@ -37,16 +37,17 @@ ServerEvents.recipes(event => {
         C: "dam:standard_chip"
     });
 
-    // Experience cell housing
+    // Experience cell housing - uses fluid tank (XP is fluid-like)
 
     event.remove({ output: "appex:experience_cell_housing" });
     event.shaped("appex:experience_cell_housing", [
         "IGI",
-        "GEG",
-        "III"
+        "GTG",
+        "IEI"
     ], {
         I: "create:iron_sheet",
         G: "#c:glass_blocks",
+        T: "create:fluid_tank",
         E: "minecraft:experience_bottle"
     });
 

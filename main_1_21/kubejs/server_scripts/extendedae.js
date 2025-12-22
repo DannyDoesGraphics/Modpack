@@ -68,43 +68,44 @@ ServerEvents.recipes(event => {
 
     // Extended drives and storage (5nm advanced chips)
 
-    // Ex drive (5nm - advanced)
+    // Ex drive (5nm - advanced) - uses item silo
     event.remove({ output: "extendedae:ex_drive" });
     event.shaped("extendedae:ex_drive", [
         "EFE",
-        "DAD",
+        "SDS",
         "EFE"
     ], {
         E: "extendedae:entro_ingot",
         F: "extendedae:machine_frame",
-        D: "ae2:drive",
-        A: "dam:advanced_chip"
+        S: "create_connected:item_silo",
+        D: "ae2:drive"
     });
 
-    // Drive upgrade
+    // Drive upgrade - uses item vault
     event.remove({ output: "extendedae:drive_upgrade" });
     event.shaped("extendedae:drive_upgrade", [
         "EAE",
-        "ACA",
+        "VCV",
         "EAE"
     ], {
         E: "extendedae:entro_ingot",
         A: "dam:advanced_chip",
+        V: "create:item_vault",
         C: "ae2:cell_component_256k"
     });
 
     // Extended interfaces and pattern providers (5nm advanced chips)
 
-    // Ex interface (5nm)
+    // Ex interface (5nm) - uses inventory access port
     event.remove({ output: "extendedae:ex_interface" });
     event.shaped("extendedae:ex_interface", [
         "EFE",
-        "AIA",
+        "PIP",
         "EFE"
     ], {
         E: "extendedae:entro_ingot",
         F: "extendedae:machine_frame",
-        A: "dam:advanced_chip",
+        P: "create_connected:inventory_access_port",
         I: "ae2:interface"
     });
 
@@ -126,16 +127,16 @@ ServerEvents.recipes(event => {
         I: "ae2:interface"
     });
 
-    // Ex pattern provider (5nm)
+    // Ex pattern provider (5nm) - uses depot
     event.remove({ output: "extendedae:ex_pattern_provider" });
     event.shaped("extendedae:ex_pattern_provider", [
         "EFE",
-        "APA",
+        "DPD",
         "EFE"
     ], {
         E: "extendedae:entro_ingot",
         F: "extendedae:machine_frame",
-        A: "dam:advanced_chip",
+        D: "create:depot",
         P: "ae2:pattern_provider"
     });
 
@@ -175,17 +176,17 @@ ServerEvents.recipes(event => {
         "extendedae:oversize_interface"
     ]);
 
-    // Extended molecular assembler (3nm multi-die package)
+    // Extended molecular assembler (3nm multi-die package) - uses mechanical arm
 
     event.remove({ output: "extendedae:ex_molecular_assembler" });
     event.shaped("extendedae:ex_molecular_assembler", [
         "EFE",
-        "MAM",
+        "RAR",
         "EFE"
     ], {
         E: "extendedae:entro_ingot",
         F: "extendedae:machine_frame",
-        M: "dam:multi_die_package",
+        R: "create:mechanical_arm",
         A: "ae2:molecular_assembler"
     });
 
@@ -216,30 +217,30 @@ ServerEvents.recipes(event => {
         B: "ae2:import_bus"
     });
 
-    // Ex import bus
+    // Ex import bus - uses smart chute
     event.remove({ output: "extendedae:ex_import_bus_part" });
     event.shaped("extendedae:ex_import_bus_part", [
         "EAE",
-        "AIA",
-        "EBE"
+        "CIC",
+        "EAE"
     ], {
         E: "extendedae:entro_ingot",
         A: "dam:advanced_chip",
-        I: "ae2:import_bus",
-        B: "tfmg:circuit_board"
+        C: "create:smart_chute",
+        I: "ae2:import_bus"
     });
 
-    // Ex export bus
+    // Ex export bus - uses smart chute
     event.remove({ output: "extendedae:ex_export_bus_part" });
     event.shaped("extendedae:ex_export_bus_part", [
         "EAE",
-        "AIA",
-        "EBE"
+        "CIC",
+        "EAE"
     ], {
         E: "extendedae:entro_ingot",
         A: "dam:advanced_chip",
-        I: "ae2:export_bus",
-        B: "tfmg:circuit_board"
+        C: "create:smart_chute",
+        I: "ae2:export_bus"
     });
 
     // Extended charger and inscriber
@@ -306,16 +307,16 @@ ServerEvents.recipes(event => {
         F: "extendedae:assembler_matrix_frame"
     });
 
-    // Assembler matrix crafter (3nm)
+    // Assembler matrix crafter (3nm) - uses mechanical arm
     event.remove({ output: "extendedae:assembler_matrix_crafter" });
     event.shaped("extendedae:assembler_matrix_crafter", [
         "EFE",
-        "MAM",
+        "RAR",
         "EFE"
     ], {
         E: "extendedae:entro_ingot",
         F: "extendedae:assembler_matrix_frame",
-        M: "dam:multi_die_package",
+        R: "create:mechanical_arm",
         A: "ae2:molecular_assembler"
     });
 
@@ -408,17 +409,18 @@ ServerEvents.recipes(event => {
 
     // Special buses and tools
 
-    // Tag storage bus
+    // Tag storage bus - uses inventory bridge
     event.remove({ output: "extendedae:tag_storage_bus" });
     event.shaped("extendedae:tag_storage_bus", [
         "EAE",
-        "ASA",
-        "EBE"
+        "BSB",
+        "ENE"
     ], {
         E: "extendedae:entro_ingot",
         A: "dam:advanced_chip",
+        B: "create_connected:inventory_bridge",
         S: "ae2:storage_bus",
-        B: "minecraft:name_tag"
+        N: "minecraft:name_tag"
     });
 
     // Tag export bus
@@ -426,25 +428,26 @@ ServerEvents.recipes(event => {
     event.shaped("extendedae:tag_export_bus", [
         "EAE",
         "AXA",
-        "EBE"
+        "ENE"
     ], {
         E: "extendedae:entro_ingot",
         A: "dam:advanced_chip",
         X: "ae2:export_bus",
-        B: "minecraft:name_tag"
+        N: "minecraft:name_tag"
     });
 
-    // Mod storage bus
+    // Mod storage bus - uses inventory bridge
     event.remove({ output: "extendedae:mod_storage_bus" });
     event.shaped("extendedae:mod_storage_bus", [
         "EAE",
-        "ASA",
-        "EBE"
+        "BSB",
+        "ECE"
     ], {
         E: "extendedae:entro_ingot",
         A: "dam:advanced_chip",
+        B: "create_connected:inventory_bridge",
         S: "ae2:storage_bus",
-        B: "tfmg:circuit_board"
+        C: "tfmg:circuit_board"
     });
 
     // Mod export bus
@@ -452,12 +455,12 @@ ServerEvents.recipes(event => {
     event.shaped("extendedae:mod_export_bus", [
         "EAE",
         "AXA",
-        "EBE"
+        "ECE"
     ], {
         E: "extendedae:entro_ingot",
         A: "dam:advanced_chip",
         X: "ae2:export_bus",
-        B: "tfmg:circuit_board"
+        C: "tfmg:circuit_board"
     });
 
     // Precise storage bus

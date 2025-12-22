@@ -1634,6 +1634,11 @@ hash = "9a9d6bf3715b20cbf83b967e4dd8b77972d1256e52a7b1c2bbfa4122f5acc931"
 metafile = true
 
 [[files]]
+file = "mods/be-quiet-negotiator.pw.toml"
+hash = "4ad8a6ad76922051ea92a1c0f61b9a2a7d28eb6ed04b4c7d131de70da25ab77e"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
@@ -1681,6 +1686,11 @@ metafile = true
 [[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "ee76dbe108ebf5cf68047f60ecabee5aeb029015253dc82c007b941a6d6cfcdf"
+metafile = true
+
+[[files]]
+file = "mods/create-railways-navigator.pw.toml"
+hash = "ec69488edd55f31c6fc57cac9bab713a14394d1f63054cc4e2e5efc19a55abb9"
 metafile = true
 
 [[files]]
@@ -1861,6 +1871,11 @@ metafile = true
 [[files]]
 file = "mods/ponder.pw.toml"
 hash = "645655e6efa56ea48a5c0f84f5c745d3f0986c49497ce54f538318b1865138d3"
+metafile = true
+
+[[files]]
+file = "mods/proxy-compatible-forge.pw.toml"
+hash = "e6a43dc4800ba45f2971d3caf39d32f86bf747b5a86f3857036c75854e7f0c22"
 metafile = true
 
 [[files]]
