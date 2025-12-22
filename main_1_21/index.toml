@@ -42,7 +42,7 @@ hash = "7ba3ff9f2e51c045bf49828ca4e9fd3b181323e8278ebe6417d274fee1164254"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "dcf09e6834e149306a31b5075a0d2ffa3a3b8a522bd32b4803bb5e7889751395"
+hash = "4f1e1b2c9cfd283c80ba5d857391a2cd796cd07e14003a024aae6b77e1824325"
 
 [[files]]
 file = "config/kiwi-client.yaml"
@@ -1624,6 +1624,11 @@ hash = "190668ad2cdeb8fc446a903ee8bab868387a9f22d6ecfaecf33f332ca62e4f29"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+metafile = true
+
+[[files]]
 file = "mods/athena-ctm.pw.toml"
 hash = "9a9d6bf3715b20cbf83b967e4dd8b77972d1256e52a7b1c2bbfa4122f5acc931"
 metafile = true
@@ -1741,6 +1746,21 @@ metafile = true
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "ec1bd5b80399287ca33a113086bee9d5697b7e673c9f593e5a1aeca4c9bad4c9"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "e3ae8c4681615395d7fb3373e8eb1d99d6e3f4c66703c9f18bb4a8f6cbfcd215"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "b57de15993dc5b14da498f371fdaf3aba223814df41bb6f990808815f9c981c7"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "ea8eb6bf6de97852b6e3bca7970b8e492b3498930eff0703a731f820b2cd8c0a"
 metafile = true
 
 [[files]]
