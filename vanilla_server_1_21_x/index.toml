@@ -64,8 +64,3 @@ metafile = true
 file = "mods/viafabric.pw.toml"
 hash = "2f75ccab5dfa7f3489a48e61b3f74b69cb3ef60aa76de599c93d6c162ef71d1d"
 metafile = true
-
-[[files]]
-file = "mods/viaversion.pw.toml"
-hash = "efc5c879cda829efd15fb8bc3bc1bfb218fc7502b5d0a85d495d8b33d58180e3"
-metafile = true
