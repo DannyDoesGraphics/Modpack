@@ -1,0 +1,13 @@
+name = "BlueMap"
+filename = "bluemap-5.15-fabric.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/swbUV1cr/versions/gpuTeXXq/bluemap-5.15-fabric.jar"
+hash-format = "sha512"
+hash = "3ca167bbbef5db7c191344bb2d2260c36db5021536699c6f4a3d87ac7694c04072ed50a7315622325f23d186931978b6b34fe3dac402645dda49ff324f11303e"
+
+[update]
+[update.modrinth]
+mod-id = "swbUV1cr"
+version = "gpuTeXXq"
