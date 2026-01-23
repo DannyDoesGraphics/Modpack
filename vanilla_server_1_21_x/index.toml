@@ -6,11 +6,6 @@ hash = "7ffd2cbb973d987d543b36f12cc9362baae07b0983b83a8292f063ed4287f9a9"
 metafile = true
 
 [[files]]
-file = "mods/bluemap.pw.toml"
-hash = "853ba2ec022456ae2f357268a27c7cb1018b0c57e0c1e9071330f81e035f59f9"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "ff260b35492778bdce59ffa064a59c6a9953ffd409eb40782af14b78a29a2cb8"
 metafile = true
