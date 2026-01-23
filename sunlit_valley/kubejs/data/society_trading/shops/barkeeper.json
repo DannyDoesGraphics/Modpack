@@ -1,0 +1,165 @@
+{
+  "shop_id": "barkeeper",
+  "name": "shop.society_trading.barkeeper",
+  "texture": "beachparty:textures/item/honey_cocktail",
+  "jei_catalyst": { "item":"beachparty:tiki_bar" },
+  "villager_profession": "beach_guy",
+  "selector_weight": 1,
+  "trades": [
+    {
+      "offer": {
+        "item": "bakery:crusty_bread",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:cog",
+        "count": 1
+      },
+      "numismatics_cost": 64,
+      "trade_id": "barkeeper_crusty_bread_for_cog"
+    },
+    {
+      "offer": {
+        "item": "farm_and_charm:farmer_salad",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:cog",
+        "count": 4
+      },
+      "numismatics_cost": 256,
+      "trade_id": "barkeeper_farmer_salad_for_cog"
+    },
+    {
+      "offer": {
+        "item": "brewery:mashed_potatoes",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:cog",
+        "count": 1
+      },
+      "numismatics_cost": 64,
+      "trade_id": "barkeeper_potato_salad_for_cog"
+    },
+    {
+      "offer": {
+        "item": "bakery:sandwich",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:cog",
+        "count": 4
+      },
+      "numismatics_cost": 256,
+      "trade_id": "barkeeper_sandwich_for_cog"
+    },
+    {
+      "offer": {
+        "item": "herbalbrews:coffee",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:cog",
+        "count": 2
+      },
+      "numismatics_cost": 128,
+      "trade_id": "barkeeper_coffee_for_sprocket"
+    },
+    {
+      "offer": {
+        "item": "brewery:beer_hops",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:cog",
+        "count": 4
+      },
+      "numismatics_cost": 256,
+      "trade_id": "barkeeper_beer_hops_for_cog"
+    },
+    {
+      "offer": {
+        "item": "refurbished_furniture:vegetable_pizza_slice",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:crown",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "trade_id": "barkeeper_cheese_pizza_slice_for_crown"
+    },
+    {
+      "offer": {
+        "item": "society:magic_rock_candy",
+        "count": 1
+      },
+      "request": {
+        "item": "society:prismatic_shard",
+        "count": 3
+      },
+      "trade_id": "barkeeper_magic_rock_candy_for_prismatic_shard"
+    },
+    {
+      "offer": {
+        "item": "solonion:lunchbag",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:cog",
+        "count": 4
+      },
+      "numismatics_cost": 256,
+      "trade_id": "barkeeper_lunchbag_for_cog"
+    },
+    {
+      "offer": {
+        "item": "solonion:lunchbox",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:sun",
+        "count": 4
+      },
+      "numismatics_cost": 16384,
+      "trade_id": "barkeeper_lunchbox_for_sun"
+    },
+    {
+      "offer": {
+        "item": "solonion:golden_lunchbox",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:sun",
+        "count": 16
+      },
+      "numismatics_cost": 65536,
+      "trade_id": "barkeeper_golden_lunchbox_for_sun"
+    },
+    {
+      "offer": {
+        "item": "sophisticatedstorage:feeding_upgrade",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:sun",
+        "count": 4
+      },
+      "numismatics_cost": 16384,
+      "trade_id": "barkeeper_feeding_upgrade_for_sun"
+    },
+    {
+      "offer": {
+        "item": "sophisticatedbackpacks:feeding_upgrade",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:prismatic_coin",
+        "count": 8
+      },
+      "numismatics_cost": 134217728,
+      "trade_id": "barkeeper_feeding_upgrade_for_prismatic_coin"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "society:block/crops/tubabacco_plant_stage3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "unlocked_by_default": true,
+  "title": "Fishing",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "fishing_rod"
+    }
+  },
+  "background": "textures/block/sand.png",
+  "spent_points_limit": 12
+}

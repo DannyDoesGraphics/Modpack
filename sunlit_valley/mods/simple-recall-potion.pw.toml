@@ -1,0 +1,13 @@
+name = "Simple Recall Potion"
+filename = "simplerecall-1.0.5-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c461c1e56c53fe9a4ea0974a708c4b8bf8e5dd91"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7047902
+project-id = 1234653

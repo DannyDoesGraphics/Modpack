@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sugar",
+  "ingredients": [
+    {
+      "item": "society:maple_syrup"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sugar",
+    "count": 8
+  }
+}

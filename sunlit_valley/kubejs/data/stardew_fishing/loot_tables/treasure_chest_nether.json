@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "stardew_fishing:optional",
+          "name": "aquaculture:lockbox",
+          "weight": 2
+        },
+        {
+          "type": "stardew_fishing:optional",
+          "name": "aquaculture:box",
+          "weight": 3
+        },
+        {
+          "type": "stardew_fishing:optional",
+          "name": "aquaculture:treasure_chest",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

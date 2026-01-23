@@ -1,0 +1,36 @@
+{
+  "experience_per_level": {
+    "type": "values",
+    "data": {
+      "values": [250, 300, 450, 500, 1000, 6000, 8000, 12000, 13000, 14000, 15000, 20000]
+    }
+  },
+  "sources": [
+    {
+      "type": "puffish_skills:increase_stat",
+      "data": {
+        "variables": {
+          "breeding": {
+            "operations": [
+              {
+                "type": "get_stat"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "stat": "minecraft.custom:minecraft.animals_bred"
+                }
+              }
+            ]
+          }
+        },
+        "experience": [
+          {
+            "condition": "breeding",
+            "expression": "40"
+          }
+        ]
+      }
+    }
+  ]
+}

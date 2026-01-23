@@ -1,0 +1,13 @@
+name = "Splendid Slimes"
+filename = "splendid_slimes-0.17.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c397691389e6972bc9da14a115b2ce7b4f6d92a0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7261408
+project-id = 1240935

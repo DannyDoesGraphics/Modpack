@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "society:block/wallpaper/pink_flower/top",
+		"side": "society:block/wallpaper/pink_flower/base"
+	}
+}

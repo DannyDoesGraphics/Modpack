@@ -1,0 +1,13 @@
+name = "Vintage Delight"
+filename = "vintagedelight-0.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa7451c7337b6c14e56ac30eb4db2acf1586aae8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5805770
+project-id = 949719

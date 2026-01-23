@@ -1,0 +1,53 @@
+{
+  "breed": "orby",
+  "name": "slime.splendid_slimes.orby",
+  "particle": { "item": "minecraft:experience_bottle" },
+  "color": "#b8e45a",
+  "hat_y_offset": -0.5,
+  "diet": "diet.splendid_slimes.orby",
+  "foods": [
+    { "tag": "splendid_slimes:animal_spawn_eggs" },
+    { "tag": "splendid_slimes:monster_spawn_eggs" }
+  ],
+  "entities": [
+    "minecraft:chicken",
+    "minecraft:cow",
+    "minecraft:pig",
+    "snowpig:snow_pig",
+    "minecraft:rabbit",
+    "minecraft:sheep",
+    "untitledduckmod:duck",
+    "untitledduckmod:goose",
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "minecraft:skeleton",
+    "minecraft:enderman",
+    "minecraft:husk",
+    "minecraft:stray",
+    "minecraft:drowned",
+    "minecraft:creeper"
+  ],
+  "favorite_entity": "minecraft:drowned",
+  "traits": ["defiant", "handy", "inverse"],
+  "emit_effect_particle": "minecraft:sculk_charge_pop",
+  "innate_effects": [
+    {
+      "effect": "minecraft:strength",
+      "amplifier": 0
+    }
+  ],
+  "negative_emit_effects": [
+    {
+      "effect": "minecraft:darkness",
+      "duration": 220,
+      "amplifier": 0
+    }
+  ],
+  "positive_emit_effects": [
+    {
+      "effect": "minecraft:darkness",
+      "duration": 220,
+      "amplifier": 0
+    }
+  ]
+}

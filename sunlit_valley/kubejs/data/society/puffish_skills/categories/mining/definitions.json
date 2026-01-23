@@ -1,0 +1,337 @@
+{
+  "fortune+1": {
+    "title": "+I Fortune",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "buzzier_bees:four_leaf_clover"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:fortune",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "pickaxe_efficiency+1": {
+    "title": "+I Pickaxe Efficiency",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_pickaxe"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:pickaxe_speed",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "melee_damage+2": {
+    "title": "+2 Melee Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "iron_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "gem_seller": {
+    "title": "Gem Seller",
+    "description": "🎣 Geologist products worth 50% more.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "shippingbin:basic_shipping_bin"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "attribute @s shippingbin:gem_sell_multiplier base set 1.5",
+          "lock_command": "attribute @s shippingbin:gem_sell_multiplier base set 1"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s gem_seller",
+          "lock_command": "kubejs stages remove @s gem_seller"
+        }
+      }
+    ]
+  },
+  "furniture_archaeologist": {
+    "title": "Furniture Archaeologist",
+    "description": "Chance to find §6Furniture Boxes§7 when mining ore.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "society:furniture_box"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s furniture_archaeologist",
+          "lock_command": "kubejs stages remove @s furniture_archaeologist"
+        }
+      }
+    ]
+  },
+  "excavator": {
+    "title": "Excavator",
+    "description": "Adds additional roll for geodes when mining ore.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "society:omni_geode"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s excavator",
+          "lock_command": "kubejs stages remove @s excavator"
+        }
+      }
+    ]
+  },
+  "mineralogist": {
+    "title": "Mineralogist",
+    "description": "Chance to find crafting minerals when mining ore.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "society:earth_crystal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s mineralogist",
+          "lock_command": "kubejs stages remove @s mineralogist"
+        }
+      }
+    ]
+  },
+  "prismatic_prospector": {
+    "title": "Prismatic Prospector",
+    "description": "Chance to find §dPrismatic Shard§7 from Geode Nodes.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "society:prismatic_shard"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s prismatic_prospector",
+          "lock_command": "kubejs stages remove @s prismatic_prospector"
+        }
+      }
+    ]
+  },
+  "high_roller": {
+    "title": "High Roller",
+    "description": "+IV Fortune",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:fortune",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blockchain": {
+    "title": "Blockchain",
+    "description": "Chance to find §6Gold Coins§7 when mining ore.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "numismatics:crown"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s blockchain",
+          "lock_command": "kubejs stages remove @s blockchain"
+        }
+      }
+    ]
+  },
+  "gold_rush": {
+    "title": "Gold Rush",
+    "description": "Mining non-nether §6Gold Ore§7 drops 4 §6Blocks of Raw Gold.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:raw_gold_block"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s gold_rush",
+          "lock_command": "kubejs stages remove @s gold_rush"
+        }
+      }
+    ]
+  },
+  "filthy_excavator": {
+    "title": "Filthy Excavator",
+    "description": "Chance to find §6Geodes§7 when mining Deepslate and §6Magma Geodes§7 in Netherrack.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "society:geode"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s filthy_excavator",
+          "lock_command": "kubejs stages remove @s filthy_excavator"
+        }
+      }
+    ]
+  },
+  "gem_tycoon": {
+    "title": "Gem Tycoon",
+    "description": "🎣 Geologist products worth 100% more.\n\n§cDoes not stack with previous skills.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "society:ruby"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "attribute @s shippingbin:gem_sell_multiplier base set 2",
+          "lock_command": "attribute @s shippingbin:gem_sell_multiplier base set 1"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s gem_tycoon",
+          "lock_command": "kubejs stages remove @s gem_tycoon"
+        }
+      }
+    ]
+  },
+  "star_blessing": {
+    "title": "Star Blessing",
+    "description": "Chance to find §6Pristine Star Shards§7 when mining ore\n\n§aChance increases in the Nether and Skull Cavern.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "society:pristine_star_shards"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s star_blessing",
+          "lock_command": "kubejs stages remove @s star_blessing"
+        }
+      }
+    ]
+  }
+}

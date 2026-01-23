@@ -1,0 +1,7 @@
+{
+    "parent": "farm_and_charm:block/tall_crop",
+    "textures": {
+      "crop": "society:block/crops/blueberry_crop_stage3"
+    }
+  }
+  

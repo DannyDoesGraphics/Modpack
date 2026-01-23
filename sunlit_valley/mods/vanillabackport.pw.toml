@@ -1,0 +1,13 @@
+name = "Vanilla Backport"
+filename = "vanillabackport-forge-1.20.1-1.1.4.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5b45e8d6da3bfd9e67cfe1ffbe31094c02812e95"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6696334
+project-id = 417430

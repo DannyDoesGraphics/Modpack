@@ -1,0 +1,330 @@
+{
+  "healing+5%": {
+    "title": "+5% Healing",
+    "description": "All healing provides an extra 5% health",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "regeneration"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "stamina+5%": {
+    "title": "+5% Stamina",
+    "description": "Hunger bar decreases 5% slower",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "saturation"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:stamina",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "bribery": {
+    "title": "Bribery",
+    "description": "Using a §6Gold Coin§7 on a farm animal increases affection by 1 and makes it gain affection faster",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "numismatics:crown"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s bribery",
+          "lock_command": "kubejs stages remove @s bribery"
+        }
+      }
+    ]
+  },
+  "mana_hand": {
+    "title": "Mana Hand",
+    "description": "Using §6Magic Shears§7 drops double items",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "society:magic_shears"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s mana_hand",
+          "lock_command": "kubejs stages remove @s mana_hand"
+        }
+      }
+    ]
+  },
+  "biomancer": {
+    "title": "Biomancer",
+    "description": "Right clicking a farm animal with a §6Knife§7 exchanges affection for §6Heart of Diamond. They need to trust you first.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "quark:diamond_heart"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s biomancer",
+          "lock_command": "kubejs stages remove @s biomancer"
+        }
+      }
+    ]
+  },
+  "animal_whisperer": {
+    "title": "Animal Whisperer",
+    "description": "Farm animals gain affection faster",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "paraglider:heart_container"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s animal_whisperer",
+          "lock_command": "kubejs stages remove @s animal_whisperer"
+        }
+      }
+    ]
+  },
+  "triple_truffle": {
+    "title": "Triple Truffle",
+    "description": "Pigs drop triple §6Truffles",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "society:truffle"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s triple_truffle",
+          "lock_command": "kubejs stages remove @s triple_truffle"
+        }
+      }
+    ]
+  },
+  "sacrificial_lamb": {
+    "title": "Sacrificial Lamb",
+    "description": "Killing a §6Sheep§7 passes half of its affection to some nearby farm animals",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "farmersdelight:iron_knife"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s sacrificial_lamb",
+          "lock_command": "kubejs stages remove @s sacrificial_lamb"
+        }
+      }
+    ]
+  },
+  "transplanting": {
+    "title": "Transplanting",
+    "description": "Using a §6Heart of Diamond§7 on a farm animal adds a heart of affection",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "sewingkit:diamond_sewing_needle"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s transplanting",
+          "lock_command": "kubejs stages remove @s transplanting"
+        }
+      }
+    ]
+  },
+  "shepherd": {
+    "title": "Shepherd",
+    "description": "Farm animals produce double milk",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "society:large_milk"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s shepherd",
+          "lock_command": "kubejs stages remove @s shepherd"
+        }
+      }
+    ]
+  },
+  "coopmaster": {
+    "title": "Coopmaster",
+    "description": "Birds have a small chance to give §6Golden Eggs§7 and Rabbits give double items",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "vintagedelight:golden_egg"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s coopmaster",
+          "lock_command": "kubejs stages remove @s coopmaster"
+        }
+      }
+    ]
+  },
+  "bff": {
+    "title": "Best Friends Forever",
+    "description": "Animals can be given a Friendship Necklace to have a small chance of gifting a §dPrismatic Shard§7 at max affection.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "society:friendship_necklace"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s bff",
+          "lock_command": "kubejs stages remove @s bff"
+        }
+      }
+    ]
+  },
+  "clockwork": {
+    "title": "Clockwork Implant",
+    "description": "Using a §6Precision Mechanism§7 on a Farm animal prevents its affection from decreasing from deployers.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "create:precision_mechanism"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s clockwork",
+          "lock_command": "kubejs stages remove @s clockwork"
+        }
+      }
+    ]
+  },
+  "heretic": {
+    "title": "Heretic",
+    "description": "Using Magic Shears painfully extracts 3 §6Sparkstone§7 from the animal.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "society:sparkstone"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "kubejs stages add @s heretic",
+          "lock_command": "kubejs stages remove @s heretic"
+        }
+      }
+    ]
+  }
+}

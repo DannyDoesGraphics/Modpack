@@ -1,0 +1,31 @@
+{
+    "type": "meadow:cooking",
+    "result": {
+        "item": "bakery:chocolate_truffle",
+        "count": 4
+    },
+    "ingredients": [
+        {
+            "item": "minecraft:wheat"
+        },
+        {
+            "item": "minecraft:cocoa_beans"
+        },
+        {
+            "tag": "society:small_milk"
+        }
+    ],
+    "container": {
+        "item": "minecraft:bowl"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "bakery"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "meadow"
+        }
+    ]
+}

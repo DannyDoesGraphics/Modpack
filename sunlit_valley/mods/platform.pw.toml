@@ -1,0 +1,13 @@
+name = "Platform"
+filename = "Platform-forge-1.20.1-1.2.10.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "882bd514acc3f2e3dabfd6a659161c5e2253a4ed"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6673724
+project-id = 997634

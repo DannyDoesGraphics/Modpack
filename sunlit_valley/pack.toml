@@ -1,0 +1,13 @@
+name = "Society: Sunlit Valley"
+author = "Chakyl"
+version = "3.4.3"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "de2aa6890e2e6c0fb3b8e72cf737edef189936ae04bcdba2f6dcc777088a8ce8"
+
+[versions]
+forge = "47.4.0"
+minecraft = "1.20.1"
