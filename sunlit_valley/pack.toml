@@ -1,0 +1,12 @@
+name = "Society Sunlit Valley"
+version = "4.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "2ee4d9245343cfeeaf9a97a9f8c30b0092d5740eb007c1193762b87921b62d94"
+
+[versions]
+forge = "47.4.0"
+minecraft = "1.20.1"

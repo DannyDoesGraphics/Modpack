@@ -1,0 +1,13 @@
+name = "Particle Rain"
+filename = "particlerain-4.0.0-beta.5+1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f0776c78f8ef74b34137ce3acb5ce229a8152d3b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7378848
+project-id = 421897
