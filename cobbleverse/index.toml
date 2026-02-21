@@ -1702,6 +1702,11 @@ hash = "fd9b37c0dd351191944a8ebef602b1f0f35aaeb151dd236f773638bf8b609131"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "bf35ad1e9d9046861abb4d0ec6390ea3ac1e75bf39b141f0debd76ab13103e14"
+metafile = true
+
+[[files]]
 file = "mods/customsplashscreen-2.2.0.pw.toml"
 hash = "33290fb3546dc0c147fca7ba655139a9982a0ea02def1cce79ec29414305a945"
 metafile = true
@@ -1734,6 +1739,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin-1.13.9+kotlin.2.3.10.pw.toml"
 hash = "1b09260a38cc12b117bc9f63083a581d0e1a158ae941c6533c45f769f4489004"
+metafile = true
+
+[[files]]
+file = "mods/fabricproxy-lite.pw.toml"
+hash = "b1a2f33743504db0099a8811b5a923ce56261d5aff2770d3a8812654dbd5e85d"
 metafile = true
 
 [[files]]
@@ -1957,6 +1967,11 @@ hash = "01849f75aa0d667f03025a5a51cdf5d5fdb1884df0aa89de24801f0aec1d3f36"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "e42572fc721676972c9e562a0b1811de7bd8a646696213316f9e113de8a527a4"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra-fabric-0.6.0+mc1.21.1.pw.toml"
 hash = "9d9cbcddb3629a1aefa4d4d1150fc725e5423a63f55627aef4c275313a35d08c"
 metafile = true
@@ -2034,6 +2049,21 @@ metafile = true
 [[files]]
 file = "mods/villagerconfig-fabric-4.5.2+1.21.1.pw.toml"
 hash = "98bf286ef7ebd3211a24609e8820b89910bc00cba3111f1318652518720b17cb"
+metafile = true
+
+[[files]]
+file = "mods/waterframes.pw.toml"
+hash = "6eacaa113ef27bddbd9c5966a65fd15a23d68bd826c1d594bfcf6c2380388e74"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+hash = "dbd25cbb9e20c0f1b92666eb47f56783c00880fed02327a444e912ff2a5df304"
+metafile = true
+
+[[files]]
+file = "mods/watervision.pw.toml"
+hash = "e15d048097d01280dfbc89346438f2da671ef768d4a7329d556d42f01e8440fd"
 metafile = true
 
 [[files]]
