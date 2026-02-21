@@ -2119,10 +2119,6 @@ hash = "aace3c3b5d32fc7f9352bbc4b27ad4a0656661440161ed3b29280da8b90a078a"
 metafile = true
 
 [[files]]
-file = "resourcepacks/COBBLEVERSE Soundtrack.zip"
-hash = "cb18f0eca067f2ddebf4a0f0dadd057eee32d7a3049c73944cf31352a9039243"
-
-[[files]]
 file = "resourcepacks/Canon PC Wallpapers.pw.toml"
 hash = "40ea49901af820bfe48cf38e377691d77aef0beacd192971b48dc2964cba1623"
 metafile = true
