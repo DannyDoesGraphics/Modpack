@@ -1,0 +1,13 @@
+name = "Radical Cobblemon Trainers API"
+filename = "rctapi-fabric-1.21.1-0.14.8-beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CBfM2yw7/versions/C4VTuik1/rctapi-fabric-1.21.1-0.14.8-beta.jar"
+hash-format = "sha512"
+hash = "e808854f1b5f8209b648a64cd603f06d2ec815761e232884cb3c1c805a256d759d29f21027b58afb707df49c5e08a0bc50bd3ba66f9f5be20a2c1703e5dbb0ac"
+
+[update]
+[update.modrinth]
+mod-id = "CBfM2yw7"
+version = "C4VTuik1"

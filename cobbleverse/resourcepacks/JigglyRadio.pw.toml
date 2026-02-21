@@ -1,0 +1,13 @@
+name = "Puff Radio"
+filename = "JigglyRadio.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YLcccJCk/versions/tcx4Tjc6/JigglyRadio1.4.zip"
+hash-format = "sha512"
+hash = "6171e066c08ad763f570455e3c6ead8efd0d304535c94a9785b4698e3d6281a0a8115b44eb1d71fd5fc9ccac6f8e18b99c52500253f91fee8c80e40883fbf5cf"
+
+[update]
+[update.modrinth]
+mod-id = "YLcccJCk"
+version = "tcx4Tjc6"

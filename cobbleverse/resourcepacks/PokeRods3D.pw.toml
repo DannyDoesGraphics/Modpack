@@ -1,0 +1,13 @@
+name = "Cobblemon 3D Poke Rods"
+filename = "PokeRods3D.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7OFEgDS3/versions/L4DqwCP9/Cobblemon%203D%20Pok%C3%A9%20Rods%201.0.zip"
+hash-format = "sha512"
+hash = "f0061a7097f8281db8649b65c2dcf19134110ba5ab62b421230fd95e3bb4835467a009934aad3d1b4fb50d0fe53ef723f823f53275511a3407e596c550a08082"
+
+[update]
+[update.modrinth]
+mod-id = "7OFEgDS3"
+version = "L4DqwCP9"

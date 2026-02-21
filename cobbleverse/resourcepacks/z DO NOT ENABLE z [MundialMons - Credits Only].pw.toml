@@ -1,0 +1,13 @@
+name = "MundialMons ReaniPack [CobbleMon]"
+filename = "z DO NOT ENABLE z [MundialMons - Credits Only].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ubCG349l/versions/ObF5y08k/MundialMons.1.3.2V.%5BBUGS%20AND%20FIX%5D.zip"
+hash-format = "sha512"
+hash = "bd97da4bf60d6a6151e25e6a9097c0d1a9af759fe471f65934268b03f98a31f1ebae7126f5acfab20a6b819a03a29e4f496dc78155b8bfe1f5f55afbaf9b6de0"
+
+[update]
+[update.modrinth]
+mod-id = "ubCG349l"
+version = "ObF5y08k"

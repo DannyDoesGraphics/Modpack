@@ -1,0 +1,13 @@
+name = "LumyREI"
+filename = "LumyREI-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FVADf9wU/versions/ClE7Zrf2/LumyREI-1.1.2.jar"
+hash-format = "sha512"
+hash = "e946cd42ac69742ea93a58eb519087aa1bfa9501259588d5877613eda03e7e18327ba9e0babd1e7e53a192bf0af8798e731b895696279c3b2331e8220d80cc43"
+
+[update]
+[update.modrinth]
+mod-id = "FVADf9wU"
+version = "ClE7Zrf2"

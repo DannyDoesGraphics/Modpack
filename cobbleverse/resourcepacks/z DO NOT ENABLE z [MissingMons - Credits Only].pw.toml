@@ -1,0 +1,13 @@
+name = "MissingMons [cobblemon]"
+filename = "z DO NOT ENABLE z [MissingMons - Credits Only].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jbbBrQVa/versions/m53LoEZd/MissingMon_v3.6.1%20%5BFloral%20Awakening%20%5D.zip"
+hash-format = "sha512"
+hash = "cc9069a0a54415ea424c239e164f974d120c26f80e76ef46923f2f3a0354ece8b7aca93dee5d3c892991309b89d94892e01e6abf6ef0c5dea106cdb2be547cba"
+
+[update]
+[update.modrinth]
+mod-id = "jbbBrQVa"
+version = "m53LoEZd"

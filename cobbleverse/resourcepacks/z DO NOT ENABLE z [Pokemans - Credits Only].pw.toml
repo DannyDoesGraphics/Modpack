@@ -1,0 +1,13 @@
+name = "Pokemans Pack [Cobblemon]"
+filename = "z DO NOT ENABLE z [Pokemans - Credits Only].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GFYCh249/versions/YRMjzyUR/pokemans_v15_toxicCloud.zip"
+hash-format = "sha512"
+hash = "54011599bbe0e6aff1689f808c0619b8252fee1dc8393c23254e80ba21a79f4cbca6663a0274df48a590a3c7fc392439c8e1cf3f637d8be1eb6a140226f492a5"
+
+[update]
+[update.modrinth]
+mod-id = "GFYCh249"
+version = "YRMjzyUR"

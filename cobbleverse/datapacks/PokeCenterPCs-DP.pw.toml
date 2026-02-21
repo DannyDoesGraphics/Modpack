@@ -1,0 +1,13 @@
+name = "PokeCenter PCs (Cobblemon Addon)"
+filename = "PokeCenterPCs-DP.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uVBAvWbW/versions/xclC5R0W/PokeCenter_PCs_1.1.zip"
+hash-format = "sha512"
+hash = "28db0a9d92f2fabd3099cd57b663222f7357ac4b66fd72afd4e3c50d5714f658caa4690a402908cc19587a9475cd90ae25ffed05d9e6a71a20ab9212b441783e"
+
+[update]
+[update.modrinth]
+mod-id = "uVBAvWbW"
+version = "xclC5R0W"

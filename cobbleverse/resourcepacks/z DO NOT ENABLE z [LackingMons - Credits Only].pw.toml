@@ -1,0 +1,13 @@
+name = "LackingMons (Discountiniued)"
+filename = "z DO NOT ENABLE z [LackingMons - Credits Only].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ouf6KDf2/versions/pLXYHK8J/LackingMons-ReleaseCanditate-1.zip"
+hash-format = "sha512"
+hash = "6c24bfbcb92f37581b7f66d679bf590052e1b49f255037f7e7e332b7b9ffe0a914a9e554ff6fc27d3c2d0a47e332f855d9c2419253901701167da78a731e3056"
+
+[update]
+[update.modrinth]
+mod-id = "ouf6KDf2"
+version = "pLXYHK8J"

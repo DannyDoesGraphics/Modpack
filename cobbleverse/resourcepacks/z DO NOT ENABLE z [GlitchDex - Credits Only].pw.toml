@@ -1,0 +1,13 @@
+name = "GlitchDex - Cobblemon"
+filename = "z DO NOT ENABLE z [GlitchDex - Credits Only].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Gdq5F7ud/versions/eHQG8T0Y/GlitchDex-1.1.zip"
+hash-format = "sha512"
+hash = "cd6c8331fb77a12d9d78545975079ec097701b43287ab056dd1dc0364989f0cb888fc6163ea1b71b74c826070624343ae4a3c6fb14a26b1482ecbe3f27bbdac5"
+
+[update]
+[update.modrinth]
+mod-id = "Gdq5F7ud"
+version = "eHQG8T0Y"

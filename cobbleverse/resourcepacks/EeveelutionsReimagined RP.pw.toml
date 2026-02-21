@@ -1,0 +1,13 @@
+name = "Eeveelutions Reimagined"
+filename = "EeveelutionsReimagined RP.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TC6XISro/versions/1IKSorXZ/EeveelutionsReimagined.zip"
+hash-format = "sha512"
+hash = "0e5c6627da2fb2d932d45c57abb665b84e8e1b286b8bd82d8cf2407e02206c1451f61dc738c437837efe02ba0b4c6416c17a7202d708fefd2f9dd1f4cab4865d"
+
+[update]
+[update.modrinth]
+mod-id = "TC6XISro"
+version = "1IKSorXZ"

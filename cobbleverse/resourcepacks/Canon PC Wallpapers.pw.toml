@@ -1,0 +1,13 @@
+name = "Canon PC Wallpapers [Cobblemon]"
+filename = "Canon PC Wallpapers.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/chI5vWhB/versions/L55EKlrV/Canon%20PC%20Wallpapers.zip"
+hash-format = "sha512"
+hash = "32722c80a7c08531789b6caaa19f72ddd95e462656228993ec293d6f3276910d77ffdc91f3b6e98f8e214de5f0b27bda82f346dfb5122d496122c9390c78b256"
+
+[update]
+[update.modrinth]
+mod-id = "chI5vWhB"
+version = "L55EKlrV"

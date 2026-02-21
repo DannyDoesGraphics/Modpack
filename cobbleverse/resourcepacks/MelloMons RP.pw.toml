@@ -1,0 +1,13 @@
+name = "MelloMons"
+filename = "MelloMons RP.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HFE7B8bM/versions/g8PU5ubT/MelloMons.zip"
+hash-format = "sha512"
+hash = "e4a6062038407cd3e0aef979f25dd16a9c25e27f32ae78d989c241bd09bc4104222e8bd81b3644712303bf853f14fbef06e1f9df67e8f30ad9a2d20c6a5827d3"
+
+[update]
+[update.modrinth]
+mod-id = "HFE7B8bM"
+version = "g8PU5ubT"

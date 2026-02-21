@@ -1,0 +1,13 @@
+name = "Planeta Cobblemon Pokémon Pack"
+filename = "z DO NOT ENABLE z [PlanetaCobblemon - Credits Only].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/B12Teeqk/versions/mdyB28R2/PlanetaCobblemonFreePack.zip"
+hash-format = "sha512"
+hash = "9168af741389639e648027509337e9701daa794a24d4360a62287e82f4433f9679a818e8ffa202b0e3b1371e476c241d7e5c3c4b9e84e64e76eb232796e3443c"
+
+[update]
+[update.modrinth]
+mod-id = "B12Teeqk"
+version = "mdyB28R2"

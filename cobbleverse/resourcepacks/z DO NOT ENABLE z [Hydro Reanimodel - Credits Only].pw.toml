@@ -1,0 +1,13 @@
+name = "Hydro Reanimodel Pack [Cobblemon]"
+filename = "z DO NOT ENABLE z [Hydro Reanimodel - Credits Only].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lYp6oiT3/versions/IYbKm2yW/Hydro%20Reanimodel%20Pack%200.1.7.zip"
+hash-format = "sha512"
+hash = "f1e6c89617bad2283e22a4e517a4368b038713aa49a725398f842e9d79bd23d0de78d6ac8a7886cadf722246830735ae4b071f6270bb53113c7fa44fe2eb7ff3"
+
+[update]
+[update.modrinth]
+mod-id = "lYp6oiT3"
+version = "IYbKm2yW"

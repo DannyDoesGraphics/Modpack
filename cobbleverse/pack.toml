@@ -1,0 +1,13 @@
+name = "COBBLEVERSE"
+author = "LUMYVERSE"
+version = "1.7.3"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ec03b575d9441a04715cb11b9b607eb234c38ec79290946f9ce92b30e97259e6"
+
+[versions]
+fabric = "0.18.4"
+minecraft = "1.21.1"

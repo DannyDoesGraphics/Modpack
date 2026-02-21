@@ -1,0 +1,13 @@
+name = "AllTheMons x Mega Showdown"
+filename = "z DO NOT ENABLE z [ATM x MSD - Credits Only].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/odZZdRCE/versions/N10nVTzj/ATM%20x%20MSD%20%5B3.2.1%5D.zip"
+hash-format = "sha512"
+hash = "ea848a8c72e9fde75c0459e18137f65900d31c8141c84b5f55e6af95e7f112e5e3eba684e312a6206b9e048910d21ba4de3a054b1a185252803b25769718a357"
+
+[update]
+[update.modrinth]
+mod-id = "odZZdRCE"
+version = "N10nVTzj"

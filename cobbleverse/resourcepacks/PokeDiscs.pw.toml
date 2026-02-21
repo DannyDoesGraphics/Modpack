@@ -1,0 +1,13 @@
+name = "Poké Discs"
+filename = "PokeDiscs.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xk007MaS/versions/De9pY2p7/Poke%20Discs%201.20.x.zip"
+hash-format = "sha512"
+hash = "4228be992937d666ffe105b7a34e49e8cb3f0190076dd72ea653c1f791955113eaf3ef79c715ebfa44f2ea7c46d3cdaf13fcb9c6a19382b3e26fd635550c9e60"
+
+[update]
+[update.modrinth]
+mod-id = "xk007MaS"
+version = "De9pY2p7"

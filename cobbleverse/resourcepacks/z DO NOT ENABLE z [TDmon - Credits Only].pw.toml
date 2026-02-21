@@ -1,0 +1,13 @@
+name = "TDmon"
+filename = "z DO NOT ENABLE z [TDmon - Credits Only].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/b8PVSzJC/versions/hcVF2EwL/TDmon%5BV1.3.1a-Gastly%20Line%20Ported%5D.zip"
+hash-format = "sha512"
+hash = "fd5cfc1af791a0051feb2f13c43b04887eaada1729059699ff8ab8a8bf690f8c3b06e6685a506bf792782e8d643d5bb015d6559c77ffd5a327533c63841b45dc"
+
+[update]
+[update.modrinth]
+mod-id = "b8PVSzJC"
+version = "hcVF2EwL"

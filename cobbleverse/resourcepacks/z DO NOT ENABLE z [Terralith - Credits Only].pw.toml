@@ -1,0 +1,13 @@
+name = "Terralith"
+filename = "z DO NOT ENABLE z [Terralith - Credits Only].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8oi3bsk5/versions/urbokcOc/Terralith_1.21_v2.5.8.zip"
+hash-format = "sha512"
+hash = "31dfba2a60d144ca3af3c0aa8662db84f3e966fdb555b9eadbd5bdf4e4d864d2e4a8393b99388c0eaa0f03052bf35b6ae44b1858fa046fae35d408c40b789166"
+
+[update]
+[update.modrinth]
+mod-id = "8oi3bsk5"
+version = "urbokcOc"

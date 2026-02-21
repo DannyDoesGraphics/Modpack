@@ -1,0 +1,13 @@
+name = "MysticMons"
+filename = "z DO NOT ENABLE z [MysticMons - Credits Only].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TiFXQSAQ/versions/n1gBFmIp/MysticMons_v3.2.1.zip"
+hash-format = "sha512"
+hash = "f9ed4e19f9d2672be75143afd95e9160bd038d5701d310c1b42c14c6a8031851725addbc35d84e4a5b0c9eea1db95e0d9ae36602f4e6f2b3a48ed9e4912e8dff"
+
+[update]
+[update.modrinth]
+mod-id = "TiFXQSAQ"
+version = "n1gBFmIp"
