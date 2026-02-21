@@ -13,10 +13,10 @@
 Please read carefully!
 
 ## "One or more errors were encountered while installing the modpack!"
-Some modpacks are too big, and the installer may have timed out simply stalling for too long.
+Some modpacks are too big and take a long time to install, as such the installer may have timed out waiting for all installs to finish.
 
 1. "Cancel launch"
 2. Open modpack again
 3. Repeat 1 until you are able to successfully launch into the game
 
-To do a sanity check, your list of mods that couldn't be installed is shrinking with each successive reboot.
+To do a sanity check, your list of mods that couldn't be installed *should* be shrinking with each successive reboot.
