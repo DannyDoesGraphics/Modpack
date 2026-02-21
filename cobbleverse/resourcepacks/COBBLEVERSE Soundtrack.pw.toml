@@ -1,0 +1,7 @@
+name = "COBBLEVERSE Soundtrack"
+filename = "COBBLEVERSE Soundtrack.zip"
+
+[download]
+url = "https://github.com/DannyDoesGraphics/Modpack/releases/download/LFS/COBBLEVERSE.Soundtrack.zip"
+hash-format = "sha256"
+hash = "cb18f0eca067f2ddebf4a0f0dadd057eee32d7a3049c73944cf31352a9039243"
