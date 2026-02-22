@@ -2078,7 +2078,7 @@ metafile = true
 
 [[files]]
 file = "mods/watervision.pw.toml"
-hash = "4e81fa1c6795ff739853eaaf3d58f3e474056501a5ee12fb0417dfd2d6fc5864"
+hash = "e6e3c97133e10cf5d2b5cc9e021aad0f551a7a280a85c7c47f0ad3f96971f91f"
 metafile = true
 
 [[files]]
