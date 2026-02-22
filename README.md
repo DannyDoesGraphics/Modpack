@@ -8,6 +8,7 @@
 | --------------- | -------------------------------------------------------------------------------------- | --------------------- |
 | `DAM 1.20.1`    | `https://github.com/DannyDoesGraphics/Modpack/raw/refs/heads/main/DAM%201.20.1.zip`    | 1.20.1 modded edition |
 | `sunlit`        | `https://github.com/DannyDoesGraphics/Modpack/raw/refs/heads/main/Sunlit%20Valley.zip` |
+| `cobbleverse` | `https://github.com/DannyDoesGraphics/Modpack/raw/refs/heads/main/Cobbleverse.zip` |
 
 # Trouble shooting steps
 Please read carefully!
