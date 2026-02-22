@@ -1,4 +1,5 @@
 # Installing the modpack:
+1. Install [Prism Launcher](https://prismlauncher.org/)
 
 ![Steps](assets/STEPS.png)
 
