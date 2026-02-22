@@ -1707,6 +1707,11 @@ hash = "bf35ad1e9d9046861abb4d0ec6390ea3ac1e75bf39b141f0debd76ab13103e14"
 metafile = true
 
 [[files]]
+file = "mods/crossstitch.pw.toml"
+hash = "899a506ec93d9bbc84e58aebeb369847493f97a4383e6691a5d51dbb9c2f6ea2"
+metafile = true
+
+[[files]]
 file = "mods/customsplashscreen-2.2.0.pw.toml"
 hash = "33290fb3546dc0c147fca7ba655139a9982a0ea02def1cce79ec29414305a945"
 metafile = true
