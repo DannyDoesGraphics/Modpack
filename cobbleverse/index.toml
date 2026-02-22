@@ -1717,6 +1717,11 @@ hash = "7d5cafbc73da7a06d4a96a82bb4d53635ed0b828cb4d40e1ade2a792251c40ed"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "61ce79aeecd3101399a33bbea16444736f2988b363a63c9f3b6a2c4fb0b3828a"
+metafile = true
+
+[[files]]
 file = "mods/entity_model_features_1.21-fabric-3.0.11.pw.toml"
 hash = "c19fb744df311b88cf3aa6a40696dd781c596d0e4b27e2410ba595f55a519237"
 metafile = true
