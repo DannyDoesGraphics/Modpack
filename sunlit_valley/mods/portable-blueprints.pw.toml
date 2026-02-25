@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/pTRNOhPP/versions/1WzPbCWI/portable_blueprints-v2.0.9-mv1.20.1.jar"
 hash-format = "sha512"
 hash = "f81c47b1441c8b456fb65e68b81a3b68abf6bf17d0555891031dda9c746c24ebd2841ad73dbbd63ee741ae506e3606f9f80e112eee930897a2d5101210001678"
+
 [update]
 [update.modrinth]
 mod-id = "pTRNOhPP"

@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/hGAlcCDJ/versions/hXjb2B03/create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar"
 hash-format = "sha512"
 hash = "fb6ecea7e74ef52ec86d5a89b40e9c650761f5bbc89aad525070bdcdf68185e2bdf6d276821266a431840587ca6b1761ccec30516212a33b44c589da93493f5b"
+
 [update]
 [update.modrinth]
 mod-id = "hGAlcCDJ"

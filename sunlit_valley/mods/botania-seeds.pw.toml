@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/pJA93SOk/versions/PZJvVAXW/botania_seeds-1.1.1.jar"
 hash-format = "sha512"
 hash = "4cb5176867b322e931ef65bad47902f5b3983b4f60ebe0951278ecec23b31a59991afe4d5afd9f8a1c25f376dbc8656d1727e5a21bdc7ab4f0f2fec87156cbbf"
+
 [update]
 [update.modrinth]
 mod-id = "pJA93SOk"

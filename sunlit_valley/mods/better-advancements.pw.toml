@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/Q2OqKxDG/versions/E1pOIPhV/BetterAdvancements-Forge-1.20.1-0.4.2.10.jar"
 hash-format = "sha512"
 hash = "a929bf83e5d42b90e05bf3e9a0e4b2dd4879228a81a89cf3ef001cb50872d7c416e166c7229b8af219488399dae5deca1f2cc7b94d23d3064123deda2c97564d"
+
 [update]
 [update.modrinth]
 mod-id = "Q2OqKxDG"

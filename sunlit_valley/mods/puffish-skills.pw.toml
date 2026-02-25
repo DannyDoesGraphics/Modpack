@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/hqQqvaa4/versions/43zMsRkL/puffish_skills-0.16.1-1.20-forge.jar"
 hash-format = "sha512"
 hash = "ed42252307d250005bf6fa05ee93a0b8148a9fa4ac64816b54ab213bdbc95889a2897103bbcca23ca7c9442e49ed49dcc8a6cfee7998277e6f44d389b399aaa7"
+
 [update]
 [update.modrinth]
 mod-id = "hqQqvaa4"

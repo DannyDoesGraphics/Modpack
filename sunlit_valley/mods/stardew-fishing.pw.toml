@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/Rw1Ylmn4/versions/PMlOw1jn/stardew_fishing-3.5-1.20.1.jar"
 hash-format = "sha512"
 hash = "319a01fe1df9acb5102d227ae3a471a651fd9dbb5d40f7e4e7dcecdf8ed69821faf35b0ff6cc1700590adc0e32a4509b628623c93c767e0c7b7e49cf0eeedfd4"
+
 [update]
 [update.modrinth]
 mod-id = "Rw1Ylmn4"

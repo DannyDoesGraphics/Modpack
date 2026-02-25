@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/kepjj2sy/versions/F0YaeEhe/ShoulderSurfing-Forge-1.20.1-4.16.0.jar"
 hash-format = "sha512"
 hash = "3d0a7b71d93d180b3f5431f1580b5c6270727ea2186b1881cb3ff0b9cbf0eeaa6393b94c2d4b47223d5529aca025d7840ad9f97586ea5deb6b744b8e7d70a2a7"
+
 [update]
 [update.modrinth]
 mod-id = "kepjj2sy"

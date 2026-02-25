@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/1oUDhxuy/versions/xtqWb6du/moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar"
 hash-format = "sha512"
 hash = "02723c0c03240c9a660c45168e89519daa8d251fcb5bcaff416a4cc2dd70da0525165edcc92a9ef0ffcfce198dcfe4dc4a523b9fc87f6655e8ff5d5cc07e7e05"
+
 [update]
 [update.modrinth]
 mod-id = "1oUDhxuy"

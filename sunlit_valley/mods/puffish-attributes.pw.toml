@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/FCFcFw09/versions/S7fKIUGt/puffish_attributes-0.7.2-1.20-forge.jar"
 hash-format = "sha512"
 hash = "e22a8372ad84c5be24c36e4cf335da227830ae1bdf8389343ecb0bde59e3850e8ca79cf68b71541d85a84f31ff5dcd2559954c281cbd6c261c88a56f51856522"
+
 [update]
 [update.modrinth]
 mod-id = "FCFcFw09"

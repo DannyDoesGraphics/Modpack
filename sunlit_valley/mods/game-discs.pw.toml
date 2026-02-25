@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/AgqoIu86/versions/gvMBSvC4/gamediscs-0.3.2-forge.jar"
 hash-format = "sha512"
 hash = "c5eed03b992945eb677a3c060b1bd5f0ec18b90ca116d253def54a142d3cc870b74d8bd55d344169fa3a56c32f57862585028a4c1a73e353d6ea44b1db47442b"
+
 [update]
 [update.modrinth]
 mod-id = "AgqoIu86"

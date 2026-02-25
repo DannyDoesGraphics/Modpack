@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/5obrmvru/versions/wxP9ZA0o/SVDialog-0.3.jar"
 hash-format = "sha512"
 hash = "f2e20135b1a9f967230a12497906514bfee269021d84d310ac34da8e47ad4844a49fd25ec3cee34cc725ec87863bc780c47c1fa6a44aced835294d7ad31622df"
+
 [update]
 [update.modrinth]
 mod-id = "5obrmvru"

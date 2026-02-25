@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/Jal3lwVg/versions/7e8NWI5O/dew_drop_watering_cans-1.0.2.jar"
 hash-format = "sha512"
 hash = "2fed9eec1767c71019e00836584993789f511b3cb2376e9576cb8bc0fc5fbb9fe15cb49aa7eb4ae8a890d9e4a6ff7c68cd536164465e4495d8b9eb7cc9beecc0"
+
 [update]
 [update.modrinth]
 mod-id = "Jal3lwVg"

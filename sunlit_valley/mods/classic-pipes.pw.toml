@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/xX5VOqpH/versions/DHTWRd9n/classicpipes-forge-1.20.1-1.0.10.jar"
 hash-format = "sha512"
 hash = "c79b8dddda215f1dcba48427489e86b0bd650d8fdd530c72d33ff48aba31007703db89b24bb452c62d4e882411d262f65054152833255c1ccbb0148066b32dbc"
+
 [update]
 [update.modrinth]
 mod-id = "xX5VOqpH"

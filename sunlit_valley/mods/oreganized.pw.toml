@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/2FJutzEL/versions/HHAP0big/Oreganized%201.20.1-4.3.1.jar"
 hash-format = "sha512"
 hash = "2b215e5b2d2bafdffb8e65f283637ce42cdd1230fcde704842946c4b793380894a4e37a2d7f37a8fefbc583e49fc1513612bc231fcb7a78bf80a7c1b325faca1"
+
 [update]
 [update.modrinth]
 mod-id = "2FJutzEL"

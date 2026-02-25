@@ -6,6 +6,7 @@ side = "both"
 url = "https://cdn.modrinth.com/data/i6fiqm5y/versions/XCJNVCRh/Platform-forge-1.20.1-1.2.11.6.2.jar"
 hash-format = "sha512"
 hash = "38933bf3d58e0dec74042e5dd1ce45b831f2fcdcfd587a4711ff324331f35fadcb6688bd07a23810e19372330696c22bdb459894353d5b334986125287cb9184"
+
 [update]
 [update.modrinth]
 mod-id = "i6fiqm5y"
