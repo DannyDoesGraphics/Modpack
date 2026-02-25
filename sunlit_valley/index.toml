@@ -21527,28 +21527,8 @@ hash = "2470b92a7400181f5ec02c35a732e9925b651a6cb6d51e9426c584c6a21c858b"
 metafile = true
 
 [[files]]
-file = "mods/waterframes.pw.toml"
-hash = "1c5f19e74dae7fded9240ecaa3d42d33c85c82447a6e51e756532d89312a45d7"
-metafile = true
-
-[[files]]
 file = "mods/watering-cans-dew-drop.pw.toml"
 hash = "99da1b29cd208f278319c16cb9bc1af63ac7f2f64522c5a9419cab1d4ed95d00"
-metafile = true
-
-[[files]]
-file = "mods/watermedia-binaries.pw.toml"
-hash = "03c2bc9e406cebc8c70dbdb7cb7e1592e9c41c2d8c2c57ff65f9b1e1501cf4f2"
-metafile = true
-
-[[files]]
-file = "mods/watermedia.pw.toml"
-hash = "8b9758ff1f92f6196d8a7aedba98a4cc576f38f2c2c2b9f27a44fcab21313351"
-metafile = true
-
-[[files]]
-file = "mods/watervision.pw.toml"
-hash = "c7276235634b7ade54b95f3ccd3837970f6ae9523649953c36377beb4fa89801"
 metafile = true
 
 [[files]]
