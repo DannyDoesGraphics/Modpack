@@ -1,6 +1,6 @@
 name = "Colorwheel Patcher"
 filename = "colorwheel_patcher-forge-1.0.4+mc1.20.1.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/KPsw5jDu/versions/1JZBSXYs/colorwheel_patcher-forge-1.0.4%2Bmc1.20.1.jar"

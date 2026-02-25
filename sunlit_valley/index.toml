@@ -20105,12 +20105,12 @@ metafile = true
 
 [[files]]
 file = "mods/colorwheel-patcher.pw.toml"
-hash = "2dc758f10b68bed4eae2e73787147f36a6f9f7326e9dea76ea8e032d26e6abd2"
+hash = "c2aed1f5e410233301af93d178f9bb5a86519f6f619f9406a67d137fbce4d822"
 metafile = true
 
 [[files]]
 file = "mods/colorwheel.pw.toml"
-hash = "9d6fd0b6bb72f0a7f507524c0e4df0b8f455637064d966e7e75ec917d8ae0e4b"
+hash = "64c6062963e8935bfcea2cfbf1d568457878b7af76b1828a3d0e48c6d72eeb6e"
 metafile = true
 
 [[files]]
@@ -20400,7 +20400,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-texture-features-fabric.pw.toml"
-hash = "c4f55858ad506439ab6cfc2699dc974236d29f797a64896f01f508098b6484d1"
+hash = "a7f9f5268106b0b5cdeeaebf52b6c2a1ed718ea478f2a157b9a07e8c98a4ae57"
 metafile = true
 
 [[files]]
@@ -21133,7 +21133,7 @@ metafile = true
 
 [[files]]
 file = "mods/raws-visual-keybinder.pw.toml"
-hash = "5056029a24b67af27712ca96118baeed31335400234f7d142ced24f9681a6e8a"
+hash = "1d166baf24f233e3e208aea89773b2f61c8e65228ca9681d323ed2ef431b0593"
 metafile = true
 
 [[files]]
@@ -21158,7 +21158,7 @@ metafile = true
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
-hash = "08edbf7c3ea35e081acd55f47a5a911bc8f70646b0a6b3e4a661e6b52a50e8c9"
+hash = "14b0e82185ad3216d6e6bcb1d796e5353debe4e78b19934955c113ab94f7f129"
 metafile = true
 
 [[files]]
@@ -21258,7 +21258,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "50d51644a295ac119771c971692b3b4f6d9ae686be2236d0bb5b508efa26179d"
+hash = "ddd2643d4df9b68559d057d6c74b05c4dbbd4bb1439bf2c95d927d915f736ff5"
 metafile = true
 
 [[files]]
