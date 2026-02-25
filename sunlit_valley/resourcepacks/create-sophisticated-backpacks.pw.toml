@@ -3,11 +3,6 @@ filename = "CreateSophisticatedBackpacks.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0a119ab68a6b2cb824d545c0dc2dc44b1339cc94"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 6157360
-project-id = 899330
+url = "http://localhost:8080/resourcepacks/CreateSophisticatedBackpacks.zip"
+hash-format = "sha512"
+hash = "0e3d5b38b9b4c578e9612f61450386fcfb59b301909c27991830636fa7d76f45db4d61f360fe181fe3216b71636eba16dcb308c395932d1283e44a6a70a82ea8"

@@ -3,11 +3,6 @@ filename = "moreoverlays-1.24.1-mc1.20.1-forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f34bd1fde7a4b458493ddf464b4fb94c6108edf7"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 6945288
-project-id = 391382
+url = "http://localhost:8080/mods/moreoverlays-1.24.1-mc1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "6ec056e9be95ca9fc19bd4cf32867649a8d529ec1e45e37f0a5501a88b7ddc6a567ad28b097fae18a9ad367434cf19590a1610526dd13e9159a238cc683b4c42"

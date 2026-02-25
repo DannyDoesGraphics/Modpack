@@ -19850,6 +19850,10 @@ file = "kubejs/startup_scripts/skullCavernSleep.js"
 hash = "3ab279c9a6f9b5c842f987f54b76ed18059a557f1c6332582056656ada7bdb1c"
 
 [[files]]
+file = "mods/BalloonBox1.20.1(Forge)vs.1.0.3.jar"
+hash = "c8e818c5698dae385b88b4a4db63a6a4ef5e10bae5900fcb0d9bc00a14eea8e9"
+
+[[files]]
 file = "mods/additional-attributes.pw.toml"
 hash = "ec4944b306ce3daae244b96dfa10c87b56e5d26df60a42b3113f2ac2281860be"
 metafile = true
@@ -19936,7 +19940,7 @@ metafile = true
 
 [[files]]
 file = "mods/balloon-box.pw.toml"
-hash = "5040f2ef7f4b94e177dcec899a48cb3d593340bc0e9dfec6dbc9893033e5f835"
+hash = "7add354a42eeba14b6af4274c4455d50a4ca8cfa0f9d10662986a878a5d54135"
 metafile = true
 
 [[files]]
@@ -20531,7 +20535,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quest-localizer.pw.toml"
-hash = "d298e905889e57271e0ed46e3bb7f0d80724999748d33c0a5b5611f98afdf191"
+hash = "f4998f92446c09aa24957310859e106019f5141fa5c156c02afed8d9f2e2a0fa"
 metafile = true
 
 [[files]]
@@ -20548,6 +20552,10 @@ metafile = true
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
 metafile = true
+
+[[files]]
+file = "mods/ftbquestlocalizer-1.20.1-forge-3.2.3.jar"
+hash = "ec78d601aaf3d4fd35978b70b4a894c4a396ef5c2d11d35b4bcab05597915026"
 
 [[files]]
 file = "mods/functional-storage.pw.toml"
@@ -20876,13 +20884,17 @@ metafile = true
 
 [[files]]
 file = "mods/more-overlays-updated.pw.toml"
-hash = "18155f139f536592c795f18eae975a82b0200f800693e873316b9157efb6df7b"
+hash = "2538417b09bfe5c32c5303f7844249a018cc6e53ad6abf21a17d853e6fdce73a"
 metafile = true
 
 [[files]]
 file = "mods/morejs.pw.toml"
 hash = "7e7a241c17d3a4e4399ec02ad5e365cfc381ecb3354c1f65990130c463ed4ffe"
 metafile = true
+
+[[files]]
+file = "mods/moreoverlays-1.24.1-mc1.20.1-forge.jar"
+hash = "682640707331db2fc2a43ea023896622d9179849cf74d3313e3ffea8ec3c2371"
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
@@ -23693,6 +23705,22 @@ file = "patchouli_books/fish_finder/ko_kr/entries/fish/wither_bonefish.json"
 hash = "9190cd007221a077a8f934d26a92d402cf747fd5275457ddb6089c97648edb7b"
 
 [[files]]
+file = "resourcepacks/Better_Cats_V0.09.zip"
+hash = "c647eb3397fc861178c49edde7c1f4edae957ca573c5ad25cd1e9a5f7fdf2437"
+
+[[files]]
+file = "resourcepacks/Create Style for Refined Storage.zip"
+hash = "a680b86ac4bbb1fec4128ec6912fc4a2fb400459f3125f4518cb286e4d4d82eb"
+
+[[files]]
+file = "resourcepacks/CreateSophisticatedBackpacks.zip"
+hash = "546f5ab2d4d561e28f3366d84626ab392a750de151eec51b5a524fe48f396ec9"
+
+[[files]]
+file = "resourcepacks/Lopy-Create-Pipez.zip"
+hash = "d95bd4e390a7edb25c8c82f00a3095464d11fec672a0df778529690e9a115358"
+
+[[files]]
 file = "resourcepacks/Quark Programmer Art.zip"
 hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
 
@@ -23703,22 +23731,22 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/better-cats-minecraft.pw.toml"
-hash = "9c4f5a09e13a1de08438881e2de408728bedff142b9a28e75a48aabe3346ff5d"
+hash = "ff647ec3247c3a9ecaa0594001c18ef387441feeb670d4ef07aca1d42eef8e35"
 metafile = true
 
 [[files]]
 file = "resourcepacks/create-pipez.pw.toml"
-hash = "707206288e14264223567b168688472d1514f6376c53a02b603cae7845a268a7"
+hash = "64bf0fb000f826d2ce83e49c7f0b72b0aade3b235ea7e5ca14de8ee0e9a2666f"
 metafile = true
 
 [[files]]
 file = "resourcepacks/create-sophisticated-backpacks.pw.toml"
-hash = "9894340781fca02078877ff3ee942b1a66e5387aedab8a0d99ab69f4904cf0c5"
+hash = "3775a98284ea6614c640c4f543acd319a7a9c5415a8f5892ce6de7bb28230029"
 metafile = true
 
 [[files]]
 file = "resourcepacks/create-style-for-refined-storage.pw.toml"
-hash = "a85f6d7d380f8508f432fe1c355ae3c81bdd54372b1b067361b8fb1cadab4a73"
+hash = "1b67b211314fec801c47c907bc5b4040425b1f04f46656e0b5028d94ddb9a997"
 metafile = true
 
 [[files]]
