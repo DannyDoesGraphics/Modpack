@@ -1,6 +1,6 @@
 name = "Flerovium"
 filename = "flerovium-forge-1.20.1-1.2.18-all.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/4Rh1Mobu/versions/rfznaZum/flerovium-forge-1.20.1-1.2.18-all.jar"

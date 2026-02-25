@@ -1,6 +1,6 @@
 name = "AmbientSounds 6"
 filename = "AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/fM515JnW/versions/lDrRWaFm/AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar"

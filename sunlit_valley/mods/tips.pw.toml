@@ -1,6 +1,6 @@
 name = "Tips"
 filename = "Tips-Forge-1.20.1-12.1.8.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/AMCbgyVw/versions/Op6VN0JV/Tips-Forge-1.20.1-12.1.8.jar"

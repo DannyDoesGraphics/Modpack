@@ -1,6 +1,6 @@
 name = "Moog's Structure Lib (moogs_structures)"
 filename = "moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/1oUDhxuy/versions/xtqWb6du/moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar"

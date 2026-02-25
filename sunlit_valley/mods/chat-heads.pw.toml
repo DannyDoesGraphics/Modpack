@@ -1,6 +1,6 @@
 name = "Chat Heads"
 filename = "chat_heads-0.13.7-forge-1.20.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/fIpQhJZ4/chat_heads-0.13.7-forge-1.20.jar"
