@@ -1,0 +1,14 @@
+name = "BalloonBox"
+filename = "BalloonBox1.20.1(Forge)vs.1.0.3.jar"
+side = "client"
+
+[download]
+url = "https://www.curseforge.com/projects/909375/files/5801202"
+hash-format = "sha512"
+hash = "e9485b56700259cf280474b735d7f64a23a573206e61988f333e9fecdaf61ec7bb0cb0dd0a80499822e32fb73b938ec31731c01cef5ca3f94a8e8648e6087d64"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5801202
+project-id = 909375

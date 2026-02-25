@@ -1,6 +1,6 @@
 name = "Sodium/Embeddium Dynamic Lights"
 filename = "sodiumdynamiclights-forge-1.0.10-1.20.1.jar"
-side = "server"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/PxQSWIcD/versions/I156ee3A/sodiumdynamiclights-forge-1.0.10-1.20.1.jar"

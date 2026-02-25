@@ -1,6 +1,6 @@
 name = "Default Options"
 filename = "defaultoptions-forge-1.20.1-18.0.4.jar"
-side = "client"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/WEg59z5b/versions/t5i53ltA/defaultoptions-forge-1.20.1-18.0.4.jar"
