@@ -21082,6 +21082,11 @@ hash = "bd87f993bf0ce3fcb2abe3c42f8cce07efb2d0a8061131ee1285fefa1b7e39a0"
 metafile = true
 
 [[files]]
+file = "mods/proxy-compatible-forge.pw.toml"
+hash = "e54c8f8c0d71823f0ec2a0897dd8afd23e5fb76d8b125631e3941a0c89c6fdf0"
+metafile = true
+
+[[files]]
 file = "mods/puffish-attributes.pw.toml"
 hash = "b79768849a87f29a3bdeb98fb884abfc4e5d1ede1c53582e7d3d729da3ea2857"
 metafile = true
