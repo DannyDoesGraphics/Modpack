@@ -1,0 +1,14 @@
+name = "Extractinator"
+filename = "extractinator-forge-1.20.1-2.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2EPioYNN/versions/7hJ6iUPA/extractinator-forge-1.20.1-2.3.0.jar"
+hash-format = "sha512"
+hash = "33c3f935c17ec4c6dca9d73a8cbc0ad7049ff1bc693552027d3746f78e543f4c579c9658d661d266f233727ab38ffb659713c3078736f9965e69f6d3c5101ed1"
+mode = "metadata:modrinth"
+
+[update]
+[update.modrinth]
+mod-id = "2EPioYNN"
+version = "7hJ6iUPA"

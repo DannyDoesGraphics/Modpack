@@ -1,0 +1,14 @@
+name = "Plonk"
+filename = "plonk-1.20.1-10.0.5-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EUmBPkQn/versions/V1OyyHVE/plonk-1.20.1-10.0.5-forge.jar"
+hash-format = "sha512"
+hash = "f10d0e5a758138991ab0418862e3b7a62bde46208fde54e9617e7cc82884d3eb9843eb78f770d5f601536362ba3f7839c2f6a1f7d618c9f8f627ca4eec2102fa"
+mode = "metadata:modrinth"
+
+[update]
+[update.modrinth]
+mod-id = "EUmBPkQn"
+version = "V1OyyHVE"

@@ -1,0 +1,14 @@
+name = "ReHooked"
+filename = "rehooked-1.8.3-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/967kkKiF/versions/yiXoBbe7/rehooked-1.8.3-1.20.1.jar"
+hash-format = "sha512"
+hash = "79896b6fbe23767b6559fcc5435fe42caba6108d0094fc648bb4aacb731d2011dfe8b6340a160c9cc6ce66c3b4044535e310a4f7c5adfac5c8ac4e5f61c04984"
+mode = "metadata:modrinth"
+
+[update]
+[update.modrinth]
+mod-id = "967kkKiF"
+version = "yiXoBbe7"

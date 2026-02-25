@@ -1,0 +1,14 @@
+name = "Loot Journal (Forge)"
+filename = "Loot Journal-forge-1.20.1-5.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OJ6ZYz5L/versions/Pprfkxrb/Loot%20Journal-forge-1.20.1-5.0.1.jar"
+hash-format = "sha512"
+hash = "ace94ad0c5fd2b9a28a0f054a01462539f683e4521a726a2bf500a99bccc15015449104a072b426e09ddf1002800dcf67382807cd707416aaecb2c32a0a7f057"
+mode = "metadata:modrinth"
+
+[update]
+[update.modrinth]
+mod-id = "OJ6ZYz5L"
+version = "Pprfkxrb"

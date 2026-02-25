@@ -1,0 +1,14 @@
+name = "Kiwi 🥝 (Neo/Forge)"
+filename = "Kiwi-1.20.1-Forge-11.9.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ufdDoWPd/versions/u7HrABzs/Kiwi-1.20.1-Forge-11.9.2.jar"
+hash-format = "sha512"
+hash = "db1194c73b814eafbf5bfa0631760bce7f6a48697fa8672a85ccd887b12d9650a8c7be1a062973fe3e673fef7998e83334beb830b66821da1db3aea79a6753bc"
+mode = "metadata:modrinth"
+
+[update]
+[update.modrinth]
+mod-id = "ufdDoWPd"
+version = "u7HrABzs"

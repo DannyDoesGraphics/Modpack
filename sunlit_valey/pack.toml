@@ -1,0 +1,12 @@
+name = "Sunlit Valey"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "1c773a89aa22ecb559fbc948eabb91c7942fd03278d544a13409a1720fc40488"
+
+[versions]
+forge = "47.4.0"
+minecraft = "1.20.1"

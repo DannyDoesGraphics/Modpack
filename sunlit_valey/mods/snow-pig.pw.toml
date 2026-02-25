@@ -1,0 +1,14 @@
+name = "Snow Pig [Forge]"
+filename = "snowpig-1.20.1-6.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CJ0YrpAC/versions/KPksPlal/snowpig-1.20.1-6.0.3.jar"
+hash-format = "sha512"
+hash = "557dec935076f5de1a9053e2f6d0ce0e1cbb2ff95ab10ec15d72b9a0a5dfc3a45afbfefb7fbd7ddde73e0ef19500d576839dfae0f4d18bc89c60d9cdf483a27c"
+mode = "metadata:modrinth"
+
+[update]
+[update.modrinth]
+mod-id = "CJ0YrpAC"
+version = "KPksPlal"

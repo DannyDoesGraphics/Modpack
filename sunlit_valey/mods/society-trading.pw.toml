@@ -1,0 +1,13 @@
+name = "Society Trading"
+filename = "society_trading-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3d72d02afe0dfd1c94e0edcfdb7bfd1fedba4c98"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7662873
+project-id = 1347329

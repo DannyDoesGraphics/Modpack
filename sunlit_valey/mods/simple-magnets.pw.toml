@@ -1,0 +1,14 @@
+name = "Simple Magnets"
+filename = "simplemagnets-1.1.12-forge-mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YyNQVpOu/versions/Sg3Svl6F/simplemagnets-1.1.12-forge-mc1.20.1.jar"
+hash-format = "sha512"
+hash = "3d75d79cfa07d8270aca50c2de29d3405fed4b5182c3e6b0d51832cbe83b75659ffdf201b57312503fa2803398f0d59d9ed9516669b3883303a8451bfdce7613"
+mode = "metadata:modrinth"
+
+[update]
+[update.modrinth]
+mod-id = "YyNQVpOu"
+version = "Sg3Svl6F"

@@ -3,3 +3,4 @@
 /sunlit_valley/Society[[:space:]]Sunlit[[:space:]]Valley-4.0.0-hotfix.zip filter=lfs diff=lfs merge=lfs -text
 /Sunlit[[:space:]]Valley.zip filter=lfs diff=lfs merge=lfs -text
 /cobbleverse/resourcepacks/COBBLEVERSE[[:space:]]Soundtrack.zip filter=lfs diff=lfs merge=lfs -text
+sunlit_valey/Society-Sunlit-Valley-4.0.2.zip filter=lfs diff=lfs merge=lfs -text

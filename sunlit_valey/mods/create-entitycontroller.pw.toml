@@ -1,0 +1,14 @@
+name = "Create:Entity Control"
+filename = "CreateEntityControl-0.2.8-6.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/43gwKokf/versions/6YZA1fOP/CreateEntityControl-0.2.8-6.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "f1d79475af91b37ae88ac71666a98e43d4623241d2b6756d4bfbcd9cdb44fa71c2054d8ccacd3310158ee5d1aca12022a1c2696b62ba7ea86d4442dddeb9a63a"
+mode = "metadata:modrinth"
+
+[update]
+[update.modrinth]
+mod-id = "43gwKokf"
+version = "6YZA1fOP"

@@ -1,0 +1,14 @@
+name = "Gadgets Against Grind"
+filename = "gag-forge-3.0.0-build.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IeYLjzpn/versions/u2m25nhN/gag-forge-3.0.0-build.13.jar"
+hash-format = "sha512"
+hash = "8101642adbf6ff12aa71c537a982ff9386792f441c4c64cc3216ddb14aba4ef5466ff24169de81269c8cd1e560aa9c4bb0ef319f648299c0250c0c9dcdebaaee"
+mode = "metadata:modrinth"
+
+[update]
+[update.modrinth]
+mod-id = "IeYLjzpn"
+version = "u2m25nhN"

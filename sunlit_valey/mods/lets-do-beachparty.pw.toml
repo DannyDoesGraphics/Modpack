@@ -1,0 +1,14 @@
+name = "[Let's Do] Beachparty"
+filename = "letsdo-beachparty-forge-1.1.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GyKzAh3l/versions/cC6RhoPZ/letsdo-beachparty-forge-1.1.5.jar"
+hash-format = "sha512"
+hash = "4d7f0d7c5a3b19400947594e5ab48df91be61825e0206fef0abf4a2939427ad534c83ed825b1f4bb30e1b2dc85f5be805b141af2130076edf6109d859ee731d7"
+mode = "metadata:modrinth"
+
+[update]
+[update.modrinth]
+mod-id = "GyKzAh3l"
+version = "cC6RhoPZ"

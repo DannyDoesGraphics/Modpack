@@ -1,0 +1,14 @@
+name = "Little Tractor"
+filename = "LittleTractor-1.20.1-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Zvcd6uXb/versions/dQ95dIjY/LittleTractor-1.20.1-1.2.jar"
+hash-format = "sha512"
+hash = "6d380e8f5a861a74c1451914bb17dc53b1359b2d648e04dc1b1e169d8e678baba1a2b902550c559d5ebc5a0a730ac3e6436fcabab20b0ac298d1f8562dd591ac"
+mode = "metadata:modrinth"
+
+[update]
+[update.modrinth]
+mod-id = "Zvcd6uXb"
+version = "dQ95dIjY"
