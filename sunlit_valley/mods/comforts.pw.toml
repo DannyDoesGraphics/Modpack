@@ -1,6 +1,6 @@
 name = "Comforts"
 filename = "comforts-forge-6.4.0+1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/SaCpeal4/versions/gBDsc134/comforts-forge-6.4.0%2B1.20.1.jar"

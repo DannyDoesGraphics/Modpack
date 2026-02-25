@@ -1,6 +1,6 @@
 name = "Additional Attributes"
 filename = "additional_attributes-1.20.1-1.3.6-all.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/z7dzpcw6/versions/6etKhuGO/additional_attributes-1.20.1-1.3.6-all.jar"

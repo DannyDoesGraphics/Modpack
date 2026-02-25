@@ -1,6 +1,6 @@
 name = "Snowy Spirit"
 filename = "snowyspirit-1.20-3.0.10.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/UiFDlI7w/versions/JZ9WGqCs/snowyspirit-1.20-3.0.10.jar"

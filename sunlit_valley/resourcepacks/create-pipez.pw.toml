@@ -1,8 +1,0 @@
-name = "Lopy's Create Style Pipez"
-filename = "Lopy-Create-Pipez.zip"
-side = "both"
-
-[download]
-url = "http://localhost:8080/resourcepacks/Lopy-Create-Pipez.zip"
-hash-format = "sha512"
-hash = "9c496d9ff525c64a67648a3d88bfc7f6f1934e23cd67bb287d6c646a3b8bbbf7410291fc337f1b5527fbca27dff3de3db110b7afadbbe6350c2bc6e7b0d39cd9"

@@ -1,6 +1,6 @@
 name = "Not Enough Recipe Book [NERB]"
 filename = "Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/bQh7xzFq/versions/xXV9YBzF/Not%20Enough%20Recipe%20Book-FORGE-0.4.1%2B1.20.1.jar"

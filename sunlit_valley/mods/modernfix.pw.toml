@@ -1,6 +1,6 @@
 name = "ModernFix"
 filename = "modernfix-forge-5.26.2+mc1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/nmDcB62a/versions/Uvlhuprw/modernfix-forge-5.26.2%2Bmc1.20.1.jar"

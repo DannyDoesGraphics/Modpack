@@ -1,6 +1,6 @@
 name = "Create Mechanical Extruder"
 filename = "create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/hGAlcCDJ/versions/hXjb2B03/create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar"

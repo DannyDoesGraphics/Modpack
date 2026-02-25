@@ -1,6 +1,6 @@
 name = "[Let's Do] Candlelight - Farm&Charm Compat"
 filename = "letsdo-candlelight-forge-2.0.2.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/qwbArkQk/versions/yqPDKhMA/letsdo-candlelight-forge-2.0.2.jar"

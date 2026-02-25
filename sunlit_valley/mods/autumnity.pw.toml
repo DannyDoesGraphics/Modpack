@@ -1,6 +1,6 @@
 name = "Autumnity"
 filename = "autumnity-1.20.1-5.0.2.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/cRh6MJ6n/versions/F0pPtIPH/autumnity-1.20.1-5.0.2.jar"

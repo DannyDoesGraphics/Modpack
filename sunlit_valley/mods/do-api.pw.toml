@@ -1,6 +1,6 @@
 name = "[Let's Do] API "
 filename = "letsdo-API-forge-1.2.15-forge.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/4XJZeZbM/versions/uEaTMht9/letsdo-API-forge-1.2.15-forge.jar"

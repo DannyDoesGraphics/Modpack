@@ -1,6 +1,6 @@
 name = "FTB Chunks (NeoForge)"
 filename = "ftb-chunks-forge-2001.3.6.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

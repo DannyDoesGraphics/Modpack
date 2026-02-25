@@ -1,6 +1,6 @@
 name = "PandaLib"
 filename = "pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/mEEGbEIu/versions/W9C2CFxo/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar"

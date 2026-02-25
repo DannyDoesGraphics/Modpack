@@ -1,6 +1,6 @@
 name = "OctoLib"
 filename = "OctoLib-FORGE-0.5.0.1+1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/RH2KUdKJ/versions/HZ7KmyXp/OctoLib-FORGE-0.5.0.1%2B1.20.1.jar"

@@ -1,6 +1,6 @@
 name = "PowerfulJS"
 filename = "powerfuljs-1.6.1.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

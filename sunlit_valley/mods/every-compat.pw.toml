@@ -1,6 +1,6 @@
 name = "Every Compat (Wood Good)"
 filename = "everycomp-1.20-2.9.2-forge.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/eiktJyw1/versions/JNTDe4wV/everycomp-1.20-2.9.2-forge.jar"

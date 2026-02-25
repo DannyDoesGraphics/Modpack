@@ -1,6 +1,6 @@
 name = "JustHammers"
 filename = "justhammers-forge-2.0.3+mc1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/edU0NbZZ/versions/JafXa7hr/justhammers-forge-2.0.3%2Bmc1.20.1.jar"

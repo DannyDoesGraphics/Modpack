@@ -1,6 +1,6 @@
 name = "Pipez"
 filename = "pipez-forge-1.20.1-1.2.21.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Ears (+ Snouts/Muzzles, Tails, Horns, Wings, and More)"
 filename = "ears-forge-1.19.4-1.4.7.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/mfzaZK3Z/versions/x0gO3b5F/ears-forge-1.19.4-1.4.7.jar"

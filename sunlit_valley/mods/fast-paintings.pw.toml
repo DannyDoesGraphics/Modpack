@@ -1,6 +1,6 @@
 name = "Fast Paintings"
 filename = "fastpaintings-1.20-1.2.7.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/z3TzcquW/versions/Bvjyyy1T/fastpaintings-1.20-1.2.7.jar"

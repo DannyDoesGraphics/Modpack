@@ -1,6 +1,6 @@
 name = "Diagonal Walls"
 filename = "DiagonalWalls-v8.0.4-1.20.1-Forge.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/FQgc8dib/versions/ISQPtPH5/DiagonalWalls-v8.0.4-1.20.1-Forge.jar"

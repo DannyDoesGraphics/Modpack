@@ -1,6 +1,6 @@
 name = "SkillExpNotifier"
 filename = "skillsexpnotifier-5.4.1-SNAPSHOT.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

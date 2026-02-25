@@ -1,6 +1,6 @@
 name = "Exposure Catalog"
 filename = "exposure_catalog-1.20.1-1.0.3-forge.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/PWcQ3kcp/versions/LRQ6BdsQ/exposure_catalog-1.20.1-1.0.3-forge.jar"

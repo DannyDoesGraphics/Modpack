@@ -1,6 +1,6 @@
 name = "FindMe"
 filename = "findme-3.2.3-forge.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/rEuzehyH/versions/kmUvAUwY/findme-3.2.3-forge.jar"

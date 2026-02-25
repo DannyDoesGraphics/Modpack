@@ -1,6 +1,6 @@
 name = "Bot's Lib"
 filename = "bots_lib-4.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/Oeb74GyG/versions/xJ7Iodx9/bots_lib-4.1.jar"

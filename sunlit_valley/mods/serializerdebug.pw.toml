@@ -1,6 +1,6 @@
 name = "SerializerDebug"
 filename = "serializer_debug-1.0.1.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

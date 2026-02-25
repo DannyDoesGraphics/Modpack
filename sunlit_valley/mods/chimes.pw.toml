@@ -1,6 +1,6 @@
 name = "Chimes"
 filename = "Chimes-v2.1.1-1.20.1-Forge.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/mjGOuygR/versions/3BBPocXc/Chimes-v2.1.1-1.20.1-Forge.jar"

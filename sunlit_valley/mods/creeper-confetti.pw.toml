@@ -1,6 +1,6 @@
 name = "Creeper Confetti"
 filename = "creeperconfetti-4.3.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

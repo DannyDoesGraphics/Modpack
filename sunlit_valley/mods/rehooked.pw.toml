@@ -1,6 +1,6 @@
 name = "ReHooked"
 filename = "rehooked-1.8.3-1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/967kkKiF/versions/yiXoBbe7/rehooked-1.8.3-1.20.1.jar"

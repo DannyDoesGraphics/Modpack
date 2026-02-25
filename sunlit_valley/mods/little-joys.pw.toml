@@ -1,6 +1,6 @@
 name = "Little Joys"
 filename = "littlejoys-forge-1.20.1-20.1.14.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

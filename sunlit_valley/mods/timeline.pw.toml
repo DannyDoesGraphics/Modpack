@@ -1,6 +1,6 @@
 name = "Timeline"
 filename = "rpgtimeline-forge-1.20.1-2.0.4.0.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/sYxN4jC2/versions/BSSg0smR/rpgtimeline-forge-1.20.1-2.0.4.0.jar"

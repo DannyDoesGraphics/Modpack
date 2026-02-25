@@ -1,6 +1,6 @@
 name = "Kambrik"
 filename = "Kambrik-6.1.1+1.20.1-forge.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/zfbCkvdZ/versions/er56DwLJ/Kambrik-6.1.1%2B1.20.1-forge.jar"

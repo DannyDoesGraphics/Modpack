@@ -1,6 +1,6 @@
 name = "Fantasy's Furniture"
 filename = "fantasyfurniture-1.20.1-9.0.0.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/A0nfCqYw/versions/o3iXCBa8/fantasyfurniture-1.20.1-9.0.0.jar"

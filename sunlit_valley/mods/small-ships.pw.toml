@@ -1,6 +1,6 @@
 name = "Small Ships [Fabric & Forge]"
 filename = "smallships-forge-1.20.1-2.0.0-b1.4.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/rGWEHQrP/versions/58DKgNnY/smallships-forge-1.20.1-2.0.0-b1.4.jar"

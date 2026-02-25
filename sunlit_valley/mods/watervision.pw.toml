@@ -1,6 +1,6 @@
-name = "WATERViSION: VideoPlayer"
+name = "WATERViSION: Videoplayer"
 filename = "watervision-FG-mc1.20.1-v0.1.0-alpha.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/dGGbEGoV/versions/yE93Q2Ed/watervision-FG-mc1.20.1-v0.1.0-alpha.jar"

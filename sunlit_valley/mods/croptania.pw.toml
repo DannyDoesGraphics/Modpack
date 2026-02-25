@@ -1,6 +1,6 @@
 name = "Croptania"
 filename = "croptania-0.3.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/wWScww6R/versions/jz7gnLlK/croptania-0.3.jar"

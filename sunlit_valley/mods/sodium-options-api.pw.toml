@@ -1,6 +1,6 @@
 name = "Sodium/Embeddium Options API"
 filename = "sodiumoptionsapi-forge-1.0.10-1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/Es5v4eyq/versions/d0EFLitO/sodiumoptionsapi-forge-1.0.10-1.20.1.jar"

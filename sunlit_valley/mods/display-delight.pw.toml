@@ -1,6 +1,6 @@
 name = "Display Delight"
 filename = "displaydelight-0.0.1-lite.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

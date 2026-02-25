@@ -1,6 +1,6 @@
 name = "Create"
 filename = "create-1.20.1-6.0.8.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar"

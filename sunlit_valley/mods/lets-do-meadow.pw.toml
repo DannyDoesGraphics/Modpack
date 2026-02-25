@@ -1,6 +1,6 @@
 name = "[Let's Do] Meadow"
 filename = "letsdo-meadow-forge-1.3.23.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/ra7o6Sl7/versions/WC7iKkpn/letsdo-meadow-forge-1.3.23.jar"

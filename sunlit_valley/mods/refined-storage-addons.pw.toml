@@ -1,6 +1,6 @@
 name = "Refined Storage Addons"
 filename = "refinedstorageaddons-0.10.0.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Construction Wand"
 filename = "constructionwand-1.20.1-2.11.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/bV2crgLh/versions/XCgKj8gL/constructionwand-1.20.1-2.11.jar"

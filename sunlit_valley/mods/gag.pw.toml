@@ -1,6 +1,6 @@
 name = "Gadgets Against Grind"
 filename = "gag-forge-3.0.0-build.13.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/IeYLjzpn/versions/u2m25nhN/gag-forge-3.0.0-build.13.jar"

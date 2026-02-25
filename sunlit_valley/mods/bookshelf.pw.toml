@@ -1,6 +1,6 @@
 name = "Bookshelf"
 filename = "Bookshelf-Forge-1.20.1-20.2.13.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/uy4Cnpcm/versions/tNwsir0K/Bookshelf-Forge-1.20.1-20.2.13.jar"

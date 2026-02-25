@@ -1,6 +1,6 @@
 name = "Snow! Real Magic! ⛄ (Neo/Forge)"
 filename = "SnowRealMagic-1.20.1-Forge-10.7.0.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/iJNje1E8/versions/aQw97T9l/SnowRealMagic-1.20.1-Forge-10.7.0.jar"

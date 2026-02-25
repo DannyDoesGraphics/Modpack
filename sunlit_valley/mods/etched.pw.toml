@@ -1,6 +1,6 @@
 name = "Etched"
 filename = "etched-3.0.4.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

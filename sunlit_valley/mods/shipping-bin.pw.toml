@@ -1,6 +1,6 @@
 name = "Shipping Bin"
 filename = "ShippingBin-forge-1.20.1-4.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/z4LpKjxY/versions/8uRbP1Qr/ShippingBin-forge-1.20.1-4.jar"

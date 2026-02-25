@@ -1,6 +1,6 @@
 name = "EntityJS"
 filename = "entityjs-0.6.6-1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/OvPZ16yX/versions/IuUUHpWU/entityjs-0.6.6-1.20.1.jar"

@@ -1,6 +1,6 @@
 name = "bad packets"
 filename = "badpackets-forge-0.4.3.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/ftdbN0KK/versions/aXZqpNgH/badpackets-forge-0.4.3.jar"

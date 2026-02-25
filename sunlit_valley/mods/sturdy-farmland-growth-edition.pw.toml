@@ -1,6 +1,6 @@
 name = "Sturdy Farmland - Growth Edition"
 filename = "dew_drop_farmland_growth-6.0.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/YZIeBAfr/versions/14Me1yxy/dew_drop_farmland_growth-6.0.jar"

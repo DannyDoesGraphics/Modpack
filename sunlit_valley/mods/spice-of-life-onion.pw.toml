@@ -1,6 +1,6 @@
 name = "Spice of Life Onion"
 filename = "SoLOnion_FORGE_v1.4.5_mc1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/eHGYGKJz/versions/kMmavFVY/SoLOnion_FORGE_v1.4.5_mc1.20.1.jar"

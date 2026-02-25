@@ -1,6 +1,6 @@
 name = "Species"
 filename = "species-3.5.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/s5d4P01r/versions/KwPDNMjG/species-3.5.jar"

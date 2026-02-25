@@ -1,6 +1,6 @@
 name = "Longwings"
 filename = "Longwings-v0.9.4-1.20.1-Forge.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/YXWD6pbz/versions/lhJwrd9o/Longwings-v0.9.4-1.20.1-Forge.jar"

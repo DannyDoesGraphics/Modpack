@@ -1,6 +1,6 @@
 name = "Plonk"
 filename = "plonk-1.20.1-10.0.5-forge.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/EUmBPkQn/versions/V1OyyHVE/plonk-1.20.1-10.0.5-forge.jar"

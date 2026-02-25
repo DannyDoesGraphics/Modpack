@@ -1,6 +1,6 @@
 name = "Bobby Reforged"
 filename = "bobby-1.20.1_v5.0.1.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

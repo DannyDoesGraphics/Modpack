@@ -1,8 +1,0 @@
-name = "FTB Quest Localizer"
-filename = "ftbquestlocalizer-1.20.1-forge-3.2.3.jar"
-side = "both"
-
-[download]
-url = "http://localhost:8080/mods/ftbquestlocalizer-1.20.1-forge-3.2.3.jar"
-hash-format = "sha512"
-hash = "09361db9743d293d19435486ac6ee431c490f11b0e9671c60eff0cdf4ec0dc8b51729291dec184896a02d4ab1a83ca38e8cfc980239a5cab037f51d8fb50c282"

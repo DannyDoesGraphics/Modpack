@@ -1,6 +1,6 @@
 name = "Untitled Duck Mod (Forge)"
 filename = "untitledduckmod-1.5.2-forge-1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/ojFjz7JF/versions/ESnyefPs/untitledduckmod-1.5.2-forge-1.20.1.jar"

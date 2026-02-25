@@ -1,6 +1,6 @@
 name = "Create: Copycats+"
 filename = "copycats-3.0.7+mc.1.20.1-forge.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/UT2M39wf/versions/z7s54cjL/copycats-3.0.7%2Bmc.1.20.1-forge.jar"

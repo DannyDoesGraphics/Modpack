@@ -1,6 +1,6 @@
 name = "Snuffles"
 filename = "snuffles-1.2.0.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/NYGhKUS6/versions/RktprbPw/snuffles-1.2.0.1.jar"

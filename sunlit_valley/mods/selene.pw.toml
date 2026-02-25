@@ -1,6 +1,6 @@
 name = "Moonlight Lib"
 filename = "moonlight-1.20-2.16.16-forge.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/twkfQtEc/versions/DhH5mm9z/moonlight-1.20-2.16.16-forge.jar"

@@ -1,6 +1,6 @@
 name = "Portable blueprints"
 filename = "portable_blueprints-v2.0.9-mv1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/pTRNOhPP/versions/1WzPbCWI/portable_blueprints-v2.0.9-mv1.20.1.jar"

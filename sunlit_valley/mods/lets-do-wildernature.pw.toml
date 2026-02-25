@@ -1,6 +1,6 @@
 name = "[Let's Do] WilderNature"
 filename = "letsdo-wildernature-forge-1.0.5.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/AAiRU4aQ/versions/qR7hZ2XI/letsdo-wildernature-forge-1.0.5.jar"

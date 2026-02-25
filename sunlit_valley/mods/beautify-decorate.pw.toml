@@ -1,6 +1,6 @@
 name = "Beautify!"
 filename = "beautify-2.0.2.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/9BPuv4vL/versions/v9NnLuyB/beautify-2.0.2.jar"

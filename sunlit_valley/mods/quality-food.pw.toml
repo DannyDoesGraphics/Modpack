@@ -1,6 +1,6 @@
 name = "Quality Food"
 filename = "quality_food-1.20.1-2.3.0-all.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/Ahdn1OE0/versions/VPju1Kx6/quality_food-1.20.1-2.3.0-all.jar"

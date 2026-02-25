@@ -1,6 +1,6 @@
 name = "Vintage Delight"
 filename = "vintagedelight-0.1.6.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/T7XZLHGD/versions/q8Ght7Bo/vintagedelight-0.1.6.jar"

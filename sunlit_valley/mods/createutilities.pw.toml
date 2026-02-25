@@ -1,6 +1,6 @@
 name = "Create Utilities (Fabric/Forge)"
 filename = "createutilities-0.3.2+1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/PRHeWeBs/versions/XZ9y3OVL/createutilities-0.3.2%2B1.20.1.jar"

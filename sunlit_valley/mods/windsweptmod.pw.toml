@@ -1,6 +1,6 @@
 name = "Windswept!"
 filename = "windswept-1.20.1-3.0.4.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/l0h5MtkA/versions/EpQ7XVgX/windswept-1.20.1-3.0.4.jar"

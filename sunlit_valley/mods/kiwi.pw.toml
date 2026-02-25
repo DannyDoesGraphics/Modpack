@@ -1,6 +1,6 @@
 name = "Kiwi 🥝 (Neo/Forge)"
 filename = "Kiwi-1.20.1-Forge-11.9.2.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/ufdDoWPd/versions/u7HrABzs/Kiwi-1.20.1-Forge-11.9.2.jar"

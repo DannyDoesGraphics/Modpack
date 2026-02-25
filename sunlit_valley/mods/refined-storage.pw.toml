@@ -1,6 +1,6 @@
 name = "Refined Storage"
 filename = "refinedstorage-1.12.4.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Zetter — Painting Mod"
 filename = "zetter-1.20.1-0.21.7.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/ZmLgjf6f/versions/ISzdE6gG/zetter-1.20.1-0.21.7.jar"

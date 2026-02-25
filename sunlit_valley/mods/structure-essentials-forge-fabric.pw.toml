@@ -1,6 +1,6 @@
 name = "Structure Essentials[Forge/Fabric]"
 filename = "structureessentials-1.20.1-4.8.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

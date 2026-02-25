@@ -1,6 +1,6 @@
 name = "Watering Cans [Dew Drop]"
 filename = "dew_drop_watering_cans-1.0.2.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/Jal3lwVg/versions/7e8NWI5O/dew_drop_watering_cans-1.0.2.jar"

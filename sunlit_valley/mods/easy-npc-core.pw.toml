@@ -1,6 +1,6 @@
 name = "Easy NPC: Core"
 filename = "easy_npc-forge-1.20.1-6.1.0.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

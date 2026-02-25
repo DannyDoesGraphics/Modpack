@@ -1,6 +1,6 @@
 name = "Simple Discord Rich Presence (Forge /  Fabric)"
 filename = "SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/SCAopByd/versions/jnmqJmSh/SimpleDiscordRichPresence-forge-4.0.3-build.40%2Bmc1.20.1.jar"

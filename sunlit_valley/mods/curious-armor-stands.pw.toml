@@ -1,6 +1,6 @@
 name = "Curious Armor Stands"
 filename = "curious_armor_stands-1.20-5.1.0.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/jR6HKqHv/versions/a1svxw83/curious_armor_stands-1.20-5.1.0.jar"

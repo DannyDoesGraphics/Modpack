@@ -1,6 +1,6 @@
 name = "Sawmill"
 filename = "sawmill-1.20-1.4.10.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/WRaRZdTd/versions/ULlgpqM0/sawmill-1.20-1.4.10.jar"

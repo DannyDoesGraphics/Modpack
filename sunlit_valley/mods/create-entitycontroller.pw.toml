@@ -1,6 +1,6 @@
 name = "Create:Entity Control"
 filename = "CreateEntityControl-0.2.8-6.0-forge-1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/43gwKokf/versions/6YZA1fOP/CreateEntityControl-0.2.8-6.0-forge-1.20.1.jar"

@@ -1,6 +1,6 @@
 name = "Nether Depths Upgrade"
 filename = "netherdepthsupgrade-3.1.5-1.20.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/vI1QKJro/versions/BFX1CDJ6/netherdepthsupgrade-3.1.5-1.20.jar"

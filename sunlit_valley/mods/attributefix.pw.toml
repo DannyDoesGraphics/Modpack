@@ -1,6 +1,6 @@
 name = "AttributeFix"
 filename = "AttributeFix-Forge-1.20.1-21.0.4.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/lOOpEntO/versions/Y42wjyly/AttributeFix-Forge-1.20.1-21.0.4.jar"

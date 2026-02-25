@@ -1,6 +1,6 @@
 name = "Hamsters Plus Lite"
 filename = "hamsters-forge-1.0.3-1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/sRzS8pFG/versions/GaWM3lmN/hamsters-forge-1.0.3-1.20.1.jar"

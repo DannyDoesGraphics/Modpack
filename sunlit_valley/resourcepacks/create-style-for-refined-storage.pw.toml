@@ -1,8 +1,0 @@
-name = "Create Style for Refined Storage"
-filename = "Create Style for Refined Storage.zip"
-side = "both"
-
-[download]
-url = "http://localhost:8080/resourcepacks/Create%20Style%20for%20Refined%20Storage.zip"
-hash-format = "sha512"
-hash = "04260c080799fdf2a1604f9ce98753ae69324843d09acf810c486624bab8b0de4709743bfe8afcf565781304ee46a5a8718c50c0379d95005f81fcab72746caf"

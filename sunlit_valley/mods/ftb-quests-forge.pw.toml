@@ -1,6 +1,6 @@
 name = "FTB Quests (NeoForge)"
 filename = "ftb-quests-forge-2001.4.17.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

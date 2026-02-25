@@ -1,6 +1,6 @@
 name = "Create: Hypertubes"
 filename = "create_hypertube-0.4.0-FORGE.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/ATDdrG1y/versions/ngA99IQz/create_hypertube-0.4.0-FORGE.jar"

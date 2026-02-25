@@ -1,6 +1,6 @@
 name = "Gallery"
 filename = "gallery-1.20.1-1.0.3.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/EOA6vv83/versions/GXA1WCeg/gallery-1.20.1-1.0.3.jar"

@@ -1,6 +1,6 @@
 name = "Farming for Blockheads"
 filename = "farmingforblockheads-forge-1.20.1-14.0.2.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

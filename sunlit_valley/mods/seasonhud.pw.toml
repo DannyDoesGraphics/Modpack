@@ -1,6 +1,6 @@
 name = "SeasonHUD"
 filename = "seasonhud-forge-1.20.1-1.13.9.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/VNjUn3NA/versions/WYj466nR/seasonhud-forge-1.20.1-1.13.9.jar"
