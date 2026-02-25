@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/7MoE34WK/versions/N2tm8lK6/gnetum-2.3.4.jar"
 hash-format = "sha512"
 hash = "fe32e709151f5b3abae927cf4028731f629783408a631a1ce545b3554369c6def1dbb9cc7bd12ec03af5eddb0796f63fabf97773b1bd593cf9e3fac2ed6936a4"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "7MoE34WK"

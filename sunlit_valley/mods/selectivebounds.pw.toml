@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/rnTvRqwF/versions/MMA9MIEv/selectivebounds-forge-1.20.1-0.0.2.jar"
 hash-format = "sha512"
 hash = "84549524062b783dd52601205f7ac645df16399226bfeb571125f97faa335f58b30fe0700ed6c115961459377f1e0cf275b3c2b44ac048a8508c08ca978ab68d"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "rnTvRqwF"

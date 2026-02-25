@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/wBU6XiJa/versions/jr9dN23i/trofers-forge-5.0.2.jar"
 hash-format = "sha512"
 hash = "0c6631e3c9764c4638e7b601707d591556ecb41343eda9610b57db4ca69f4816a5799c4619a1c51ec652a35ba3aef2a9222e9a9325ce38a6f406a8e3be724016"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "wBU6XiJa"

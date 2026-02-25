@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/yz7AM2zx/versions/cdeRYWMq/structurify-forge-1.0.21%2Bmc1.20.1.jar"
 hash-format = "sha512"
 hash = "404d8345af683b1f170a3e62d7a7ed33f0c86cc56306a021ab669c9b343d750875e7e744a53ec1a61aa5ea7ab8f447e99cabc13eea82e68d3ed89e8dc9d91ae8"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "yz7AM2zx"

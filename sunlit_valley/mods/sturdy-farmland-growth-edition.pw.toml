@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/YZIeBAfr/versions/14Me1yxy/dew_drop_farmland_growth-6.0.jar"
 hash-format = "sha512"
 hash = "25e2c00a665ecf596755230f01fbaf181eb932bd682a162dba22f39bfab9215b26cd03045cf5d32998cc2449568a12a3e1523553e46c7cec3f87c89053cb9659"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "YZIeBAfr"

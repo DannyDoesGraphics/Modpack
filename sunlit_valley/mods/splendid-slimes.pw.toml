@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/RptnuYO9/versions/mrufNvji/splendid_slimes-0.19.1.jar"
 hash-format = "sha512"
 hash = "cabd3a9761be5b2ab1b28fc02214559f404bf3302100953dae845d23c543ebf341a372648b9bcc56b80f550be708733ea84089077a5ad6293cee0a41b8e11653"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "RptnuYO9"

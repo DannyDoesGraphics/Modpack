@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/j5ko3Mvb/versions/eokb6KRY/MaxEnchantX-1.20.X-1.3-Forge.jar"
 hash-format = "sha512"
 hash = "21d87b09cc9344b701e1225aa6bd0c94e80330d80b5d38932fda46742fb63ca3de0faf2ad3b17f85e1df174c243ef0a37a97c56a2241ce3de1a676c5dc9d944c"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "j5ko3Mvb"

@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/sYxN4jC2/versions/BSSg0smR/rpgtimeline-forge-1.20.1-2.0.4.0.jar"
 hash-format = "sha512"
 hash = "5188751bf16132c679a4e8146d5a29962a2c36d2a2b58d835ee9f019de7a86d4c5f8e533b35bcddebc98f855d729089ac42b0f42ddcd078fb7dfeea330035ef9"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "sYxN4jC2"

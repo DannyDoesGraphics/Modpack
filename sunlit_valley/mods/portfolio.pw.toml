@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/2k6aLirX/versions/9jAmDkFc/portfolio-1.20.1-1.5.0-forge.jar"
 hash-format = "sha512"
 hash = "5d855d22d8905ee81e10d73f18642d318fbbd0080e06ec05f1102bcd8d1bdfbf1775497765fb120a3201c0fad5751bc7b0dbb362b1fb2ef37632b5fc9489c4cc"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "2k6aLirX"

@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/vRFcG5n6/versions/7gaJ32aL/tooltipoverhaul-forge-1.20.1-1.4.2.jar"
 hash-format = "sha512"
 hash = "1f1779495efe6236fbc8d000c1188e5d0321af6d0233b126f743a3b3e17b6d8459f22425f370676051bedb0012cfb0b1961e6063c0b8cd1da27ca68f7890e46c"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "vRFcG5n6"

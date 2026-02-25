@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/wWScww6R/versions/jz7gnLlK/croptania-0.3.jar"
 hash-format = "sha512"
 hash = "d93dcaefbd9662ce7578507dc1a42d8685e2528c63f000da090fe56a41722560a13a3237a922206d5f05f66500b00eca6ccbd34fff4bae9fb8df05a3bb66de31"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "wWScww6R"

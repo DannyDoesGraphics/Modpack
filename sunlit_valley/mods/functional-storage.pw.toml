@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/cO40ZIg3/versions/8hVtSJvY/functionalstorage-1.20.1-1.2.10.jar"
 hash-format = "sha512"
 hash = "d4805dc6b26a371a1d19364f4454d497ba4b6125a7636625087177ebb2808a0d25262ca8a6a384432b9659abd49a43b6aadee9140fe0a77ff08c1a1a098812df"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "cO40ZIg3"

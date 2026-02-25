@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/z4fMHJR8/versions/UP38Reiy/create_slime-1.0.1.jar"
 hash-format = "sha512"
 hash = "a58d80bf0488ff51b8eeeb7321100e94b98ec54d61674c05133809cd56d910b706197eaf19be868669592f1922d963d4473001e269c9150eb41fe3a3d0095785"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "z4fMHJR8"

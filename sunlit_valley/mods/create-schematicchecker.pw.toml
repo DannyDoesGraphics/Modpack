@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/ULzrAD1U/versions/39NNegr2/CreateSchematicChecker-0.21.13-6.0-forge-1.20.1.jar"
 hash-format = "sha512"
 hash = "126ad1a884075c03902094486a469c4d5ca923df651b4e08ece144e3e348e45a49d9ff4b461808fcd660124d61ed60e24bca6f65e11ccd087b9d1d732cb44526"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "ULzrAD1U"

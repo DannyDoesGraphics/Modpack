@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/NYGhKUS6/versions/RktprbPw/snuffles-1.2.0.1.jar"
 hash-format = "sha512"
 hash = "070c48cd7e760b787bb4bedb0ac1cb83057c0ab1f250566f5a3e95183dca09c7081ae13cb7a7069f7d9b3f944aaf0b0bde7ef48bab25e39dc8cdf18ad71745f1"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "NYGhKUS6"

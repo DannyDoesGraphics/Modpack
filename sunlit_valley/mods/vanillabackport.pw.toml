@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/6xwxDTgf/versions/lXAo1yJs/VanillaBackport-forge-1.20.1-1.1.5.4.2.jar"
 hash-format = "sha512"
 hash = "cd55249f669defa09f02cd41679119b303db3abdd629646d5aa76b052492edbb2837437eb2b45ee9b60fe3c749ece2a51bc9fa34fd49b5413cd3874a6ddd611e"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "6xwxDTgf"

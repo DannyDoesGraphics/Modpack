@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/BZemjxZb/versions/peAxAwpF/kubejsadditions-forge-4.3.3.jar"
 hash-format = "sha512"
 hash = "695c45ef4aa342de12c31787744ccb400ffc75c7c525da67adf4273ea8087e8765293faba7e1ee92d120bcdb84d09780280eb4eb050327cf9d367f5792143d0e"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "BZemjxZb"

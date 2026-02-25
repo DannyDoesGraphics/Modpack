@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/ZmLgjf6f/versions/ISzdE6gG/zetter-1.20.1-0.21.7.jar"
 hash-format = "sha512"
 hash = "6d3a8ee04d32e415e59482d58845817258006e3d984cfe1b52145b63fcf1fcd0a4b93b4338dab3d2c3803c6ee0e3c1d34a594e505530e9279fb129282f2f91f9"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "ZmLgjf6f"

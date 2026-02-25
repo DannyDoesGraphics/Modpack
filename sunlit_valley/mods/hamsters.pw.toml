@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/sRzS8pFG/versions/GaWM3lmN/hamsters-forge-1.0.3-1.20.1.jar"
 hash-format = "sha512"
 hash = "d8c2b95572239cc20a63d47777c8ec361b305bac4e80bddfd1e3cebe3db8a369804ad4cd66bb72029f840fdb811d8994e740b45caaab46e544a7874a3d74db51"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "sRzS8pFG"

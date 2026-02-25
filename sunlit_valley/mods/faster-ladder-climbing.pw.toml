@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/ylYAPOKe/versions/r2Yvspic/FasterLadderClimbing-1.20.1-0.2.10.jar"
 hash-format = "sha512"
 hash = "7fc2705e682cac131f90f62cc2d582ac20bf976e89a6811ae7510926de7df16e257bc001779db37df5238da7743d0c4cd6683e5d2ca2b854bed61bf8d47ea137"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "ylYAPOKe"

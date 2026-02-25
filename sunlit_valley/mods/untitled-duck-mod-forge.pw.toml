@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/ojFjz7JF/versions/ESnyefPs/untitledduckmod-1.5.2-forge-1.20.1.jar"
 hash-format = "sha512"
 hash = "fe236ff19f6c9b1b73ec67ee05501dc2db544904cc6cf015cf661c41ffb3f640aa49bba08c4b4f0667d2d8b85a61a6f73705a508ea64cbd03fa4325013e44d71"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "ojFjz7JF"

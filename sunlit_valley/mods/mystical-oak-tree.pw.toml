@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/eUma2vmY/versions/u2rYyWU1/mysticaloaktree-1.20-1.11.jar"
 hash-format = "sha512"
 hash = "f5505e240cd3080f5b344f6a18cfd97f407df9a0e6fb918e9f78d757e79ae306e2cb95218e2e6bb7bbcf176c02d2c796ba1610cb8b89205bc544f53ded389ddd"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "eUma2vmY"

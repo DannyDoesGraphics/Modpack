@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/FVToiKwr/versions/hPBpjlxa/via_romana-2.2.2%2B1.20.1-forge.jar"
 hash-format = "sha512"
 hash = "ff43275784ad94fd7f6107be95cdf0a9709b6d815eb1758769beac905043f45a4ea2f668801785fbdf03c6908370d8b3d89d9be9a6b6e04bd628867d3452ef80"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "FVToiKwr"

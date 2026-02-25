@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/Oeb74GyG/versions/xJ7Iodx9/bots_lib-4.1.jar"
 hash-format = "sha512"
 hash = "519fc56de1110965e40a4b59f6310a6e8c864ab3512e60c8b563ac786df13c6b5a67c8e4b2f023584385af02c10f75c0234d3ff1cee128364744bc3f7e80e8c9"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "Oeb74GyG"

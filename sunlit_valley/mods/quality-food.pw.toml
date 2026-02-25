@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/Ahdn1OE0/versions/VPju1Kx6/quality_food-1.20.1-2.3.0-all.jar"
 hash-format = "sha512"
 hash = "4e7c30fb1117d6846a8d70379d5c3a3e14b0c473a2c20703fb897f27ac452bcdf745cc5008bf0f944fde62c0035f97b11434b022413a967061e47a54f0f6f66b"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "Ahdn1OE0"

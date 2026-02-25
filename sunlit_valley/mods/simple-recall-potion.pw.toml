@@ -6,8 +6,6 @@ side = "both"
 url = "https://cdn.modrinth.com/data/JQFS1tDC/versions/9CQBSXZH/simplerecall-1.0.5-1.20.1.jar"
 hash-format = "sha512"
 hash = "c1821bc2f695c798ba017b762300aac06f2bca98ba22de3ee1c3e094998619ada0e6593ebc9f13e7fa5f50f90d4a498a70be61db6d6707748c6c7a3a84f24881"
-mode = "metadata:modrinth"
-
 [update]
 [update.modrinth]
 mod-id = "JQFS1tDC"
