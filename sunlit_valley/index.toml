@@ -20314,6 +20314,11 @@ hash = "a41d594affdde7daa0659a7ade2c3cbfb58b447112c22519d253815d88b65576"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "47fd33da68d0b13cdffd4124f5bc9cff64caa2878ce7e979ba8092400c2ae1eb"
+metafile = true
+
+[[files]]
 file = "mods/do-api.pw.toml"
 hash = "d9dc1793b22e7a0a5b63386bbdcb45f1488edda53dfab76b1aa43062428c286c"
 metafile = true
@@ -21267,6 +21272,11 @@ hash = "9c0577fcbfbd1f41d58ff27f9070ebc52478ecac4e7cf5d778ff27d77681bf42"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "2693e3b2afc35f5edac9bc961a3cb1ccfa60bf32c69f2ddcc4860e7fe8799096"
+metafile = true
+
+[[files]]
 file = "mods/simplehats.pw.toml"
 hash = "aef580ac74d647fc76fcf078bad9d6fe277c3a210b1ef2c285efc52066287167"
 metafile = true
@@ -21513,7 +21523,7 @@ metafile = true
 
 [[files]]
 file = "mods/waterframes.pw.toml"
-hash = "a945e634fa78c51dd55e8015c88d15955610b6aa926c4ef224c990cea4f3e073"
+hash = "1c5f19e74dae7fded9240ecaa3d42d33c85c82447a6e51e756532d89312a45d7"
 metafile = true
 
 [[files]]
