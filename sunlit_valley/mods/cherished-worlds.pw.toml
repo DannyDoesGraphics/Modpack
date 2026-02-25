@@ -1,6 +1,6 @@
 name = "Cherished Worlds"
 filename = "cherishedworlds-forge-6.1.7+1.20.1.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/3azQ6p0W/versions/Uwaq5LPL/cherishedworlds-forge-6.1.7%2B1.20.1.jar"

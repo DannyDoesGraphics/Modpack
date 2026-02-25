@@ -19865,7 +19865,7 @@ metafile = true
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
-hash = "36c7ac8ee1f9d0a1cbf9974c4422b1b26eadab58192905d7dc69dd39c3eb471d"
+hash = "d3e070ba36574d597f2f4b4fd53aa398bb19b8356ae264b3b6451f938502e3e0"
 metafile = true
 
 [[files]]
@@ -19875,7 +19875,7 @@ metafile = true
 
 [[files]]
 file = "mods/alternate-current.pw.toml"
-hash = "52a9031ceb9f0371f1c7826a95e6ff6ee1b304c499a7908d9ed2f10b02c5d8ff"
+hash = "c2f3424c423a96de4e25330791d9228ee0e0658d07f2a9d6bf860182e4bb8d78"
 metafile = true
 
 [[files]]
@@ -19970,7 +19970,7 @@ metafile = true
 
 [[files]]
 file = "mods/biome-spawn-point.pw.toml"
-hash = "c6c2358e7dfebeee273405f59a638f8b1658c3e3635a45c5e6978071189a9eb8"
+hash = "9240be93ca2976436e41800b47c262b71b2633a0200bdbdf145c73b5daa0fa37"
 metafile = true
 
 [[files]]
@@ -20045,7 +20045,7 @@ metafile = true
 
 [[files]]
 file = "mods/cherished-worlds.pw.toml"
-hash = "c586b7f8f2ac0509e5b8e99a3607b4d9cd29c6c131b41baa5bd15b09caf882cd"
+hash = "a430f040b19eedd9a67b65765153913b1ec81537405fc1f7e8da62cdc1ec5284"
 metafile = true
 
 [[files]]
@@ -20175,7 +20175,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-utilities.pw.toml"
-hash = "d982f1b02ebe01f5d4d90d867387f8f47c5106da11d89a32d449a876f2a4581e"
+hash = "17aa52da789526ac033d7f57024c0a49a411c19e8e9ba63907372c24eb5ade13"
 metafile = true
 
 [[files]]
@@ -20280,7 +20280,7 @@ metafile = true
 
 [[files]]
 file = "mods/daily-weather.pw.toml"
-hash = "6e732f8b7b31f8737773a3aa3a9ae3b1621bfb2d929fec47b41e54cc50288140"
+hash = "26c6db7440e871e6b7999b9a1e0d4623454746f306bcb6f2d26f3119bd0ea9c8"
 metafile = true
 
 [[files]]
@@ -20345,12 +20345,12 @@ metafile = true
 
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
-hash = "5b57a8b654febdeebdd364508ca7afbed5cb25badbdf4f628266517a48441d79"
+hash = "d528b3ab3c59cb718a2b78e9ea78873a36c66d6f925cafa43a7a4927c84bddff"
 metafile = true
 
 [[files]]
 file = "mods/ears.pw.toml"
-hash = "e99116600fca98ca4ceada1c1fa0f02ee3e27b15f35ab017c913cecadebf53f0"
+hash = "6b5d2739763672e68acaff1a2d86dc59c3199ae4be303f8c9bd521e781c45c53"
 metafile = true
 
 [[files]]
@@ -20485,7 +20485,7 @@ metafile = true
 
 [[files]]
 file = "mods/faster-ladder-climbing.pw.toml"
-hash = "9638a3d2feb76b67fcf1adee61954f28e81bf9d23f8ebcdf9b5bd47fdce9c383"
+hash = "89f395bbecaa8ac108d712a834e8763d86842be7382f7e478eeb126474ebf40f"
 metafile = true
 
 [[files]]
@@ -20569,7 +20569,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "b72c7c0038fd9adffd65341b1c9e235ab216fd2fe95fbb50332feb3244a74e3e"
+hash = "d866aaa5241b65b7adc7e221b9dd52b319bdff66497f9f6cb33a4bddcebaa0ad"
 metafile = true
 
 [[files]]
@@ -20604,7 +20604,7 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "50617c4904eb64d5c1ea30a659f2fa07a5c49d1e3df99b852d484988534a627f"
+hash = "574023da5c650a8941866a7bc98180c8d46fb68885e583ddd6b821384415bd4e"
 metafile = true
 
 [[files]]
@@ -20614,7 +20614,7 @@ metafile = true
 
 [[files]]
 file = "mods/gui-clock.pw.toml"
-hash = "a28a109eef9e8552560a56b91d42881c649da773f0d652f341e1f4a40c910463"
+hash = "d06dedcdf33b899a1deaf67e4925c59ee0efe46206e42d8cd02e839d28f17f45"
 metafile = true
 
 [[files]]
@@ -20639,7 +20639,7 @@ metafile = true
 
 [[files]]
 file = "mods/iceberg.pw.toml"
-hash = "03c28fd4d3ae5b321feefc321de7197f1c4eb27d518fdb770678e3f18859fba1"
+hash = "bc0a8249969d9150ecc984ce64f80b4f3aecac5dc22f6a7b01fa344607055dba"
 metafile = true
 
 [[files]]
@@ -20684,7 +20684,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap-integration.pw.toml"
-hash = "9cd0ac16ecccbc7e39423931bd5cbcf03dc1824a9f0e887d5629cdb5448b8c1d"
+hash = "2949500bc8b10675cb051afc1776b2d5ad53352ea140a1479c0b771a4d0a4199"
 metafile = true
 
 [[files]]
@@ -20739,7 +20739,7 @@ metafile = true
 
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
-hash = "d7f041576a1421ddfc2ad8c0eb85a54aba17f86e4704069f7fe5b1d79eb8b868"
+hash = "667bbdec5ed733e4a907eb3211c1701ccfa628d3dccf48807f35c3a1a6fecacc"
 metafile = true
 
 [[files]]
@@ -20804,7 +20804,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "72dc814d81eee21880817860a0a907fc917e54243c76b8f1834810969889758b"
+hash = "ac43114ae6540167472cf35c309c08d31e4f172d09dca6787d11ef00c7cb7ae2"
 metafile = true
 
 [[files]]
@@ -20819,7 +20819,7 @@ metafile = true
 
 [[files]]
 file = "mods/lmft.pw.toml"
-hash = "3a56fccb305ada2b2c2f5b6b70f2541f8d48643dd657c2c7d957559def2ff67b"
+hash = "9318ee53812e237f59d1552ed00724cce7c34797da1951a8ac724d84f951ce77"
 metafile = true
 
 [[files]]
@@ -20839,7 +20839,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-hash = "d26fb5e71540ad515dcce3b4f3ea7906e50ac6065aa1b6a0be3ab13da790d82b"
+hash = "98366b18f27436ffa24d589eece3f4d4d0e3ec4e29aebd609ae823d3f18aa1bf"
 metafile = true
 
 [[files]]
@@ -20854,7 +20854,7 @@ metafile = true
 
 [[files]]
 file = "mods/melody.pw.toml"
-hash = "1651d7abf59bf03886920f3867e944638e1a404811902cd86ffe140519968fd8"
+hash = "13f61ba5f815b0198528f056f1bc7cc84c7215b8ea6a5407efe1fe1b23220e38"
 metafile = true
 
 [[files]]
@@ -20874,12 +20874,12 @@ metafile = true
 
 [[files]]
 file = "mods/moogs-structure-lib.pw.toml"
-hash = "d5c62d90c0c1b6a1533962a4d3467434fc015ec39c0ae3b50de4903a119f4c83"
+hash = "019eae38edeadc222117db0ac2f43a3f88d24c2b0209fb502b89a7f5d30d870b"
 metafile = true
 
 [[files]]
 file = "mods/moogs-voyager-structures.pw.toml"
-hash = "e948135004f7dc98958e9c21b0d0ae3608181811f3846adb832a49270689d26a"
+hash = "e31e779765e6674da4006fc79331a68e5d3affbcd12fea1c437e2d3ed683ab18"
 metafile = true
 
 [[files]]
@@ -21063,7 +21063,7 @@ metafile = true
 
 [[files]]
 file = "mods/ponder.pw.toml"
-hash = "6811640ab50b7acba5805753f83428b2e92099ccb13348e5a5b68c35c2ca6fcd"
+hash = "662814bc8d06090edf9d582e6f092072e2f2504a09bd5397a46709dde4f1dd42"
 metafile = true
 
 [[files]]
@@ -21123,7 +21123,7 @@ metafile = true
 
 [[files]]
 file = "mods/radium-reforged.pw.toml"
-hash = "b24d715f697387a8fe5e65baf1e136e53d0283abdc300e0098304f160aec4f0a"
+hash = "4f2e428246e8d18f3cc9e7bea76348551f25facc472ca0c4902b635801634028"
 metafile = true
 
 [[files]]
@@ -21163,7 +21163,7 @@ metafile = true
 
 [[files]]
 file = "mods/resource-pack-overrides.pw.toml"
-hash = "d39eeff5293acc92b61586de375f1b29daf53ecabd92c247afed87d2dd120e2d"
+hash = "3e6ad3d0195f30e3aba0e755d6a98a6d6db714da58bd091993b67c6b47def173"
 metafile = true
 
 [[files]]
@@ -21243,7 +21243,7 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "1c74be9c170d1e4cb69d9c541700cb03ac3886315a17f31987e2facae78aa7b1"
+hash = "b076beedfd901cd9569f95a58f679827e10200f60c0272ebab981a407110bfec"
 metafile = true
 
 [[files]]
@@ -21263,7 +21263,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rich-presence.pw.toml"
-hash = "1c9b881cc91a7aef5b62c3884f86cccbee14c3208c07992f2679dadfa238755d"
+hash = "17a2799288cdc1fee80f2942ddfae5a62064ce41b2e436472ee2eeee53606964"
 metafile = true
 
 [[files]]
@@ -21333,7 +21333,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-options-api.pw.toml"
-hash = "9cd878009e5b34ae39c0c08745cd92fc752a87b0ef0d1236e1cb59273a23734e"
+hash = "ae0114b5a2c883ce065e152b88dc2db945f79423e41e2821140b2d6930fc6cf0"
 metafile = true
 
 [[files]]
@@ -21448,7 +21448,7 @@ metafile = true
 
 [[files]]
 file = "mods/too-fast.pw.toml"
-hash = "b8488d69d054e357b4c26700870cd5e50996b396abc46674c820b4090b774997"
+hash = "5ff36f41654d0eb52c67f1b810ca9c34296f37ea230f58578c16fd04830a982b"
 metafile = true
 
 [[files]]
@@ -21527,8 +21527,23 @@ hash = "2470b92a7400181f5ec02c35a732e9925b651a6cb6d51e9426c584c6a21c858b"
 metafile = true
 
 [[files]]
+file = "mods/waterframes.pw.toml"
+hash = "d9164983ff6bade6ac66285e1f81fa8909806e7c28a7167a37e9aa4bc2d8e9b0"
+metafile = true
+
+[[files]]
 file = "mods/watering-cans-dew-drop.pw.toml"
 hash = "99da1b29cd208f278319c16cb9bc1af63ac7f2f64522c5a9419cab1d4ed95d00"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+hash = "0ac001016ee3f739c78c5e944761d75db0d2ca683c321d194825104868d32017"
+metafile = true
+
+[[files]]
+file = "mods/watervision.pw.toml"
+hash = "3e94877a9b48b2156de7f348232beb84729d3e230c7cf267f6e381ef9f8bf8df"
 metafile = true
 
 [[files]]
