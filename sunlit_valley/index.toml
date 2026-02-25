@@ -20968,12 +20968,12 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "ab6dce65dfd311e6a65e21f07db832992e8d177a255fd8dfe429718156a91428"
+hash = "ea0949d24e6f1861d818def09246e20302a2ac2fa6038aa2089eea3567588956"
 metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
-hash = "8be4cb58f916af3f2d49b22e6fa851359624fa513e0984b2e15d847db454ef71"
+hash = "9504245fe68cdac88dd8078d1690f4cb73ba5c4e4665c06c7613acae3a9cd1bc"
 metafile = true
 
 [[files]]
@@ -21013,7 +21013,7 @@ metafile = true
 
 [[files]]
 file = "mods/particle-rain.pw.toml"
-hash = "2b514c4864315e307cd58e0a70407d505df6ca863bebeccf6518fa07f6493cf0"
+hash = "b920cfe11db68343829869f6b693eb31ea122e6d0776e05433dd4ed8b8b74679"
 metafile = true
 
 [[files]]
@@ -21458,7 +21458,7 @@ metafile = true
 
 [[files]]
 file = "mods/tooltip-overhaul.pw.toml"
-hash = "98c19f69fcf8e9fba97553d6ed8dc61f7a8c00fe93041fe4bdafff88e88378ba"
+hash = "886e2aa20cefdfad014737f7319b6e4fb69e246c80173c6abed8981032798397"
 metafile = true
 
 [[files]]

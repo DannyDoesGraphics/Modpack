@@ -1,6 +1,6 @@
 name = "Tooltip Overhaul"
 filename = "tooltipoverhaul-forge-1.20.1-1.4.2.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/vRFcG5n6/versions/7gaJ32aL/tooltipoverhaul-forge-1.20.1-1.4.2.jar"
