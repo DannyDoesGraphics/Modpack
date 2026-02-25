@@ -1287,7 +1287,7 @@ hash = "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
 
 [[files]]
 file = "config/ftbbackups2.json"
-hash = "7e88163a0edc7f75f7b0d79bc700f262cb80d6bf522f1dc150369069e54805da"
+hash = "3c639c73578d698376d370c0aa3d85b195a09327d1a5657a2305ba142805d8da"
 
 [[files]]
 file = "config/ftbqoptimizer.snbt"
@@ -2571,7 +2571,7 @@ hash = "fb2eed01e1aa823332893215e35093a08c0a219acb9924e1d03cb376ed20213c"
 
 [[files]]
 file = "config/sereneseasons/seasons.toml"
-hash = "7a67adb30a867dc62920b5c7aa729381fe8fba5df59164044383540c2d9000cd"
+hash = "41eaaaed48cef70e2284d5949993fefb6312bc0042e479eae8dd6d196fea3efb"
 
 [[files]]
 file = "config/serializer_debug-common.toml"
