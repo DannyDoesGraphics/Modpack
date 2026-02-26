@@ -2983,7 +2983,7 @@ hash = "7a14bb19023e20656397d880ddce3a3637ea29820edc2678f3b83d612b9da627"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
-hash = "87b918c645cd5a11853be983fc2a936f10be3e2a93c51ad3e4411bf0c926c8a9"
+hash = "52137626a34c100796eb3dc7e3e46c05bc54f7d4027c515b6c1d0214dc0532a3"
 
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
@@ -20560,11 +20560,6 @@ metafile = true
 [[files]]
 file = "mods/ftbquestlocalizer-1.20.1-forge-3.2.3.jar"
 hash = "ec78d601aaf3d4fd35978b70b4a894c4a396ef5c2d11d35b4bcab05597915026"
-
-[[files]]
-file = "mods/ftbquestlocalizer.pw.toml"
-hash = "c3870b5b80435d5876fa0a03b3593f53225cc3c39513d25a027d9b2d691f3557"
-metafile = true
 
 [[files]]
 file = "mods/functional-storage.pw.toml"
