@@ -21427,6 +21427,11 @@ hash = "19e4d403faaf00fc8fcb7c50974c62600db8c1fa5541f09754ea49458e4549be"
 metafile = true
 
 [[files]]
+file = "mods/tectonic.pw.toml"
+hash = "23c3dddf24d8d65b2ad798247389647b47e10439dca2c46b1c958a8d2b0a1841"
+metafile = true
+
+[[files]]
 file = "mods/timeline.pw.toml"
 hash = "30166b5687baed2e8dded8b07c5e2a4a63413473db17278264590b0d93055d40"
 metafile = true
