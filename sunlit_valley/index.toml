@@ -2758,6 +2758,10 @@ file = "config/tanukidecor-common.toml"
 hash = "64824ecf1165cea67542eaf3020b58bcc646c5ffe863702b43442601f35586fe"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "22b143df1a37a16c1d875a5592287b9f73c3da084ba5926148d1b279081a75be"
+
+[[files]]
 file = "config/terrablender.toml"
 hash = "11ef4c2666fa094b456310710c2b5cb8babbd71982d4d187c9a80ad4011d8014"
 
