@@ -3,11 +3,11 @@ filename = "Stardew_plaques v1.0.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "17b37b8c48bc8554e7bfc8a5dfec27eabe8e3d18"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/ooQFDA1c/versions/wCcAOzby/Stardew_plaques%20v1.0.zip"
+hash-format = "sha512"
+hash = "25c7ba2356757d297b413788e74cb7c3a3d2e06cbb695ac06657852fbe169e779dc1a90d9c7397f4db281890ad9c8250acc053b19c7eb6ff1ad08f76fca4ea87"
 
 [update]
-[update.curseforge]
-file-id = 5801228
-project-id = 1119120
+[update.modrinth]
+mod-id = "ooQFDA1c"
+version = "wCcAOzby"

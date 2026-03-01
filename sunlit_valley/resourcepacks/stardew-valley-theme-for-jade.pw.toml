@@ -3,11 +3,11 @@ filename = "JadeStardewValleyTheme.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "910fd30a002395fdd365311cb69a64847af98cd1"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Av8h3gd4/versions/H3GGK3Ns/JadeStardewValleyTheme.zip"
+hash-format = "sha512"
+hash = "75a801bf9949d5b671938eaee9190ebc2a411c294a5b0ea5404745a82df7fc3a6f2f41f929b745b7ef0670ec009da7ed52c4287c763fef2b071106e003796407"
 
 [update]
-[update.curseforge]
-file-id = 6155118
-project-id = 897337
+[update.modrinth]
+mod-id = "Av8h3gd4"
+version = "H3GGK3Ns"

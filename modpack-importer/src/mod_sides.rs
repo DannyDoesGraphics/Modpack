@@ -55,18 +55,32 @@ pub async fn update_sides(
             continue;
         }
 
-        let filename = path.file_stem()
-            .and_then(|s| s.to_str())
-            .unwrap_or("")
-            .replace(".pw", "");
+        // Read the .pw.toml file to get the actual filename from its content
+        let content = tokio::fs::read_to_string(path).await?;
+        let pw_toml: crate::models::PwToml = match toml::from_str(&content) {
+            Ok(p) => p,
+            Err(_) => {
+                // Skip files we can't parse
+                unchanged += 1;
+                continue;
+            }
+        };
 
-        // Determine the new side
+        // Use the actual filename from the .pw.toml content (the JAR filename)
+        let filename = pw_toml.filename;
+
+        // Determine the new side based on the actual JAR filename
+        // Server mods: anything in the server zip (clients install these too)
+        // Client mods: only things in client zip that are NOT in server zip
         let new_side = if analysis.server_mods.contains(&filename) {
             "server"
         } else if analysis.client_mods.contains(&filename) {
             "client"
         } else {
-            "both"
+            panic!(
+                "Mod '{}' not found in server or client analysis. This is a bug.",
+                filename
+            );
         };
 
         // Check for version mismatches using same logic as analyze_sides
@@ -78,10 +92,8 @@ pub async fn update_sides(
             if let Some(decision) = user_decisions.get(&mismatch.base_name) {
                 if decision.use_server {
                     "server"
-                } else if decision.use_client {
-                    "client"
                 } else {
-                    "both"
+                    "client"
                 }
             } else {
                 new_side
@@ -90,16 +102,13 @@ pub async fn update_sides(
             new_side
         };
 
-        // Read and check current side using regex to preserve all formatting
-        let content = tokio::fs::read_to_string(path).await?;
-
-        // Extract current side value using regex
+        // Check current side value using regex (on already-read content)
         let side_regex = Regex::new(r#"(?m)^side\s*=\s*"([^"]+)""#).unwrap();
         let current_side = side_regex
             .captures(&content)
             .and_then(|c| c.get(1))
             .map(|m| m.as_str())
-            .unwrap_or("both");
+            .unwrap_or("server");
 
         if current_side == final_side {
             unchanged += 1;
@@ -170,7 +179,6 @@ pub fn analyze_sides(
     SideAnalysis {
         server_mods,
         client_mods,
-        both_mods: std::collections::HashSet::new(), // Always empty per user logic
         mismatches,
     }
 }

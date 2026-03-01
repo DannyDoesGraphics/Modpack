@@ -43,20 +43,20 @@ pub fn prompt_for_mismatches(
     }
 
     if auto_accept {
-        term.write_line(&style("  (Auto-accept mode enabled - defaulting to 'both')").dim().to_string())?;
+        term.write_line(&style("  (Auto-accept mode enabled - defaulting to 'server')").dim().to_string())?;
         for mismatch in mismatches {
             decisions.insert(
                 mismatch.base_name.clone(),
                 UserDecision {
                     use_server: true,
-                    use_client: true,
+                    use_client: false,
                 },
             );
         }
         return Ok(decisions);
     }
 
-    let options = vec!["server", "client", "both", "skip"];
+    let options = vec!["server", "client", "skip"];
 
     for (i, mismatch) in mismatches.iter().enumerate() {
         term.write_line("")?;
@@ -72,14 +72,13 @@ pub fn prompt_for_mismatches(
 
         let selection = Select::with_theme(&ColorfulTheme::default())
             .with_prompt("  Select side")
-            .default(2) // Default to "both"
+            .default(0) // Default to "server"
             .items(&options)
             .interact()?;
 
-        let (use_server, use_client) = match selection {
-            0 => (true, false),   // server
-            1 => (false, true),   // client
-            2 => (true, true),    // both
+        let use_server = match selection {
+            0 => true,   // server
+            1 => false,  // client
             _ => {
                 term.write_line(&style("    Skipped").dim().to_string())?;
                 continue;
@@ -90,17 +89,11 @@ pub fn prompt_for_mismatches(
             mismatch.base_name.clone(),
             UserDecision {
                 use_server,
-                use_client,
+                use_client: !use_server,
             },
         );
 
-        let side_str = if use_server && use_client {
-            "both"
-        } else if use_server {
-            "server"
-        } else {
-            "client"
-        };
+        let side_str = if use_server { "server" } else { "client" };
         term.write_line(&format!("    Decision: {}", style(side_str).green()))?;
     }
 
@@ -120,7 +113,6 @@ pub fn prompt_for_mismatches(
 pub fn show_analysis_summary(
     server_count: usize,
     client_count: usize,
-    both_count: usize,
     mismatch_count: usize,
 ) -> Result<()> {
     let term = Term::stdout();
@@ -128,16 +120,12 @@ pub fn show_analysis_summary(
     term.write_line("")?;
     term.write_line(&style("Side Analysis Summary:").bold().to_string())?;
     term.write_line(&format!(
-        "  {} Server-only mods",
+        "  {} Server mods",
         style(server_count).cyan()
     ))?;
     term.write_line(&format!(
         "  {} Client-only mods",
         style(client_count).green()
-    ))?;
-    term.write_line(&format!(
-        "  {} Both (common) mods",
-        style(both_count).yellow()
     ))?;
     if mismatch_count > 0 {
         term.write_line(&format!(

@@ -110,7 +110,6 @@ pub async fn run_import(
         prompt::show_analysis_summary(
             analysis.server_mods.len(),
             analysis.client_mods.len(),
-            analysis.both_mods.len(),
             analysis.mismatches.len(),
         )?;
 

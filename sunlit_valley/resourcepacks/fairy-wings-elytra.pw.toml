@@ -3,11 +3,11 @@ filename = "Fairy Wings Elytra.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8d0b485a9dca77d56921f6a13b70cb9645ffe447"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/VznX8ddb/versions/4oeqwbT8/Fairy%20Wings%20Elytra.zip"
+hash-format = "sha512"
+hash = "563bf0dd114252947c35942cdcc48a2c06c67d55a8b2c420fe7e94441a914d11bc38be27a1d7aa79aea90d8dc3f8affa6a316188814bb433531327e7e19e5327"
 
 [update]
-[update.curseforge]
-file-id = 6445218
-project-id = 1246471
+[update.modrinth]
+mod-id = "VznX8ddb"
+version = "4oeqwbT8"

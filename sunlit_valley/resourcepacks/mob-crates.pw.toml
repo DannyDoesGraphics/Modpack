@@ -3,11 +3,11 @@ filename = "MobCrates_1.20.1_v1.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "fe2dc9248975cf86cbf9b6fbdfc1aa85bd8b2977"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/bYcjtBki/versions/VlXJbCkG/MobCrates_1.20.1_v1.zip"
+hash-format = "sha512"
+hash = "45ff0395efcdfab3f8dfeaa25bc87615b05c6113832c67eec27c90cbad0164959d5ff1fcd7d2ea509ec97a0c82795e7abba8fba16a5c5c7c4cc607d0e8985485"
 
 [update]
-[update.curseforge]
-file-id = 5560059
-project-id = 1068335
+[update.modrinth]
+mod-id = "bYcjtBki"
+version = "VlXJbCkG"

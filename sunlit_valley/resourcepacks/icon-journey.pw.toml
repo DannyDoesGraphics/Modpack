@@ -3,11 +3,11 @@ filename = "Icon Journey 1.1.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0808ae731fec2c634720e82d0eb1b174202df19f"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/qlMmkIGX/versions/CK9hSqgG/Icon%20Journey%201.1.zip"
+hash-format = "sha512"
+hash = "2b749fe9025637c445641984b9d7cc68bdd6b0fb10f571b255d473e0b54b82c638ad1e2bc44b0aefafd03747913168857b688301190b97f8002942ac7c374137"
 
 [update]
-[update.curseforge]
-file-id = 5656300
-project-id = 978219
+[update.modrinth]
+mod-id = "qlMmkIGX"
+version = "CK9hSqgG"

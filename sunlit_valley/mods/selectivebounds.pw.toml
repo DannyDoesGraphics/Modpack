@@ -1,6 +1,6 @@
 name = "SelectiveBounds"
 filename = "selectivebounds-forge-1.20.1-0.0.2.jar"
-side = "server"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/rnTvRqwF/versions/MMA9MIEv/selectivebounds-forge-1.20.1-0.0.2.jar"

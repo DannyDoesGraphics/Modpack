@@ -190,7 +190,6 @@ pub struct CurseForgeFile {
 pub struct SideAnalysis {
     pub server_mods: HashSet<String>,
     pub client_mods: HashSet<String>,
-    pub both_mods: HashSet<String>,
     pub mismatches: Vec<VersionMismatch>,
 }
 

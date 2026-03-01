@@ -46,7 +46,7 @@ struct Cli {
     #[arg(long, global = true)]
     skip_sides: bool,
 
-    /// Auto-accept all version mismatch prompts (defaults to "both")
+    /// Auto-accept all version mismatch prompts (defaults to "server")
     #[arg(long, global = true)]
     auto_accept: bool,
 
