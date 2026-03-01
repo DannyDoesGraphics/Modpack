@@ -3,6 +3,7 @@ use std::fs;
 use std::path::Path;
 
 /// Clear the pack directory, preserving specified files and directories
+/// Also automatically preserves .zip files and the overrides/ folder
 pub fn clear_pack_directory(pack_dir: &Path, preserve_items: &[&str]) -> Result<()> {
     if !pack_dir.exists() {
         return Ok(());
@@ -19,6 +20,18 @@ pub fn clear_pack_directory(pack_dir: &Path, preserve_items: &[&str]) -> Result<
 
         // Skip preserved items (both files and directories)
         if preserve_items.contains(&file_name_str.as_ref()) {
+            continue;
+        }
+
+        // Always preserve .zip files
+        if file_name_str.ends_with(".zip") {
+            println!("    Preserving zip file: {}", file_name_str);
+            continue;
+        }
+
+        // Always preserve overrides/ folder (in case backup failed)
+        if file_name_str == "overrides" && path.is_dir() {
+            println!("    Preserving overrides/ folder (backup may have failed)");
             continue;
         }
 
