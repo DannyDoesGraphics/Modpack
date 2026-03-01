@@ -1,24 +1,9 @@
-# Auto detect text files and normalize line endings to LF on commit
-* text=auto
-
-# Explicitly declare text files to always be normalized and converted to LF
-*.md        text eol=lf
+# Packwiz generates TOML files with LF line endings
+# Force LF for these files to prevent spurious diffs on Windows
 *.toml      text eol=lf
 *.pw.toml   text eol=lf
-*.json      text eol=lf
-*.snbt      text eol=lf
-*.js        text eol=lf
-*.lang      text eol=lf
-*.properties text eol=lf
-*.log       text eol=lf
-*.data      text eol=lf
-*.config    text eol=lf
-*.yaml      text eol=lf
-*.yml       text eol=lf
-*.xml       text eol=lf
-*.html      text eol=lf
-*.css       text eol=lf
-*.rs        text eol=lf
+pack.toml   text eol=lf
+index.toml  text eol=lf
 
 # Binary files - never modify line endings
 *.jar       binary
