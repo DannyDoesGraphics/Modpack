@@ -1,10 +1,8 @@
 # Packwiz generates TOML files with LF line endings
 # Force LF for these files to prevent spurious diffs on Windows
-*.toml      text eol=lf
 *.pw.toml   text eol=lf
 pack.toml   text eol=lf
 index.toml  text eol=lf
-
 # Binary files - never modify line endings
 *.jar       binary
 *.zip       binary
@@ -22,3 +20,4 @@ index.toml  text eol=lf
 *.dll       binary
 *.so        binary
 *.dylib     binary
+sunlit_valley/mods/species-3.5.jar filter=lfs diff=lfs merge=lfs -text

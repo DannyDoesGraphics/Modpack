@@ -1,5 +1,5 @@
 use crate::{
-    cf_to_modrinth, download_cf_mods, mod_sides, packwiz, prompt, zip_extractor,
+    cf_to_modrinth, download_cf_mods, mod_sides, override_handler, packwiz, prompt, zip_extractor,
 };
 use crate::download_cf_mods::discover_pwtoml_files;
 use anyhow::{Context, Result};
@@ -165,6 +165,12 @@ pub async fn run_import(
         println!("  Re-refreshing packwiz index with new files...");
         packwiz::refresh(pack_file)?;
     }
+    println!();
+
+    // Step 8: Apply local overrides last (so they take precedence)
+    println!("Step 8: Applying local overrides...");
+    override_handler::apply_overrides_keep_folder(pack_dir)?;
+    println!("  Overrides applied successfully");
     println!();
 
     Ok(())

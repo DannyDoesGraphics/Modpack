@@ -1,6 +1,7 @@
 use crate::download_cf_mods::{filter_curseforge_mods, PwTomlFile};
 use crate::models::{ModrinthVersion, PwToml};
 use anyhow::{Context, Result};
+use regex::Regex;
 use std::path::{Path, PathBuf};
 use std::time::Duration;
 use tokio::time::sleep;
@@ -128,48 +129,104 @@ async fn migrate_file(
     version_data: &ModrinthVersion,
 ) -> Result<()> {
     use crate::models::PwToml;
-    
-    // Parse the original file
+
+    // Parse the original file to get the new values
     let mut pw_toml: PwToml = toml::from_str(original_content)?;
-    
-    // Convert to Modrinth format
+
+    // Convert to Modrinth format (computes new values)
     pw_toml.convert_to_modrinth(version_data)?;
-    
-    // Build TOML manually to match packwiz format exactly
-    let mut output = String::new();
-    
-    // Basic fields
-    output.push_str(&format!("name = \"{}\"\n", pw_toml.name));
-    output.push_str(&format!("filename = \"{}\"\n", pw_toml.filename));
-    output.push_str(&format!("side = \"{}\"\n", pw_toml.side));
-    output.push('\n');
-    
-    // Download section
-    output.push_str("[download]\n");
+
+    // Use regex replacements to preserve packwiz's original formatting
+    let mut new_content = original_content.to_string();
+
+    // Update filename
+    let filename_regex = Regex::new(r#"(?m)^filename\s*=\s*"[^"]*""#).unwrap();
+    new_content = filename_regex
+        .replace(&new_content, format!(r#"filename = "{}""#, pw_toml.filename))
+        .to_string();
+
+    // Update or add URL in download section
+    let url_regex = Regex::new(r#"(?m)^url\s*=\s*"[^"]*""#).unwrap();
     if let Some(ref url) = pw_toml.download.url {
-        output.push_str(&format!("url = \"{}\"\n", url));
+        if url_regex.is_match(&new_content) {
+            // Replace existing URL
+            new_content = url_regex
+                .replace(&new_content, format!(r#"url = "{}""#, url))
+                .to_string();
+        } else {
+            // Add URL after [download] header if missing
+            let download_regex = Regex::new(r"(?m)^\[download\]$").unwrap();
+            if let Some(mat) = download_regex.find(&new_content) {
+                let insert_pos = mat.end();
+                new_content.insert_str(insert_pos, &format!("\nurl = \"{}\"", url));
+            }
+        }
     }
-    output.push_str(&format!("hash-format = \"{}\"\n", pw_toml.download.hash_format));
-    output.push_str(&format!("hash = \"{}\"\n", pw_toml.download.hash));
-    output.push('\n');
-    
-    // Update section
+
+    // Update hash-format
+    let hash_format_regex = Regex::new(r#"(?m)^hash-format\s*=\s*"[^"]*""#).unwrap();
+    new_content = hash_format_regex
+        .replace(&new_content, format!(r#"hash-format = "{}""#, pw_toml.download.hash_format))
+        .to_string();
+
+    // Update hash
+    let hash_regex = Regex::new(r#"(?m)^hash\s*=\s*"[^"]*""#).unwrap();
+    new_content = hash_regex
+        .replace(&new_content, format!(r#"hash = "{}""#, pw_toml.download.hash))
+        .to_string();
+
+    // Remove mode field if it exists (not needed for Modrinth)
+    if pw_toml.download.mode.is_none() {
+        let mode_regex = Regex::new(r#"(?m)^mode\s*=\s*"[^"]*"\n?"#).unwrap();
+        new_content = mode_regex.replace(&new_content, "").to_string();
+    }
+
+    // Replace or add [update] section with Modrinth info
     if let Some(ref update) = pw_toml.update {
-        output.push_str("[update]\n");
         if let Some(ref mr) = update.modrinth {
-            output.push_str("[update.modrinth]\n");
-            output.push_str(&format!("mod-id = \"{}\"\n", mr.mod_id));
-            output.push_str(&format!("version = \"{}\"\n", mr.version));
-        }
-        if let Some(ref cf) = update.curseforge {
-            output.push_str("[update.curseforge]\n");
-            output.push_str(&format!("file-id = {}\n", cf.file_id));
-            output.push_str(&format!("project-id = {}\n", cf.project_id));
+            // Remove old [update.curseforge] section if present
+            let curseforge_section_regex =
+                Regex::new(r"(?m)^\[update\.curseforge\]\n(?:file-id\s*=\s*\d+\n?)(?:project-id\s*=\s*\d+\n?)").unwrap();
+            new_content = curseforge_section_regex.replace(&new_content, "").to_string();
+
+            // Check if [update] section exists
+            let update_section_regex = Regex::new(r"(?m)^\[update\]$").unwrap();
+            let modrinth_section_regex = Regex::new(r"(?m)^\[update\.modrinth\]$").unwrap();
+
+            if modrinth_section_regex.is_match(&new_content) {
+                // Update existing modrinth section
+                let mod_id_regex = Regex::new(r#"(?m)^mod-id\s*=\s*"[^"]*""#).unwrap();
+                new_content = mod_id_regex
+                    .replace(&new_content, format!(r#"mod-id = "{}""#, mr.mod_id))
+                    .to_string();
+
+                let version_regex = Regex::new(r#"(?m)^version\s*=\s*"[^"]*""#).unwrap();
+                new_content = version_regex
+                    .replace(&new_content, format!(r#"version = "{}""#, mr.version))
+                    .to_string();
+            } else if update_section_regex.is_match(&new_content) {
+                // Add modrinth section after [update]
+                let update_match = update_section_regex.find(&new_content).unwrap();
+                let insert_pos = update_match.end();
+                new_content.insert_str(
+                    insert_pos,
+                    &format!(
+                        "\n[update.modrinth]\nmod-id = \"{}\"\nversion = \"{}\"",
+                        mr.mod_id, mr.version
+                    ),
+                );
+            } else {
+                // Add entire update section at end
+                new_content.push_str(&format!(
+                    "\n[update]\n[update.modrinth]\nmod-id = \"{}\"\nversion = \"{}\"",
+                    mr.mod_id, mr.version
+                ));
+            }
         }
     }
-    
+
     // Write back to file
-    tokio::fs::write(path, output).await?;
-    
+    tokio::fs::write(path, new_content).await?;
+
     Ok(())
 }

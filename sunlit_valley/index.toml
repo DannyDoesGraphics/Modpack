@@ -2590,6 +2590,10 @@ file = "config/sereneseasons/seasons.toml"
 hash = "41eaaaed48cef70e2284d5949993fefb6312bc0042e479eae8dd6d196fea3efb"
 
 [[files]]
+file = "config/sereneseasons/tectonic.json"
+hash = "a5fdce86aebf76cb7a1f71789f1bc9a43f38e37a5e2c1e6cb15aaf7c23a80e01"
+
+[[files]]
 file = "config/serializer_debug-common.toml"
 hash = "f8f64cdddd0b3274b9539bd36350b641af91375cccc64ddcebbfe0e51186d3e4"
 
@@ -20948,7 +20952,7 @@ metafile = true
 
 [[files]]
 file = "mods/natures-compass.pw.toml"
-hash = "75ed9a50a701fa1df3e1ac837f1a182b4f583967b4ed64e85cf4c67fd7c343b3"
+hash = "e2be4b35e9d9f8a612f37fff8e482639646454abf7d67b86b5807e9029866714"
 metafile = true
 
 [[files]]
@@ -21447,6 +21451,11 @@ metafile = true
 [[files]]
 file = "mods/tanukidecor.pw.toml"
 hash = "d179f2307d76b087d40083932ef11a5ec9690bd71ef2ff001916510abef883ba"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "f8b2450149a0be35437a0d134f63e5cbb1c854b9cccf1babcd25778aa932b9c9"
 metafile = true
 
 [[files]]
