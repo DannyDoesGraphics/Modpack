@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "230cf5d9bc8b2f115732210068adbfacb70fb50708f09d4dfe0baccac8cef336"
+
+[[files]]
 file = "mods/anti-xray.pw.toml"
 hash = "7ffd2cbb973d987d543b36f12cc9362baae07b0983b83a8292f063ed4287f9a9"
 metafile = true
@@ -17,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "39b4f43a271700276ff1ae632cf05f90b85f79670d955b50ced036e363a0efe9"
+hash = "45abf05e1cc90006aeb65e4e1bbe97da5a1984f547ea8028a077dae68af0ac11"
 metafile = true
 
 [[files]]
@@ -32,22 +36,22 @@ metafile = true
 
 [[files]]
 file = "mods/geyser.pw.toml"
-hash = "54c75333cfa720711e50a76132e365eca69b80f371a75f24365f362777974e48"
+hash = "6515a9c0c294ed57475f97860833db72450be087d67b3bdf8a53c1160b9a7e82"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "b7d33095f206cb34dc8cd3d5410a00597439a2fc793f4c158c7a2ecfc7e85e82"
+hash = "38c950bdd47f54d586d1e9ae0c714574885423941ed7799f11b776d2b05ed02f"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "0e87ab10adb3db84b1d6d2ce8bdd7158878b56c965055056b10ad6cde2634568"
+hash = "9a74f9345a91af6a0e2c1975e1dd1d26cfcae6fb072a3a0d68fd9de110ab6327"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "9ff1a261860fcb16a7c7f124d738abcdfc1297363412d237540685003ff04d6b"
+hash = "c064e431015fe06786c17e18b8cfc28751a994e2ee251a357c0043a72f649403"
 metafile = true
 
 [[files]]
@@ -57,10 +61,10 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "dd8c7eed10a3639d76595603142e1d18f6d26262747138c9442d70311006be5e"
+hash = "0b4c98b7b25cdfcbb7882c32155d597f0fcaa37aa301b14baf4ad8cab65fea85"
 metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "263d2bbfdef9963c666dfdc14c038cd55cb09f4a1927c6fc95289dd464baa137"
+hash = "2b521d51539ceea11c6c5310ff2dcfa38cfb8084558355b4bfbd0fde177ab912"
 metafile = true
