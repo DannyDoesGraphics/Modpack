@@ -1,15 +1,16 @@
-use crate::models::VersionMismatch;
+use crate::models::{UserDecision, VersionMismatch};
 use anyhow::Result;
 use console::{style, Term};
 use dialoguer::{theme::ColorfulTheme, Select};
 use std::collections::HashMap;
 
 /// Prompt the user for decisions on version mismatches
-/// Returns a map of filename -> side decision
+/// Returns a map of base_name -> UserDecision
 pub fn prompt_for_mismatches(
     mismatches: &[VersionMismatch],
     auto_accept: bool,
-) -> Result<HashMap<String, String>> {
+    auto_server: bool,
+) -> Result<HashMap<String, UserDecision>> {
     let mut decisions = HashMap::new();
 
     if mismatches.is_empty() {
@@ -17,7 +18,7 @@ pub fn prompt_for_mismatches(
     }
 
     let term = Term::stdout();
-    
+
     term.write_line("")?;
     term.write_line(&style("═══════════════════════════════════════════════════════════").yellow().to_string())?;
     term.write_line(&style("  Version Mismatches Detected").yellow().bold().to_string())?;
@@ -26,10 +27,31 @@ pub fn prompt_for_mismatches(
     term.write_line("  Please specify which side each mod belongs to.")?;
     term.write_line("")?;
 
+    // auto_server takes precedence over auto_accept
+    if auto_server {
+        term.write_line(&style("  (Auto-server mode enabled - defaulting all to 'server')").dim().to_string())?;
+        for mismatch in mismatches {
+            decisions.insert(
+                mismatch.base_name.clone(),
+                UserDecision {
+                    use_server: true,
+                    use_client: false,
+                },
+            );
+        }
+        return Ok(decisions);
+    }
+
     if auto_accept {
         term.write_line(&style("  (Auto-accept mode enabled - defaulting to 'both')").dim().to_string())?;
         for mismatch in mismatches {
-            decisions.insert(mismatch.server_filename.clone(), "both".to_string());
+            decisions.insert(
+                mismatch.base_name.clone(),
+                UserDecision {
+                    use_server: true,
+                    use_client: true,
+                },
+            );
         }
         return Ok(decisions);
     }
@@ -54,24 +76,32 @@ pub fn prompt_for_mismatches(
             .items(&options)
             .interact()?;
 
-        let decision = match selection {
-            0 => "server",
-            1 => "client",
-            2 => "both",
+        let (use_server, use_client) = match selection {
+            0 => (true, false),   // server
+            1 => (false, true),   // client
+            2 => (true, true),    // both
             _ => {
                 term.write_line(&style("    Skipped").dim().to_string())?;
                 continue;
             }
         };
 
-        decisions.insert(mismatch.server_filename.clone(), decision.to_string());
-        
-        // If decision is server or both, we need to update the client file too
-        if decision == "server" || decision == "both" {
-            decisions.insert(mismatch.client_filename.clone(), decision.to_string());
-        }
+        decisions.insert(
+            mismatch.base_name.clone(),
+            UserDecision {
+                use_server,
+                use_client,
+            },
+        );
 
-        term.write_line(&format!("    Decision: {}", style(decision).green()))?;
+        let side_str = if use_server && use_client {
+            "both"
+        } else if use_server {
+            "server"
+        } else {
+            "client"
+        };
+        term.write_line(&format!("    Decision: {}", style(side_str).green()))?;
     }
 
     term.write_line("")?;
@@ -79,7 +109,7 @@ pub fn prompt_for_mismatches(
     term.write_line(&format!(
         "  Processed {} mismatches, {} decisions made",
         style(mismatches.len()).cyan(),
-        style(decisions.len() / 2).cyan()
+        style(decisions.len()).cyan()
     ))?;
     term.write_line("")?;
 

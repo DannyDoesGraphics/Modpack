@@ -1,58 +1,47 @@
-use crate::models::{ModrinthVersion, PackToml, PwToml};
+use crate::download_cf_mods::{filter_curseforge_mods, PwTomlFile};
+use crate::models::{ModrinthVersion, PwToml};
 use anyhow::{Context, Result};
 use std::path::{Path, PathBuf};
 use std::time::Duration;
 use tokio::time::sleep;
-use walkdir::WalkDir;
 
 const API_BASE: &str = "https://api.modrinth.com/v2";
 const USER_AGENT: &str = "modpack-importer/0.1.0 (packwiz modrinth migration)";
 
 /// Convert CurseForge mods to Modrinth where possible
+/// Takes pre-discovered .pw.toml files to avoid duplicate filesystem scanning
 pub async fn convert_curseforge_to_modrinth(
-    pack_file: &Path,
-    pack_config: &PackToml,
+    all_pwtoml_files: Vec<PwTomlFile>,
     rate_limit_ms: u64,
 ) -> Result<(usize, usize, Vec<(PathBuf, String)>)> {
-    let pack_dir = pack_file
-        .parent()
-        .context("Pack file must have a parent directory")?;
-    let mods_dir = pack_dir.join("mods");
-
-    if !mods_dir.exists() {
-        return Ok((0, 0, vec![]));
-    }
-
-    let (mc_version, loader) = pack_config.versions.get_loader();
-    println!("  Pack: {} | MC {} | {}", pack_dir.display(), mc_version, loader);
-
     let mut migrated = 0;
     let mut skipped = 0;
     let mut errors: Vec<(PathBuf, String)> = vec![];
 
-    let pw_files: Vec<PathBuf> = WalkDir::new(&mods_dir)
-        .max_depth(1)
-        .into_iter()
-        .filter_map(|e| e.ok())
-        .filter(|e| {
-            e.file_type().is_file()
-                && e.path().extension().map(|e| e == "toml").unwrap_or(false)
-                && e.path().to_string_lossy().ends_with(".pw.toml")
-        })
-        .map(|e| e.path().to_path_buf())
-        .collect();
+    // Filter to only CurseForge mods
+    let cf_mods = filter_curseforge_mods(all_pwtoml_files);
 
-    let total = pw_files.len();
-    println!("  Found {} .pw.toml files to process", total);
+    let total = cf_mods.len();
+    if total == 0 {
+        println!("  No CurseForge mods found to migrate");
+        return Ok((0, 0, vec![]));
+    }
+    println!("  Found {} CurseForge mods to process", total);
 
     let client = reqwest::Client::new();
 
-    for (i, path) in pw_files.iter().enumerate() {
-        let content = tokio::fs::read_to_string(path).await?;
-        
-        // Check if already Modrinth or not CurseForge
-        let parsed: Result<PwToml, _> = toml::from_str(&content);
-        let pw_toml = match parsed {
+    for (i, cf_mod) in cf_mods.iter().enumerate() {
+        let path = &cf_mod.pw_path;
+        let content = match tokio::fs::read_to_string(path).await {
+            Ok(c) => c,
+            Err(e) => {
+                errors.push((path.clone(), format!("Failed to read: {}", e)));
+                continue;
+            }
+        };
+
+        // Parse to get SHA1 hash
+        let pw_toml: PwToml = match toml::from_str(&content) {
             Ok(p) => p,
             Err(e) => {
                 println!("  [{}/{}] PARSE ERROR {}: {}", i + 1, total, path.display(), e);
@@ -60,17 +49,6 @@ pub async fn convert_curseforge_to_modrinth(
                 continue;
             }
         };
-
-        // Skip if already Modrinth or no CurseForge metadata
-        if pw_toml.is_modrinth() {
-            skipped += 1;
-            continue;
-        }
-
-        if !pw_toml.is_curseforge() {
-            skipped += 1;
-            continue;
-        }
 
         // Need SHA1 hash
         let sha1_hash = match pw_toml.get_sha1_hash() {

@@ -1,87 +1,37 @@
-use crate::models::{PwToml, SideAnalysis, VersionMismatch};
-use anyhow::Result;
+use crate::models::{SideAnalysis, VersionMismatch, UserDecision};
+use anyhow::{Context, Result};
 use regex::Regex;
-use std::collections::{HashMap, HashSet};
-use std::path::{Path, PathBuf};
+use std::collections::HashMap;
+use std::path::Path;
 use walkdir::WalkDir;
 
-/// Strip version numbers from a mod filename to get the base name
-fn strip_version(filename: &str) -> String {
-    // Common patterns:
-    // - mod-1.20.1-1.2.3.jar
-    // - mod-forge-1.20.1-1.2.3.jar
-    // - mod-1.2.3.jar
-    // Try to find where version starts (usually after the first - followed by a digit)
-    
-    let re = Regex::new(r"^(.*?)(?:-[vV]?\d+[\.\-\d]*.*)?\.jar$").unwrap();
-    
-    if let Some(caps) = re.captures(filename) {
-        if let Some(base) = caps.get(1) {
-            return base.as_str().to_string();
-        }
-    }
-    
-    // Fallback: just remove .jar
-    filename.trim_end_matches(".jar").to_string()
-}
+/// Extract mod core identifier (same logic as analyze_sides)
+fn extract_mod_core(filename: &str) -> String {
+    let name = filename.trim_end_matches(".jar");
+    let parts: Vec<&str> = name.split('-').collect();
 
-/// Analyze mods and determine which are client vs server side
-pub fn analyze_sides(
-    server_filenames: &HashSet<String>,
-    client_filenames: &HashSet<String>,
-) -> SideAnalysis {
-    let server_only: HashSet<String> = server_filenames
-        .difference(client_filenames)
-        .cloned()
-        .collect();
-    
-    let client_only: HashSet<String> = client_filenames
-        .difference(server_filenames)
-        .cloned()
-        .collect();
-    
-    let both: HashSet<String> = server_filenames
-        .intersection(client_filenames)
-        .cloned()
-        .collect();
+    // Known loader and version indicator keywords to exclude
+    let loaders = ["forge", "fabric", "quilt", "neoforge", "universal"];
 
-    // Build a map of base name -> original filename for client mods
-    let client_base_map: HashMap<String, String> = client_filenames
+    // Take parts until we hit a loader or something that looks like a version (starts with digit)
+    let core_parts: Vec<&str> = parts
         .iter()
-        .map(|f| (strip_version(f), f.clone()))
+        .take_while(|part| {
+            let lower = part.to_lowercase();
+            !loaders.contains(&lower.as_str()) && !part.chars().next().map(|c| c.is_ascii_digit()).unwrap_or(false)
+        })
+        .copied()
         .collect();
 
-    // Find version mismatches
-    let mut mismatches: Vec<VersionMismatch> = Vec::new();
-
-    for server_file in &server_only {
-        let server_base = strip_version(server_file);
-        
-        // Check if any client mod has the same base name
-        if let Some(client_file) = client_base_map.get(&server_base) {
-            if client_file != server_file {
-                mismatches.push(VersionMismatch {
-                    server_filename: server_file.clone(),
-                    client_filename: client_file.clone(),
-                    base_name: server_base,
-                });
-            }
-        }
-    }
-
-    SideAnalysis {
-        server_mods: server_only,
-        client_mods: client_only,
-        both_mods: both,
-        mismatches,
-    }
+    // Join the core parts (e.g., "letsdo-nethervinery" or "ftb-xmod-compat")
+    core_parts.join("-").to_lowercase()
 }
 
 /// Update side assignments in .pw.toml files based on analysis
 pub async fn update_sides(
     pack_dir: &Path,
     analysis: &SideAnalysis,
-    user_decisions: &HashMap<String, String>,
+    user_decisions: &HashMap<String, UserDecision>,
 ) -> Result<(usize, usize)> {
     let mods_dir = pack_dir.join("mods");
     let mut updated = 0;
@@ -91,61 +41,136 @@ pub async fn update_sides(
         return Ok((0, 0));
     }
 
-    let pw_files: Vec<PathBuf> = WalkDir::new(&mods_dir)
-        .max_depth(1)
-        .into_iter()
-        .filter_map(|e| e.ok())
-        .filter(|e| {
-            e.file_type().is_file()
-                && e.path().extension().map(|e| e == "toml").unwrap_or(false)
-                && e.path().to_string_lossy().ends_with(".pw.toml")
-        })
-        .map(|e| e.path().to_path_buf())
-        .collect();
-
-    for path in pw_files {
-        let content = tokio::fs::read_to_string(&path).await?;
-        let mut pw_toml: PwToml = toml::from_str(&content)?;
-        
-        let filename = &pw_toml.filename;
-        let current_side = &pw_toml.side;
-        let mut new_side: Option<&str> = None;
-
-        // Check if in both (server mod)
-        if analysis.both_mods.contains(filename) {
-            new_side = Some("server");
-        }
-        // Check if client only
-        else if analysis.client_mods.contains(filename) {
-            new_side = Some("client");
-        }
-        // Check if server only (with exact match)
-        else if analysis.server_mods.contains(filename) {
-            new_side = Some("server");
-        }
-        // Check user decisions for mismatches
-        else if let Some(decision) = user_decisions.get(filename) {
-            new_side = Some(decision);
+    for entry in WalkDir::new(&mods_dir).max_depth(1) {
+        let entry = entry?;
+        if !entry.file_type().is_file() {
+            continue;
         }
 
-        // Update if needed
-        if let Some(side) = new_side {
-            if current_side != side {
-                pw_toml.side = side.to_string();
-                
-                // Serialize and write back
-                let new_content = toml::to_string_pretty(&pw_toml)?;
-                tokio::fs::write(&path, new_content).await?;
-                
-                updated += 1;
-                println!("    Updated {} -> side = \"{}\"", path.file_stem().unwrap_or_default().to_string_lossy(), side);
+        let path = entry.path();
+        if path.extension().map(|e| e != "toml").unwrap_or(true) {
+            continue;
+        }
+        if !path.to_string_lossy().ends_with(".pw.toml") {
+            continue;
+        }
+
+        let filename = path.file_stem()
+            .and_then(|s| s.to_str())
+            .unwrap_or("")
+            .replace(".pw", "");
+
+        // Determine the new side
+        let new_side = if analysis.server_mods.contains(&filename) {
+            "server"
+        } else if analysis.client_mods.contains(&filename) {
+            "client"
+        } else {
+            "both"
+        };
+
+        // Check for version mismatches using same logic as analyze_sides
+        let base_name = extract_mod_core(&filename);
+        let mismatch = analysis.mismatches.iter()
+            .find(|m| m.base_name.to_lowercase() == base_name);
+
+        let final_side = if let Some(mismatch) = mismatch {
+            if let Some(decision) = user_decisions.get(&mismatch.base_name) {
+                if decision.use_server {
+                    "server"
+                } else if decision.use_client {
+                    "client"
+                } else {
+                    "both"
+                }
             } else {
-                unchanged += 1;
+                new_side
             }
         } else {
+            new_side
+        };
+
+        // Read and check current side using regex to preserve all formatting
+        let content = tokio::fs::read_to_string(path).await?;
+
+        // Extract current side value using regex
+        let side_regex = Regex::new(r#"(?m)^side\s*=\s*"([^"]+)""#).unwrap();
+        let current_side = side_regex
+            .captures(&content)
+            .and_then(|c| c.get(1))
+            .map(|m| m.as_str())
+            .unwrap_or("both");
+
+        if current_side == final_side {
             unchanged += 1;
+            continue;
         }
+
+        // Replace side value using regex to preserve all formatting including [update] headers
+        let new_content = side_regex.replace(&content, format!(r#"side = "{}""#, final_side));
+
+        // Write back
+        tokio::fs::write(path, new_content.as_ref()).await
+            .with_context(|| format!("Failed to write: {}", path.display()))?;
+
+        updated += 1;
     }
 
     Ok((updated, unchanged))
+}
+
+/// Analyze client/server sides based on mod filenames
+/// Logic: A (server) AND B (client) => Server
+///        B - A (client only) => Client
+pub fn analyze_sides(
+    server_filenames: &std::collections::HashSet<String>,
+    client_filenames: &std::collections::HashSet<String>,
+) -> SideAnalysis {
+    let server_set = server_filenames.clone();
+    let client_set = client_filenames.clone();
+
+    let mut server_mods = std::collections::HashSet::new();
+    let mut client_mods = std::collections::HashSet::new();
+    let mut mismatches = Vec::new();
+
+    // Server mods: ANYTHING in server zip (A)
+    // This includes mods that are in both A and B
+    for filename in &server_set {
+        server_mods.insert(filename.clone());
+    }
+
+    // Client mods: Only things in client (B) that are NOT in server (A)
+    for filename in &client_set {
+        if !server_set.contains(filename) {
+            client_mods.insert(filename.clone());
+        }
+    }
+
+    // Find version mismatches using core mod identifier
+    // A mod is a mismatch if same core ID exists in both but different versions
+    let mut server_by_core: HashMap<String, String> = HashMap::new();
+    for filename in &server_set {
+        let core = extract_mod_core(filename);
+        server_by_core.entry(core.clone()).or_insert_with(|| filename.clone());
+    }
+
+    for client_filename in &client_set {
+        let core = extract_mod_core(client_filename);
+        if let Some(server_filename) = server_by_core.get(&core) {
+            if server_filename != client_filename {
+                mismatches.push(VersionMismatch {
+                    server_filename: server_filename.clone(),
+                    client_filename: client_filename.clone(),
+                    base_name: core,
+                });
+            }
+        }
+    }
+
+    SideAnalysis {
+        server_mods,
+        client_mods,
+        both_mods: std::collections::HashSet::new(), // Always empty per user logic
+        mismatches,
+    }
 }

@@ -200,3 +200,9 @@ pub struct VersionMismatch {
     pub client_filename: String,
     pub base_name: String,
 }
+
+#[derive(Debug, Clone)]
+pub struct UserDecision {
+    pub use_server: bool,
+    pub use_client: bool,
+}

@@ -1,6 +1,7 @@
 use crate::{
-    cf_to_modrinth, mod_sides, packwiz, prompt, zip_extractor,
+    cf_to_modrinth, download_cf_mods, mod_sides, packwiz, prompt, zip_extractor,
 };
+use crate::download_cf_mods::discover_pwtoml_files;
 use anyhow::{Context, Result};
 use std::io::BufReader;
 use std::path::Path;
@@ -26,6 +27,7 @@ pub async fn run_import(
     do_cf_convert: bool,
     do_sides: bool,
     auto_accept: bool,
+    auto_server: bool,
     rate_limit_ms: u64,
 ) -> Result<()> {
     // Check packwiz is available
@@ -54,26 +56,25 @@ pub async fn run_import(
     
     println!();
 
-    // Load pack config
-    let pack_content = tokio::fs::read_to_string(pack_file).await
-        .with_context(|| format!("Failed to read pack file: {}", pack_file.display()))?;
-    let pack_config: crate::models::PackToml = toml::from_str(&pack_content)
-        .with_context(|| format!("Failed to parse pack.toml: {}", pack_file.display()))?;
-    
     let pack_dir = pack_file
         .parent()
         .context("Pack file must have a parent directory")?;
     let mods_dir = pack_dir.join("mods");
 
-    // Step 3: CurseForge to Modrinth conversion
+    // Step 3: Discover all .pw.toml files once (used by both CF→Modrinth and CF download checking)
+    println!("Step 3: Discovering all .pw.toml files...");
+    let all_pwtoml_files = discover_pwtoml_files(&pack_dir)?;
+    println!("  Found {} .pw.toml files", all_pwtoml_files.len());
+    println!();
+
+    // Step 4: CurseForge to Modrinth conversion
     if do_cf_convert {
-        println!("Step 3: Converting CurseForge mods to Modrinth...");
+        println!("Step 4: Converting CurseForge mods to Modrinth...");
         let (migrated, skipped, errors) = cf_to_modrinth::convert_curseforge_to_modrinth(
-            pack_file,
-            &pack_config,
+            all_pwtoml_files.clone(),
             rate_limit_ms,
         ).await?;
-        
+
         println!("  Migrated: {}, Skipped: {}", migrated, skipped);
         if !errors.is_empty() {
             println!("  Errors: {}", errors.len());
@@ -86,26 +87,26 @@ pub async fn run_import(
         // Small delay to let filesystem settle
         tokio::time::sleep(Duration::from_millis(100)).await;
     } else {
-        println!("Step 3: Skipping CurseForge to Modrinth conversion");
+        println!("Step 4: Skipping CurseForge to Modrinth conversion");
         println!();
     }
 
-    // Step 4: Side assignment
+    // Step 5: Side assignment
     if do_sides {
-        println!("Step 4: Analyzing client/server mod sides...");
-        
+        println!("Step 5: Analyzing client/server mod sides...");
+
         // Get server mod filenames from zip
         let server_filenames = zip_extractor::extract_mod_filenames(server_zip)?;
-        
+
         // Get client mod filenames from current .pw.toml files
         let client_filenames = zip_extractor::get_client_mod_filenames(&mods_dir).await?;
-        
+
         println!("  Server zip has {} mods", server_filenames.len());
         println!("  Client directory has {} mods", client_filenames.len());
-        
+
         // Analyze sides
         let analysis = mod_sides::analyze_sides(&server_filenames, &client_filenames);
-        
+
         prompt::show_analysis_summary(
             analysis.server_mods.len(),
             analysis.client_mods.len(),
@@ -114,8 +115,8 @@ pub async fn run_import(
         )?;
 
         // Handle version mismatches with user prompts
-        let user_decisions = prompt::prompt_for_mismatches(&analysis.mismatches, auto_accept)?;
-        
+        let user_decisions = prompt::prompt_for_mismatches(&analysis.mismatches, auto_accept, auto_server)?;
+
         // Update sides in .pw.toml files
         println!("  Updating side assignments...");
         let (updated, unchanged) = mod_sides::update_sides(
@@ -123,17 +124,48 @@ pub async fn run_import(
             &analysis,
             &user_decisions,
         ).await?;
-        
+
         println!("  Updated: {}, Unchanged: {}", updated, unchanged);
         println!();
     } else {
-        println!("Step 4: Skipping side assignment");
+        println!("Step 5: Skipping side assignment");
         println!();
     }
 
-    // Step 5: Refresh packwiz index
-    println!("Step 5: Refreshing packwiz index...");
+    // Step 6: Refresh packwiz index
+    println!("Step 6: Refreshing packwiz index...");
     packwiz::refresh(pack_file)?;
+    println!();
+
+    // Step 7: Test and fix CurseForge downloads that fail API
+    println!("Step 7: Testing CurseForge downloads (will fix any that fail)...");
+
+    // Use pre-discovered files for CF download checking (filter to CF mods without URL)
+    let cf_mods = download_cf_mods::filter_curseforge_mods(all_pwtoml_files);
+    let (downloaded, failed) = if cf_mods.is_empty() {
+        println!("  No CurseForge mods need API checking");
+        (0, vec![])
+    } else {
+        // Check which ones fail via CF API, then download those
+        let failed_mods = download_cf_mods::check_curseforge_downloads(cf_mods).await?;
+        if failed_mods.is_empty() {
+            println!("  All CurseForge mods available via API");
+            (0, vec![])
+        } else {
+            download_cf_mods::download_failed_mods(failed_mods).await?
+        }
+    };
+
+    if downloaded > 0 || !failed.is_empty() {
+        println!("  Downloaded: {} fixed, {} failed", downloaded, failed.len());
+    }
+
+    // If we downloaded anything, refresh again
+    if downloaded > 0 {
+        println!();
+        println!("  Re-refreshing packwiz index with new files...");
+        packwiz::refresh(pack_file)?;
+    }
     println!();
 
     Ok(())
