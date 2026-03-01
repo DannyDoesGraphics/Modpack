@@ -19910,10 +19910,6 @@ file = "mods/BalloonBox1.20.1(Forge)vs.1.0.3.jar"
 hash = "c8e818c5698dae385b88b4a4db63a6a4ef5e10bae5900fcb0d9bc00a14eea8e9"
 
 [[files]]
-file = "mods/Etcetera-1.20.1-1.1.3-Forge.jar"
-hash = "0634364ea818abbd8203401a0cfe4de64fd0d17bac129b2a007dc8f45696e877"
-
-[[files]]
 file = "mods/additional-attributes.pw.toml"
 hash = "d5fc0b1d60f2c0d2463e4ab084ccdd29082aa75b612e64f5c3eb866f0cdcdbb7"
 metafile = true
@@ -19986,6 +19982,11 @@ metafile = true
 [[files]]
 file = "mods/autumnity.pw.toml"
 hash = "c95c6a51c33d6b109ffd66a84c6a894bc19da116b5a105beba9e7dd8bcfe3b58"
+metafile = true
+
+[[files]]
+file = "mods/bad-wither-no-cookie-reloaded.pw.toml"
+hash = "0a80e045329dc8e191f81dd4fa2cacfeff65715e990d2819650d1d83308d2bc4"
 metafile = true
 
 [[files]]
@@ -20067,10 +20068,6 @@ metafile = true
 file = "mods/buzzier-bees.pw.toml"
 hash = "577359260b4a7c9fee99c882b8fe9763b5016389e736a2bef745fe665dfd4ad5"
 metafile = true
-
-[[files]]
-file = "mods/bwncr-forge-1.20.1-3.17.2.jar"
-hash = "d6c120a438f0b347f78d21758d0e05459e09ccd87bb9cae9ee1955ab2750afd9"
 
 [[files]]
 file = "mods/caelus.pw.toml"
@@ -20368,6 +20365,11 @@ hash = "8955f0e8eb65565934ae04fb366d9262023ff41a0ce36519482f61c518c467be"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "41c5ce4fb307ea55d0fdfc736ad6130cfb7deb2c315b4564fb9679b0d053f220"
+metafile = true
+
+[[files]]
 file = "mods/do-api.pw.toml"
 hash = "faab13db31095f49c6a10f92e32d2ac444759b9d33b726d9bf8d845063b6ec8b"
 metafile = true
@@ -20455,6 +20457,11 @@ metafile = true
 [[files]]
 file = "mods/entityjs.pw.toml"
 hash = "10722f00e0fa5d4a642cdf74839e9df01d85a63c564f2b77d47411545a8fcc37"
+metafile = true
+
+[[files]]
+file = "mods/etcetera.pw.toml"
+hash = "395a0d0e9bb76b1e1d0cebbbac9cd453f60ad393fca7c1481c9d54ede8e38084"
 metafile = true
 
 [[files]]
@@ -20952,7 +20959,7 @@ metafile = true
 
 [[files]]
 file = "mods/natures-compass.pw.toml"
-hash = "e2be4b35e9d9f8a612f37fff8e482639646454abf7d67b86b5807e9029866714"
+hash = "75ed9a50a701fa1df3e1ac837f1a182b4f583967b4ed64e85cf4c67fd7c343b3"
 metafile = true
 
 [[files]]
@@ -21276,8 +21283,9 @@ hash = "cd7ead640f3699a41aa3f9ff17d4f5026e881322509fd41b18198f7270b37aa2"
 metafile = true
 
 [[files]]
-file = "mods/servercore-forge-1.5.2+1.20.1.jar"
-hash = "d9ad4f456b6c36bac17a71cd12935fdccae69ca1e1fcd33857210758cb58e586"
+file = "mods/servercore.pw.toml"
+hash = "874a064efc37398f5818a38666ea31263bd65ed0478b519b819f7a361bd0893e"
+metafile = true
 
 [[files]]
 file = "mods/sewing-kit.pw.toml"
@@ -21307,6 +21315,11 @@ metafile = true
 [[files]]
 file = "mods/simple-recall-potion.pw.toml"
 hash = "9ac98799b3d913df9f0f40386f9b4a13614c3f09c8bcb55672376a60370b1d77"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "767b8350e0c80fad4e2a559f2258b60027f7d3f62df3bca324c478e264d93cec"
 metafile = true
 
 [[files]]
@@ -21390,8 +21403,9 @@ hash = "0ef2a47f506c83478052262348c105c307d970fbff3f6b0917e46d67f61d8953"
 metafile = true
 
 [[files]]
-file = "mods/species-3.5.jar"
-hash = "60cdc79387a14440d199dd217fe24edd6cd68d865460ee48e944d4bb0d78b23f"
+file = "mods/species.pw.toml"
+hash = "3caaaf0a2e54df38ac8ab485684995c55fc0eec7ff1f65063512b86fb6d2bf78"
+metafile = true
 
 [[files]]
 file = "mods/spice-of-life-onion.pw.toml"
@@ -21455,7 +21469,7 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "23c3dddf24d8d65b2ad798247389647b47e10439dca2c46b1c958a8d2b0a1841"
+hash = "f8b2450149a0be35437a0d134f63e5cbb1c854b9cccf1babcd25778aa932b9c9"
 metafile = true
 
 [[files]]
@@ -21544,8 +21558,9 @@ hash = "ac6cdfd291baad64444e00b0f4cf2d05556dc25742cbe1ca7aa6e1248968aa15"
 metafile = true
 
 [[files]]
-file = "mods/verdantvibes-1.0.3-1.20.1.jar"
-hash = "f227d6ae2d7e39f6aca6851f80d2f25bd45b0ca1fe69537247551c1c538bab73"
+file = "mods/verdantvibes.pw.toml"
+hash = "e649cad3f61e1eef3bf573d7a75082ef82665cf81465342e668bf37914c30bcf"
+metafile = true
 
 [[files]]
 file = "mods/via-romana.pw.toml"
@@ -23755,16 +23770,8 @@ file = "patchouli_books/fish_finder/ko_kr/entries/fish/wither_bonefish.json"
 hash = "9190cd007221a077a8f934d26a92d402cf747fd5275457ddb6089c97648edb7b"
 
 [[files]]
-file = "resourcepacks/Better_Cats_V0.09.zip"
-hash = "c647eb3397fc861178c49edde7c1f4edae957ca573c5ad25cd1e9a5f7fdf2437"
-
-[[files]]
 file = "resourcepacks/Create Style for Refined Storage.zip"
 hash = "a680b86ac4bbb1fec4128ec6912fc4a2fb400459f3125f4518cb286e4d4d82eb"
-
-[[files]]
-file = "resourcepacks/CreateSophisticatedBackpacks.zip"
-hash = "546f5ab2d4d561e28f3366d84626ab392a750de151eec51b5a524fe48f396ec9"
 
 [[files]]
 file = "resourcepacks/Lopy-Create-Pipez.zip"
@@ -23777,6 +23784,16 @@ hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
 [[files]]
 file = "resourcepacks/aquaculture-updated.pw.toml"
 hash = "8173bfa1aa1779f5a468e1314a86549d6e14b8dc4c70a02fcbd81f8ec07a2567"
+metafile = true
+
+[[files]]
+file = "resourcepacks/better-cats-minecraft.pw.toml"
+hash = "650a09962e363f822430f186d273ec2347603a78c17a1eb0a7102e2b4ced8d1b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-sophisticated-backpacks.pw.toml"
+hash = "a7357d9f983be145a85f87a39d4943ff68bba8af17d09ac5783cb83497fc0e0b"
 metafile = true
 
 [[files]]

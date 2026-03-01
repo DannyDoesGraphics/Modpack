@@ -139,8 +139,12 @@ pub async fn run_import(
     // Step 7: Test and fix CurseForge downloads that fail API
     println!("Step 7: Testing CurseForge downloads (will fix any that fail)...");
 
-    // Use pre-discovered files for CF download checking (filter to CF mods without URL)
-    let cf_mods = download_cf_mods::filter_curseforge_mods(all_pwtoml_files);
+    // Re-discover files after migration (files may have been converted to Modrinth)
+    let current_pwtoml_files = discover_pwtoml_files(&pack_dir)?;
+    println!("  Re-discovered {} .pw.toml files after migration", current_pwtoml_files.len());
+
+    // Use freshly discovered files for CF download checking (filter to CF mods without URL)
+    let cf_mods = download_cf_mods::filter_curseforge_mods(current_pwtoml_files);
     let (downloaded, failed) = if cf_mods.is_empty() {
         println!("  No CurseForge mods need API checking");
         (0, vec![])

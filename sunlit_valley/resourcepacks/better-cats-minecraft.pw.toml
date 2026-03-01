@@ -1,0 +1,13 @@
+name = "Better Cats"
+filename = "Better_Cats_V0.09.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eddq8rrf/versions/7C7nkQuL/Better_Cats_V0.09.zip"
+hash-format = "sha512"
+hash = "edbb47b10a6afe69647fb19b8ac26d38766a49c6c01cadca7b24aa64d68c750490091caba46984042d3a38ed09769f5713903f0bcd6d1990e8c99be7e3a3fa9e"
+
+[update]
+[update.modrinth]
+mod-id = "eddq8rrf"
+version = "7C7nkQuL"
