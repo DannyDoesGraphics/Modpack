@@ -20366,7 +20366,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "41c5ce4fb307ea55d0fdfc736ad6130cfb7deb2c315b4564fb9679b0d053f220"
+hash = "47fd33da68d0b13cdffd4124f5bc9cff64caa2878ce7e979ba8092400c2ae1eb"
 metafile = true
 
 [[files]]
@@ -21319,7 +21319,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "767b8350e0c80fad4e2a559f2258b60027f7d3f62df3bca324c478e264d93cec"
+hash = "2693e3b2afc35f5edac9bc961a3cb1ccfa60bf32c69f2ddcc4860e7fe8799096"
 metafile = true
 
 [[files]]
@@ -21469,7 +21469,7 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "f8b2450149a0be35437a0d134f63e5cbb1c854b9cccf1babcd25778aa932b9c9"
+hash = "23c3dddf24d8d65b2ad798247389647b47e10439dca2c46b1c958a8d2b0a1841"
 metafile = true
 
 [[files]]

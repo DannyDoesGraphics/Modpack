@@ -177,5 +177,11 @@ pub async fn run_import(
     println!("  Overrides applied successfully");
     println!();
 
+    // Step 9: Final refresh to include any files added by overrides
+    println!("Step 9: Final packwiz refresh (includes override files)...");
+    packwiz::refresh(pack_file)?;
+    println!("  Refresh successful");
+    println!();
+
     Ok(())
 }
