@@ -3063,7 +3063,7 @@ hash = "e0dbdffd76db07cb7011f15ad619b3a7baa0b5c1837fee2a4a8bff400983a833"
 
 [[files]]
 file = "defaultconfigs/rpgtimeline-server.toml"
-hash = "6a406a22c3fc3c5b84ad98b915ad84774fb675db256fab529753025e8ad4ca74"
+hash = "e4ebbd6a25f07acefd990d6a7f9f3eb127e8dcf9d208a439d2f4d3debc00d5e3"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
