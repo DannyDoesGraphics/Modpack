@@ -17,7 +17,7 @@
 	
 	# Disables all land protection. Useful for private servers where everyone is trusted and claims are only used for force-loading
 	# Default: false
-	disable_protection: true
+	disable_protection: false
 	
 	# Override to disable/enable fake players like miners and auto-clickers globally.
 	# Default will check this setting for each team
