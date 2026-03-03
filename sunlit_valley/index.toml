@@ -2587,7 +2587,7 @@ hash = "fb2eed01e1aa823332893215e35093a08c0a219acb9924e1d03cb376ed20213c"
 
 [[files]]
 file = "config/sereneseasons/seasons.toml"
-hash = "41eaaaed48cef70e2284d5949993fefb6312bc0042e479eae8dd6d196fea3efb"
+hash = "48ba3ff8cbf05957195774b8e42da656f126ee982fac3aeaec4c23205b2471c8"
 
 [[files]]
 file = "config/sereneseasons/tectonic.json"
@@ -3063,7 +3063,7 @@ hash = "e0dbdffd76db07cb7011f15ad619b3a7baa0b5c1837fee2a4a8bff400983a833"
 
 [[files]]
 file = "defaultconfigs/rpgtimeline-server.toml"
-hash = "e4ebbd6a25f07acefd990d6a7f9f3eb127e8dcf9d208a439d2f4d3debc00d5e3"
+hash = "20ddcb2626eb30c3e645468b566c4e9e76d4a9266dd78ca7ea362ee2d971a3d2"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"

@@ -32,11 +32,11 @@
 	#  2) Set daysPerMonth below to 30
 	#  3) Ensure you have 12 monthNames above
 	#
-	#Synced with Serene Seasons sub_season_duration = 18: 12 sub-seasons × 18 = 216 days/year, 4 months → 54 days/month
+	#Synced with Serene Seasons sub_season_duration = 15: 12 sub-seasons × 15 = 180 days/year, 4 months → 45 days/month
 	#
 	#Valid range: 1..365
 	#Range: 1 ~ 365
-	daysPerMonth = 54
+	daysPerMonth = 45
 	#If true, use the RPG Timeline custom font for the day popup.
 	#If false, use Minecraft's default font.
 	#
