@@ -6,65 +6,60 @@ hash = "230cf5d9bc8b2f115732210068adbfacb70fb50708f09d4dfe0baccac8cef336"
 
 [[files]]
 file = "mods/anti-xray.pw.toml"
-hash = "7ffd2cbb973d987d543b36f12cc9362baae07b0983b83a8292f063ed4287f9a9"
+hash = "1d07aae485a2a92527e66367b656e743ec6e84471296f2f93bee163de3eb5460"
 metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "ff260b35492778bdce59ffa064a59c6a9953ffd409eb40782af14b78a29a2cb8"
+hash = "6b306404c910f6910bb704132f724f62bb78594e281755b8d3125fe14bce349b"
 metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "479cc9008a66ce4dea0b0be0f749a986d73f5fe778516d6682a5202e19706179"
+hash = "6f68058bdb8e42b85aad770ff6b2604a60057f982ee001d3f286ec7e5d5de505"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "45abf05e1cc90006aeb65e4e1bbe97da5a1984f547ea8028a077dae68af0ac11"
+hash = "1b7dddabe21e51ddc2a0f1a304523089c4aa80dfe03d1921fdb6847a9a7f1065"
 metafile = true
 
 [[files]]
 file = "mods/fabricproxy-lite.pw.toml"
-hash = "7345effda3ffcc376275666335af5b8a504887d1e95d13b257cb7e44695ba1aa"
+hash = "bb3966260841112fc0fc3ce954531e39455b4918b6846c8f58ea7161605cb157"
 metafile = true
 
 [[files]]
 file = "mods/floodgate.pw.toml"
-hash = "ece34207ca75882863aa616328af686011fd554595b80a7858ddcc4848d5768d"
-metafile = true
-
-[[files]]
-file = "mods/geyser.pw.toml"
-hash = "6515a9c0c294ed57475f97860833db72450be087d67b3bdf8a53c1160b9a7e82"
+hash = "81deea93548291d717e90688b85f8cc7851b97c6299cd722149ee62cf1a1c65e"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "38c950bdd47f54d586d1e9ae0c714574885423941ed7799f11b776d2b05ed02f"
+hash = "51fa2c64e9cf2d5558a2f1e575960a0a9f9f27f73486d0d679c2bc695eb11026"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "9a74f9345a91af6a0e2c1975e1dd1d26cfcae6fb072a3a0d68fd9de110ab6327"
+hash = "ceed226223967ea3e7017aad327a069250c289c834766e1a3cd27c8d0ad52de1"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "c064e431015fe06786c17e18b8cfc28751a994e2ee251a357c0043a72f649403"
+hash = "04185c12844c8da7eb28121a0a6f43ad077751de120eca5fa2a2ab93b8e7a2d3"
 metafile = true
 
 [[files]]
 file = "mods/sleep-warp-updated.pw.toml"
-hash = "10ba2803784c3e6867966f3a8cc93da077e8a2761d6f146537a8198542d77471"
+hash = "58d7b1139f541b435ee5a35c123c67d983520c34d5b6baa7765ee6483bde367c"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "0b4c98b7b25cdfcbb7882c32155d597f0fcaa37aa301b14baf4ad8cab65fea85"
+hash = "030f69f3a7e275201c10eef33ae360341a3c280b06955134b6885aeaa8883d6a"
 metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "2b521d51539ceea11c6c5310ff2dcfa38cfb8084558355b4bfbd0fde177ab912"
+hash = "47d6fa0950bc4a3eb69b58aa98abe225948ea08d7e01ee31ff24fc53bc3ac798"
 metafile = true
