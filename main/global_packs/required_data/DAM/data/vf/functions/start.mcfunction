@@ -1,2 +1,0 @@
-function vanilla_refresh:other/actions/disable_settings
-function vanilla_refresh:other/actions/other/daycounter_enable
