@@ -80,8 +80,18 @@ hash = "265c2a4cb987474f6c893adc5bf5b14ba6756bbed5fc56dfb5e29649062a84a1"
 metafile = true
 
 [[files]]
+file = "shaderpacks/bloop-shaders.pw.toml"
+hash = "3495531dac46f1035b2a1beac1f96321978ee70c0080835fe7f6606ad60ff183"
+metafile = true
+
+[[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
 hash = "ea258ed5bf495d9017eeadc3cbf9bd67b1e672d843826bc077135548b5bc699e"
+metafile = true
+
+[[files]]
+file = "shaderpacks/just-colored-lighting.pw.toml"
+hash = "36c93763bbd4e262ca709fb28d03dfaaa68cb914c3e1689143c6e8ed692316b0"
 metafile = true
 
 [[files]]
