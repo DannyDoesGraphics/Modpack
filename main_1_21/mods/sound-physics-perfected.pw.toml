@@ -1,13 +1,13 @@
 name = "Sound Physics Perfected"
-filename = "sound_physics_perfected-1.13.0+1.21.1-neoforge.jar"
+filename = "sound_physics_perfected-1.17.1+1.21.1-neoforge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/TrEAvaLn/sound_physics_perfected-1.13.0%2B1.21.1-neoforge.jar"
+url = "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/m3jTB12k/sound_physics_perfected-1.17.1%2B1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "cef28f8d72c78eabce386371d4fe24342adfb75a7945adc511f6c0e50d58ef204489298d067d9e544d8dc671ed7bc260bbf1f6119db54a2a4756a64abe7244e8"
+hash = "b1280e38baf6a33022a3cb83d3b6b3e39434a0f454bd32798b2d722eb6eaf452f40a94d056207ac54fabf2dba95a40f24b6a85ad2e838993f73482706e99e6fa"
 
 [update]
 [update.modrinth]
 mod-id = "KS6Hbu9Z"
-version = "TrEAvaLn"
+version = "m3jTB12k"

@@ -1,3 +1,9 @@
+# Per-pack launcher paths (see .env.example)
+**/.env
+**/.env.example
+
+**/.probe
+
 # Exclude exported Modrinth modpacks
 *.mrpack
 
@@ -16,3 +22,5 @@ test/*
 */*.zip
 */extract/*
 extract/*
+
+.cursor

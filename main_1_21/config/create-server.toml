@@ -227,6 +227,9 @@
 		#Whether the players hitbox should be expanded to the size of the contraption hitbox.
 		#[Technical]
 		syncPlayerPickupHitboxWithContraptionHitbox = false
+		#.
+		#Whether to prevent block dropping when contraption is placed inside in-world blocks.
+		noDropWhenContraptionReplaceBlocks = false
 
 	#.
 	#Configure speed/capacity levels for requirements and indicators.
@@ -461,7 +464,7 @@
 	#The maximum allowed file size of uploaded Schematics.
 	# Default: 256
 	# Range: > 16
-	maxTotalSchematicSize = 256
+	maxTotalSchematicSize = 1024
 	#.
 	#[in Bytes]
 	#The maximum packet size uploaded Schematics are split into.
@@ -543,13 +546,13 @@
 	#.
 	#Maximum length of a Train Stations' assembly track.
 	# Default: 128
-	# Range: > 5
-	maxAssemblyLength = 256
+	# Range: 5 ~ 512
+	maxAssemblyLength = 512
 	#.
 	#Maximum amount of bogeys assembled as a single Train.
 	# Default: 20
-	# Range: > 1
-	maxBogeyCount = 20
+	# Range: 1 ~ 200
+	maxBogeyCount = 32
 	#.
 	#Relative speed of a manually controlled Train compared to a Scheduled one.
 	# Default: 0.75
@@ -564,19 +567,19 @@
 		#The top speed of any assembled Train.
 		# Default: 28.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTopSpeed = 56.0
+		trainTopSpeed = 28.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of Trains during a turn.
 		# Default: 14.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTurningTopSpeed = 28.0
+		trainTurningTopSpeed = 14.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of any assembled Train.
 		# Default: 3.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainAcceleration = 6.0
+		trainAcceleration = 3.0
 
 	#.
 	#Powered Trains
@@ -586,16 +589,16 @@
 		#The top speed of powered Trains.
 		# Default: 40.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTopSpeed = 80.0
+		poweredTrainTopSpeed = 40.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of powered Trains during a turn.
 		# Default: 20.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTurningTopSpeed = 40.0
+		poweredTrainTurningTopSpeed = 20.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of powered Trains.
 		# Default: 3.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainAcceleration = 8.0
+		poweredTrainAcceleration = 3.0

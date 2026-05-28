@@ -1,0 +1,35 @@
+{
+  "item_settings": {
+    "display_name": {
+      "type": "translatable",
+      "translate": "dam.guide_name"
+    },
+    "tooltip_lines": [
+      {
+        "text": "Danny's Awesome Modpack guide",
+        "color": "#81a1c1"
+      }
+    ]
+  },
+  "custom_colors": {
+    "dam:nord0": { "dark_mode": "#2e3440", "light_mode": "#2e3440" },
+    "dam:nord1": { "dark_mode": "#3b4252", "light_mode": "#3b4252" },
+    "dam:nord2": { "dark_mode": "#434c5e", "light_mode": "#434c5e" },
+    "dam:nord3": { "dark_mode": "#4c566a", "light_mode": "#4c566a" },
+    "dam:nord4": { "dark_mode": "#d8dee9", "light_mode": "#d8dee9" },
+    "dam:nord5": { "dark_mode": "#e5e9f0", "light_mode": "#e5e9f0" },
+    "dam:nord6": { "dark_mode": "#eceff4", "light_mode": "#eceff4" },
+    "dam:nord7": { "dark_mode": "#8fbcbb", "light_mode": "#8fbcbb" },
+    "dam:nord8": { "dark_mode": "#88c0d0", "light_mode": "#88c0d0" },
+    "dam:nord9": { "dark_mode": "#81a1c1", "light_mode": "#81a1c1" },
+    "dam:nord10": { "dark_mode": "#5e81ac", "light_mode": "#5e81ac" },
+    "dam:nord11": { "dark_mode": "#bf616a", "light_mode": "#bf616a" },
+    "dam:nord12": { "dark_mode": "#d08770", "light_mode": "#d08770" },
+    "dam:nord13": { "dark_mode": "#ebcb8b", "light_mode": "#ebcb8b" },
+    "dam:nord14": { "dark_mode": "#a3be8c", "light_mode": "#a3be8c" },
+    "dam:nord15": { "dark_mode": "#b48ead", "light_mode": "#b48ead" },
+    "dam:nord_muted": { "dark_mode": "#4c566a", "light_mode": "#4c566a" },
+    "dam:nord_accent": { "dark_mode": "#88c0d0", "light_mode": "#88c0d0" },
+    "dam:nord_warn": { "dark_mode": "#ebcb8b", "light_mode": "#ebcb8b" }
+  }
+}
