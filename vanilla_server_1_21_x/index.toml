@@ -5,11 +5,6 @@ file = "config/voicechat/voicechat-server.properties"
 hash = "230cf5d9bc8b2f115732210068adbfacb70fb50708f09d4dfe0baccac8cef336"
 
 [[files]]
-file = "mods/anti-xray.pw.toml"
-hash = "1d07aae485a2a92527e66367b656e743ec6e84471296f2f93bee163de3eb5460"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "82f8e930d470d72330d18b6609e233f5c61a37866cec7c93f17d9bc6006e7565"
 metafile = true
