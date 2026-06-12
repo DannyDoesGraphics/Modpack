@@ -6,7 +6,7 @@ hash = "230cf5d9bc8b2f115732210068adbfacb70fb50708f09d4dfe0baccac8cef336"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "82f8e930d470d72330d18b6609e233f5c61a37866cec7c93f17d9bc6006e7565"
+hash = "d8191c7ff64782b226c8689c168961f303b17638dded11522f25f0509db01c15"
 metafile = true
 
 [[files]]
@@ -16,7 +16,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "2a77dc7aade5de6d21315582c4b70db40ff2bdf746b61c10d7ad3c5be8422f75"
+hash = "dbfc484ebc80a9b76e1fd95c89f9a63d702ee9eaa7051beaf1d609360afc2ef6"
 metafile = true
 
 [[files]]
@@ -36,12 +36,12 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "ceed226223967ea3e7017aad327a069250c289c834766e1a3cd27c8d0ad52de1"
+hash = "90d5603faf196b9c30274831dd042935311202a58baaa7c7e2e50df6198d85e3"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "2e210dbb2eca274d176c1f5d93d41638f9826153d358e9c428f1341331bc0ea5"
+hash = "a2e9d2e08cb39c159b50ab8a0a2c38896700f7ab66a7682d691dd91628b4b34d"
 metafile = true
 
 [[files]]
@@ -56,7 +56,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabric.pw.toml"
-hash = "0e598c8192680f5fe0381ebebc16c1ea70d9a63aca795c06b1a036b90b983dd5"
+hash = "f40b070bcc7f10bf84d08f425c332ca1db30fd34b18c7099d6e55cca67f2c0ec"
 metafile = true
 
 [[files]]
@@ -86,7 +86,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/just-colored-lighting.pw.toml"
-hash = "36c93763bbd4e262ca709fb28d03dfaaa68cb914c3e1689143c6e8ed692316b0"
+hash = "2460abcd584700e78a1a5b949e40b9f6328c547f9fdbb07ab39d084599faa561"
 metafile = true
 
 [[files]]

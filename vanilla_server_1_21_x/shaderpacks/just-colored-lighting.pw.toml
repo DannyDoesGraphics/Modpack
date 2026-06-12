@@ -1,13 +1,13 @@
 name = "Just Colored Lighting"
-filename = "Just Colored Lighting (0.9.5).zip"
+filename = "Just Colored Lighting (0.9.6).zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/McUqXQ0J/versions/FbcXho3J/Just%20Colored%20Lighting%20%280.9.5%29.zip"
+url = "https://cdn.modrinth.com/data/McUqXQ0J/versions/wvBLo0LL/Just%20Colored%20Lighting%20%280.9.6%29.zip"
 hash-format = "sha512"
-hash = "602dd1dd2af922347f12c67dbe3824cab722a0ccc6fd46709fc7f98d3ce4d5d49849bc2d97e0e3fe3e3f34e00ca2d9c4f94eed952211a8c34da103d80621b580"
+hash = "3a07aa7f37d69a7a73d32d6f485d5b1a22d709164138b122b031f3eeff2b19fae222d55b959cfc1d94b3766a4244476ad1668fb151c60fc8cd719e1abd084f03"
 
 [update]
 [update.modrinth]
 mod-id = "McUqXQ0J"
-version = "FbcXho3J"
+version = "wvBLo0LL"
