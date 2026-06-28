@@ -1,0 +1,13 @@
+name = "Vanilla Server"
+author = "Danny Le"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9629c5b1ed6ee44fc73b815e67ed7f4f3da9741b38592e3950616e9a18db698e"
+
+[versions]
+fabric = "0.19.3"
+minecraft = "26.2"

@@ -1,0 +1,70 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "230cf5d9bc8b2f115732210068adbfacb70fb50708f09d4dfe0baccac8cef336"
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "497421d9c7549e8a1cbb08d9102ccbc48695aa96834daca398a5c1498670422a"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "57ec34a7f37b99e4638f5214d1de0bef916e981743d3648c57cad1e8e399982b"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "15f5d74f5b60dc0279a4c910db2db721ff1a9f5deb2620006f7007c8ab5e9558"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "fe17d2b9b63e19e1818f55d9d376aaec0c42c9fd9812d9a2f6d1c4160abd161b"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "fdc6309bf3420b7e358737b05877335191021e8a2376def243deb0e521797166"
+metafile = true
+
+[[files]]
+file = "mods/floodgate.pw.toml"
+hash = "919d012a47b6b10b087bc1ba96a04292e1161cc188418fe20e37bdb7138e0e40"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "d655305d7933a11ed9c0c8edb57868c053b9c995c121c00b47061cf0e098c92a"
+metafile = true
+
+[[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "726410a43cf53b6da8d292c1e7d3267fb5f96832360d712a7cebc08cdcdeaee9"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "e37b46af7cfa8f24e9895c37789b43d80d8abe519becf4f08d9e1ea1529fc126"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "e8e263c9e5b45ef826911470c4b07405012d8f43f77214f59e56690f7731e299"
+metafile = true
+
+[[files]]
+file = "mods/sleep-warp-updated.pw.toml"
+hash = "fc32a48ffb87cdabedd383eb2b5c1d9048712b03b0421d26208e644b3ed24c25"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "e49481f8cec67aa4643ab47878f449e58f9442e049df3a290f7b215d73d1c022"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "73915f100ddd393168b4cd5dbc2a5057e2470624c837d91eb9a7ff8c6f3977fe"
+metafile = true
