@@ -6,7 +6,22 @@ hash = "230cf5d9bc8b2f115732210068adbfacb70fb50708f09d4dfe0baccac8cef336"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "497421d9c7549e8a1cbb08d9102ccbc48695aa96834daca398a5c1498670422a"
+hash = "951f09d189fbcf17b4cde0524e9cd1e37da9a3c666fa47606ca61b55ec1c287e"
+metafile = true
+
+[[files]]
+file = "mods/chat-heads.pw.toml"
+hash = "183afb9d10363afd2833a957aeb7ccdfb74aff8c508cf4565bdc5d8eeb020a9a"
+metafile = true
+
+[[files]]
+file = "mods/chatnotify.pw.toml"
+hash = "ae9c971c7266be84067e44bd037dd30068ff89a7675f6d4ae5b877250bbd926b"
+metafile = true
+
+[[files]]
+file = "mods/chatpatches.pw.toml"
+hash = "1084adb68bba2336c3ab3ffa665364bf5bb7e84df5179240514d47b1e7d82e9e"
 metafile = true
 
 [[files]]
@@ -16,7 +31,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "15f5d74f5b60dc0279a4c910db2db721ff1a9f5deb2620006f7007c8ab5e9558"
+hash = "ce280969fa45ec982f36067934c36f76098dcf8b0c71bab46691e6b5b8e9664e"
 metafile = true
 
 [[files]]
@@ -26,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "fdc6309bf3420b7e358737b05877335191021e8a2376def243deb0e521797166"
+hash = "7b9c5859f27094716924ae732771ef824ce77147f48570c64417422c747923b5"
 metafile = true
 
 [[files]]
@@ -42,6 +57,11 @@ metafile = true
 [[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "726410a43cf53b6da8d292c1e7d3267fb5f96832360d712a7cebc08cdcdeaee9"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "9ceb72b7c586df8828ee5e9eaf096c913f8debe92805cd5ce6c4ea8922e5fe1d"
 metafile = true
 
 [[files]]
@@ -61,10 +81,20 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "e49481f8cec67aa4643ab47878f449e58f9442e049df3a290f7b215d73d1c022"
+hash = "f59459557165e5ed9022cd5e9182bd3b12ae495e9c300bf9025d03a76eca9fe1"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "73915f100ddd393168b4cd5dbc2a5057e2470624c837d91eb9a7ff8c6f3977fe"
+hash = "a899b14d4bbab643586ac2734da162e9cae579d461f81776804c598a03297ebe"
+metafile = true
+
+[[files]]
+file = "mods/voice-chat-interaction.pw.toml"
+hash = "48852d22be511ec9edf7073b0a04a23c0c20e0466c95191ab779e1ada8558fc2"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "da2b918e1ae55d1073b87bfc3236f37d106f80e0e295e99d374642f35531ada8"
 metafile = true
