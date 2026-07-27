@@ -45,6 +45,11 @@ hash = "7b9c5859f27094716924ae732771ef824ce77147f48570c64417422c747923b5"
 metafile = true
 
 [[files]]
+file = "mods/fabricproxy-lite.pw.toml"
+hash = "bb3966260841112fc0fc3ce954531e39455b4918b6846c8f58ea7161605cb157"
+metafile = true
+
+[[files]]
 file = "mods/floodgate.pw.toml"
 hash = "919d012a47b6b10b087bc1ba96a04292e1161cc188418fe20e37bdb7138e0e40"
 metafile = true
