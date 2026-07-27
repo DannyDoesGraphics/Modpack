@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "230cf5d9bc8b2f115732210068adbfacb70fb50708f09d4dfe0baccac8cef336"
+hash = "8451ac1bbf7b86113d0e101c594d664d374a4b0f7dc56f16ac04603bdf13e354"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
