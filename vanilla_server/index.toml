@@ -5,6 +5,10 @@ file = "config/voicechat/voicechat-server.properties"
 hash = "8451ac1bbf7b86113d0e101c594d664d374a4b0f7dc56f16ac04603bdf13e354"
 
 [[files]]
+file = "config/voxyworldgenv2.json"
+hash = "352521ed7af146da54935212a952a5bc6d03cbc5247c945d6c7ef60cd00bdeb0"
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "c40e0e9470504b51e2f638b86b4a3ca5c41c8f89efd0dbbe104f1816e911401f"
 metafile = true
