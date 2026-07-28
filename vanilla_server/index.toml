@@ -49,6 +49,16 @@ hash = "fe17d2b9b63e19e1818f55d9d376aaec0c42c9fd9812d9a2f6d1c4160abd161b"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "88467a7bdda3717c87a35e0833daf833d69603794746106ae20c56408bc2f854"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "4c67dcaac16f11a5d90dfeb2d1e6bfaabca6ff5b912c566970330c005797e2ea"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "848db8de89cc26314f20f6cf86e6c2cfc6e2cdd1a30a7d494575a4e24a8ef9f6"
 metafile = true
@@ -141,4 +151,44 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "b08ea22923b8ccf2fbeb020cb532487be60c2dd75dd8e1c04e14deb66c118bba"
+metafile = true
+
+[[files]]
+file = "resourcepacks/patrix-32x.pw.toml"
+hash = "c11ab861bb13d03e93ffe3527a83938ade8fec5da219b1571819085aeb9c2922"
+metafile = true
+
+[[files]]
+file = "resourcepacks/spbr.pw.toml"
+hash = "6bcb6e79d421649528bb56e053edef2d1c65c8a77d2e02fb395e81bce68b59ef"
+metafile = true
+
+[[files]]
+file = "shaderpacks/alpha-piscium.pw.toml"
+hash = "8d4a1191d346fe6868520be9235ff89eec150697b8e2233b7662adf4f1430bef"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "f91c2ec79366b4607d93928a07c223cbaa4a2e18fe0c110e68a3fc064e69b65a"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "ea258ed5bf495d9017eeadc3cbf9bd67b1e672d843826bc077135548b5bc699e"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "608b87f75b2387a9fbd340cb18a8238bbbe5a0afc54202634b34f3000246b6e7"
+metafile = true
+
+[[files]]
+file = "shaderpacks/mellow.pw.toml"
+hash = "fed6df918cbbd83592498c02cadace1b8e82d32ed808772f5daafb12b2dd035b"
+metafile = true
+
+[[files]]
+file = "shaderpacks/miniature-shader.pw.toml"
+hash = "e27fb6b8d787f473b5a7698bd2073863f4ccc831fe59eb1fb6663e99d213ca6c"
 metafile = true
