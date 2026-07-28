@@ -6,7 +6,7 @@ hash = "8451ac1bbf7b86113d0e101c594d664d374a4b0f7dc56f16ac04603bdf13e354"
 
 [[files]]
 file = "config/voxyworldgenv2.json"
-hash = "aa420e10923d99d785c0dd0233d563d5996d734d26bb0ececc7121ea3b7198cd"
+hash = "72da225ca95970667652cb81d46b2be105da6383ca69f7d16e936640d5d180fd"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
