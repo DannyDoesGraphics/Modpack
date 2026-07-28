@@ -1,0 +1,13 @@
+name = "Ji AFK Cinematic"
+filename = "ji-afk-cinematic-26.1-26.2-2.2.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/NYveE6yC/versions/gbljkq7f/ji-afk-cinematic-26.1-26.2-2.2.1.jar"
+hash-format = "sha512"
+hash = "6b8828bdba05b72e1b4a24788cd55b5ebd45b7b4256c1e95417e638abf7f8aca8383b135128e3d77ed19e8b82b97e0bb83736832dc81be2971704e4bcd59db9c"
+
+[update]
+[update.modrinth]
+mod-id = "NYveE6yC"
+version = "gbljkq7f"
