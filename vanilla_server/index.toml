@@ -30,6 +30,11 @@ hash = "1084adb68bba2336c3ab3ffa665364bf5bb7e84df5179240514d47b1e7d82e9e"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "7fa9592b9948b8809018a4e7c3ca7da4d19fc5ef8c03021414cb22ae0253f083"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 hash = "57ec34a7f37b99e4638f5214d1de0bef916e981743d3648c57cad1e8e399982b"
 metafile = true
@@ -120,13 +125,13 @@ hash = "48852d22be511ec9edf7073b0a04a23c0c20e0466c95191ab779e1ada8558fc2"
 metafile = true
 
 [[files]]
-file = "mods/voxy.pw.toml"
-hash = "6e7118b85f597deab7cbc4a1d6caf50aee9acda40ebd96711724d4d9514b2839"
+file = "mods/voxy-worldgen.pw.toml"
+hash = "0b074f4a1aa91c221b47d9709dadd47288023c1595fa30a8cd9e1c1fcb27a269"
 metafile = true
 
 [[files]]
-file = "mods/voxyserver.pw.toml"
-hash = "25c2c80dbf4b59b34d0f1bfe284f1dcbf58a7912ed2b548cffc1d9ad33f15e56"
+file = "mods/voxy.pw.toml"
+hash = "6e7118b85f597deab7cbc4a1d6caf50aee9acda40ebd96711724d4d9514b2839"
 metafile = true
 
 [[files]]
