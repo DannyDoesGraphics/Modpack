@@ -1,0 +1,81 @@
+import { $Level_, $Level } from "@package/net/minecraft/world/level";
+import { $HolderLookup$Provider, $BlockPos } from "@package/net/minecraft/core";
+import { $EntityRenderDispatcher, $EntityRenderer, $EntityRendererProvider$Context } from "@package/net/minecraft/client/renderer/entity";
+import { $MultiBufferSource_ } from "@package/net/minecraft/client/renderer";
+import { $CompoundTag } from "@package/net/minecraft/nbt";
+import { $RegistryFriendlyByteBuf } from "@package/net/minecraft/network";
+import { $IEntityWithComplexSpawn } from "@package/net/neoforged/neoforge/entity";
+import { $ResourceLocation } from "@package/net/minecraft/resources";
+import { $EntityType_, $Entity$RemovalReason, $LivingEntity, $Entity, $PortalProcessor } from "@package/net/minecraft/world/entity";
+import { $PoseStack } from "@package/com/mojang/blaze3d/vertex";
+import { $PrimedTnt } from "@package/net/minecraft/world/entity/item";
+import { $EntityInLevelCallback } from "@package/net/minecraft/world/level/entity";
+
+declare module "@package/appeng/entity" {
+    export class $TinyTNTPrimedRenderer extends $EntityRenderer<$TinyTNTPrimedEntity> {
+        getTextureLocation(arg0: $TinyTNTPrimedEntity): $ResourceLocation;
+        render(arg0: $TinyTNTPrimedEntity, arg1: number, arg2: number, arg3: $PoseStack, arg4: $MultiBufferSource_, arg5: number): void;
+        static LEASH_RENDER_STEPS: number;
+        entityRenderDispatcher: $EntityRenderDispatcher;
+        constructor(arg0: $EntityRendererProvider$Context);
+    }
+    export class $TinyTNTPrimedEntity extends $PrimedTnt implements $IEntityWithComplexSpawn {
+        writeSpawnData(arg0: $RegistryFriendlyByteBuf): void;
+        readSpawnData(arg0: $RegistryFriendlyByteBuf): void;
+        getOwner(): $Entity;
+        serializeNBT(arg0: $HolderLookup$Provider): $CompoundTag;
+        hasImpulse: boolean;
+        tickCount: number;
+        noPhysics: boolean;
+        yo: number;
+        static BOARDING_COOLDOWN: number;
+        removalReason: $Entity$RemovalReason;
+        yRotO: number;
+        static CONTENTS_SLOT_INDEX: number;
+        level: $Level;
+        yRot: number;
+        moveDist: number;
+        static ID_TAG: string;
+        mainSupportingBlockPos: ($BlockPos) | undefined;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_1_0: number;
+        xRotO: number;
+        zo: number;
+        walkDist: number;
+        xOld: number;
+        noCulling: boolean;
+        wasInPowderSnow: boolean;
+        hurtMarked: boolean;
+        invulnerableTime: number;
+        static UUID_TAG: string;
+        static BASE_TICKS_REQUIRED_TO_FREEZE: number;
+        fallDistance: number;
+        portalProcess: $PortalProcessor;
+        verticalCollision: boolean;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_5: number;
+        static MAX_ENTITY_TAG_COUNT: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_2: number;
+        verticalCollisionBelow: boolean;
+        yOld: number;
+        static DEFAULT_BB_WIDTH: number;
+        minorHorizontalCollision: boolean;
+        static TAG_FUSE: string;
+        static DEFAULT_BB_HEIGHT: number;
+        levelCallback: $EntityInLevelCallback;
+        walkDistO: number;
+        static FREEZE_HURT_FREQUENCY: number;
+        flyDist: number;
+        isInPowderSnow: boolean;
+        static ATTACHMENTS_NBT_KEY: string;
+        static PASSENGERS_TAG: string;
+        blocksBuilding: boolean;
+        wasOnFire: boolean;
+        zOld: number;
+        static TOTAL_AIR_SUPPLY: number;
+        xo: number;
+        static BASE_SAFE_FALL_DISTANCE: number;
+        horizontalCollision: boolean;
+        constructor(arg0: $EntityType_<$TinyTNTPrimedEntity>, arg1: $Level_);
+        constructor(arg0: $Level_, arg1: number, arg2: number, arg3: number, arg4: $LivingEntity);
+        get owner(): $Entity;
+    }
+}

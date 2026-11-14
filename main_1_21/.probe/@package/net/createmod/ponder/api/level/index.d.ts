@@ -1,0 +1,62 @@
+import { $Level_, $Level, $EntityGetter } from "@package/net/minecraft/world/level";
+import { $PonderScene } from "@package/net/createmod/ponder/foundation";
+import { $Codec } from "@package/com/mojang/serialization";
+import { $MultiBufferSource_ } from "@package/net/minecraft/client/renderer";
+import { $Particle } from "@package/net/minecraft/client/particle";
+import { $Selection } from "@package/net/createmod/ponder/api/scene";
+import { $Camera } from "@package/net/minecraft/client";
+import { $ArrayList, $Map } from "@package/java/util";
+import { $RandomSource } from "@package/net/minecraft/util";
+import { $SuperRenderTypeBuffer } from "@package/net/createmod/catnip/render";
+import { $BlockSnapshot } from "@package/net/neoforged/neoforge/common/util";
+import { $BlockPos, $BlockPos_ } from "@package/net/minecraft/core";
+import { $BlockState_ } from "@package/net/minecraft/world/level/block/state";
+import { $ResourceKey } from "@package/net/minecraft/resources";
+import { $PoseStack } from "@package/com/mojang/blaze3d/vertex";
+import { $SchematicLevel } from "@package/net/createmod/catnip/levelWrappers";
+
+declare module "@package/net/createmod/ponder/api/level" {
+    export class $PonderLevel extends $SchematicLevel {
+        setMask(arg0: $Selection | null): void;
+        pushFakeLight(arg0: number): void;
+        popLight(): void;
+        getBlockBreakingProgressions(): $Map<$BlockPos, number>;
+        restoreBlocks(arg0: $Selection): void;
+        setBlockBreakingProgress(arg0: $BlockPos_, arg1: number): void;
+        addBlockDestroyEffects(arg0: $BlockPos_, arg1: $BlockState_): void;
+        renderEntities(arg0: $PoseStack, arg1: $SuperRenderTypeBuffer, arg2: $Camera, arg3: number): void;
+        restore(): void;
+        renderParticles(arg0: $PoseStack, arg1: $MultiBufferSource_, arg2: $Camera, arg3: number): void;
+        clearMask(): void;
+        createBackup(): void;
+        tick(): void;
+        addParticle(arg0: $Particle | null): void;
+        self(): $EntityGetter;
+        restoringBlockSnapshots: boolean;
+        oThunderLevel: number;
+        static LONG_PARTICLE_CLIP_RANGE: number;
+        static ATTACHMENTS_NBT_KEY: string;
+        scene: $PonderScene;
+        renderMode: boolean;
+        thunderLevel: number;
+        random: $RandomSource;
+        capturedBlockSnapshots: $ArrayList<$BlockSnapshot>;
+        static OVERWORLD: $ResourceKey<$Level>;
+        static TICKS_PER_DAY: number;
+        static MAX_ENTITY_SPAWN_Y: number;
+        static NETHER: $ResourceKey<$Level>;
+        oRainLevel: number;
+        anchor: $BlockPos;
+        static RESOURCE_KEY_CODEC: $Codec<$ResourceKey<$Level>>;
+        static MAX_BRIGHTNESS: number;
+        static END: $ResourceKey<$Level>;
+        static MAX_LEVEL_SIZE: number;
+        static SHORT_PARTICLE_CLIP_RANGE: number;
+        static MIN_ENTITY_SPAWN_Y: number;
+        rainLevel: number;
+        captureBlockSnapshots: boolean;
+        constructor(arg0: $BlockPos_, arg1: $Level_);
+        set mask(value: $Selection | null);
+        get blockBreakingProgressions(): $Map<$BlockPos, number>;
+    }
+}

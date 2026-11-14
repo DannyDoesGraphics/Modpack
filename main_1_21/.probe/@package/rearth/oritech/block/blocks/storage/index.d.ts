@@ -1,0 +1,164 @@
+import { $Level_ } from "@package/net/minecraft/world/level";
+import { $MapCodec } from "@package/com/mojang/serialization";
+import { $Item, $ItemStack } from "@package/net/minecraft/world/item";
+import { $Player } from "@package/net/minecraft/world/entity/player";
+import { $GameEventListener } from "@package/net/minecraft/world/level/gameevent";
+import { $InteractionResult } from "@package/net/minecraft/world";
+import { $ServerLevel } from "@package/net/minecraft/server/level";
+import { $DirectionProperty, $BooleanProperty } from "@package/net/minecraft/world/level/block/state/properties";
+import { $BlockPos_, $IdMapper } from "@package/net/minecraft/core";
+import { $BlockState_, $BlockBehaviour$Properties, $BlockState } from "@package/net/minecraft/world/level/block/state";
+import { $Block_, $RenderShape, $EntityBlock, $Block } from "@package/net/minecraft/world/level/block";
+import { $BlockHitResult } from "@package/net/minecraft/world/phys";
+import { $BlockEntityTicker, $BlockEntityType_, $BlockEntity } from "@package/net/minecraft/world/level/block/entity";
+
+declare module "@package/rearth/oritech/block/blocks/storage" {
+    export class $SmallFluidTank extends $Block implements $EntityBlock {
+        static getBasePickStack(arg0: boolean): $ItemStack;
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        useWithoutItem(arg0: $BlockState_, arg1: $Level_, arg2: $BlockPos_, arg3: $Player, arg4: $BlockHitResult): $InteractionResult;
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getRenderShape(arg0: $BlockState_): $RenderShape;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static LIT: $BooleanProperty;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $CreativeStorageBlock extends $Block implements $EntityBlock {
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        useWithoutItem(arg0: $BlockState_, arg1: $Level_, arg2: $BlockPos_, arg3: $Player, arg4: $BlockHitResult): $InteractionResult;
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getRenderShape(arg0: $BlockState_): $RenderShape;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $LargeStorageBlock extends $SmallStorageBlock {
+        static TARGET_DIR: $DirectionProperty;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $UnstableContainerBlock extends $Block implements $EntityBlock {
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        useWithoutItem(arg0: $BlockState_, arg1: $Level_, arg2: $BlockPos_, arg3: $Player, arg4: $BlockHitResult): $InteractionResult;
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getRenderShape(arg0: $BlockState_): $RenderShape;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static SETUP_DONE: $BooleanProperty;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $CreativeFluidTank extends $SmallFluidTank {
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static LIT: $BooleanProperty;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $SmallStorageBlock extends $Block implements $EntityBlock {
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        neighborChanged(arg0: $BlockState_, arg1: $Level_, arg2: $BlockPos_, arg3: $Block_, arg4: $BlockPos_, arg5: boolean): void;
+        useWithoutItem(arg0: $BlockState_, arg1: $Level_, arg2: $BlockPos_, arg3: $Player, arg4: $BlockHitResult): $InteractionResult;
+        isSignalSource(arg0: $BlockState_): boolean;
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getRenderShape(arg0: $BlockState_): $RenderShape;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static TARGET_DIR: $DirectionProperty;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+}

@@ -2,8 +2,6 @@
 **/.env
 **/.env.example
 
-**/.probe
-
 # Exclude exported Modrinth modpacks
 *.mrpack
 

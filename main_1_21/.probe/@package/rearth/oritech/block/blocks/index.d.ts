@@ -1,0 +1,11 @@
+export * as processing from "@package/rearth/oritech/block/blocks/processing";
+export * as generators from "@package/rearth/oritech/block/blocks/generators";
+export * as reactor from "@package/rearth/oritech/block/blocks/reactor";
+export * as arcane from "@package/rearth/oritech/block/blocks/arcane";
+export * as interaction from "@package/rearth/oritech/block/blocks/interaction";
+export * as accelerator from "@package/rearth/oritech/block/blocks/accelerator";
+export * as pipes from "@package/rearth/oritech/block/blocks/pipes";
+export * as addons from "@package/rearth/oritech/block/blocks/addons";
+export * as storage from "@package/rearth/oritech/block/blocks/storage";
+export * as decorative from "@package/rearth/oritech/block/blocks/decorative";
+export * as augmenter from "@package/rearth/oritech/block/blocks/augmenter";

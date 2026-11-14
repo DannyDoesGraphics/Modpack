@@ -1,0 +1,12 @@
+export * as redstone from "@package/com/simibubi/create/content/redstone";
+export * as kinetics from "@package/com/simibubi/create/content/kinetics";
+export * as logistics from "@package/com/simibubi/create/content/logistics";
+export * as contraptions from "@package/com/simibubi/create/content/contraptions";
+export * as trains from "@package/com/simibubi/create/content/trains";
+export * as schematics from "@package/com/simibubi/create/content/schematics";
+export * as decoration from "@package/com/simibubi/create/content/decoration";
+export * as fluids from "@package/com/simibubi/create/content/fluids";
+export * as equipment from "@package/com/simibubi/create/content/equipment";
+export * as processing from "@package/com/simibubi/create/content/processing";
+export * as legacy from "@package/com/simibubi/create/content/legacy";
+export * as materials from "@package/com/simibubi/create/content/materials";

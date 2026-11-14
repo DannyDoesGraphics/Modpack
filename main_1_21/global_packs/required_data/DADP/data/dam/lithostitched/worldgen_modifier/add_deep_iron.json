@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "step": "underground_ores",
+  "features": [
+    "dam:ore_iron_deep_upper",
+    "dam:ore_iron_deep_middle",
+    "dam:ore_iron_deep_small"
+  ]
+}

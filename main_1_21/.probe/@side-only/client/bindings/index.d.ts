@@ -1,0 +1,85 @@
+import { $BlockStatePredicate } from "@package/dev/latvian/mods/kubejs/block/state";
+import { $FTBQuestsKubeJSWrapper } from "@package/dev/ftb/mods/ftbxmodcompat/neoforge/ftbquests/kubejs";
+import { $Items } from "@package/net/minecraft/world/item";
+import { $FluidWrapper } from "@package/dev/latvian/mods/kubejs/fluid";
+import { $Minecraft } from "@package/net/minecraft/client";
+import { $AbstractMap } from "@package/java/util";
+import { $TextIcons, $KMath, $TextWrapper, $IngredientWrapper, $ColorWrapper, $AABBWrapper, $SizedIngredientWrapper, $UUIDWrapper, $StringUtilsWrapper, $ParticleOptionsWrapper, $RegistryWrapper, $ItemWrapper, $EntitySelectorWrapper, $NBTWrapper, $BlockWrapper, $DirectionWrapper, $NativeEventWrapper, $DataMapWrapper, $JavaWrapper, $UtilsWrapper } from "@package/dev/latvian/mods/kubejs/plugin/builtin/wrapper";
+import { $Duration } from "@package/java/time";
+import { $BlockStateProperties } from "@package/net/minecraft/world/level/block/state/properties";
+import { $BlockPos, $Vec3i } from "@package/net/minecraft/core";
+import { $AlmostKube } from "@package/com/almostreliable/unified/compat/kube";
+import { $NotificationToastData, $JsonIO, $ID, $RotationAxis, $FluidAmounts, $NBTIOWrapper, $MobEffectUtil, $JsonUtils } from "@package/dev/latvian/mods/kubejs/util";
+import { $SoundType, $Blocks } from "@package/net/minecraft/world/level/block";
+import { $Math } from "@package/java/lang";
+import { $Vec3 } from "@package/net/minecraft/world/phys";
+import { $Stats } from "@package/net/minecraft/stats";
+import { $ConsoleJS, $PlatformWrapper } from "@package/dev/latvian/mods/kubejs/script";
+import { $DamageSource } from "@package/net/minecraft/world/damagesource";
+import { $Matrix4f, $Vector3f, $Quaternionf, $Vector4f, $Matrix3f } from "@package/org/joml";
+
+declare module "@side-only/client/bindings" {
+}
+
+export {};
+
+declare global {
+    let global: {};
+    let Platform: typeof $PlatformWrapper;
+    let console: $ConsoleJS;
+    let JavaMath: typeof $Math;
+    let ID: typeof $ID;
+    let Duration: typeof $Duration;
+    let KMath: typeof $KMath;
+    let Utils: typeof $UtilsWrapper;
+    let StringUtils: typeof $StringUtilsWrapper;
+    let Java: typeof $JavaWrapper;
+    let Text: typeof $TextWrapper;
+    let Component: typeof $TextWrapper;
+    let TextIcons: typeof $TextIcons;
+    let UUID: typeof $UUIDWrapper;
+    let JsonUtils: typeof $JsonUtils;
+    let JsonIO: typeof $JsonIO;
+    let Block: typeof $BlockWrapper;
+    let Blocks: typeof $Blocks;
+    let Item: typeof $ItemWrapper;
+    let Items: typeof $Items;
+    let Ingredient: typeof $IngredientWrapper;
+    let NBT: typeof $NBTWrapper;
+    let NBTIO: typeof $NBTIOWrapper;
+    let Direction: typeof $DirectionWrapper;
+    let Facing: typeof $DirectionWrapper;
+    let AABB: typeof $AABBWrapper;
+    let Stats: typeof $Stats;
+    let FluidAmounts: typeof $FluidAmounts;
+    let Notification: typeof $NotificationToastData;
+    let SizedIngredient: typeof $SizedIngredientWrapper;
+    let ParticleOptions: typeof $ParticleOptionsWrapper;
+    let Registry: typeof $RegistryWrapper<any>;
+    let DataMap: typeof $DataMapWrapper<any, any>;
+    let EntitySelector: typeof $EntitySelectorWrapper;
+    let Fluid: typeof $FluidWrapper;
+    let SECOND: number;
+    let MINUTE: number;
+    let HOUR: number;
+    let Color: typeof $ColorWrapper;
+    let BlockStatePredicate: typeof $BlockStatePredicate;
+    let Vec3d: typeof $Vec3;
+    let Vec3i: typeof $Vec3i;
+    let Vec3f: typeof $Vector3f;
+    let Vec4f: typeof $Vector4f;
+    let Matrix3f: typeof $Matrix3f;
+    let Matrix4f: typeof $Matrix4f;
+    let Quaternionf: typeof $Quaternionf;
+    let RotationAxis: typeof $RotationAxis;
+    let BlockPos: typeof $BlockPos;
+    let DamageSource: typeof $DamageSource;
+    let SoundType: typeof $SoundType;
+    let BlockProperties: typeof $BlockStateProperties;
+    let NativeEvents: typeof $NativeEventWrapper;
+    let MobEffectUtil: typeof $MobEffectUtil;
+    let Client: $Minecraft;
+    let GLFWInput: $AbstractMap<any, any>;
+    let FTBQuests: $FTBQuestsKubeJSWrapper;
+    let AlmostUnified: typeof $AlmostKube;
+}

@@ -1,0 +1,82 @@
+import { $Comparable } from "@package/java/lang";
+import { $Pointer_, $CustomBuffer } from "@package/org/lwjgl/system";
+import { $DoubleBuffer, $FloatBuffer, $ByteBuffer, $ShortBuffer, $IntBuffer, $LongBuffer } from "@package/java/nio";
+export * as util from "@package/org/lwjgl/util";
+export * as system from "@package/org/lwjgl/system";
+export * as glfw from "@package/org/lwjgl/glfw";
+export * as stb from "@package/org/lwjgl/stb";
+
+declare module "@package/org/lwjgl" {
+    export class $CLongBuffer extends $CustomBuffer<$CLongBuffer> implements $Comparable<$CLongBuffer> {
+        get(arg0: number): number;
+        get(): number;
+        static get(arg0: $ByteBuffer): number;
+        static get(arg0: $ByteBuffer, arg1: number): number;
+        get(arg0: number[]): $CLongBuffer;
+        get(arg0: number[], arg1: number, arg2: number): $CLongBuffer;
+        put(arg0: number[], arg1: number, arg2: number): $CLongBuffer;
+        static put(arg0: $ByteBuffer, arg1: number, arg2: number): void;
+        put(arg0: number, arg1: number): $CLongBuffer;
+        put(arg0: number[]): $CLongBuffer;
+        static put(arg0: $ByteBuffer, arg1: number): void;
+        put(arg0: number): $CLongBuffer;
+        compareTo(arg0: $CLongBuffer): number;
+        static create(arg0: $ByteBuffer): $CLongBuffer;
+        static create(arg0: number, arg1: number): $CLongBuffer;
+        static allocateDirect(arg0: number): $CLongBuffer;
+    }
+    export class $PointerBuffer extends $CustomBuffer<$PointerBuffer> implements $Comparable<$PointerBuffer> {
+        get(arg0: number[], arg1: number, arg2: number): $PointerBuffer;
+        static get(arg0: $ByteBuffer): number;
+        get(): number;
+        get(arg0: number): number;
+        static get(arg0: $ByteBuffer, arg1: number): number;
+        get(arg0: number[]): $PointerBuffer;
+        put(arg0: $IntBuffer): $PointerBuffer;
+        put(arg0: $ShortBuffer): $PointerBuffer;
+        put(arg0: $FloatBuffer): $PointerBuffer;
+        put(arg0: $DoubleBuffer): $PointerBuffer;
+        put(arg0: $LongBuffer): $PointerBuffer;
+        put(arg0: number, arg1: $DoubleBuffer): $PointerBuffer;
+        put(arg0: number, arg1: $FloatBuffer): $PointerBuffer;
+        put(arg0: number, arg1: $LongBuffer): $PointerBuffer;
+        put(arg0: number, arg1: $IntBuffer): $PointerBuffer;
+        put(arg0: number, arg1: $ShortBuffer): $PointerBuffer;
+        put(arg0: number, arg1: $ByteBuffer): $PointerBuffer;
+        put(arg0: number, arg1: number): $PointerBuffer;
+        static put(arg0: $ByteBuffer, arg1: number): void;
+        put(arg0: number): $PointerBuffer;
+        put(arg0: number[]): $PointerBuffer;
+        put(arg0: number[], arg1: number, arg2: number): $PointerBuffer;
+        put(arg0: $ByteBuffer): $PointerBuffer;
+        put(arg0: number, arg1: $Pointer_): $PointerBuffer;
+        put(arg0: $Pointer_): $PointerBuffer;
+        static put(arg0: $ByteBuffer, arg1: number, arg2: number): void;
+        compareTo(arg0: $PointerBuffer): number;
+        static create(arg0: $ByteBuffer): $PointerBuffer;
+        static create(arg0: number, arg1: number): $PointerBuffer;
+        getByteBuffer(arg0: number, arg1: number): $ByteBuffer;
+        getByteBuffer(arg0: number): $ByteBuffer;
+        static allocateDirect(arg0: number): $PointerBuffer;
+        putAddressOf(arg0: number, arg1: $CustomBuffer<never>): $PointerBuffer;
+        putAddressOf(arg0: $CustomBuffer<never>): $PointerBuffer;
+        getShortBuffer(arg0: number): $ShortBuffer;
+        getShortBuffer(arg0: number, arg1: number): $ShortBuffer;
+        getIntBuffer(arg0: number, arg1: number): $IntBuffer;
+        getIntBuffer(arg0: number): $IntBuffer;
+        getLongBuffer(arg0: number): $LongBuffer;
+        getLongBuffer(arg0: number, arg1: number): $LongBuffer;
+        getFloatBuffer(arg0: number): $FloatBuffer;
+        getFloatBuffer(arg0: number, arg1: number): $FloatBuffer;
+        getDoubleBuffer(arg0: number): $DoubleBuffer;
+        getDoubleBuffer(arg0: number, arg1: number): $DoubleBuffer;
+        getPointerBuffer(arg0: number): $PointerBuffer;
+        getPointerBuffer(arg0: number, arg1: number): $PointerBuffer;
+        getStringASCII(arg0: number): string;
+        getStringASCII(): string;
+        getStringUTF8(arg0: number): string;
+        getStringUTF8(): string;
+        getStringUTF16(): string;
+        getStringUTF16(arg0: number): string;
+    }
+}

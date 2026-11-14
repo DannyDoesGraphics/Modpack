@@ -1,13 +1,13 @@
 name = "Chat Notify"
-filename = "chatnotify-fabric-3.104.0+26.3.jar"
+filename = "chatnotify-fabric-3.104.1+26.3.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Iudurxl8/versions/wyv0wuQm/chatnotify-fabric-3.104.0%2B26.3.jar"
+url = "https://cdn.modrinth.com/data/Iudurxl8/versions/YljMWuuh/chatnotify-fabric-3.104.1%2B26.3.jar"
 hash-format = "sha512"
-hash = "2a7852beb28a35149d7ec3dc99b73260f63fc3fc088e7878c4ae4bae1506808479562921e88fbf5c4112a59ee75d1848dd6e61a101af568296f548ffeac19f4a"
+hash = "ca1fede85730cb780526d7f7176c910bc9bf95e929900d9119591552868037edd2452ec8493bc6e5f516c4478a82b9368d118f756ce488aef5efe68bc20d052f"
 
 [update]
 [update.modrinth]
 mod-id = "Iudurxl8"
-version = "wyv0wuQm"
+version = "YljMWuuh"

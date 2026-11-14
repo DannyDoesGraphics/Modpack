@@ -1,0 +1,283 @@
+import { $Behavior } from "@package/net/minecraft/world/entity/ai/behavior";
+import { $Level, $LevelAccessor, $Level_ } from "@package/net/minecraft/world/level";
+import { $GoalSelector } from "@package/net/minecraft/world/entity/ai/goal";
+import { $LookControl } from "@package/net/minecraft/world/entity/ai/control";
+import { $ItemStack } from "@package/net/minecraft/world/item";
+import { $CompoundTag } from "@package/net/minecraft/nbt";
+import { $AnimationState, $EntityType_, $Entity$RemovalReason, $LivingEntity, $VariantHolder, $PortalProcessor, $WalkAnimationState, $Entity, $MobSpawnType_ } from "@package/net/minecraft/world/entity";
+import { $Player } from "@package/net/minecraft/world/entity/player";
+import { $AttributeSupplier$Builder } from "@package/net/minecraft/world/entity/ai/attributes";
+import { $RandomSource } from "@package/net/minecraft/util";
+import { $FrogVariant, $Animal, $AbstractFish } from "@package/net/minecraft/world/entity/animal";
+import { $InteractionResult, $InteractionHand, $InteractionHand_ } from "@package/net/minecraft/world";
+import { $Predicate } from "@package/java/util/function";
+import { $AmphibiousNodeEvaluator } from "@package/net/minecraft/world/level/pathfinder";
+import { $SoundEvent_ } from "@package/net/minecraft/sounds";
+import { $HolderLookup$Provider, $BlockPos, $BlockPos_, $Holder_, $Holder } from "@package/net/minecraft/core";
+import { $ResourceKey } from "@package/net/minecraft/resources";
+import { $AmphibiousPathNavigation } from "@package/net/minecraft/world/entity/ai/navigation";
+import { $Enum } from "@package/java/lang";
+import { $LootTable } from "@package/net/minecraft/world/level/storage/loot";
+import { $EntityInLevelCallback } from "@package/net/minecraft/world/level/entity";
+
+declare module "@package/net/minecraft/world/entity/animal/frog" {
+    export class $FrogAi {
+        static updateActivity(frog: $Frog): void;
+        static getTemptations(): $Predicate<$ItemStack>;
+        constructor();
+        static get temptations(): $Predicate<$ItemStack>;
+    }
+    export class $Frog$FrogNodeEvaluator extends $AmphibiousNodeEvaluator {
+        static SPACE_BETWEEN_WALL_POSTS: number;
+    }
+    export class $TadpoleAi {
+        static updateActivity(tadpole: $Tadpole): void;
+        constructor();
+    }
+    export class $ShootTongue extends $Behavior<$Frog> {
+        static MAX_UNREACHBLE_TONGUE_TARGETS_IN_MEMORY: number;
+        static TIME_OUT_DURATION: number;
+        static UNREACHABLE_TONGUE_TARGETS_COOLDOWN_DURATION: number;
+        static CATCH_ANIMATION_DURATION: number;
+        static DEFAULT_DURATION: number;
+        static TONGUE_ANIMATION_DURATION: number;
+        constructor(tongueSound: $SoundEvent_, eatSound: $SoundEvent_);
+    }
+    export class $Frog extends $Animal implements $VariantHolder<$Holder<$FrogVariant>> {
+        /**
+         * Called to update the entity's position/logic.
+         */
+        eraseTongueTarget(): void;
+        getTongueTarget(): ($Entity) | undefined;
+        setTongueTarget(tongueTarget: $Entity): void;
+        static checkFrogSpawnRules(animal: $EntityType_<$Animal>, level: $LevelAccessor, spawnType: $MobSpawnType_, pos: $BlockPos_, random: $RandomSource): boolean;
+        setVariant(variant: $Holder_<$FrogVariant>): void;
+        static canEat(entity: $LivingEntity): boolean;
+        static createAttributes(): $AttributeSupplier$Builder;
+        getVariant(): $Holder<$FrogVariant>;
+        serializeNBT(arg0: $HolderLookup$Provider): $Holder<$FrogVariant>;
+        static MAX_WEARING_ARMOR_CHANCE: number;
+        static PRESERVE_ITEM_DROP_CHANCE_THRESHOLD: number;
+        static DEFAULT_BASE_GRAVITY: number;
+        hasImpulse: boolean;
+        static USE_ITEM_INTERVAL: number;
+        static MAX_PICKUP_LOOT_CHANCE: number;
+        lootTable: $ResourceKey<$LootTable>;
+        yHeadRot: number;
+        noPhysics: boolean;
+        yo: number;
+        yBodyRotO: number;
+        removalReason: $Entity$RemovalReason;
+        zza: number;
+        goalSelector: $GoalSelector;
+        swingingArm: $InteractionHand;
+        static ID_TAG: string;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_1_0: number;
+        xRotO: number;
+        zo: number;
+        walkDist: number;
+        noCulling: boolean;
+        walkAnimation: $WalkAnimationState;
+        yya: number;
+        oAttackAnim: number;
+        yHeadRotO: number;
+        static UUID_TAG: string;
+        tongueAnimationState: $AnimationState;
+        hurtDuration: number;
+        static DEATH_DURATION: number;
+        portalProcess: $PortalProcessor;
+        dead: boolean;
+        verticalCollision: boolean;
+        verticalCollisionBelow: boolean;
+        static DEFAULT_BABY_SCALE: number;
+        static ATTRIBUTES_FIELD: string;
+        static UPDATE_GOAL_SELECTOR_EVERY_N_TICKS: number;
+        static DEFAULT_BB_HEIGHT: number;
+        xxa: number;
+        flyDist: number;
+        static PASSENGERS_TAG: string;
+        wasOnFire: boolean;
+        attackAnim: number;
+        zOld: number;
+        static BABY_START_AGE: number;
+        timeOffs: number;
+        rotA: number;
+        horizontalCollision: boolean;
+        static DEFAULT_EQUIPMENT_DROP_CHANCE: number;
+        static ARMOR_SLOT_OFFSET: number;
+        swingTime: number;
+        swimIdleAnimationState: $AnimationState;
+        static BODY_ARMOR_OFFSET: number;
+        static VARIANT_KEY: string;
+        tickCount: number;
+        static MAX_ENCHANTED_ARMOR_CHANCE: number;
+        static MAX_ENCHANTED_WEAPON_CHANCE: number;
+        static BOARDING_COOLDOWN: number;
+        static PRESERVE_ITEM_DROP_CHANCE: number;
+        static SWING_DURATION: number;
+        yRotO: number;
+        static MIN_MOVEMENT_DISTANCE: number;
+        static CONTENTS_SLOT_INDEX: number;
+        static BASE_JUMP_POWER: number;
+        level: $Level;
+        ambientSoundTime: number;
+        yRot: number;
+        moveDist: number;
+        mainSupportingBlockPos: ($BlockPos) | undefined;
+        targetSelector: $GoalSelector;
+        xOld: number;
+        wasInPowderSnow: boolean;
+        hurtTime: number;
+        jumpAnimationState: $AnimationState;
+        swinging: boolean;
+        hurtMarked: boolean;
+        deathTime: number;
+        static EQUIPMENT_SLOT_OFFSET: number;
+        invulnerableTime: number;
+        jumping: boolean;
+        static BASE_TICKS_REQUIRED_TO_FREEZE: number;
+        fallDistance: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_5: number;
+        static MAX_ENTITY_TAG_COUNT: number;
+        croakAnimationState: $AnimationState;
+        static ARMOR_SLOTS: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_2: number;
+        static PLAYER_HURT_EXPERIENCE_TIME: number;
+        yOld: number;
+        static HAND_SLOTS: number;
+        static DEFAULT_BB_WIDTH: number;
+        minorHorizontalCollision: boolean;
+        levelCallback: $EntityInLevelCallback;
+        static EXTRA_RENDER_CULLING_SIZE_WITH_BIG_HAT: number;
+        removeArrowTime: number;
+        walkDistO: number;
+        static FREEZE_HURT_FREQUENCY: number;
+        isInPowderSnow: boolean;
+        static ATTACHMENTS_NBT_KEY: string;
+        yBodyRot: number;
+        blocksBuilding: boolean;
+        static TOTAL_AIR_SUPPLY: number;
+        xo: number;
+        invulnerableDuration: number;
+        removeStingerTime: number;
+        static BASE_SAFE_FALL_DISTANCE: number;
+        constructor(entityType: $EntityType_<$Animal>, level: $Level_);
+    }
+    export class $Frog$FrogPathNavigation extends $AmphibiousPathNavigation {
+    }
+    export class $ShootTongue$State extends $Enum<$ShootTongue$State> {
+    }
+    /**
+     * Values that may be interpreted as {@link $ShootTongue$State}.
+     */
+    export type $ShootTongue$State_ = "move_to_target" | "catch_animation" | "eat_animation" | "done";
+    export class $Tadpole extends $AbstractFish {
+        mobInteract(player: $Player, hand: $InteractionHand_): $InteractionResult;
+        serializeNBT(arg0: $HolderLookup$Provider): $CompoundTag;
+        static MAX_WEARING_ARMOR_CHANCE: number;
+        static PRESERVE_ITEM_DROP_CHANCE_THRESHOLD: number;
+        static DEFAULT_BASE_GRAVITY: number;
+        hasImpulse: boolean;
+        static USE_ITEM_INTERVAL: number;
+        static MAX_PICKUP_LOOT_CHANCE: number;
+        lootTable: $ResourceKey<$LootTable>;
+        yHeadRot: number;
+        noPhysics: boolean;
+        yo: number;
+        yBodyRotO: number;
+        removalReason: $Entity$RemovalReason;
+        zza: number;
+        goalSelector: $GoalSelector;
+        swingingArm: $InteractionHand;
+        static ID_TAG: string;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_1_0: number;
+        xRotO: number;
+        zo: number;
+        walkDist: number;
+        noCulling: boolean;
+        walkAnimation: $WalkAnimationState;
+        yya: number;
+        oAttackAnim: number;
+        yHeadRotO: number;
+        static UUID_TAG: string;
+        hurtDuration: number;
+        static DEATH_DURATION: number;
+        portalProcess: $PortalProcessor;
+        dead: boolean;
+        verticalCollision: boolean;
+        verticalCollisionBelow: boolean;
+        static DEFAULT_BABY_SCALE: number;
+        static ATTRIBUTES_FIELD: string;
+        static UPDATE_GOAL_SELECTOR_EVERY_N_TICKS: number;
+        static ticksToBeFrog: number;
+        static DEFAULT_BB_HEIGHT: number;
+        xxa: number;
+        flyDist: number;
+        static HITBOX_WIDTH: number;
+        static PASSENGERS_TAG: string;
+        wasOnFire: boolean;
+        attackAnim: number;
+        zOld: number;
+        timeOffs: number;
+        rotA: number;
+        horizontalCollision: boolean;
+        static DEFAULT_EQUIPMENT_DROP_CHANCE: number;
+        static ARMOR_SLOT_OFFSET: number;
+        swingTime: number;
+        static BODY_ARMOR_OFFSET: number;
+        tickCount: number;
+        static MAX_ENCHANTED_ARMOR_CHANCE: number;
+        static MAX_ENCHANTED_WEAPON_CHANCE: number;
+        static BOARDING_COOLDOWN: number;
+        static PRESERVE_ITEM_DROP_CHANCE: number;
+        static SWING_DURATION: number;
+        yRotO: number;
+        static MIN_MOVEMENT_DISTANCE: number;
+        static CONTENTS_SLOT_INDEX: number;
+        static BASE_JUMP_POWER: number;
+        level: $Level;
+        ambientSoundTime: number;
+        yRot: number;
+        moveDist: number;
+        mainSupportingBlockPos: ($BlockPos) | undefined;
+        targetSelector: $GoalSelector;
+        xOld: number;
+        wasInPowderSnow: boolean;
+        hurtTime: number;
+        swinging: boolean;
+        hurtMarked: boolean;
+        deathTime: number;
+        static EQUIPMENT_SLOT_OFFSET: number;
+        invulnerableTime: number;
+        jumping: boolean;
+        static BASE_TICKS_REQUIRED_TO_FREEZE: number;
+        fallDistance: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_5: number;
+        static MAX_ENTITY_TAG_COUNT: number;
+        static ARMOR_SLOTS: number;
+        static DELTA_AFFECTED_BY_BLOCKS_BELOW_0_2: number;
+        static HITBOX_HEIGHT: number;
+        static PLAYER_HURT_EXPERIENCE_TIME: number;
+        yOld: number;
+        static HAND_SLOTS: number;
+        static DEFAULT_BB_WIDTH: number;
+        minorHorizontalCollision: boolean;
+        levelCallback: $EntityInLevelCallback;
+        static EXTRA_RENDER_CULLING_SIZE_WITH_BIG_HAT: number;
+        removeArrowTime: number;
+        walkDistO: number;
+        static FREEZE_HURT_FREQUENCY: number;
+        isInPowderSnow: boolean;
+        static ATTACHMENTS_NBT_KEY: string;
+        yBodyRot: number;
+        blocksBuilding: boolean;
+        static TOTAL_AIR_SUPPLY: number;
+        xo: number;
+        invulnerableDuration: number;
+        removeStingerTime: number;
+        static BASE_SAFE_FALL_DISTANCE: number;
+        constructor(entityType: $EntityType_<$AbstractFish>, level: $Level_);
+    }
+    export class $Frog$FrogLookControl extends $LookControl {
+    }
+}

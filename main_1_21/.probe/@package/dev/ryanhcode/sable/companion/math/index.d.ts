@@ -1,0 +1,250 @@
+import { $BlockPos, $BlockPos_, $Position } from "@package/net/minecraft/core";
+import { $Codec } from "@package/com/mojang/serialization";
+import { $Iterable_ } from "@package/java/lang";
+import { $BoundingBox } from "@package/net/minecraft/world/level/levelgen/structure";
+import { $AABB, $Vec3_, $AABB_, $Vec3 } from "@package/net/minecraft/world/phys";
+import { $Matrix4dc, $Vector3dc, $Quaterniond, $Vector3d, $Vector3ic, $Vector3i, $Matrix4d, $Quaterniondc } from "@package/org/joml";
+
+declare module "@package/dev/ryanhcode/sable/companion/math" {
+    export class $BoundingBox3d implements $BoundingBox3dc {
+        setUnchecked(arg0: $BoundingBox3dc): $BoundingBox3d;
+        setUnchecked(arg0: number, arg1: number, arg2: number, arg3: number, arg4: number, arg5: number): $BoundingBox3d;
+        expand(arg0: number, arg1: number, arg2: number): $BoundingBox3d;
+        expand(arg0: number): $BoundingBox3d;
+        transform(arg0: $Pose3dc, arg1: $Matrix4d): $BoundingBox3d;
+        transform(arg0: $Pose3dc): $BoundingBox3d;
+        transform(arg0: $Matrix4dc): $BoundingBox3d;
+        set(arg0: number, arg1: number, arg2: number, arg3: number, arg4: number, arg5: number): $BoundingBox3d;
+        set(arg0: $BoundingBox3dc): $BoundingBox3d;
+        set(arg0: $AABB_): $BoundingBox3d;
+        move(arg0: number, arg1: number, arg2: number): $BoundingBox3d;
+        maxX(): number;
+        transformInverse(arg0: $Pose3dc): $BoundingBox3d;
+        transformInverse(arg0: $Matrix4dc): $BoundingBox3d;
+        transformInverse(arg0: $Pose3dc, arg1: $Matrix4d): $BoundingBox3d;
+        minZ(): number;
+        maxY(): number;
+        maxZ(): number;
+        expandTo(arg0: $BoundingBox3dc): $BoundingBox3d;
+        expandTo(arg0: number, arg1: number, arg2: number): $BoundingBox3d;
+        expandTo(arg0: $Vector3dc): $BoundingBox3d;
+        minX(): number;
+        minY(): number;
+        intersect(arg0: $BoundingBox3dc): $BoundingBox3d;
+        chunkBoundsFrom(): $BoundingBox3i;
+        chunkBoundsFrom(arg0: $BoundingBox3i): $BoundingBox3i;
+        size(): $Vector3d;
+        size(arg0: $Vector3d): $Vector3d;
+        length(): number;
+        expand(arg0: number, arg1: $BoundingBox3d): $BoundingBox3d;
+        expand(arg0: number, arg1: number, arg2: number, arg3: $BoundingBox3d): $BoundingBox3d;
+        contains(arg0: $Vector3dc): boolean;
+        contains(arg0: number, arg1: number, arg2: number): boolean;
+        transform(arg0: $Matrix4dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        transform(arg0: $Pose3dc, arg1: $Matrix4d, arg2: $BoundingBox3d): $BoundingBox3d;
+        transform(arg0: $Pose3dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        move(arg0: number, arg1: number, arg2: number, arg3: $BoundingBox3d): $BoundingBox3d;
+        width(): number;
+        height(): number;
+        center(): $Vector3d;
+        center(arg0: $Vector3d): $Vector3d;
+        transformInverse(arg0: $Matrix4dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        transformInverse(arg0: $Pose3dc, arg1: $Matrix4d, arg2: $BoundingBox3d): $BoundingBox3d;
+        transformInverse(arg0: $Pose3dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        volume(): number;
+        toMojang(): $AABB;
+        expandTo(arg0: $Vector3dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        expandTo(arg0: $BoundingBox3dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        expandTo(arg0: number, arg1: number, arg2: number, arg3: $BoundingBox3d): $BoundingBox3d;
+        intersects(arg0: $AABB_): boolean;
+        intersects(arg0: number, arg1: number, arg2: number, arg3: number, arg4: number, arg5: number): boolean;
+        intersects(arg0: $BoundingBox3dc): boolean;
+        intersect(arg0: $BoundingBox3dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        static CODEC: $Codec<$BoundingBox3d>;
+        static EMPTY: $BoundingBox3d;
+        /**
+         * @deprecated
+         */
+        constructor(arg0: $Vec3_, arg1: $Vec3_);
+        constructor(arg0: $Position, arg1: $Position);
+        constructor();
+        constructor(arg0: number, arg1: number, arg2: number, arg3: number, arg4: number, arg5: number);
+        constructor(arg0: $AABB_);
+        constructor(arg0: $BoundingBox3dc);
+        constructor(arg0: $BoundingBox);
+        constructor(arg0: $BlockPos_);
+        constructor(arg0: $BoundingBox3ic);
+    }
+    export class $BoundingBox3i implements $BoundingBox3ic {
+        setUnchecked(arg0: $BoundingBox3ic): $BoundingBox3i;
+        setUnchecked(arg0: number, arg1: number, arg2: number, arg3: number, arg4: number, arg5: number): $BoundingBox3i;
+        expand(arg0: number, arg1: number, arg2: number): $BoundingBox3i;
+        static from(arg0: $Iterable_<$BlockPos>): $BoundingBox3i;
+        set(arg0: $BoundingBox3ic): $BoundingBox3i;
+        set(arg0: $BoundingBox3d): $BoundingBox3i;
+        set(arg0: number, arg1: number, arg2: number, arg3: number, arg4: number, arg5: number): $BoundingBox3i;
+        move(arg0: $Vector3ic): $BoundingBox3i;
+        move(arg0: number, arg1: number, arg2: number): $BoundingBox3i;
+        maxX(): number;
+        minZ(): number;
+        maxY(): number;
+        maxZ(): number;
+        expandTo(arg0: $BoundingBox3ic): $BoundingBox3i;
+        expandTo(arg0: $Vector3ic): $BoundingBox3i;
+        expandTo(arg0: number, arg1: number, arg2: number): $BoundingBox3i;
+        minX(): number;
+        minY(): number;
+        intersect(arg0: $BoundingBox3ic): $BoundingBox3i;
+        chunkBoundsFrom(arg0: $BoundingBox3i): $BoundingBox3i;
+        chunkBoundsFrom(): $BoundingBox3i;
+        size(arg0: $Vector3i): $Vector3i;
+        length(): number;
+        contains(arg0: $Vector3ic): boolean;
+        contains(arg0: $Vector3dc): boolean;
+        contains(arg0: number, arg1: number, arg2: number): boolean;
+        move(arg0: $Vector3ic, arg1: $BoundingBox3i): $BoundingBox3i;
+        move(arg0: number, arg1: number, arg2: number, arg3: $BoundingBox3i): $BoundingBox3i;
+        width(): number;
+        height(): number;
+        center(arg0: $Vector3i): $Vector3i;
+        volume(): number;
+        toMojang(): $BoundingBox;
+        toAABB(): $AABB;
+        expandTo(arg0: number, arg1: number, arg2: number, arg3: $BoundingBox3i): $BoundingBox3i;
+        expandTo(arg0: $BoundingBox3ic, arg1: $BoundingBox3i): $BoundingBox3i;
+        expandTo(arg0: $Vector3ic, arg1: $BoundingBox3i): $BoundingBox3i;
+        intersects(arg0: number, arg1: number, arg2: number, arg3: number, arg4: number, arg5: number): boolean;
+        intersects(arg0: $BoundingBox): boolean;
+        intersects(arg0: $BoundingBox3ic): boolean;
+        intersect(arg0: $BoundingBox3ic, arg1: $BoundingBox3i): $BoundingBox3i;
+        static CODEC: $Codec<$BoundingBox3i>;
+        static EMPTY: $BoundingBox3ic;
+        constructor();
+        constructor(arg0: $BoundingBox3d);
+        constructor(arg0: number, arg1: number, arg2: number, arg3: number, arg4: number, arg5: number);
+        constructor(arg0: $BlockPos_, arg1: $BlockPos_);
+        constructor(arg0: $BoundingBox3ic);
+        constructor(arg0: $BoundingBox);
+    }
+    export class $Pose3dc {
+    }
+    export interface $Pose3dc {
+        rotationPoint(): $Vector3dc;
+        bakeIntoMatrix(arg0: $Matrix4d): $Matrix4d;
+        withinTolerance(arg0: $Pose3d, arg1: number, arg2: number): boolean;
+        scale(): $Vector3dc;
+        position(): $Vector3dc;
+        transformNormal(arg0: $Vector3dc, arg1: $Vector3d): $Vector3d;
+        transformNormal(arg0: $Vec3_): $Vec3;
+        transformNormal(arg0: $Vector3d): $Vector3d;
+        transformPosition(arg0: $Vector3d): $Vector3d;
+        transformPosition(arg0: $Vec3_): $Vec3;
+        transformPosition(arg0: $Vector3dc, arg1: $Vector3d): $Vector3d;
+        transformNormalInverse(arg0: $Vector3d): $Vector3d;
+        transformNormalInverse(arg0: $Vector3dc, arg1: $Vector3d): $Vector3d;
+        transformNormalInverse(arg0: $Vec3_): $Vec3;
+        lerp(arg0: $Pose3dc, arg1: number, arg2: $Pose3d): $Pose3d;
+        orientation(): $Quaterniondc;
+        transformPositionInverse(arg0: $Vec3_): $Vec3;
+        transformPositionInverse(arg0: $Vector3dc, arg1: $Vector3d): $Vector3d;
+        transformPositionInverse(arg0: $Vector3d): $Vector3d;
+    }
+    export class $Pose3d implements $Pose3dc {
+        rotationPoint(): $Vector3d;
+        set(arg0: $Pose3dc): $Pose3d;
+        lerp(arg0: $Pose3dc, arg1: number): $Pose3d;
+        orientation(): $Quaterniond;
+        bakeIntoMatrix(arg0: $Matrix4d): $Matrix4d;
+        withinTolerance(arg0: $Pose3d, arg1: number, arg2: number): boolean;
+        transformNormal(arg0: $Vector3dc, arg1: $Vector3d): $Vector3d;
+        transformNormal(arg0: $Vec3_): $Vec3;
+        transformNormal(arg0: $Vector3d): $Vector3d;
+        transformPosition(arg0: $Vector3d): $Vector3d;
+        transformPosition(arg0: $Vec3_): $Vec3;
+        transformPosition(arg0: $Vector3dc, arg1: $Vector3d): $Vector3d;
+        transformNormalInverse(arg0: $Vector3d): $Vector3d;
+        transformNormalInverse(arg0: $Vector3dc, arg1: $Vector3d): $Vector3d;
+        transformNormalInverse(arg0: $Vec3_): $Vec3;
+        lerp(arg0: $Pose3dc, arg1: number, arg2: $Pose3d): $Pose3d;
+        transformPositionInverse(arg0: $Vec3_): $Vec3;
+        transformPositionInverse(arg0: $Vector3dc, arg1: $Vector3d): $Vector3d;
+        transformPositionInverse(arg0: $Vector3d): $Vector3d;
+        scale(): $Vector3dc;
+        position(): $Vector3dc;
+        static CODEC: $Codec<$Pose3d>;
+        constructor(arg0: $Vector3d, arg1: $Quaterniond, arg2: $Vector3d, arg3: $Vector3d);
+        constructor();
+        constructor(arg0: $Pose3dc);
+    }
+    export class $BoundingBox3ic {
+    }
+    export interface $BoundingBox3ic {
+        chunkBoundsFrom(arg0: $BoundingBox3i): $BoundingBox3i;
+        chunkBoundsFrom(): $BoundingBox3i;
+        size(arg0: $Vector3i): $Vector3i;
+        length(): number;
+        contains(arg0: $Vector3ic): boolean;
+        contains(arg0: $Vector3dc): boolean;
+        contains(arg0: number, arg1: number, arg2: number): boolean;
+        move(arg0: $Vector3ic, arg1: $BoundingBox3i): $BoundingBox3i;
+        move(arg0: number, arg1: number, arg2: number, arg3: $BoundingBox3i): $BoundingBox3i;
+        width(): number;
+        height(): number;
+        center(arg0: $Vector3i): $Vector3i;
+        maxX(): number;
+        minZ(): number;
+        maxY(): number;
+        maxZ(): number;
+        volume(): number;
+        toMojang(): $BoundingBox;
+        toAABB(): $AABB;
+        expandTo(arg0: number, arg1: number, arg2: number, arg3: $BoundingBox3i): $BoundingBox3i;
+        expandTo(arg0: $BoundingBox3ic, arg1: $BoundingBox3i): $BoundingBox3i;
+        expandTo(arg0: $Vector3ic, arg1: $BoundingBox3i): $BoundingBox3i;
+        intersects(arg0: number, arg1: number, arg2: number, arg3: number, arg4: number, arg5: number): boolean;
+        intersects(arg0: $BoundingBox): boolean;
+        intersects(arg0: $BoundingBox3ic): boolean;
+        minX(): number;
+        minY(): number;
+        intersect(arg0: $BoundingBox3ic, arg1: $BoundingBox3i): $BoundingBox3i;
+    }
+    export class $BoundingBox3dc {
+    }
+    export interface $BoundingBox3dc {
+        chunkBoundsFrom(): $BoundingBox3i;
+        chunkBoundsFrom(arg0: $BoundingBox3i): $BoundingBox3i;
+        size(): $Vector3d;
+        size(arg0: $Vector3d): $Vector3d;
+        length(): number;
+        expand(arg0: number, arg1: $BoundingBox3d): $BoundingBox3d;
+        expand(arg0: number, arg1: number, arg2: number, arg3: $BoundingBox3d): $BoundingBox3d;
+        contains(arg0: $Vector3dc): boolean;
+        contains(arg0: number, arg1: number, arg2: number): boolean;
+        transform(arg0: $Matrix4dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        transform(arg0: $Pose3dc, arg1: $Matrix4d, arg2: $BoundingBox3d): $BoundingBox3d;
+        transform(arg0: $Pose3dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        move(arg0: number, arg1: number, arg2: number, arg3: $BoundingBox3d): $BoundingBox3d;
+        width(): number;
+        height(): number;
+        center(): $Vector3d;
+        center(arg0: $Vector3d): $Vector3d;
+        maxX(): number;
+        transformInverse(arg0: $Matrix4dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        transformInverse(arg0: $Pose3dc, arg1: $Matrix4d, arg2: $BoundingBox3d): $BoundingBox3d;
+        transformInverse(arg0: $Pose3dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        minZ(): number;
+        maxY(): number;
+        maxZ(): number;
+        volume(): number;
+        toMojang(): $AABB;
+        expandTo(arg0: $Vector3dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        expandTo(arg0: $BoundingBox3dc, arg1: $BoundingBox3d): $BoundingBox3d;
+        expandTo(arg0: number, arg1: number, arg2: number, arg3: $BoundingBox3d): $BoundingBox3d;
+        intersects(arg0: $AABB_): boolean;
+        intersects(arg0: number, arg1: number, arg2: number, arg3: number, arg4: number, arg5: number): boolean;
+        intersects(arg0: $BoundingBox3dc): boolean;
+        minX(): number;
+        minY(): number;
+        intersect(arg0: $BoundingBox3dc, arg1: $BoundingBox3d): $BoundingBox3d;
+    }
+}

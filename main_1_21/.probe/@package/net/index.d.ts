@@ -1,0 +1,11 @@
+export * as minecraft from "@package/net/minecraft";
+export * as neoforged from "@package/net/neoforged";
+export * as createmod from "@package/net/createmod";
+export * as mehvahdjukaar from "@package/net/mehvahdjukaar";
+export * as caffeinemc from "@package/net/caffeinemc";
+export * as irisshaders from "@package/net/irisshaders";
+export * as pinkcats from "@package/net/pinkcats";
+export * as fabricmc from "@package/net/fabricmc";
+export * as potionstudios from "@package/net/potionstudios";
+export * as brazier_modding from "@package/net/brazier_modding";
+export * as werdei from "@package/net/werdei";

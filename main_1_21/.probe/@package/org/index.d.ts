@@ -1,0 +1,10 @@
+export * as watermedia from "@package/org/watermedia";
+export * as lwjgl from "@package/org/lwjgl";
+export * as slf4j from "@package/org/slf4j";
+export * as joml from "@package/org/joml";
+export * as objectweb from "@package/org/objectweb";
+export * as apache from "@package/org/apache";
+export * as w3c from "@package/org/w3c";
+export * as jline from "@package/org/jline";
+export * as spongepowered from "@package/org/spongepowered";
+export * as reactivestreams from "@package/org/reactivestreams";

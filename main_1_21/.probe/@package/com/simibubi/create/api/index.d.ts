@@ -1,0 +1,13 @@
+export * as behaviour from "@package/com/simibubi/create/api/behaviour";
+export * as registry from "@package/com/simibubi/create/api/registry";
+export * as data from "@package/com/simibubi/create/api/data";
+export * as boiler from "@package/com/simibubi/create/api/boiler";
+export * as connectivity from "@package/com/simibubi/create/api/connectivity";
+export * as event from "@package/com/simibubi/create/api/event";
+export * as schematic from "@package/com/simibubi/create/api/schematic";
+export * as equipment from "@package/com/simibubi/create/api/equipment";
+export * as contraption from "@package/com/simibubi/create/api/contraption";
+export * as packager from "@package/com/simibubi/create/api/packager";
+export * as stress from "@package/com/simibubi/create/api/stress";
+export * as registrate from "@package/com/simibubi/create/api/registrate";
+export * as effect from "@package/com/simibubi/create/api/effect";

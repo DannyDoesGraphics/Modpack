@@ -1,0 +1,182 @@
+import { $Level_ } from "@package/net/minecraft/world/level";
+import { $Item } from "@package/net/minecraft/world/item";
+import { $MapCodec } from "@package/com/mojang/serialization";
+import { $Player } from "@package/net/minecraft/world/entity/player";
+import { $GameEventListener } from "@package/net/minecraft/world/level/gameevent";
+import { $InteractionResult } from "@package/net/minecraft/world";
+import { $DirectionProperty, $IntegerProperty } from "@package/net/minecraft/world/level/block/state/properties";
+import { $ServerLevel } from "@package/net/minecraft/server/level";
+import { $BlockPos_, $IdMapper } from "@package/net/minecraft/core";
+import { $BlockState_, $BlockBehaviour$Properties, $BlockState } from "@package/net/minecraft/world/level/block/state";
+import { $HorizontalDirectionalBlock, $DirectionalBlock, $EntityBlock, $Block, $Block_ } from "@package/net/minecraft/world/level/block";
+import { $BlockHitResult } from "@package/net/minecraft/world/phys";
+import { $BlockEntityType_, $BlockEntity, $BlockEntityTicker } from "@package/net/minecraft/world/level/block/entity";
+
+declare module "@package/rearth/oritech/block/blocks/accelerator" {
+    export class $AcceleratorMotorBlock extends $AcceleratorPassthroughBlock implements $EntityBlock {
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        static FACING: $DirectionProperty;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $AcceleratorPassthroughBlock extends $HorizontalDirectionalBlock {
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        static FACING: $DirectionProperty;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $BlackHoleBlock extends $Block implements $EntityBlock {
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $ParticleCollectorBlock extends $DirectionalBlock implements $EntityBlock {
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        static FACING: $DirectionProperty;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $AcceleratorSensorBlock extends $AcceleratorPassthroughBlock implements $EntityBlock {
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        static FACING: $DirectionProperty;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $AcceleratorControllerBlock extends $HorizontalDirectionalBlock implements $EntityBlock {
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        useWithoutItem(arg0: $BlockState_, arg1: $Level_, arg2: $BlockPos_, arg3: $Player, arg4: $BlockHitResult): $InteractionResult;
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        static FACING: $DirectionProperty;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $AcceleratorRingBlock extends $AcceleratorPassthroughBlock {
+        neighborChanged(arg0: $BlockState_, arg1: $Level_, arg2: $BlockPos_, arg3: $Block_, arg4: $BlockPos_, arg5: boolean): void;
+        useWithoutItem(arg0: $BlockState_, arg1: $Level_, arg2: $BlockPos_, arg3: $Player, arg4: $BlockHitResult): $InteractionResult;
+        static REDSTONE_STATE: $IntegerProperty;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static BENT: $IntegerProperty;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        static FACING: $DirectionProperty;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+}

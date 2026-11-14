@@ -10,17 +10,17 @@ hash = "72da225ca95970667652cb81d46b2be105da6383ca69f7d16e936640d5d180fd"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "67cd707b00e8a67a867a53bfb4da7a596ac80f3ff4bcbcd76fbfd40780600453"
+hash = "e07c6a592ba844c3bd26e8ee73a21771dfa49396292ecca6eb77d48a17c0fb7d"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "d02f19ad1ced26842ec50539cdaf16b208fbf80b67eea02f2755f839d6888c68"
+hash = "7959f11cce0c14ffae150d4a3126b04b70b0af815d25453110d2a8408011e9cb"
 metafile = true
 
 [[files]]
 file = "mods/chatnotify.pw.toml"
-hash = "577613b5e4cca390b5b8c7eeb35c62260327b9fc2b9c5359a8233624b9bea240"
+hash = "aebe224a1ad132b1151c3fd953dfe5641ae2d3adbe9fc5aac4103a6d25befb34"
 metafile = true
 
 [[files]]
@@ -34,23 +34,33 @@ hash = "aad07f6496bbf478116eaa0e82fa7fbdd022ca755b392029193e1090d76716b3"
 metafile = true
 
 [[files]]
+file = "mods/distant-horizons-seedgen.pw.toml"
+hash = "21a4f66f75cc2971685ee0980bea52bf798d88b608b766f66f853d087f9c2d1b"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "8cfd619edd7190fdd7f048bc7815193699d0583857f988e421b8e7816167ad25"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "84d6a2b87db74408c8fd2fd15792bad981ffbab43e1ee96b79aabded2604141c"
 metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "b16ee79f04344fd9fc643ece06e88824efa8aa240bb39945d4b0b6c8e130bfea"
+hash = "d00381d69d0dba1911229acbc2f89887026d72cc0270a27c94c1e7d06a61fd19"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "a203d4ba81ff70c255ca073d1d1d745cf9ebe88b9f256a8a758c8ccffbacd5f2"
+hash = "c029d9c7873a6f072332e97d54422efa438bc8ae81d53bd1c078a6dd1644f0ce"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "6b342a83e9736f0832e750c8d631273cf600305d73b32c8bd6a977811f6972ee"
+hash = "fb72a70cb53c63f1da4520c25c8a7d806cc1c733e827016615623b65d751852d"
 metafile = true
 
 [[files]]
@@ -65,12 +75,12 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "1f5c464b85f8ca75424eee7d6e9d5c0a706fe787e399c2dea1071a37a27dc24d"
+hash = "3af2426b8d83a5fcda1ff6de2035d53bcff532653c196f2ea6d7647995e45131"
 metafile = true
 
 [[files]]
 file = "mods/ji-afk-cinematic.pw.toml"
-hash = "3c0d485ca34554ec99c9c406d63ae316b4969cf80e0424ecd865f531b76e3b3a"
+hash = "5e87432e71239e5c2311e80aae3cc8c54b936490e53853d6652654833ba187f0"
 metafile = true
 
 [[files]]
@@ -80,17 +90,17 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "d68f9ad500e062c1e3b59f25bf72416e579d18d836b104f2712464298932eca7"
+hash = "b44f3ab71e52f1aaae97cf8644f2316042de8b7777d6b6794567c8c7d220bd2b"
 metafile = true
 
 [[files]]
 file = "mods/midnightlib.pw.toml"
-hash = "a63b82ca2683ca3d274c3876f0871aadb9f3651b526471f7b24b0481483198a0"
+hash = "f364f593df41130f37f525028432f9a3e1501e5781605482a1f28631cf807284"
 metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "cd05db76d670773ace1184abdd46126e7b7c75c2b70da82e1764cff9544c4269"
+hash = "3feb5af047a7aabdcbae76e59f0c6603c61ef093d19c44f6d3ad76b48272a6dc"
 metafile = true
 
 [[files]]
@@ -105,7 +115,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "538084be8eddcd5e682ab52c5d2a8d7ba956e1a25cd540389430c25d0eaa513d"
+hash = "6865b44c30baa85a87c344ac9d3e0eb0135e90b26a90a6dc28bf79a363170cf9"
 metafile = true
 
 [[files]]
@@ -115,12 +125,12 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "69d683554d0db2dc59ce9ed08b28743ddb56d9ea12b80e52e43051d082987bd2"
+hash = "ad4ccf1c82ade67bbb45d98131e7a34c9ce97fb5a37a9a9d0eb6afbe373df3b2"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "95b014c29351598261257614a55955215bba353a93593b2050cb07da295d3302"
+hash = "d1818a0dd36e725449fbc8ec9e48b4a276d6c3a6e5761ec9646f53cae3504c62"
 metafile = true
 
 [[files]]
@@ -135,17 +145,17 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/patrix-32x.pw.toml"
-hash = "c11ab861bb13d03e93ffe3527a83938ade8fec5da219b1571819085aeb9c2922"
+hash = "92b9a9c79816c6566f04741e84556a59a009be31b1e1592b630a9eeef458c4a4"
 metafile = true
 
 [[files]]
 file = "resourcepacks/spbr.pw.toml"
-hash = "e3b76c6bfea3a398d5988b65999bd38af57dcd29c0aeb4c42a9ba45840f42bc3"
+hash = "2a72d22d5cd156be72de50c3cc4692e5cd07ed024e6421a6acd1a1e4797eca6f"
 metafile = true
 
 [[files]]
 file = "shaderpacks/alpha-piscium.pw.toml"
-hash = "8d4a1191d346fe6868520be9235ff89eec150697b8e2233b7662adf4f1430bef"
+hash = "6fcfe06a92f84858c2c206b6722dd58f7aed4478b4f0b6a2e8e71d78e8f34f26"
 metafile = true
 
 [[files]]
@@ -165,7 +175,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/mellow.pw.toml"
-hash = "0554cbd2334107d7ca6ecf70ee0d2cde21ab11eb446c4550fe0e75c32000a6d8"
+hash = "6fa9ecb16d4230cfe0621d59cd2d85c321480ee4ca96952122fbdeea0f35e3fc"
 metafile = true
 
 [[files]]

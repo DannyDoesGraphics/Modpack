@@ -1,13 +1,13 @@
 name = "Ji AFK Cinematic"
-filename = "ji-afk-cinematic-26.3-2.3.2.jar"
+filename = "ji-afk-cinematic-fabric-26.3-2.4.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/NYveE6yC/versions/7BvkctiX/ji-afk-cinematic-26.3-2.3.2.jar"
+url = "https://cdn.modrinth.com/data/NYveE6yC/versions/PsoCikjB/ji-afk-cinematic-fabric-26.3-2.4.0.jar"
 hash-format = "sha512"
-hash = "4cd7f35888471ad3c70d0f3943776606a54072352b24c24a2d2141577f393b79178ad93fb3007402dfa0190dd72d8558624ece5c1f8bf972b2d9558b67badb65"
+hash = "62d59a8813396b456f1d37ddff99afe1231261489e0dbfb226322c0db0f0bcda6f37d7620ddeb1dbdbc9e9d7655d847097bd9ce93ca32bca46c3ac264421953d"
 
 [update]
 [update.modrinth]
 mod-id = "NYveE6yC"
-version = "7BvkctiX"
+version = "PsoCikjB"

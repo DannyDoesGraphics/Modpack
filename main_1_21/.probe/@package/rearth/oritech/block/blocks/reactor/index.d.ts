@@ -1,0 +1,322 @@
+import { $Level_ } from "@package/net/minecraft/world/level";
+import { $InteractionResult } from "@package/net/minecraft/world";
+import { $IntegerProperty } from "@package/net/minecraft/world/level/block/state/properties";
+import { $ServerLevel } from "@package/net/minecraft/server/level";
+import { $BlockPos_, $IdMapper } from "@package/net/minecraft/core";
+import { $Item } from "@package/net/minecraft/world/item";
+import { $MapCodec } from "@package/com/mojang/serialization";
+import { $BlockState_, $BlockBehaviour$Properties, $BlockState } from "@package/net/minecraft/world/level/block/state";
+import { $Player } from "@package/net/minecraft/world/entity/player";
+import { $GameEventListener } from "@package/net/minecraft/world/level/gameevent";
+import { $EntityBlock, $Block } from "@package/net/minecraft/world/level/block";
+import { $BlockHitResult } from "@package/net/minecraft/world/phys";
+import { $BlockEntityType_, $BlockEntity, $BlockEntityTicker } from "@package/net/minecraft/world/level/block/entity";
+
+declare module "@package/rearth/oritech/block/blocks/reactor" {
+    export class $ReactorControllerBlock extends $BaseReactorBlock implements $EntityBlock {
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        useWithoutItem(arg0: $BlockState_, arg1: $Level_, arg2: $BlockPos_, arg3: $Player, arg4: $BlockHitResult): $InteractionResult;
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $ReactorAbsorberPortBlock extends $BaseReactorBlock implements $EntityBlock {
+        useWithoutItem(arg0: $BlockState_, arg1: $Level_, arg2: $BlockPos_, arg3: $Player, arg4: $BlockHitResult): $InteractionResult;
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $ReactorRedstonePortBlock extends $BaseReactorBlock {
+        useWithoutItem(arg0: $BlockState_, arg1: $Level_, arg2: $BlockPos_, arg3: $Player, arg4: $BlockHitResult): $InteractionResult;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static PORT_MODE: $IntegerProperty;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $ReactorRodBlock extends $BaseReactorBlock {
+        getRodCount(): number;
+        getInternalPulseCount(): number;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties, arg1: number, arg2: number);
+        get rodCount(): number;
+        get internalPulseCount(): number;
+    }
+    export class $ReactorFuelPortBlock extends $BaseReactorBlock implements $EntityBlock {
+        useWithoutItem(arg0: $BlockState_, arg1: $Level_, arg2: $BlockPos_, arg3: $Player, arg4: $BlockHitResult): $InteractionResult;
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $ReactorHeatPipeBlock extends $BaseReactorBlock {
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $NukeBlock extends $Block {
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties, arg1: boolean);
+    }
+    export class $ReactorAbsorberBlock extends $BaseReactorBlock {
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $ReactorHeatVentBlock extends $BaseReactorBlock {
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $ReactorEnergyPortBlock extends $BaseReactorBlock implements $EntityBlock {
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $NuclearExplosionBlock extends $Block implements $EntityBlock {
+        getTicker<T extends $BlockEntity>(arg0: $Level_, arg1: $BlockState_, arg2: $BlockEntityType_<T>): $BlockEntityTicker<T>;
+        newBlockEntity(arg0: $BlockPos_, arg1: $BlockState_): $BlockEntity;
+        getListener<T extends $BlockEntity>(arg0: $ServerLevel, arg1: T): $GameEventListener;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties, arg1: number);
+    }
+    export class $BaseReactorBlock extends $Block {
+        requiredStackCeiling(): $Block;
+        validForWalls(): boolean;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $ReactorWallBlock extends $BaseReactorBlock {
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+    export class $ReactorReflectorBlock extends $BaseReactorBlock {
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$Block>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+}

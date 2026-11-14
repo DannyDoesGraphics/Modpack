@@ -3,6 +3,10 @@
 *.pw.toml   text eol=lf
 pack.toml   text eol=lf
 index.toml  text eol=lf
+# ProbeJS typings - tracked so autocomplete works without running the game.
+# Generated, so suppress diffs (override with `git diff --text`)
+**/.probe/** text eol=lf -diff linguist-generated=true
+
 # Binary files - never modify line endings
 *.jar       binary
 *.zip       binary

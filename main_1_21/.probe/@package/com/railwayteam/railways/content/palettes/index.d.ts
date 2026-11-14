@@ -1,0 +1,135 @@
+import { $Direction$Axis, $IdMapper } from "@package/net/minecraft/core";
+import { $DirectionProperty, $EnumProperty, $BooleanProperty } from "@package/net/minecraft/world/level/block/state/properties";
+import { $MapCodec } from "@package/com/mojang/serialization";
+import { $DyeColor_, $Item, $DyeColor } from "@package/net/minecraft/world/item";
+import { $MapColor } from "@package/net/minecraft/world/level/material";
+import { $BlockState_, $BlockBehaviour$Properties, $BlockState } from "@package/net/minecraft/world/level/block/state";
+import { $MutableComponent } from "@package/net/minecraft/network/chat";
+import { $WindowBlock } from "@package/com/simibubi/create/content/decoration/palettes";
+import { $MetalLadderBlock } from "@package/com/simibubi/create/content/decoration";
+import { $Rotation_, $TransparentBlock, $LadderBlock, $Block } from "@package/net/minecraft/world/level/block";
+import { $Enum } from "@package/java/lang";
+import { $StringRepresentable$EnumCodec, $StringRepresentable } from "@package/net/minecraft/util";
+export * as boiler from "@package/com/railwayteam/railways/content/palettes/boiler";
+export * as doors from "@package/com/railwayteam/railways/content/palettes/doors";
+export * as painting from "@package/com/railwayteam/railways/content/palettes/painting";
+export * as ct from "@package/com/railwayteam/railways/content/palettes/ct";
+export * as smokebox from "@package/com/railwayteam/railways/content/palettes/smokebox";
+export * as hazard_stripes from "@package/com/railwayteam/railways/content/palettes/hazard_stripes";
+export * as trapdoors from "@package/com/railwayteam/railways/content/palettes/trapdoors";
+
+declare module "@package/com/railwayteam/railways/content/palettes" {
+    export class $RotatedPillarWindowBlock extends $WindowBlock {
+        static transparent(arg0: $BlockBehaviour$Properties): $RotatedPillarWindowBlock;
+        rotate(arg0: $BlockState_, arg1: $Rotation_): $BlockState;
+        static translucent(arg0: $BlockBehaviour$Properties): $RotatedPillarWindowBlock;
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$TransparentBlock>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        hasCollision: boolean;
+        static AXIS: $EnumProperty<$Direction$Axis>;
+        constructor(arg0: $BlockBehaviour$Properties, arg1: boolean);
+    }
+    export class $PalettesColor extends $Enum<$PalettesColor> implements $StringRepresentable {
+        isNetherite(): boolean;
+        getMapColor(): $MapColor;
+        static fromDyeColor(arg0: $DyeColor_): $PalettesColor;
+        toDyeColor(): $DyeColor;
+        toDyeColor(arg0: $DyeColor_): $DyeColor;
+        isMainSeries(): boolean;
+        getPaintNameId(): string;
+        getDiffuseColor(): number;
+        getAssociatedBlock(): $Block;
+        getPaintName(): $MutableComponent;
+        getName(): string;
+        static values(): $PalettesColor[];
+        static valueOf(arg0: string): $PalettesColor;
+        getId(): number;
+        static byName(arg0: string, arg1: $PalettesColor_): $PalettesColor;
+        getSerializedName(): string;
+        static byId(arg0: number): $PalettesColor;
+        getRemappedEnumConstantName(): string;
+        static VERMILION: $PalettesColor;
+        static DRIPSTONE: $PalettesColor;
+        static GRAY: $PalettesColor;
+        static TURQUOISE: $PalettesColor;
+        static NETHERITE: $PalettesColor;
+        static SCORCHIA: $PalettesColor;
+        static BLUE: $PalettesColor;
+        static CHARTREUSE: $PalettesColor;
+        static SEA_GREEN: $PalettesColor;
+        static PINK: $PalettesColor;
+        static OCHRUM: $PalettesColor;
+        static BLACK: $PalettesColor;
+        static OLIVE_GREEN: $PalettesColor;
+        static BROWN: $PalettesColor;
+        static ROYAL_BLUE: $PalettesColor;
+        static ORANGE: $PalettesColor;
+        static PINE_GREEN: $PalettesColor;
+        static GRANITE: $PalettesColor;
+        static WHITE: $PalettesColor;
+        static CODEC: $StringRepresentable$EnumCodec<$PalettesColor>;
+        static TUFF: $PalettesColor;
+        static PURPLE: $PalettesColor;
+        static DIORITE: $PalettesColor;
+        static GREEN: $PalettesColor;
+        static LIMESTONE: $PalettesColor;
+        static MAROON: $PalettesColor;
+        static RED: $PalettesColor;
+        static LIGHT_GRAY: $PalettesColor;
+        static LIGHT_BLUE: $PalettesColor;
+        static LIME: $PalettesColor;
+        static MAGENTA: $PalettesColor;
+        static YELLOW: $PalettesColor;
+        static CYAN: $PalettesColor;
+        get netherite(): boolean;
+        get mapColor(): $MapColor;
+        get mainSeries(): boolean;
+        get paintNameId(): string;
+        get diffuseColor(): number;
+        get associatedBlock(): $Block;
+        get paintName(): $MutableComponent;
+        get id(): number;
+        get serializedName(): string;
+        get remappedEnumConstantName(): string;
+    }
+    /**
+     * Values that may be interpreted as {@link $PalettesColor}.
+     */
+    export type $PalettesColor_ = "netherite" | "brown" | "maroon" | "red" | "vermilion" | "orange" | "granite" | "dripstone" | "ochrum" | "yellow" | "chartreuse" | "olive_green" | "lime" | "green" | "pine_green" | "cyan" | "sea_green" | "turquoise" | "light_blue" | "blue" | "royal_blue" | "purple" | "magenta" | "pink" | "white" | "diorite" | "limestone" | "light_gray" | "tuff" | "gray" | "scorchia" | "black";
+    export class $FloatingMetalLadderBlock extends $MetalLadderBlock {
+        static UPDATE_IMMEDIATE: number;
+        item: $Item;
+        static CODEC: $MapCodec<$LadderBlock>;
+        static UPDATE_NEIGHBORS: number;
+        static INDESTRUCTIBLE: number;
+        static UPDATE_NONE: number;
+        static UPDATE_INVISIBLE: number;
+        static UPDATE_MOVE_BY_PISTON: number;
+        static UPDATE_LIMIT: number;
+        static BLOCK_STATE_REGISTRY: $IdMapper<$BlockState>;
+        static UPDATE_ALL: number;
+        static UPDATE_ALL_IMMEDIATE: number;
+        static WATERLOGGED: $BooleanProperty;
+        static UPDATE_KNOWN_SHAPE: number;
+        static UPDATE_SUPPRESS_DROPS: number;
+        static INSTANT: number;
+        static UPDATE_CLIENTS: number;
+        static FACING: $DirectionProperty;
+        hasCollision: boolean;
+        constructor(arg0: $BlockBehaviour$Properties);
+    }
+}

@@ -1,0 +1,68 @@
+import { $BlockPos$MutableBlockPos } from "@package/net/minecraft/core";
+import { $BoundingBox3d, $Pose3d } from "@package/dev/ryanhcode/sable/companion/math";
+import { $VoxelShape } from "@package/net/minecraft/world/phys/shapes";
+import { $Matrix4d, $Quaterniond, $Vector3dc, $Vector2d, $Vector3d } from "@package/org/joml";
+
+declare module "@package/dev/ryanhcode/sable/api/math" {
+    export class $LevelReusedVectors {
+        normalizedMtv: $Vector3d;
+        maxAABB: $BoundingBox3d;
+        entityPosition: $Vector3d;
+        checker: $Vector3d;
+        existingDeltaMovement: $Vector3d;
+        maxBlockPos: $BlockPos$MutableBlockPos;
+        lastStepTestMTV: $Vector3d;
+        localMtv: $Vector3d;
+        zero: $Vector3dc;
+        obbAUp: $Vector3d;
+        oppo: $Vector3d;
+        trackingPosition: $Vector3d;
+        entityBoundsCenter: $Vector3d;
+        posMinusCenter: $Vector3d;
+        compressedOffsetAABB: $BoundingBox3d;
+        intersection: $BoundingBox3d;
+        maxMTV: $Vector3d;
+        proj2: $Vector2d;
+        lastSubLevelPose: $Pose3d;
+        proj1: $Vector2d;
+        obbARight: $Vector3d;
+        considerationBounds: $BoundingBox3d;
+        mtv: $Vector3d;
+        localBounds: $BoundingBox3d;
+        tempEyePosition: $Vector3d;
+        SCAFFOLDING_TOP: $VoxelShape;
+        obbAForward: $Vector3d;
+        checks: $Vector3d[];
+        rotatedContextBounds: $BoundingBox3d;
+        tempVert3: $Vector3d;
+        tempVert4: $Vector3d;
+        tempVert1: $Vector3d;
+        lastPose: $Pose3d;
+        anchorRelativePosition: $Vector3d;
+        tempVert2: $Vector3d;
+        entityBoxOrientation: $Quaterniond;
+        entityUpDirection: $Vector3d;
+        obbBUp: $Vector3d;
+        minPos: $BlockPos$MutableBlockPos;
+        tempVert5: $Vector3d;
+        tempVert6: $Vector3d;
+        maxPos: $BlockPos$MutableBlockPos;
+        fullContextBounds: $BoundingBox3d;
+        velocityMotion: $Vector3d;
+        a: $Vector3d[];
+        b: $Vector3d[];
+        offsetPos: $BlockPos$MutableBlockPos;
+        entityCustomOrientation: $Quaterniond;
+        center: $Vector3d;
+        offsetAABB: $BoundingBox3d;
+        collisionMotion: $Vector3d;
+        localBounds2: $BoundingBox3d;
+        compressedMinAABB: $BoundingBox3d;
+        obbBForward: $Vector3d;
+        stepHeightEntityBoundsCenter: $Vector3d;
+        subLevelPose: $Pose3d;
+        obbBRight: $Vector3d;
+        bakedMatrix: $Matrix4d;
+        constructor();
+    }
+}

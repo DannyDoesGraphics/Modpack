@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "step": "underground_ores",
+  "features": [
+    "minecraft:ore_iron_upper",
+    "minecraft:ore_iron_middle",
+    "minecraft:ore_iron_small"
+  ]
+}

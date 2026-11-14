@@ -1,13 +1,13 @@
 name = "Biome Replacer"
-filename = "biomereplacer-2.2-hippo-neo.jar"
+filename = "biomereplacer-3.1-hippo-neo.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/DAXbR0Wj/versions/jlYrkpXH/biomereplacer-2.2-hippo-neo.jar"
+url = "https://cdn.modrinth.com/data/DAXbR0Wj/versions/JPQjsOqi/biomereplacer-3.1-hippo-neo.jar"
 hash-format = "sha512"
-hash = "d38b7d12c4a027bd17729cec7ec12addec4d7d9ec00e85be584c3a68d32b82aaab7875f2bfe822a3106f4cbd980b4547834445394fd9f4a3d961df60bc5c4a3c"
+hash = "5c5ac806de91f708f15166ef2be636925fb3d91c6be9774411532585994eb876c905da346bee1447d41e0690567736be553f192267672627513bcce5acec2d78"
 
 [update]
 [update.modrinth]
 mod-id = "DAXbR0Wj"
-version = "jlYrkpXH"
+version = "JPQjsOqi"
