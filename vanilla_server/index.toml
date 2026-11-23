@@ -10,12 +10,12 @@ hash = "72da225ca95970667652cb81d46b2be105da6383ca69f7d16e936640d5d180fd"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "e07c6a592ba844c3bd26e8ee73a21771dfa49396292ecca6eb77d48a17c0fb7d"
+hash = "1e3df3c319ea1f964ffb4c69dd5691633c514dae9b2d8e1b5d56be206c923558"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "7959f11cce0c14ffae150d4a3126b04b70b0af815d25453110d2a8408011e9cb"
+hash = "c63d433459a0757fccc916fc523050ab42cb2fe85990eefc9d8ed797376abdcb"
 metafile = true
 
 [[files]]
@@ -90,7 +90,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "b44f3ab71e52f1aaae97cf8644f2316042de8b7777d6b6794567c8c7d220bd2b"
+hash = "bae28aaf888e212a4310264a51e585aa252051fcc2467c309670c7786b923ee5"
 metafile = true
 
 [[files]]
@@ -125,12 +125,12 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "ad4ccf1c82ade67bbb45d98131e7a34c9ce97fb5a37a9a9d0eb6afbe373df3b2"
+hash = "259d2b2f633bf07cd6eb7a99b18a2869ff6c313329631f2802512e40411e2874"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "d1818a0dd36e725449fbc8ec9e48b4a276d6c3a6e5761ec9646f53cae3504c62"
+hash = "f92dd3c24c5b62edbc368a540769ea82f88e97a5759eaffda011d045b1bf4be2"
 metafile = true
 
 [[files]]
@@ -165,12 +165,12 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
+hash = "5c17de8161b06a10dbd8e59645e7d7edfc583054009b5a787086d5f4fb1a77f1"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
+hash = "9ceebab8640099bd51b9ad88bbf2d3938772ba03a836c6f6e116ba33924541e7"
 metafile = true
 
 [[files]]
